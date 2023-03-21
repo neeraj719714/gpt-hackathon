@@ -52,16 +52,16 @@ Detailed insights can be gained using reports and real-time data on the dashboar
 Understand how the Refund process works
 
 # Related Information
-- <a href="/docs/payments/refunds/normal/" target="_blank">Normal Refund</a>
-- <a href="/docs/payments/refunds/instant/" target="_blank"> Instant Refund</a>
-- <a href="/docs/payments/refunds/batch/" target="_blank">Batch Refund</a>
-- <a href="/docs/payments/refunds/emi-pay-later/" target="_blank">EMI and Pay Later Refunds</a>
-- <a href="/docs/payments/refunds/issue/" target="_blank">Issue refunds</a>
-- <a href="/docs/payments/refunds/view/" target="_blank">View Refunds</a>
-- <a href="/docs/payments/refunds/refund-speed/" target="_blank">Set the Refund Speed</a>
-- <a href="/docs/payments/dashboard/my-account/balances/#add-funds-to-your-current-balance" target="_blank">Add funds to your account to process refunds (low account balance)</a>
-- <a href="/docs/payments/refunds/errors/" target="_blank">Handle refund errors</a>
-- <a href="/docs/payments/refunds/apis/" target="_blank">Refunds API</a>
-- <a href="/docs/payments/refunds/subscribe-to-webhooks/" target="_blank">Subscribe to Webhooks</a>
-- <a href="/docs/payments/refunds/communication/" target="_blank">Refund Communication</a>
-- <a href="/docs/payments/refunds/faqs/" target="_blank">Refunds FAQs</a>
+- Normal Refund
+- Instant Refund
+- Batch Refund
+- EMI and Pay Later Refunds
+- Issue refunds
+- View Refunds
+- Set the Refund Speed
+- Add funds to your account to process refunds (low account balance)
+- Handle refund errors
+- Refunds API
+- Subscribe to Webhooks
+- Refund Communication
+- Refunds FAQs
