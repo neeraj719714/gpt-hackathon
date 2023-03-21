@@ -1,0 +1,69 @@
+title: About Refunds
+desc: Initiate Normal and Instant Refunds using Razorpay Dashboard and APIs.
+
+There could be situations when customers request a refund of the payments made for the products or services purchased or availed on your website or app.
+
+Customer Looking for Refund
+
+If you are a customer looking for a refund, know about <a href="/docs/payments/customers/customer-refunds/" target="_blank">customer refunds</a>.
+
+
+Refund Types
+Following are the various types of refunds that you can use to refund payments to your customers:
+
+Normal Refund
+Amount is refunded within 5-7 working days
+Instant Refund
+  Amount is refunded almost immediately. By issuing instant refunds to your customers, you can provide a better user experience for them. This also helps in improving their reliability and trust in your business.
+Batch Refund
+  Issue refunds in bulk using an XLSX or CSV file. Once you upload a file, it is picked up for processing after 70 minutes. You can cancel a batch upload in the 70 minutes before it is picked up for processing.
+
+Dashboard Actions
+You can perform the following actions on refunds from the Razorpay Dashboard:
+- View Refunds
+- Issue Refunds
+- Set Default Refund Speed
+- View Settlement Details of a Refund
+- Subscribe to Webhook Events
+
+Refund States
+
+Following are the various states of a refund:
+
+<table>
+States | Description
+---
+`processing` | This state indicates that Razorpay is attempting to process the refund.
+---
+`processed` | This is the final state of the refund.
+---
+`failed` | A refund can attain the failed state in the following scenarios:<ul><li>Normal refund not possible for a payment which is more than 6 months old.</li><li>Instant Refund can sometimes fail because of customer's account or bank-related issues.</li></ul>
+---
+</table>
+
+# Handle Refund Chargeback
+For the prevention of chargebacks, Razorpay only does **source refunds**. It means that money is refunded to the payment method that the customer used to make the payment. For example, if a credit card was used to make the payment, the refund is pushed to the same credit card. Similarly, in the case of UPI payments, the refund is pushed to the VPA used while making the payment.
+
+If a chargeback is received for an instantly refunded payment, the processed refund will have a **UTR (Unique Transfer Reference)** in the callback. This UTR appears against the **ARN (Application Reference Number)** parameter in the Refund entity. The UTR serves as a proof of refund completed between you and Razorpay.
+
+Additionally, Razorpay passes the **RRN (Razorpay Reference Number)** of the payment in the Fund Transfer Request sent for the refund. This ties the instant refund back to the parent payment, thereby, serving as a proof of the refund. This data can also be used as a defense against a future chargeback or arbitration case.
+
+# Reports
+Detailed insights can be gained using reports and real-time data on the dashboard. These reports can then be used for accounting and recon purposes. Know more about <a href="/docs/payments/dashboard/reports/" target="_blank">reports</a>.
+
+Understand <a href="/docs/payments/refunds/normal/#how-it-works" target="_blank">how the Refund process works</a>.
+
+# Related Information
+- <a href="/docs/payments/refunds/normal/" target="_blank">Normal Refund</a>
+- <a href="/docs/payments/refunds/instant/" target="_blank"> Instant Refund</a>
+- <a href="/docs/payments/refunds/batch/" target="_blank">Batch Refund</a>
+- <a href="/docs/payments/refunds/emi-pay-later/" target="_blank">EMI and Pay Later Refunds</a>
+- <a href="/docs/payments/refunds/issue/" target="_blank">Issue refunds</a>
+- <a href="/docs/payments/refunds/view/" target="_blank">View Refunds</a>
+- <a href="/docs/payments/refunds/refund-speed/" target="_blank">Set the Refund Speed</a>
+- <a href="/docs/payments/dashboard/my-account/balances/#add-funds-to-your-current-balance" target="_blank">Add funds to your account to process refunds (low account balance)</a>
+- <a href="/docs/payments/refunds/errors/" target="_blank">Handle refund errors</a>
+- <a href="/docs/payments/refunds/apis/" target="_blank">Refunds API</a>
+- <a href="/docs/payments/refunds/subscribe-to-webhooks/" target="_blank">Subscribe to Webhooks</a>
+- <a href="/docs/payments/refunds/communication/" target="_blank">Refund Communication</a>
+- <a href="/docs/payments/refunds/faqs/" target="_blank">Refunds FAQs</a>
