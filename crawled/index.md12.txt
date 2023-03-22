@@ -1,0 +1,20 @@
+
+title: Refunds | Subscribe to Webhooks
+heading: Subscribe to Webhooks
+desc: Subscribe to various webhook events related to Refunds to receive instant notifications.
+
+Subscribe to webhook events available for refunds to get notifications.
+
+To subscribe to webhook events:
+Log into the Razorpay Dashboard.
+Navigate to Dashboard → Settings → Webhooks to subscribe to any of the events listed below.
+
+List of Webhook Events
+
+@include refunds/refund-available-events
+
+Know more about Webhooks and check the sample payloads.
+
+Related Information
+About Refunds
+Refunds APIs

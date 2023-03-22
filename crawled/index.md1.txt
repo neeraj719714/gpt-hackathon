@@ -1,0 +1,36 @@
+
+title: Refunds APIs
+desc: List of Refunds APIs to perform actions like creating, viewing and updating refunds.
+
+You can use the Orders APIs to perform various actions. You can perform a few of these actions by logging into the Razorpay Dashboard as well.
+
+List of Refunds APIs
+
+The table below lists the various Refunds APIs and gives a brief description of each API:
+
+ API | Description
+ ---
+ Create a Normal refund  | API to create a Normal refund
+ ---
+ Create an Instant refund | API to create an Instant refund
+ ---
+ View multiple refunds for a payment | API to retrieve multiple refunds for a payment
+ ---
+ View refund for a specific refund | API to retrieve details of a specific refund made for a payment
+ ---
+ View all refunds | API to view details of all refunds
+ ---
+ View refund details by refund id  | API to retrieve refund details using the refund id
+ ---
+ Update refund | API to update the 'Notes' field of an existing refund
+
+Related Information
+About Refunds
+Normal Refund
+ Instant Refund
+Batch Refund
+Issue Refunds
+View Refunds
+Set the Refund Speed
+Subscribe to Webhooks
+Refunds FAQs

@@ -1,0 +1,43 @@
+
+title: Payments | Refunds - FAQs
+heading: Frequently Asked Questions (FAQs)
+desc: Find answers to the frequently asked questions about Refunds via Razorpay.
+index: true
+
+Find answers to IRCTC-related queries and other commonly asked questions.
+
+General FAQs
+
+1. How do I initiate a refund?
+You can issue partial or full refunds:
+ From the Dashboard
+ Using APIs
+
+ By default, the entire amount is refunded. If you issue a partial refund, ensure the partial refund option is selected and enter the desired value in INR.
+
+ Watch Out!
+
+ Razorpay issues immediate refunds. Once a refund is issued, it cannot be canceled or reversed.
+
+2. Do you charge for refund?
+ Refunds
+ No, we do not charge for the regular refunds. However, fees and taxes charged for a captured payment are not reversed.
+ Instant Refunds
+ Yes, we charge a small fee to issue instant refunds. Know more about refund fees.
+
+3. I am unable to refund a payment. What do I do?
+ If your current balance is less than the amount you are trying to refund, you can either initiate the refund once you receive further payments or you can add funds to your account from your Razorpay Dashboard.
+
+4. Are there any charges for instant refunds?
+Yes. There is a small charge to issue instant refunds. Know more about refund fees. In the event where you opt for Instant Refund, the MDR fees and associated costs charged on the original transaction shall not be refunded.
+
+5. Does Razorpay support Instant Refunds for International Payments?
+Yes, instant refunds are possible for payments involving international currencies. Know more about the list of supported currencies.
+
+6. What are the payment methods supported for instant refunds?
+You can issue instant refunds on payments accepted using netbanking, UPI and Credit cards .
+
+IRCTC Customers
+
+1. I have cancelled my ticket. When will I receive my refund?
+   After you cancel a booking, IRCTC has to initiate the refund. You will receive the credit in your account within 7-10 working days from the date of refund.
