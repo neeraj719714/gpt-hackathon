@@ -1,28 +1,36 @@
 
-title: Refund Communication
-desc: Check the refund-related emails sent to your customers after the refunds are initiated.
+title: Refunds APIs
+desc: List of Refunds APIs to perform actions like creating, viewing and updating refunds.
 
-If a customer is asking for a refund, the banking partner provides a unique reference number (either RRN, ARN or UTR) when a refund is processed. The customer can use this reference number to track the refund status with the bank.
+You can use the Orders APIs to perform various actions. You can perform a few of these actions by logging into the Razorpay Dashboard as well.
 
-As a customer, you will be notified of the specific payment to be refunded in 7-10 working days.
+List of Refunds APIs
 
-Customer Looking for Refund
+The table below lists the various Refunds APIs and gives a brief description of each API:
 
-If you are a customer looking for a refund, know more about customer refunds.
-
-Refund Mailers
-
-Razorpay sends you the following email communications for refunds:
-
-Refund Mailer After you process the refund, Razorpay sends you an email with the refund id and unique reference number (ARN, RRN or UTR) provided by the bank.
-
-RRN/ARN Update Mailer When you refund a credit card payment, the banking partner will share an ARN with Razorpay. Razorpay sends you an email with this ARN number.
-
-Handy Tips
-
-Razorpay sends the Refund and RRN/ARN Update emailers only if the customer email is passed to us.
+ API | Description
+ ---
+ Create a Normal refund  | API to create a Normal refund
+ ---
+ Create an Instant refund | API to create an Instant refund
+ ---
+ View multiple refunds for a payment | API to retrieve multiple refunds for a payment
+ ---
+ View refund for a specific refund | API to retrieve details of a specific refund made for a payment
+ ---
+ View all refunds | API to view details of all refunds
+ ---
+ View refund details by refund id  | API to retrieve refund details using the refund id
+ ---
+ Update refund | API to update the 'Notes' field of an existing refund
 
 Related Information
-
-Customer Refunds
-Refunds APIs
+About Refunds
+Normal Refund
+ Instant Refund
+Batch Refund
+Issue Refunds
+View Refunds
+Set the Refund Speed
+Subscribe to Webhooks
+Refunds FAQs

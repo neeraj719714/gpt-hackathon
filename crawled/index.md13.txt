@@ -1,130 +1,51 @@
 
-title: Supported Payment Methods
-desc: List of payment methods that support Instant Refunds.
+title: Set Refund Speed
+desc: Learn how to set the default refund speed at which to process refunds. You can also override the default refund speed.
 
-We support the following payment methods for instant refunds. The list of banks that support instant refunds differ according to payment methods.
+You can configure the speed at which all the refunds should be processed for your customers.
 
-Credit Cards
-Debit Cards
-Netbanking
-UPI
+Set Default Speed of Refunds
+Depending on your business needs, you can select from the following:
 
-Refunds will be sent back to the original payment method used in making the payment. For example, if a credit card was used to make the payment, the refund will be pushed to the same credit card.
+Normal Refund
+In this mode, the speed attribute is set to normal. The customers will receive their refunds within 5-7 business days.
 
-Credit Cards
+Instant Refund
+In this mode, the speed attribute is set to optimum. Razorpay attempts to initiate fund transfer using IMPS, NEFT or UPI. The customer will receive the refunds instantly. If unsuccessful, Razorpay processes the refund via the normal speed.
 
-We support instant refunds for credit card payments made from the following banks:
+The selected speed is set as the default speed and all the refunds, thereafter, will be processed at the chosen speed.
 
-Bank Name | Bank Code
+Watch this video to see how to set the default refund speed.
 
-Andhra Bank | ANDB
+To set the default speed for all the refunds:
 
-Axis Bank | UTIB
+Log into the Razorpay Dashboard.
+Navigate to Settings and click the Configuration tab in the right pane.
+In the Default Refund Speed section, choose between Normal Refund and Instant Refund.
 
-Bank of America | BOFA
+    Handy Tips
 
-Bank of Baroda | BARB
+    The chosen value is also applied as the default speed in the Refund API request.
 
-Bank of India | BKID
+Override Default Refund Speed
 
-Canara Bank | CNRB
+You can override the default refund speed while refunding a payment from the Transactions → Payments tab of the Razorpay Dashboard.
 
-Citi Bank Retail | CITI
+Watch this video to see how to override the default refund speed while issuing a refund.
 
-Corporation Bank | CORP
+The possible ways in which you can switch between Normal and Instant Refunds are listed below:
 
-HDFC | HDFC
+Default Speed setting | All Refunds | Refund Payment option | Processed speed of the Refund
 
-HSBC | HSBC
+Normal Refund | All the refunds are processed at the normal speed. | Refund Instantly option is selected. | The refund is processed at the optimum speed. If an instant refund is not possible, Razorpay initiates a normal refund.
 
-ICICI | ICIC
+Instant Refund | All the refunds are processed at an optimum speed. If an instant refund is not possible, Razorpay initiates a normal refund. | Refund Instantly option is unselected. | The refund is processed at the normal speed.
 
-IDBI | IBKL
-
-Indian Overseas Bank | IOBA
-
-Indusind Bank | INDB
-
-Kotak Bank | KKBK
-
-Punjab National Bank | PUNB
-
-RBL Bank | RATN
-
-Standard Chartered | SCBL
-
-State Bank of India | SBIN
-
-Syndicate Bank | SYNB
-
-Union Bank of India | UBIN
-
-Yes Bank | YESB
-
-Debit Cards
-
-We support instant refunds for debit card payments made from the following banks:
-
-Bank Name | Bank Code | Card Network
-
-Axis Bank | UTIB | Visa
-
-Bank of India | BKID | Visa
-
-Bank Of Maharashtra | MAHB | Visa
-
-Canara Bank | CNRB | Visa
-
-Corporation Bank | CORP | Visa
-
-DCB Bank | DCBL | Visa
-
-Federal Bank | FDRL | VisaMasterCard
-
-ICICI | ICIC | Visa
-
-IDBI Bank Ltd | IBKL | VisaMasterCard
-
-Indian Bank | IDIB | MasterCard
-
-IDFC FIRST Bank | IDFB | Visa
-
-Indusind Bank | INDB | Visa
-
-Jammu and Kashmir Bank | JAKA | MasterCard
-
-Kotak Bank | KKBK | Visa
-
-Oriental Bank of Commerce | ORBC | Visa
-
-Standard Chartered | SCBL | Visa
-
-State Bank of India | SBIN | Visa
-
-South Indian Bank | SIBL | Visa
-
-Yes Bank | YESB | MasterCard
-
-Netbanking
-
-We support instant refunds for netbanking payments made from the following banks:
-
-Bank Name | Bank Code
-
-Bank of Baroda | BARB_R
-
-Canara Bank | CNRB
-
-Central Bank of India | CBIN
-
-Equitas Bank | ESFB
-
-IndusInd Bank | INDB
-
-Karur Vysya Bank | KVBL
-
-RBL Bank | RBL
-
-UPI
-
-We support instant refunds for UPI payments made from all major PSPs.
+Related Information
+About Refunds
+Normal Refunds
+Instant Refunds
+Batch Refunds
+Issue Refunds
+View Refunds
+Refunds FAQs

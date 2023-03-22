@@ -1,51 +1,43 @@
 
-title: Set Refund Speed
-desc: Learn how to set the default refund speed at which to process refunds. You can also override the default refund speed.
+title: Payments | Refunds - FAQs
+heading: Frequently Asked Questions (FAQs)
+desc: Find answers to the frequently asked questions about Refunds via Razorpay.
+index: true
 
-You can configure the speed at which all the refunds should be processed for your customers.
+Find answers to IRCTC-related queries and other commonly asked questions.
 
-Set Default Speed of Refunds
-Depending on your business needs, you can select from the following:
+General FAQs
 
-Normal Refund
-In this mode, the speed attribute is set to normal. The customers will receive their refunds within 5-7 business days.
+1. How do I initiate a refund?
+You can issue partial or full refunds:
+ From the Dashboard
+ Using APIs
 
-Instant Refund
-In this mode, the speed attribute is set to optimum. Razorpay attempts to initiate fund transfer using IMPS, NEFT or UPI. The customer will receive the refunds instantly. If unsuccessful, Razorpay processes the refund via the normal speed.
+ By default, the entire amount is refunded. If you issue a partial refund, ensure the partial refund option is selected and enter the desired value in INR.
 
-The selected speed is set as the default speed and all the refunds, thereafter, will be processed at the chosen speed.
+ Watch Out!
 
-Watch this video to see how to set the default refund speed.
+ Razorpay issues immediate refunds. Once a refund is issued, it cannot be canceled or reversed.
 
-To set the default speed for all the refunds:
+2. Do you charge for refund?
+ Refunds
+ No, we do not charge for the regular refunds. However, fees and taxes charged for a captured payment are not reversed.
+ Instant Refunds
+ Yes, we charge a small fee to issue instant refunds. Know more about refund fees.
 
-Log into the Razorpay Dashboard.
-Navigate to Settings and click the Configuration tab in the right pane.
-In the Default Refund Speed section, choose between Normal Refund and Instant Refund.
+3. I am unable to refund a payment. What do I do?
+ If your current balance is less than the amount you are trying to refund, you can either initiate the refund once you receive further payments or you can add funds to your account from your Razorpay Dashboard.
 
-    Handy Tips
+4. Are there any charges for instant refunds?
+Yes. There is a small charge to issue instant refunds. Know more about refund fees. In the event where you opt for Instant Refund, the MDR fees and associated costs charged on the original transaction shall not be refunded.
 
-    The chosen value is also applied as the default speed in the Refund API request.
+5. Does Razorpay support Instant Refunds for International Payments?
+Yes, instant refunds are possible for payments involving international currencies. Know more about the list of supported currencies.
 
-Override Default Refund Speed
+6. What are the payment methods supported for instant refunds?
+You can issue instant refunds on payments accepted using netbanking, UPI and Credit cards .
 
-You can override the default refund speed while refunding a payment from the Transactions → Payments tab of the Razorpay Dashboard.
+IRCTC Customers
 
-Watch this video to see how to override the default refund speed while issuing a refund.
-
-The possible ways in which you can switch between Normal and Instant Refunds are listed below:
-
-Default Speed setting | All Refunds | Refund Payment option | Processed speed of the Refund
-
-Normal Refund | All the refunds are processed at the normal speed. | Refund Instantly option is selected. | The refund is processed at the optimum speed. If an instant refund is not possible, Razorpay initiates a normal refund.
-
-Instant Refund | All the refunds are processed at an optimum speed. If an instant refund is not possible, Razorpay initiates a normal refund. | Refund Instantly option is unselected. | The refund is processed at the normal speed.
-
-Related Information
-About Refunds
-Normal Refunds
-Instant Refunds
-Batch Refunds
-Issue Refunds
-View Refunds
-Refunds FAQs
+1. I have cancelled my ticket. When will I receive my refund?
+   After you cancel a booking, IRCTC has to initiate the refund. You will receive the credit in your account within 7-10 working days from the date of refund.

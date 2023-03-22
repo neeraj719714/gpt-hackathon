@@ -1,33 +1,130 @@
 
-title: View Refunds
-desc: View details of Refunds and Settlements using the Razorpay Dashboard and APIs.
+title: Supported Payment Methods
+desc: List of payment methods that support Instant Refunds.
 
-After issuing a refund for a payment, you can check its status in the Refunds tab. You can also view details of settled refunds.
+We support the following payment methods for instant refunds. The list of banks that support instant refunds differ according to payment methods.
 
-View Details of a Refund
+Credit Cards
+Debit Cards
+Netbanking
+UPI
 
-Watch this video to see how you can view the details of a refund.
+Refunds will be sent back to the original payment method used in making the payment. For example, if a credit card was used to make the payment, the refund will be pushed to the same credit card.
 
-To view a refund:
-Log in to the Razorpay Dashboard.
-Click Transactions → Refunds from the left menu.
-Click a Refund Id to view details of the refund.
+Credit Cards
 
-View Settlement Details of a Refund
+We support instant refunds for credit card payments made from the following banks:
 
-Watch this video to see how you can view settlement details of a refund.
+Bank Name | Bank Code
 
-To view a detailed break-down of a settlement made to your account:
-Log in to the Razorpay Dashboard.
-Click Transactions → Refunds from the left menu.
-Click the Refund Id for which you want to view the settlement details.
-In the Refund Details view, you can see the settlement details.
-Click on the settlement_id to view a detailed breakdown.
+Andhra Bank | ANDB
 
-Related Information
-Normal Refund
- Instant Refund
-Batch Refund
-Issue Refunds
-Set the Refund Speed
-Refunds FAQs
+Axis Bank | UTIB
+
+Bank of America | BOFA
+
+Bank of Baroda | BARB
+
+Bank of India | BKID
+
+Canara Bank | CNRB
+
+Citi Bank Retail | CITI
+
+Corporation Bank | CORP
+
+HDFC | HDFC
+
+HSBC | HSBC
+
+ICICI | ICIC
+
+IDBI | IBKL
+
+Indian Overseas Bank | IOBA
+
+Indusind Bank | INDB
+
+Kotak Bank | KKBK
+
+Punjab National Bank | PUNB
+
+RBL Bank | RATN
+
+Standard Chartered | SCBL
+
+State Bank of India | SBIN
+
+Syndicate Bank | SYNB
+
+Union Bank of India | UBIN
+
+Yes Bank | YESB
+
+Debit Cards
+
+We support instant refunds for debit card payments made from the following banks:
+
+Bank Name | Bank Code | Card Network
+
+Axis Bank | UTIB | Visa
+
+Bank of India | BKID | Visa
+
+Bank Of Maharashtra | MAHB | Visa
+
+Canara Bank | CNRB | Visa
+
+Corporation Bank | CORP | Visa
+
+DCB Bank | DCBL | Visa
+
+Federal Bank | FDRL | VisaMasterCard
+
+ICICI | ICIC | Visa
+
+IDBI Bank Ltd | IBKL | VisaMasterCard
+
+Indian Bank | IDIB | MasterCard
+
+IDFC FIRST Bank | IDFB | Visa
+
+Indusind Bank | INDB | Visa
+
+Jammu and Kashmir Bank | JAKA | MasterCard
+
+Kotak Bank | KKBK | Visa
+
+Oriental Bank of Commerce | ORBC | Visa
+
+Standard Chartered | SCBL | Visa
+
+State Bank of India | SBIN | Visa
+
+South Indian Bank | SIBL | Visa
+
+Yes Bank | YESB | MasterCard
+
+Netbanking
+
+We support instant refunds for netbanking payments made from the following banks:
+
+Bank Name | Bank Code
+
+Bank of Baroda | BARB_R
+
+Canara Bank | CNRB
+
+Central Bank of India | CBIN
+
+Equitas Bank | ESFB
+
+IndusInd Bank | INDB
+
+Karur Vysya Bank | KVBL
+
+RBL Bank | RBL
+
+UPI
+
+We support instant refunds for UPI payments made from all major PSPs.

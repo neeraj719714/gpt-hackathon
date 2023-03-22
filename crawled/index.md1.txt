@@ -1,36 +1,66 @@
 
-title: Refunds APIs
-desc: List of Refunds APIs to perform actions like creating, viewing and updating refunds.
+title: About Refunds
+desc: Initiate Normal and Instant Refunds using Razorpay Dashboard and APIs.
 
-You can use the Orders APIs to perform various actions. You can perform a few of these actions by logging into the Razorpay Dashboard as well.
+There could be situations when customers request a refund of the payments made for the products or services purchased or availed on your website or app.
 
-List of Refunds APIs
+Customer Looking for Refund
 
-The table below lists the various Refunds APIs and gives a brief description of each API:
+If you are a customer looking for a refund, know about customer refunds.
 
- API | Description
- ---
- Create a Normal refund  | API to create a Normal refund
- ---
- Create an Instant refund | API to create an Instant refund
- ---
- View multiple refunds for a payment | API to retrieve multiple refunds for a payment
- ---
- View refund for a specific refund | API to retrieve details of a specific refund made for a payment
- ---
- View all refunds | API to view details of all refunds
- ---
- View refund details by refund id  | API to retrieve refund details using the refund id
- ---
- Update refund | API to update the 'Notes' field of an existing refund
+Refund Types
+Following are the various types of refunds that you can use to refund payments to your customers:
+
+Normal Refund
+  Amount is refunded within 5-7 working days.
+ Instant Refund
+  Amount is refunded almost immediately. By issuing instant refunds to your customers, you can provide a better user experience for them. This also helps in improving their reliability and trust in your business.
+Batch Refund
+  Issue refunds in bulk using an XLSX or CSV file. Once you upload a file, it is picked up for processing after 70 minutes. You can cancel a batch upload in the 70 minutes before it is picked up for processing.
+
+Dashboard Actions
+You can perform the following actions on refunds from the Razorpay Dashboard:
+View Refunds
+Issue Refunds
+ Set Default Refund Speed
+View Settlement Details of a Refund
+Subscribe to Webhook Events
+
+Refund States
+
+Following are the various states of a refund:
+
+States | Description
+
+processing | This state indicates that Razorpay is attempting to process the refund.
+
+processed | This is the final state of the refund.
+
+failed | A refund can attain the failed state in the following scenarios:Normal refund not possible for a payment which is more than 6 months old.Instant Refund can sometimes fail because of customer's account or bank-related issues.
+
+Handle Refund Chargeback
+For the prevention of chargebacks, Razorpay only does source refunds. It means that money is refunded to the payment method that the customer used to make the payment. For example, if a credit card was used to make the payment, the refund is pushed to the same credit card. Similarly, in the case of UPI payments, the refund is pushed to the VPA used while making the payment.
+
+If a chargeback is received for an instantly refunded payment, the processed refund will have a UTR (Unique Transfer Reference) in the callback. This UTR appears against the ARN (Application Reference Number) parameter in the Refund entity. The UTR serves as a proof of refund completed between you and Razorpay.
+
+Additionally, Razorpay passes the RRN (Razorpay Reference Number) of the payment in the Fund Transfer Request sent for the refund. This ties the instant refund back to the parent payment, thereby, serving as a proof of the refund. This data can also be used as a defense against a future chargeback or arbitration case.
+
+Reports
+Detailed insights can be gained using reports and real-time data on the dashboard. These reports can then be used for accounting and recon purposes. Know more about reports.
+
+Understand how the Refund process works.
 
 Related Information
-About Refunds
 Normal Refund
  Instant Refund
 Batch Refund
-Issue Refunds
+EMI and Pay Later Refunds
+Issue refunds
 View Refunds
 Set the Refund Speed
+Add funds to your account to process refunds (low account balance)
+Handle refund errors
+Refunds API
 Subscribe to Webhooks
+Refund Communication
 Refunds FAQs
