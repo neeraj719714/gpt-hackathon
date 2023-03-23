@@ -1,0 +1,49 @@
+
+
+
+
+
+
+Entity & Metadata | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsIntroductionAPI BasicsAuthentication & Sandbox SetupStructure & PaginationEntity & MetadataPagination & Rate LimitingBest PracticesGlossaryOrdersPaymentsSettlementsRefundsDisputesCustomersPayments SuitePartnersRazorpayXErrorsWebhooksApiEntity MetadataEntity & MetadataThe entity structure and the metadata you can send along with the API request body.Understand the API entity structure and how to send metadata using the notes object parameter in the API request body.
+Entity
+Every API response contains entities shared across different endpoints. There are some common attributes for every entity.
+Example Order Entitycopy{  "id": "order_6JUYuvmgCLfgjY",  "entity": "order",  "amount": 50000,  "currency": "INR",  "attempts": 0,  "status": "created",  "receipt": "receipt#42",  "notes": [],  "created_at": 1474013013}
+entitystring Indicates the type of the entity.idinteger A unique identifier of the entity.
+In an entity, the attributes can be used to make entity-specific API calls.
+For example, you can fetch the payment ID from an order.paid webhook and use it to initiate a refund for that payment.
+Collection Entity
+Razorpay APIs also support returning multiple entities for a single request. This response also has another entity collection. For the collection entity, the following parameters are common.
+Sample Collection Responsecopy{  "count":2,  "entity":"collection",  "items":[    {      "id":"pay_29QQoUBi66xm2f",      "entity":"payment",      "amount":500,      "currency":"INR",      "status":"created",      "amount_refunded":0,      "refund_status":null,      "email":"gaurav.kumar@example.com",      "contact":"9364591752",      "error_code":null,      "error_description":null,      "notes":[],      "created_at":1400826750    },    {      "id":"pay_19btGlBig6xZ2f",      "entity":"payment",      "amount":500,      "currency":"INR",      "status":"created",      "amount_refunded":0,      "refund_status":null,      "email":"gaurav.kumar@example.com",      "contact":"9364591752",      "error_code":null,      "error_description":null,      "notes":[],      "created_at":1400826750    }  ]}
+entitystring Indicates the type of the entity. For example, collection.countinteger Indicates the number of items are returned. For example, 2.itemsarray The list of entities.
+Notes
+The majority of the entities allow the notes object to store additional information and preserve data relevant to your integration. Razorpay does not use it for any operational purposes.
+The notes object is a set of key-value pairs that can be used to store additional information about the entity. It can hold a maximum of 15 key-value pairs, each 256 characters long (maximum).
+Example Order Entitycopy{  "id": "order_6JUYuvmgCLfgjY",  "entity": "order",  "amount": 50000,  "currency": "INR",  "attempts": 0,  "status": "created",  "receipt": "receipt#42",  "notes": {    "my_store_id": "ref#123123123",    "my_user_id": "user_0316"  },  "created_at": 1474013013}
+Example
+You can store the notes related to:
+
+Billing or shipping address of the initiated payment.
+Reference ID generated for an order.
+
+Related Information
+
+
+API Basics
+
+
+Errors
+
+
+API Authentication and Sandbox Setup
+
+
+Pagination and Rate Limiting
+
+
+Best Practices
+
+
+Glossary
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEEntityCollection EntityNotesExampleRelated Information

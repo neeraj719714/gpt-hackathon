@@ -1,0 +1,106 @@
+
+
+
+
+
+
+Create and Send Payment Links | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppOverviewGet StartedAccept PaymentsPayment LinksPayment PagesRazorpay.me URLPayment GatewayTrack and ManageRoles and PermissionsSettingsFAQsGlossaryePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsMobile AppAccept PaymentsPayment LinksCreate and Send Payment LinksUse the Razorpay Payments Mobile App to create and share Payment Links to accept payments.You can use the Razorpay Payments Mobile app to quickly create and share Payment Links with your customers. The customers can open the Payment Links to make payments using any of the payment methods, such as, UPI, Debit/Credit Card, Netbanking or Wallets.
+Create Payment Links
+Watch this video to see how to create a Payment Link.
+Business Verification for a Registered Business
+Follow these steps to create a Payment Link:
+
+
+Log in with your Razorpay Dashboard credentials.
+
+
+
+Navigate to Products â Payment Link or tap Payment Link under Accept Payments section.
+
+
+Provide the following details:
+
+Select a currency.
+Enter the amount to be received from the customer.
+Add a description in the Payment Description field.
+Configure the following optional fields as per your requirements:
+
+Enable the Partial Payment feature.
+Add a Reference ID for internal reference.
+Enter Expiry Date and Time.
+Provide additional details using Internal Notes. For example, Branch: Bangalore.
+
+
+
+
+
+
+Tap Create.
+
+
+Enter the customer's phone and email address to immediately send the Payment Link.
+Alternatively, you can create the link without providing these details and share later.
+
+
+Tap Create And Send Payment Link.
+
+
+
+You can either share the link with your customer immediately via Facebook, Instagram, WhatsApp and more, or share it later.
+
+
+
+Under the Accept Payments section, tap Payment Link and scroll down to the Recent Payment Links section. The link appears on the list. Tap on the link to view more details. You can also choose to share the link or duplicate it.
+
+
+Share Payment Links
+You can share the Payment Links using:
+
+SMS and Email
+Facebook, Instagram, WhatsApp and more.
+
+Cancel Payment Links
+Watch this video to see how to cancel payment links.
+Cancel Payment Link on Mobile App
+
+Follow these steps to cancel the Payment Link:
+
+Under the Accept Payments section, tap Payment Link and scroll down to the Recent Payment Links section.
+
+
+
+Tap on the link you want to cancel.
+Scroll to the end of the page and tap Cancel Link. 
+
+
+Tap Yes, Cancel to confirm.
+
+Duplicate Payment Links
+Watch this video to see how to duplicate payment links.
+Cancel Payment Link on Mobile App
+
+Follow these steps to duplicate the Payment Link:
+
+Under the Accept Payments section, tap Payment Link and scroll down to the Recent Payment Links section. The link appears on the list.
+
+
+
+Tap on the link you want to duplicate.
+Scroll to the end of the page and tap Duplicate Link.
+
+
+
+A duplicate Payment Link is created. You can choose to modify the details and complete the link creation process.
+Payment Link States
+The table below lists the various states in the Payment Link life cycle and provides a brief description about each.
+StatusDescriptionIssuedThe Payment Link has been created.Partially PaidCustomer has paid a partial amount.PaidCustomer has paid the full amount.CancelledThe Payment Link has been cancelled by you.ExpiredThe Payment Link has expired. The expiry date and time is set while creating the Payment Link.
+Related Information
+
+
+Payments Mobile App
+
+
+Payment Pages Mobile App
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGECreate Payment LinksShare Payment LinksCancel Payment LinksDuplicate Payment LinksPayment Link StatesRelated Information

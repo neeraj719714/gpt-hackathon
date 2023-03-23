@@ -1,0 +1,28 @@
+
+
+
+
+
+
+Home Page | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardDashboard ActionsHome PageTest and Live ModesReportsAccount & SettingsFAQsContact SupportCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsDashboardHomeHome PageOverview of the Razorpay Dashboard home page. Find Account Balance and Payment Information, Reports, Analytics, and Recent activity.The Home page of the Razorpay Dashboard provides you with an overview of the various payment-related transactions, reports, analytics and recent activity on your Razorpay account.
+After your account is activated and KYC is approved, the Home page appears as shown below:
+
+The product recommendation widget helps you identify the best Razorpay products that meet your business needs.
+
+Handy TipsIf you have already provided your website address during sign up, you can generate your API keys right from this screen.
+Account Balance and Payment Information
+Your current Razorpay account balance is shown on the Dashboard. You can Add Funds to your Current balance and Reserve balance to increase your balance if required.
+Payment Volume data provides an overview of the Payment Volume, Number of Payments received and Number of Refunds made for the selected date range.
+
+Reporting and Analytics
+You can view in-depth information about the various activities on your account. This includes a wide range of analytics and real-time charts that provide insight into the performance of your business and recent activity that may require you to take action.
+You can generate data for a selected period. Graphs are automatically generated for the selected period. You can also filter data to display it on a Daily, Weekly or Monthly basis and group data either by Total Volume or Payment Method. You can hover over the graph for a breakdown of the data.
+Payment Insights data displays the various methods used by your customers to make payments. You can also filter and view insights by Number of Payments or Payment Volume. You can click on each method to drill down further.
+
+Traffic Split data groups the data by the platform used to make the payment, desktop or others.
+
+Recent Activity
+This section displays recent Payment, Settlement and Refund related activities.
+
+Click Payments, Settlements or Refunds to view the related activity. Click the respective ids for more information about the transaction.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEAccount Balance and Payment InformationReporting and AnalyticsRecent Activity

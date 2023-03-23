@@ -1,0 +1,465 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing Saved VPAs for UPI through Razorpay Payment Gateway
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				Introducing Virtual Payment Address (VPA) for UPI Payments through Razorpay			
+
+April 20, 2020
+
+5 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+UPI has become the most preferred payment method across India, but one problem that consumers still face is remembering their UPI Virtual Payment Address (VPA). Given the way VPAs are structured, it often also happens that they are entered incorrectly. 
+We have observed this to be a major challenge when businesses on our platform accept UPI payments from their consumers. Nearly 20-25% of consumers enter an invalid VPA. Hence, to make your end user’s experience fast and seamless, we are happy to introduce the ‘Saved VPA’ feature on our Standard Checkout.
+This feature will allow users to save their UPI VPAs so that they don’t have to enter the same again. The best part is that this feature is aligned to the existing Saved Card feature of Razorpay. So if you are already using the Saved Card feature, it will be really easy for you to understand and integrate. 
+We have enabled the Saved VPA by default for all businesses on our Standard Checkout.
+What problem will ‘Saved VPA’ solve? 
+Let’s start with a simple question – Do you really remember all your UPI account VPAs? We know this is not easy. 
+In the current scenario, the customer is asked to enter their VPA whenever they are carrying out a transaction via the UPI Collect flow (enter VPA to proceed). Data for users on IOS and desktop shows that 99% of UPI payments are done through the UPI Collect flow (the rest is UPI QR code). For users on Android, there are many apps/platforms where the UPI intent (click on the app to make payment) option is still not available. 
+In all of these cases, the user has to enter his correct VPA address to make the payment. Let’s take an example: Rahul has created accounts in all the major UPI apps and has linked his 2-3 bank accounts with these UPI apps. Let say, his VPAs are: 
+
+Google Pay: user_name@okhdfcbank (note: not just okhdfc), user_name@okaxis, name@okicici (note: not okicicibank) 
+BHIM: Slightly easy to remember – phone_number@upi
+PhonePe: phone_number@ybl or user_name@ybl
+PayTM: phone_number@paytm
+
+There are many other apps and platforms in the market for the user to register and create a VPA. The UPI VPA is different for different apps and platforms. No wonder then that someone like Rahul will end up taking a long time to make UPI Collect payments and often end up entering incorrect VPAs. 
+No more incorrect VPAs
+As the feature name suggests, Saved VPA allows customers to save their UPI VPAs so that they don’t have to enter the same again and again. The user has to just tap on his Saved VPA to initiate a new UPI payment. This feature helps in improving your overall user experience, reduces cart abandonment, reduces the time taken by the user to complete the transaction, and improves the payment success rate. 
+Initial insights have shown that the success rate for UPI Collect payment goes up by up to 15% with this feature.
+
+
+Razorpay Saved VPA benefits:
+
+VPA details are stored within a PCI secure vault
+Removes the need for the businesses to store the VPA details
+Ideal for businesses wanting to implement a quick checkout process for known customers
+Seamless process to add and delete VPA details within the vault
+
+USP: Global Saved VPA
+
+Razorpay Standard Checkout allows users to store their VPA while carrying out a transaction for a business and can then be accessed (with login credentials) wherever Razorpay Standard Checkout is enabled, even with other businesses
+For example, a user who is visiting Cure.Fit for the first time will be able to fetch and use his Saved VPA, if he has done a UPI transaction on any other business using Razorpay, like IRCTC.
+
+For Server to Server/Custom UI integration, you will be able to fetch customer VPAs that were entered on your site or platform using local tokens.
+How does this work?
+
+You can save the details of a VPA entered by the user on Checkout
+The entered VPA details are saved as tokens by Razorpay
+On a repeat visit, while making a payment, the customer is shown all the generated tokens
+The customer selects Saved VPA and completes the payment by just tapping on the shown VPA
+
+Saved VPA is secured by PCI-DSS compliance 
+
+Encryption through PCI-DSS compliance: First things first, Razorpay does not store your data as it is. Razorpay is PCI DSS compliant. The PCI Security Standards Council is a global organization that sets compliance rules for managing user data for all online payment systems. What this means for you is that your online transactions are encrypted to ensure there is no data interception
+Tokenization to prevent exposure of data: The sensitive UPI information entered by the customer is stored and secured as “tokens” in Razorpay. This “token” is a unique set of characters that replace your original VPA address. This allows the payment to be processed without exposing your sensitive details
+Consent to save: In the case of Razorpay Standard Checkout, the customer’s explicit consent is taken to store the details. A checkbox is shown with the ‘Saved VPA’. option
+
+
+Want to get this enabled for your business? Leave us a query here and we will get back to you. Not a Razorpay Customer? Sign up today for the ultimate payments experience!
+Frequently Asked Questions
+
+
+
+What is VPA in UPI?
+
+A Virtual Payment Address (VPA) is a unique identifier that helps UPI to track a person's account. Having a UPI ID, linked with a UPI-enabled Bank, enables a user to receive money in his/her bank account without sharing his/her account number or other details.
+
+
+
+What is VPA with an example?
+
+Let's take the example of Rohan creating an account on Google Pay. His VPA will be < Google Pay: user_name@okhdfcbank (note: not just okhdfc) < user_name@okaxis < name@okicici (note: not okicicibank) 
+
+
+
+What is the daily limit of UPI transactions?
+
+The transaction limit per day for UPI transactions is 1 Lakh INR. The maximum limit for BHIM UPI is 10,000 INR per transaction and 20,000 INR in a 24-hour window. 
+
+
+
+What is Razorpay VPA?
+
+The Razorpay VPA feature now allows customers to save their UPI VPAs so that they don't have to enter the same again and again. The user has to just tap on his Saved VPA to initiate a new UPI payment. 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+PaymentsTechnology
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Shubham Bisht 
+Shubham is an Associate Director, Product Management at Razorpay and manages Cross Border Payments and Checkout Product for Razorpay. Before moving to Product Management, he has worked on Particle Physics at CERN and ETH Zurich.
+
+
+
+Website
+
+
+
+LinkedIn
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+The e-rupee and what it means: A brave new era in digital payments?
+
+December 9, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

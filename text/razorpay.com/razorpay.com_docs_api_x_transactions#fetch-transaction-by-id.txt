@@ -1,0 +1,54 @@
+
+
+
+
+
+
+Transactions | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsOrdersPaymentsSettlementsRefundsDisputesCustomersPayments SuitePartnersRazorpayXGet StartedAccount ValidationContactsFund AccountsPayoutsPayouts to CardsPayout CompositePayout IdempotencyPayout LinksPayout Wallet - AmazonTransactionsWebhooksErrorsWebhooksApiXTransactionsTransactionsFetch details of the transactions linked to the business account using RazorpayX APIs.Transactions are the records of inflow of funds to your business account, and payouts to a contact's fund account and reversals. You can fetch details of a particular transaction or details of all transactions using the following APIs.
+Transactions API
+You can try out our APIs on the Razorpay Postman Public Workspace.
+
+Use Cases
+
+Fetch all Transactions.
+Fetch Transaction by ID.
+
+Transaction Entity
+The Transaction entity has the following fields:
+idstring The unique identifier linked to the transaction. For example, txn_00000000000001.entitystring The entity being created. Here, it will be transaction.account_numberstring This is the business account from which the payout was made. For example, 7878780080316316.amountinteger The amount transferred, in paise. The transfer can either be a credit (when you add funds to your account) or a debit (when you make a payout).Handy TipsThe value passed here does not include fees and tax. Fees and tax, if any, are deducted from your account balance.currencystring The transaction currency. Here, it is INR.creditinteger The amount, in paise, credited to your account. Will be 0 for debit transactions (when making payouts).debitinteger The amount, in paise, debited to your account. Will be 0 for credit transactions (when adding funds to your account).balanceinteger The remaining amount, in paise, in your account after the debit or credit transaction.sourceDetails of the payout made or details of the bank account from which money is being added to your business account.entitystring The entity for which the transaction was created. Possible values:
+payout
+bank_transfer
+entity = bank_transferIf the source entity is a bank_transfer, the following fields get populated.idstring The bank transfer ID when adding funds to your account. Here it is bt_00000000000001.entitystring The entity for which the transaction was created.payer_name source entity = bank_transferstring Name linked to the account making the transfer. For example, Saurav Kumar.payer_accountsource entity = bank_transferstring The account number from which money is transferred to your business bank account. For example, 6543266545411243.payer_ifsc source entity = bank_transferstring The branch IFSC from where the transfer is being made. For example, UTIB0000002.mode source entity = bank_transferstring The mode used to transfer money to your business bank account. For example, NEFT.bank_reference source entity = bank_transferstring Reference from the bank from which money was transferred to your business bank account. For example, AXIR000000000001.entity = payoutIf the source entity is a payout, the following fields get populated.idstring The payout ID when making payouts or the bank transfer ID when adding fund to your account.entitystring The entity for which the transaction was created. Here, it is payout.amountinteger The amount transferred, in paise.fund_account_id source entity = payoutstring The unique identifier linked to the fund account. For example, fa_00000000000001.notes source entity = payoutobject User-entered notes for internal reference. This is a key-value pair. You can enter a maximum of 15 key-value pairs. For example, "note_key": "Beam me up Scottyâ.fees source entity = payoutinteger The fees, in paise, for the transaction. This field is populated only when the transaction moves to the processing state. For example, 5.tax source entity = payoutinteger The tax, in paise, for the fee being charged. This field is populated only when the transaction moves to the processing state. For example, 1.status source entity = payoutstring The status of the transaction. A transaction can be in any of the following states:
+pending
+queued
+processing
+processed
+reversed
+cancelled
+rejected
+utr source entity = payoutstring The unique transaction number for the transaction. For example, HDFCN00000000001.mode source entity = payoutstring The payout mode. Refer to the Supported Banks and Payout Modes section for more details.created_atinteger Timestamp, in Unix, when the source entity or transaction entity was created. For example, 1545320320.
+Sample Entitycopy{    "id": "txn_00000000000002",    "entity": "transaction",    "account_number": "7878780080316316",    "amount": 1000000,    "currency": "INR",    "credit": 0,    "debit": 1000000,    "balance": 9000000,    "source": {        // if source entity = bank_transfer, the following fields are populated.        "id":"bt_00000000000001",        "entity":"bank_transfer",        "payer_name":"Saurav Kumar",        "payer_account":"6543266545411243",        "payer_ifsc":"UTIB0000002",        "mode":"NEFT",        "bank_reference":"AXIR000000000001",        // end of source entity = bank_transfer.         // start of source entity = payout (default source).        "id": "pout_00000000000001",        "entity": "payout",        "fund_account_id": "fa_00000000000001",        "amount": 1000000,         "notes": {            "notes_key_1": "Tea, Earl Grey, Hot",            "notes_key_2": "Tea, Earl Greyâ¦ decaf."        },        "fees": 3,        "tax": 1,        "status": "processed",        "utr": "000000000001",        "mode": "NEFT",        "created_at": 1545224066,        "fee_type": null    },    "created_at": 1545224066}
+Fetch all Transactions
+Before you fire the API, ensure you have your API Key id and Key Secret readily available. You can generate your API keys in RazorpayX in live mode or in test mode from the RazorpayX Dashboard. You cannot use your test mode API keys to make live transactions and vice versa.
+With the following endpoint, you can retrieve the details of all transactions.
+GET/transactions?account_number={account number}
+RequestResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \    -X GET https://api.razorpay.com/v1/transactions?account_number=7878780080316316
+Path Parameter
+account_numbermandatorystring The account from which you want to make the payout.Account details can be found on the RazorpayX Dashboard. For example, 7878780080316316.Watch Out!This is not your contact's bank account number. Log in to your RazorpayX Dashboard and go to My Account & Settings â Banking â Customer Identifier.
+Query Parameters
+fromoptionalinteger Timestamp, in Unix, from when you want to fetch transactions.tooptionalinteger Timestamp, in Unix, till when you want to fetch transactions.countoptionalinteger Number of payouts to be fetched. Default value is 10. Maximum value is 100. This can be used for pagination, in combination with skip.skipoptionalinteger Numbers of payouts to be skipped. Default value is 0. This can be used for pagination, in combination with count.
+Response Parameters
+Descriptions for the response parameters are present in the Transaction Entity parameters table.
+Fetch Transaction by ID
+Before you fire the API, ensure you have your API Key id and Key Secret readily available. You can generate your API keys in RazorpayX in live mode or in test mode from the RazorpayX Dashboard. You cannot use your test mode API keys to make live transactions and vice versa.
+With the following endpoint, you can retrieve the details of a particular transaction.
+GET/transactions/:id
+RequestResponse: Payoutcopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \    -X GET https://api.razorpay.com/v1/transactions/txn_00000000000002
+RequestResponse: Add Funds (Direct Bank Transfer)copycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \    -X GET https://api.razorpay.com/v1/transactions/txn_00000000000002
+Path Parameters
+idmandatorystring The unique identifier linked to the transaction. For example, txn_00000000000002.
+Response Parameters
+Descriptions for the response parameters are present in the Transaction Entity parameters table.
+Webhooks
+Set up RazorpayX Webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGETransactions APIUse CasesTransaction EntityFetch all TransactionsPath ParameterQuery ParametersResponse ParametersFetch Transaction by IDPath ParametersResponse ParametersWebhooks

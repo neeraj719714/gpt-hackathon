@@ -1,0 +1,72 @@
+
+
+
+
+
+
+Submit KYC Details | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedCreate a Razorpay AccountSubmit KYC DetailsBusiness Types and KYC DocumentsAccount Activation SupportFrequently Asked Questions (FAQs)DashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsEasy Submit KycSubmit KYC DetailsSubmit KYC details to complete the onboarding process. Check how to provide clarifications and activate your account successfully.After creating an account, you can start accepting payments from customers. However, the money is settled in your account only after completing the KYC process.
+Handy Tips
+In the KYC verification process, you have the flexibility of providing the required information in any order you prefer.
+You can view the details submitted during account creation and make changes if required.
+Review the details provided during the sign-up process. You can edit the fields and make necessary changes if required.
+
+
+Follow the steps given below to activate your account:
+Watch Out!The fields under Bank Details, GST Details, and Business Documents will differ based on your business type.
+
+
+Bank Details: Fill in your bank account details such as Account Number and IFSC Code. This will be the account to which Razorpay settles your funds. Click Done.
+
+
+
+GST Details: This will be auto-filled in case your PAN verification was successful. If not, add your GST details for taxation and compliance. Select the check box if you do not have a GSTIN. Click Done.
+Watch Out!You cannot claim GST input credit if GSTIN is not shared.
+
+
+
+Handy TipsExtra fields may appear based on your business type.
+For LLP: LLPIN (Limited Liability Partnership Identification Number)
+For Public and Private Ltd: CIN (Corporate Identification Number)
+
+
+
+Identity Proof: Enter your Aadhar Number and the Captcha and click Verify using OTP. Enter the OTP sent to the mobile number linked to your Aadhar and click Done. Upload the required documents and click Continue.
+
+Handy TipsSelect Upload another ID proof in case your Aadhar is not linked to your mobile number, and select a document from the list to submit your address proof. Upload the required documents.
+
+
+
+
+Business Documents: Upload the relevant business documents based on your business type.
+
+
+
+Business Address: Add your business address. Select the check box if your Operational address is same as your Business address. This will be verified against your business documents.
+Handy TipsOperational Address is the current address from where you are operating your business. On the other hand, a Business Address is an address you register while getting your business started.
+
+
+
+Click Done.
+
+
+Once you provide all the required details for verification, click Submit KYC.
+
+
+
+Our team will review the information submitted by you. It takes approximately 3-4 working days to complete the review process.
+Provide Clarification
+During the review process, we may reach out to you for clarifications. You can address these queries on the Razorpay Dashboard.
+Successful Activation
+Your KYC Verification is complete. You can:
+
+You can accept payments without any amount limits.
+Razorpay will automatically settle payments in your bank account as per your settlement cycle.
+You can request for other payment methods and apply for international payments.
+
+Related Information
+
+
+KYC Documents
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEProvide ClarificationSuccessful ActivationRelated Information

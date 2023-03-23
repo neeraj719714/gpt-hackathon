@@ -1,0 +1,104 @@
+
+
+
+
+
+
+2. Fetch and Manage Tokens | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRecurring PaymentsPostman CollectionEmandateCards1. Create the Authorization Transaction2. Fetch and Manage Tokens3. Create Subsequent PaymentsPaper NACHUPIRegistration and Charge First Payment TogetherWebhooksApiPaymentsRecurring PaymentsCardsTokens2. Fetch and Manage TokensRetrieve tokens using Razorpay APIs to create subsequent payments.Once you capture a payment, Razorpay Checkout returns a razorpay_payment_id. You can use this ID to fetch the token_id, which is used to create and charge subsequent payments.
+You can retrieve thetoken_id in the following ways:
+
+API
+
+Dashboard
+
+
+Know more about Tokens.
+2.1. Fetch Token by Payment ID
+The following endpoint fetches a token id using the Payment id.
+GET/payments/:id
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u <YOUR_KEY_ID>:<YOUR_KEY_SECRET> \-X GET https://api.razorpay.com/v1/payments/pay_1Aa00000000001
+Handy TipsYou can also retrieve the token_id from the payment.authorized webhook.
+Path Parameter
+id mandatorystring The unique identifier of the payment to be retrieved. For example, pay_1Aa00000000002.
+Response Parameters
+idstring Unique identifier of the payment.entitystring Indicates the type of entity. Here, it is payment.amountinteger The payment amount represented in smallest unit of the currency passed. For example, amount = 100 translates to 100 paise, that is â¹1 (default currency is INR).currencystring The currency in which the payment is made. Refer to the list of international currencies that we support.statusstring The status of the payment. Possible values:
+created
+authorized
+captured
+refunded
+failed
+order_idstring The unique identifier of the order.invoice_idstring The unique identifier of the invoice.internationalboolean Indicates whether the payment is done via an international card or a domestic one.methodstring The payment method used for making the payment. Possible values:
+card
+netbanking
+wallet
+emi
+upi
+amount_refundedinteger The amount refunded in smallest unit of the currency passed.refund_statusstring The refund status of the payment. Possible values:
+null
+partial
+full
+capturedboolean Indicates if the payment is captured.descriptionstring Description of the payment, if any.emailstring Customer email address used for the payment.contactinteger Customer contact number used for the payment.customer_idstring The unique identifier of the customer.token_idstring The unique identifier of the token.notesjson object Contains user-defined fields, stored for reference purposes.feeinteger Fee (including GST) charged by Razorpay.taxinteger GST charged for the payment.error_codestring Error that occurred during payment. For example, BAD_REQUEST_ERROR.error_descriptionstring Description of the error that occurred during payment. For example, Payment processing failed because of incorrect OTP.error_sourcestring The point of failure. For example, customer.error_stepstring The stage where the transaction failure occurred. The stages can vary depending on the payment method used to complete the transaction. For example, payment_authentication.error_reasonstring The exact error reason. For example, incorrect_otp.created_atinteger Timestamp, in UNIX format, on which the payment was created.
+2.2. Fetch All Tokens by Customer ID
+A customer can have multiple tokens and these tokens can be used to create subsequent payments for multiple products or services. The following endpoint fetches all tokens linked to a customer.
+GET/customers/:id/tokens
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u <YOUR_KEY_ID>:<YOUR_KEY_SECRET> \-X GET https://api.razorpay.com/v1/customers/cust_1Aa00000000002/tokens
+Path Parameter
+id mandatorystring The unique identifier of the customer for whom tokens are to be retrieved. For example, cust_1Aa00000000002.
+Response Parameters
+entitystring The entity being created. Here, it is a collection.countinteger The number of tokens to be fetched.itemsDetails related to token such as token id and bank information.idstring The unique identifier linked to an item. In this example, it is token_id.entitystring The entity being created. Here, it is a token.tokenstring The token is being fetched.bankstring Card issuing bank details.walletstring Provides wallet information.methodstring The payment method used to make the transaction.cardDetails related to card used to make the transaction.entitystring The entity being created. Here, it is card.namestring Name of the cardholder.last4integer Last 4 digits of the card.networkstring Name of the payment processor. Here it is Visa.typestring Card type (debit or credit). In this example, it is credit.issuerstring Name of the card-issuing bank.internationalstring Card usage restriction. Possible values:
+true: Supports international transactions.
+false: International transactions are not supported.
+emistring Card EMI status. Possible values.
+true: The card is on EMI.
+false: The card is not on EMI.
+sub_typestring Type of the customer.expiry_monthinteger Month on which the card expires.expiry_yearinteger Year on which the card expires.flowsThe transaction flow details.otpstring Whether the OTP function is enabled or not. Possible values:
+true: The OTP function is enabled.
+false: The OTP function is not enabled.
+recurringstring Whether the recurring for this payment method is enabled or not. Possible Values:
+true: Recurring is enabled.
+false: Recurring is not enabled.
+vpastring The VPA details.usernamestring The username of the VPA holder. For example, gaurav.kumar.handlestring The VPA handle. Here it is upi.namestring The name of the VPA holder.recurringstring This represents whether recurring is enabled for this token or not. Possible values:
+true: Recurring is enabled.
+false: Recurring is not enabled.
+auth_typestring The authorization type details.mrnstring The unique identifier issued by the payment gateway during customer registration. This can be Gateway Reference Number or Gateway Token.used_atinteger The VPA usage timestamp.created_atinteger The token creation timestamp.expired_atinteger The token expiry date timestamp.dcc_enabledstring Indicates whether the option to change currency is enabled or not. Possible values.
+true: The option to change currency is enabled
+false: The option to change currency is not enabled.
+
+2.3 Fetch a Token by Customer ID
+The following endpoint fetches a particular token linked to a customer.
+GET/customers/:customer_id/tokens/:token_id
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u <YOUR_KEY_ID>:<YOUR_KEY_SECRET> \-X GET https://api.razorpay.com/v1/customers/cust_IjsVsJ7d27hxOs/tokens/token_J0BgMu8YDVusZa
+Path Parameters
+customer_id mandatorystring The unique identifier of the customer for whom tokens are to be retrieved. For example, cust_IjsVsJ7d27hxOs.token_id mandatorystring The unique identifier of the token that should be retrieved. For example, token_J0BgMu8YDVusZa.
+Response Parameters
+entitystring The entity being created. Here, it is a collection.countinteger The number of tokens to be fetched.itemsDetails related to token such as token id and bank information.idstring The unique identifier linked to an item. In this example, it is token_id.entitystring The entity being created. Here, it is a token.tokenstring The token is being fetched.bankstring Card issuing bank details.walletstring Provides wallet information.methodstring The payment method used to make the transaction.cardDetails related to card used to make the transaction.entitystring The entity being created. Here, it is card.namestring Name of the cardholder.last4integer Last 4 digits of the card.networkstring Name of the payment processor. Here it is Visa.typestring Card type (debit or credit). In this example, it is credit.issuerstring Name of the card-issuing bank.internationalstring Card usage restriction. Possible values:
+true: Supports international transactions.
+false: International transactions are not supported.
+emistring Card EMI status. Possible values.
+true: The card is on EMI.
+false: The card is not on EMI.
+sub_typestring Type of the customer.expiry_monthinteger Month on which the card expires.expiry_yearinteger Year on which the card expires.flowsThe transaction flow details.otpstring Whether the OTP function is enabled or not. Possible values:
+true: The OTP function is enabled.
+false: The OTP function is not enabled.
+recurringstring Whether the recurring for this payment method is enabled or not. Possible Values:
+true: Recurring is enabled.
+false: Recurring is not enabled.
+vpastring The VPA details.usernamestring The username of the VPA holder. For example, gaurav.kumar.handlestring The VPA handle. Here it is upi.namestring The name of the VPA holder.recurringstring This represents whether recurring is enabled for this token or not. Possible values:
+true: Recurring is enabled.
+false: Recurring is not enabled.
+auth_typestring The authorization type details.mrnstring The unique identifier issued by the payment gateway during customer registration. This can be Gateway Reference Number or Gateway Token.used_atinteger The VPA usage timestamp.created_atinteger The token creation timestamp.expired_atinteger The token expiry date timestamp.dcc_enabledstring Indicates whether the option to change currency is enabled or not. Possible values.
+true: The option to change currency is enabled
+false: The option to change currency is not enabled.
+
+2.4. Delete Tokens
+The following endpoint deletes a token.
+DELETE/customers/:customer_id/tokens/:token_id
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X DELETE https://api.razorpay.com/v1/customers/cust_1Aa00000000002/tokens/token_1Aa00000000001
+Path Parameters
+customer_id mandatorystring The unique identifier of the customer with whom the token is linked. For example, cust_1Aa00000000002.token_id mandatorystring The unique identifier of the token that is to be deleted. For example, token_1Aa00000000001.
+Response Parameter
+deletedboolean Indicates whether the token is deleted. Possible values:
+true: The token is deleted successfully.
+false: The token was not deleted.
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGE2.1. Fetch Token by Payment IDPath ParameterResponse Parameters2.2. Fetch All Tokens by Customer IDPath ParameterResponse Parameters2.3 Fetch a Token by Customer IDPath ParametersResponse Parameters2.4. Delete TokensPath ParametersResponse Parameter

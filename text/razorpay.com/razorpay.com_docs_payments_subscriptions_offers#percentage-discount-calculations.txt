@@ -1,0 +1,86 @@
+
+
+
+
+
+
+Subscriptions | About Offers | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardOffers for SubscriptionsAbout OffersCreate Subscription OffersLink an Offer to a SubscriptionUpdate an Offer Linked to a SubscriptionDelete an Offer Linked to a SubscriptionPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsOffersAbout OffersCheck the Razorpay Subscription Offers available for your customers.You can use Subscription Offers to provide discounts or cashback on Subscriptions. This attracts more customers, retains existing customers and increases sales. You have complete control over the offers you provide to your customers such as the payment methods on which the offer should be applied, maximum number of customers who can avail the offers and define the time of offers.
+How it Works
+You can create and apply offers for Subscriptions in 3 easy steps:
+
+Create an offer from the Dashboard.
+Create a Plan for the Subscription.
+Link the offer to a Subscription.
+
+After you create a Subscription with an offer, customers can select the offer when making the payment, and it is applied immediately.
+
+How are Discounts Calculated
+There are 2 types of discount calculations:
+
+Percentage Discount Calculations
+Flat Discount Calculations
+
+Percentage Discount Calculations
+Let us say you sell keto meals.
+
+Plan amount = â¹1,000/month
+Quantity = 2 units
+Upfront amount (delivery fee) = â¹250/month
+Add-on (keto chips) = â¹250/month
+You offer a 10% discount up to â¹300.
+
+copyTotal amount = (Plan amount x Quantity) + Upfront Amount + Add-onsTotal amount = (â¹1,000 x 2) + â¹250 + â¹250Total amount = 2,500Discount amount = Total amount x Discount percentageDiscount amount = â¹2,500 x 10%Discount amount = â¹250
+Flat Discount Calculations
+Let us say you sell keto meals.
+
+Plan amount = â¹1,000/month
+Quantity = 2 units
+Upfront amount (delivery fee) = â¹250/month
+Add-on (keto chips) = â¹250/month
+You offer a flat discount of â¹150.
+
+copyTotal amount = (Plan amount x Quantity) + Upfront Amount + Add-onsTotal amount = (â¹1,000 x 2) + â¹250 + â¹250Total amount = 2,500Discount amount = â¹150
+Subscription Offers States
+A Subscription offer has 2 states:
+
+Enabled: The offer is active and available to your customers.
+Disabled: The offer is disabled and no longer available to your customers.
+
+
+Customise Subscription Offers
+There are 3 main parameters that you can use to customise and control offers:
+
+Subscription Offer Type
+Discount Type
+Payment Method
+
+Apart from the above, you can use other parameters to configure attributes such as the start and end dates and the number of times the offer can be used.
+Subscription Offer Types
+Following are the 3 types of offers you can create for Subscriptions:
+Subscription Offer TypeDescriptionSingle UseThis is a one-time discount offered to the customer.Limited number of cyclesYou can specify the number of cycles the offer should be applied.  For example, you can apply an offer for the first 3 cycles of a 12-month Subscription.ForeverThe offer is applied for the entire duration of the Subscription.
+Discount Type
+Following are the 2 types of discounts you can provide on Subscription offers:
+Discount TypeDescriptionFlatA flat discount is offered to the customer.PercentageThe discount offered is a percentage of the Subscription amount.
+Watch Out!Offers can only be applied if the chargeable amount after applying the offer is greater than â¹1.
+Payment Methods
+Following are the 2 payment methods available for offers on Subscriptions:
+Payment MethodDescriptionCardOffers will be applied to Subscriptions paid using cards. The options available for cards are listed below:  Card type: Credit card, debit card or both. Bank: Card issuing bank. For example, HDFC Bank, Axis Bank. You can select 1 bank or all available banks. You cannot select multiple banks. Network: Card network. For example, Visa, RuPay. You can select 1 network or all available networks. You cannot select multiple networks. Max Usage Per Card: How many times a particular card be used to avail the offer. IINs: The card IINs on which the offer should be applied. You can enter multiple IINs separated by commas.UPIOffers will be applied to Subscriptions paid using UPI apps.
+Other Parameters
+Listed below are the other parameters available to you when creating an offer:
+ParameterDescriptionOffer NameA name for the offer. This appears on the checkout. For example, Monsoon Offer .Display TextA description of the offer. This appears on the checkout. For example, 10% discount on all card payments .TermsTerms and conditions of the offer.Starting OnThe date and time from which the offer will appear on the checkout.Expires OnThe date and time at which the offer will no longer appear on the checkout.On Payment FailureWhat happens when an offer validation (such as payment method) fails. You can:  Allow the customer to complete the payment without the offer. Do not allow the payment to go through.Max UsageThe number of time the offer can be used.  For example, you can use this parameter to limit the offer to the first 100 customers.
+Related Information
+
+
+Create Subscription Offers
+
+
+Link an Offer to a Subscription
+
+
+Update an Offer Linked to a Subscription
+
+
+Delete an Offer Linked to a Subscription
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEHow it WorksHow are Discounts CalculatedPercentage Discount CalculationsFlat Discount CalculationsSubscription Offers StatesCustomise Subscription OffersSubscription Offer TypesDiscount TypePayment MethodsOther ParametersRelated Information

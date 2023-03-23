@@ -1,0 +1,106 @@
+
+
+
+
+
+
+Contacts | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsOrdersPaymentsSettlementsRefundsDisputesCustomersPayments SuitePartnersRazorpayXGet StartedAccount ValidationContactsFund AccountsPayoutsPayouts to CardsPayout CompositePayout IdempotencyPayout LinksPayout Wallet - AmazonTransactionsWebhooksErrorsWebhooksApiXContactsContactsLists of APIs to create, update and delete a Contact in RazorpayX.A contact is an entity to whom payouts can be made through various supported modes like UPI, IMPS, NEFT and RTGS, Cards and more. Know more about Contacts and Fund Accounts.
+Contacts API
+Watch Out!It is mandatory to allowlist IPs that you use while making payouts via APIs or the request will fail.
+You can try out our APIs on the Razorpay Postman Public Workspace.
+
+Use Cases
+
+Create a Contact.
+Update a Contact.
+Activate or deactivate a Contact.
+Retrieve all Contacts.
+Retrieve a Contact by ID.
+
+Contact Entity
+The Contacts entity has the following fields:
+idstring The unique identifier linked to the contact. For example, cont_00000000000001.entitystring The entity being created. Here, it will be contact.namestring The contact's name. For example, Gaurav Kumar.contactstring The contact's phone number. For example, 9123456789.emailstring The contact's email address. For example, gaurav.kumar@example.com.typestring A classification for the contact being created. For example, employee.reference_idstring A user-entered reference for the contact. For example, Acme Contact ID 12345.batch_idstring This parameter is populated if the contact was created as part of a bulk upload. For example, batch_00000000000001.activeboolean Possible values:
+true (default) : active
+false : inactive
+notesobject Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, "note_key": "Beam me up Scottyâ.created_atinteger Timestamp, in Unix, when the contact was created. For example, 1545320320.
+Sample Entitycopy{  "id": "cont_00000000000001",  "entity": "contact",  "name": "Gaurav Kumar",  "contact": "9123456789",  "email": "gaurav.kumar@example.com",  "type": "employee",  "reference_id": "Acme Contact ID 12345",  "batch_id": null,  "active": true,  "notes": {    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Greyâ¦ decaf."  },  "created_at": 1545320320}
+Create a Contact
+Handy Tips
+A new contact is created if any combination of the following details is unique: name, email, contact, type and reference_id.
+If all the above details match the details of an existing contact, the API returns details of the existing contact.
+Use the Update Contact API if you want to make changes to an existing contact.
+
+Before you fire the API, ensure you have your API Key id and Key Secret readily available. You can generate your API keys in RazorpayX in live mode or in test mode from the RazorpayX Dashboard. You cannot use your test mode API keys to make live transactions and vice versa.
+With the following endpoint, you can create a contact.
+POST/contacts
+RequestResponsecopycurl -u <YOUR_KEY>:<YOUR_SECRET> \-X POST https://api.razorpay.com/v1/contacts \-H "Content-Type: application/json" \-d '{  "name":"Gaurav Kumar",  "email":"gaurav.kumar@example.com",  "contact":"9123456789",  "type":"employee",  "reference_id":"Acme Contact ID 12345",  "notes":{    "notes_key_1":"Tea, Earl Grey, Hot",    "notes_key_2":"Tea, Earl Greyâ¦ decaf."  }}'
+Request Parameters
+namemandatorystring The contact's name. This field is case-sensitive. A minimum of 3 characters and a maximum of 50 characters are allowed. Name cannot end with a special character, except .. Supported characters: a-z, A-Z, 0-9, space, â , - , _ , / , ( , ) and , .. For example, Gaurav Kumar.emailoptionalstring The contact's email address. For example, gaurav.kumar@example.com.contactoptionalstring The contact's phone number. For example, 9123456789.typeoptionalstring Maximum 40 characters. Classification for the contact being created. For example, employee. The following classifications are available by default:
+vendor
+customer
+employee
+self
+Handy TipsAdditional classifications can be created via the Dashboard and then used in APIs. It is not possible to create new classifications via API.reference_idoptionalstring Maximum 40 characters. A user-entered reference for the contact. For example, Acme Contact ID 12345.notesoptionalobject Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, "note_key": "Beam me up Scottyâ.
+Response Parameters
+Descriptions for the response parameters are present in the Contacts Entity parameters table.
+Update a Contact
+Before you fire the API, ensure you have your API Key id and Key Secret readily available. You can generate your API keys in RazorpayX in live mode or in test mode from the RazorpayX Dashboard. You cannot use your test mode API keys to make live transactions and vice versa.
+With the following endpoint, you can update the details for an existing contact. Send only those parameters that you want to change in the request body.
+PATCH/contacts/:id
+RequestResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X PATCH https://api.razorpay.com/v1/contacts/cont_00000000000001 \-H "Content-Type: application/json" \-d '{  "name": "Gaurav Kumar",  "email": "gaurav.kumar@example.com",  "contact": "9123456789",  "type": "self",  "reference_id": "Acme Contact ID 12345",  "notes": {    "notes_key_1":"Tea, Earl Grey, Hot",    "notes_key_2":"Tea, Earl Greyâ¦ decaf."  }}'
+Path Parameter
+idmandatorystring The unique identifier linked to the contact. For example, cont_00000000000001.
+Request Parameters
+nameoptionalstring The contact's name. This field is case sensitive. Minimum 3 characters. Maximum 50 characters. Supported characters: a-z, A-Z, 0-9, space, â , - , _ , / , ( , ) and , .. For example, Gaurav Kumar.emailoptionalstring The contact's email address. For example, gaurav.kumar@example.com.contactoptionalstring The contact's phone number. For example, 9123456789.typeoptionalstring Maximum 40 characters. Classification for the contact being created. For example, employee. The following classifications are available by default:
+vendor
+customer
+employee
+selfHandy TipsAdditional classifications can be created via the Dashboard and then used in APIs. It is not possible to create new classifications via API.
+reference_idoptionalstring Maximum 40 characters. A user-generated reference given to the contact. For example, Acme Contact ID 12345.notesoptionalobject Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, "note_key": "Beam me up Scottyâ.
+Response Parameters
+Descriptions for the response parameters are present in the Contacts Entity parameters table.
+Activate or Deactivate a Contact
+Before you fire the API, ensure you have your API Key id and Key Secret readily available. You can generate your API keys in RazorpayX in live mode or in test mode from the RazorpayX Dashboard. You cannot use your test mode API keys to make live transactions and vice versa.
+With the following endpoint you can activate or deactivate a contact. This helps you block payouts to certain contacts, as and when required.
+PATCH/contacts/:id
+RequestResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X PATCH https://api.razorpay.com/v1/contacts/cont_00000000000001 \-H "Content-Type: application/json" \-d '{    "active": false}'
+Path Parameter
+idmandatorystring The unique identifier linked to the contact. For example, cont_00000000000001.
+Request Parameters
+activemandatoryboolean Represents the state to which you want to move the contact. A contact can have the following two states:
+true (default) : active
+false : inactivePass false to deactivate an active contact and pass true to activate a deactivated contact.
+
+Response Parameters
+Descriptions for the response parameters are present in the Contacts Entity parameters table.
+Fetch all Contacts
+Before you fire the API, ensure you have your API Key id and Key Secret readily available. You can generate your API keys in RazorpayX in live mode or in test mode from the RazorpayX Dashboard. You cannot use your test mode API keys to make live transactions and vice versa.
+With the following endpoint, you can retrieve the details of all contacts.
+GET/contacts
+RequestResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/contacts
+Query Parameters
+name optionalstring Name by which results should be filtered. For example, Gaurav.email optionalstring Email address by which results should be filtered. For example, gaurav.kumar@example.com.contact optionalstring Phone number by which results should be filtered. For example, 9123456789.reference_id optionalstring The user-generated reference by which results should be filtered. For example, Acme Contact ID 12345. Maximum length is 40 characters.active optionalboolean The state by which results should be filtered. Possible values:
+1: active
+0: inactive
+type optionalstring The classification by which results should be filtered. Possible values:
+vendor
+customer
+employee
+self
+from optionalinteger Timestamp, in Unix, from when contacts are to be fetched.to optionalinteger Timestamp, in Unix, till when contacts are to be fetched.count optionalinteger The number of contacts to be fetched. Default = 10. Maximum = 100. This can be used for pagination, in combination with skip.skip optionalinteger The number of contacts to be skipped. Default = 0. This can be used for pagination, in combination with count.
+Response Parameters
+Descriptions for the response parameters are present in the Contacts Entity parameters table.
+Fetch a Contact by ID
+Before you fire the API, ensure you have your API Key id and Key Secret readily available. You can generate your API keys in RazorpayX in live mode or in test mode from the RazorpayX Dashboard. You cannot use your test mode API keys to make live transactions and vice versa.
+With the following endpoint, you can retrieve the details of a specific contact.
+GET/contacts/:id
+RequestResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/contacts/cont_00000000000001
+Path Parameter
+idmandatorystring The unique identifier linked to the contact. For example, cont_00000000000001.
+Response Parameters
+Descriptions for the response parameters are present in the Contacts Entity parameters table.
+Error Codes
+If there are errors when firing the Contact APIs, refer to Contact API Error Codes to resolve them.
+Webhooks
+Set up RazorpayX Webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEContacts APIUse CasesContact EntityCreate a ContactRequest ParametersResponse ParametersUpdate a ContactPath ParameterRequest ParametersResponse ParametersActivate or Deactivate a ContactPath ParameterRequest ParametersResponse ParametersFetch all ContactsQuery ParametersResponse ParametersFetch a Contact by IDPath ParameterResponse ParametersError CodesWebhooks

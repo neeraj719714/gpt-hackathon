@@ -1,0 +1,195 @@
+
+
+
+
+
+
+Recurring Payments API | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRecurring PaymentsPostman CollectionEmandateCardsPaper NACHUPIRegistration and Charge First Payment TogetherWebhooksApiPaymentsRecurring PaymentsRecurring Payments APIIntegrate Recurring Payments using Razorpay APIs.You can use Razorpay Recurring Payments APIs to create subsequent payments for your customers at intervals you can define and control.
+Feature RequestThis is an on-demand feature. Please raise a request with our Support team to get this feature activated on your Razorpay account.
+Use Cases
+
+Create customers to set up recurring payments using the following payment methods.
+
+
+Emandate
+
+
+Cards
+
+
+Paper NACH
+
+
+UPI
+
+
+
+Create orders for customers using the following payment methods.
+
+
+Emandate
+
+
+Cards
+
+
+Paper NACH
+
+
+UPI
+
+
+
+Retrieve and manage tokens using the following payment methods.
+
+
+Emandate
+
+
+Cards
+
+
+Paper NACH
+
+
+UPI
+
+
+
+Set up recurring payments using the following payment methods.
+
+
+Emandate
+
+
+Cards
+
+
+Paper NACH
+
+
+UPI
+
+
+
+
+API Gateway URL
+The Razorpay API Gateway URL is https://api.razorpay.com/v1. You need to include this before each API endpoint to make API calls.
+Example
+Use the URL https://api.razorpay.com/v1/payments to access payment resources.
+API Authentication
+All Razorpay APIs are authenticated using Basic Auth. Basic auth requires the following:
+
+[YOUR_KEY_ID]
+[YOUR_KEY_SECRET]
+
+Basic auth expects an Authorization header for each request in the Basic base64token format. Here, base64token is a base64 encoded string of YOUR_KEY_ID:YOUR_KEY_SECRET.
+Watch Out!The Authorization header value should strictly adhere to the format mentioned above. Invalid formats will result in authentication failures. Few examples of invalid headers are:
+BASIC base64token
+basic base64token
+Basic "base64token"
+Basic $base64token
+
+Generate API Key
+Follow these steps to generate API keys:
+
+Log in to your Dashboard with appropriate credentials.
+Select the mode (Test or Live) for which you want to generate the API key.
+
+Test Mode: The test mode is a simulation mode that you can use to test your integration flow. Your customers will not be able to make payments in this mode.
+Live Mode: When your integration is complete, switch to live mode and generate live mode API keys. Replace test mode keys with live mode keys in the integration to accept payments from customers.
+
+
+Navigate to Account & Settings â API Keys (under Website and app settings) â Generate Key to generate key for the selected mode.
+
+The Key Id and Key Secret appear on a pop-up page.
+Test Mode API Keys
+Watch this video to see how to generate API keys in the test mode.
+
+
+Live Mode API Keys
+Watch this video to see how to generate API keys in the live mode.
+
+Watch Out!
+After generating the keys from the Dashboard, download and save them securely. If you do not remember your API Keys, you need to re-generate them from the Dashboard and replace it wherever required.
+Do not share your API Key secret with anyone or on any public platforms. This can pose security threats for your Razorpay account.
+Once you generate the API Keys, only the Key Id is visible on the Dashboard and not the Key secret as it can pose security threats for your Razorpay account.
+
+Integration Flow
+The integration flow varies depending on how you choose to create the authorization transaction.
+Using Razorpay Standard Checkout
+
+You can integrate Recurring Payments using Razorpay Standard Checkout via APIs. Following is the integration flow to collect recurring payments using the Razorpay Standard Checkout:
+
+Create a customer 
+This returns a customer_id.
+Create an order
+This returns an order_id. The order amount for:
+
+For Emandate is â¹0.
+Cards is a minimum of â¹1.
+Paper NACH is â¹0.
+UPI is â¹1.
+
+
+Create authorization transaction
+Pass the customer_id, order_id and a few additional parameters in your Checkout to create the authorization payment. The customer completes the authorization payment, which generates a token. This payment can be authorized using one of the following instruments:
+
+Emandate
+Card
+Paper NACH. The following additional steps have to be completed for NACH:
+
+The customer either downloads a pre-filled NACH form or you can send it to the customer.
+The customer signs the pre-filled NACH form.
+The customer either uploads the signed form or sends it to you to upload for processing. Know more about uploading Paper Nach Form.
+
+
+UPI.
+
+
+Retrieve and check the status of the token
+After the token status changes to confirmed, you can create and charge subsequent payments.
+Create and charge subsequent payments
+To do this, you have to manually:
+
+Create a new order.
+Create a recurring payment.
+
+
+
+Using a Registration Link
+
+You can create registration links from the Razorpay Dashboard or using APIs.
+Following is the integration flow to collect recurring payments using a registration link:
+
+
+Create a registration link and send it to your customer
+The customer completes the authorisation payment, which generates a token. This payment can be authorised using one of the following instruments:
+
+Emandate
+Card
+Paper NACH. The following additional steps have to be completed for NACH:
+
+The customer either downloads a pre-filled NACH form or you can send it to the customer.
+The customer signs the pre-filled NACH form.
+The customer either uploads the signed form or sends it to you to upload for processing. Know more about uploading Paper Nach Form.
+
+
+UPI
+
+No Need to Create a Customer and Order SeparatelyIf you use a registration link to create the authorisation transaction, Razorpay automatically creates a customer and the order on your behalf.
+
+
+Retrieve and check the token status
+After the token status changes to confirmed, you can create and charge subsequent payments.
+
+
+Create and charge subsequent payments
+To do this, you have to manually:
+
+Create a new order.
+Create a recurring payment.
+
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEUse CasesAPI Gateway URLExampleAPI AuthenticationGenerate API KeyTest Mode API KeysLive Mode API KeysIntegration FlowUsing Razorpay Standard CheckoutUsing a Registration Link

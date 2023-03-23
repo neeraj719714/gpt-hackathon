@@ -1,0 +1,36 @@
+
+
+
+
+
+
+3. Create Subsequent Payments | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRecurring PaymentsPostman CollectionEmandateCards1. Create the Authorization Transaction2. Fetch and Manage Tokens3. Create Subsequent PaymentsPaper NACHUPIRegistration and Charge First Payment TogetherWebhooksApiPaymentsRecurring PaymentsCardsCreate Subsequent Payments3. Create Subsequent PaymentsCreate and charge subsequent payments using Razorpay APIs after the customer's selected payment method is successfully authorized.You should perform the following steps to create and charge your customer subsequent payments:
+
+Create an order to charge the customer
+Create a recurring payment
+
+3.1. Create an Order to Charge the Customer
+You have to create a new order every time you want to charge your customers. This order is different from the one created during the authorization transaction.
+The following endpoint creates an order.
+POST/orders
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/orders \-H "Content-Type: application/json" \-d '{  "amount":1000,  "currency":"INR",  "payment_capture": true,  "receipt":"Receipt No. 1",  "notes": {    "notes_key_1":"Tea, Earl Grey, Hot",    "notes_key_2":"Tea, Earl Greyâ¦ decaf."  }}'
+Request Parameters
+amount mandatoryinteger Amount in currency subunits. For cards, the minimum value is 100 (â¹1).currency mandatorystring The 3-letter ISO currency code for the payment. Currently, we only support INR.receipt optionalstring A user-entered unique identifier for the order. For example, Receipt No. 1. You should map this parameter to the order_id sent by Razorpay.notes optionalobject Key-value pair you can use to store additional information about the entity. Maximum of 15 key-value pairs, 256 characters each. For example, "note_key": "Beam me up Scottyâ.payment_capture mandatoryboolean Determines whether tha payment status should be changed to captured automatically or not. Possible values:
+true: Payments are captured automatically.
+false: Payments are not captured automatically. You can manually capture payments using the Manually Capture Payments API.
+
+Response Parameters
+idstring A unique identifier of the order created. For example order_1Aa00000000001.entitystring The entity that has been created. Here it is order.amountinteger Amount in currency subunits.amount_paidinteger The amount that has been paid.amount_dueinteger The amount that is yet to pay.currencystring The 3-letter ISO currency code for the payment. Currently, we only support INR.receiptstring A user-entered unique identifier of the order. For example, rcptid #1.statusstring The status of the order.notesobject Key-value pair you can use to store additional information about the entity. Maximum of 15 key-value pairs, 256 characters each. For example, "note_key": "Beam me up Scottyâ.created_atinteger The Unix timestamp at which the order was created.
+3.2. Create a Recurring Payment
+Once you have generated an order_id, use it with the token_id to create a payment and charge the customer. The following endpoint creates a payment to charge the customer.
+POST/payments/create/recurring
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/payments/create/recurring/ \-H "Content-Type: application/json" \-d '{  "email": "gaurav.kumar@example.com",  "contact": "9123456789",  "amount": 1000,  "currency": "INR",  "order_id": "order_1Aa00000000002",  "customer_id": "cust_1Aa00000000001",  "token": "token_1Aa00000000001",  "recurring": "1",  "description": "Creating recurring payment for Gaurav Kumar",  "notes": {    "note_key 1": "Beam me up Scotty",    "note_key 2": "Tea. Earl Gray. Hot."  }}'
+
+You will get a razorpay_payment_id, razorpay_order_id and razorpay_signature as a response after the payment request is successfully processed.
+In the case of some banks, such as HDFC Bank and Axis Bank, the payment entity is in the created state since the charging system of these banks is file-based and can take some time.
+
+Request Parameters
+email  mandatorystring The customer's email address. For example, gaurav.kumar@example.com.contact  mandatoryinteger The customer's phone number. For example, 9876543210.amount mandatoryinteger The amount you want to charge your customer. This should be the same as the order amount.currency mandatorystring 3-letter ISO currency code for the payment. Currently, only INR is allowed.order_idmandatorystring The unique identifier of the order created. For example, order_1Aa00000000002.customer_id mandatorystring The unique identifier of the customer you want to charge. For example, cust_1Aa00000000002.token mandatorystring The token_id generated when the customer successfully completes the authorization payment. Different payment instruments for the same customer have different token_id.recurring mandatoryboolean Determines whether recurring payment is enabled or not.descriptionoptionalstring A user-entered description for the payment. For example, Creating recurring payment for Gaurav Kumar.notesoptionalobject Key-value pair you can use to store additional information about the entity. Maximum of 15 key-value pairs, 256 characters each. For example, "note_key": "Beam me up Scottyâ.
+Response Parameters
+razorpay_payment_idstring The unique identifier of the payment that is created. For example, pay_1Aa00000000001.razorpay_order_idstring The unique identifier of the order that is created. For example, order_1Aa00000000001.razorpay_signaturestring The signature generated by the Razorpay. For example, 9ef4dffbfd84f1318f6739a3ce19f9d85851857ae648f114332d8401e0949a3d.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGE3.1. Create an Order to Charge the CustomerRequest ParametersResponse Parameters3.2. Create a Recurring PaymentRequest ParametersResponse Parameters

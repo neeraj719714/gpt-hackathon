@@ -1,0 +1,501 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Build Your Own Online Store with Razorpay Payment Pages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				Build Your Own Online Store business with Razorpay Payment Pages			
+
+November 6, 2019
+
+6 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Today, most Indian consumers rely on online stores to make their purchases. With online commerce penetrating the Indian market by 74%, close to 329.1 million people are projected to buy goods and services via online stores by 2020.
+With that being said, we can all agree with the fact that there’s a massive rise in online stores in the e-commerce industry today. But, we simply cannot put aside the problems these stores face. Amongst choosing the right niche and profitability, most small online businesses face trouble with infrastructure. 
+From building a solid, functional website, hosting it, all the way to integrating the right payment gateway, online businesses fall back on these basics that can really help them click. 
+It’s also difficult to understand complex documentation with off-the-shelf e-commerce plugins or to find alternate solutions as they can be very pricey and time-consuming.
+If you run an online business trying to set up your online store, or if you’re a freelancer trying to build your website so you can sell your products and services, then you know what we’re talking about. 
+So, how do we make this process effortless? 
+Razorpay Payment Pages – Collecting online payments just got easier!
+No need to build your website and host it. No need for a payment gateway integration.
+Payment Pages is specifically designed to accept payments from your customers, even if you don’t have a website. You can easily create a storefront for your online store in less than 5 minutes and start accepting payments from your customers from all over the world, in 100 international currencies. And, this requires absolutely no coding experience or support.
+
+In just about six months, Payment Pages took off and skyrocketed, enabling payments for numerous small and medium-sized (SME) businesses. The response we received was truly overwhelming. While being so, our customers also made multiple requests for a small tweak here and there so that Payment Pages would be an absolute match for their business use-case. 
+
+In just about two months, more than 5000 businesses started using Payment Pages 
+By the end of 6 months, we saw a 114% uptick, powering over 11,000 online businesses
+89% of businesses said it significantly brought down their tech efforts 
+63% of freelancers said accepting payments became much easier
+84% of businesses without a website said Payment Pages helped them retain their brand image 
+93% of businesses also said their customers had a seamless payment experience 
+
+At Razorpay, we believe we can empower businesses to meet their fullest potential. While Payment Pages was already contributing towards our belief, we knew we could help these online businesses so much more.
+Although the use-cases are different from one business to another, we tried accommodating as many requests as we could.  
+What’s new with the updated Payment Pages?
+With the update, Payment Pages is now much more functional than ever! The new power-packed features enable your online store to collect payments seamlessly, while you focus on providing your customers with brilliant user experience.
+Multiple listings
+List any number of products/services you wish to sell on your Payment Page, along with images and descriptions for each one of the items you list.
+Smarter purchase controls
+Have control over the minimum or a maximum number of products your customers can buy, set a minimum amount your customers can donate, and more.
+
+Reordering input fields
+Move the input fields/items on your Payment Page to arrange newer items or frequently purchased items higher by simply dragging them up or down in your list of items.
+New input fields
+Select from the many input fields supported by Payment Pages to capture customer data. From alphanumeric input fields and email address to PAN number and PIN code, select the right input field to ensure proper validation. 
+
+Intuitive reporting
+Get detailed insights for each item sold, based on real-time transactions from the dashboard to help you make better business decisions.
+
+Dynamic mobile experience 
+Provide your customers with a dynamic, on the go mobile payments experience while giving them the option of choosing from many payment modes.
+
+Embeddable Payment Request button
+If you already have a website but no Payment Gateway integration, simply embed the Payment Pages CTA button where you want to call for action. On click, your customer will be taken to the respective Payment Page.
+Redirecting your customer
+While you can customize the text on the CTA, you can also redirect your customer to your merchant page. Or, you can simply show a custom message to let them know the payment was successful.
+Sign up With Razorpay Payment Pages
+How to build your Payment Page? (Steps)
+
+Login to your Razorpay Dashboard and navigate to “Payment Pages”
+Click on “+ Create Payment Page”
+Choose your template from the ones that are already available, or create your own
+Fill in the details of your product/service/event and add pictures and videos of the same
+Click on “Add social media share icons” to enable social sharing
+In the “Payment Details” section, add the required input fields, product, and images, and customize them. You can also reorder the fields by dragging them wherever you need
+Click on “Save and publish”
+
+Share your online store’s Payment Page on various channels
+Payment Pages can be shared with your customers on Facebook, Instagram, Messenger, WhatsApp, Twitter, and more!  Let’s take a look at how most online businesses and freelancers share Payment Pages on various channels.
+
+How online businesses use Payment Pages – popular use cases
+Although the use cases for Payment Pages are many, tickets and events, donations, fee collection, and online product sales have been the predominant ones.
+
+Learn how you can
+
+Sell event tickets without a website
+Sell products online without a site
+Accept donations easily
+Sell on social media without a website
+
+See it to believe it!
+Experience how your Payment Pages powered online store works! [https://pages.razorpay.com/satgurucharity]
+What our customers have to say
+
+The upshot
+Razorpay Payment Pages has truly stood up to our tagline: #PoweringDisruptors. Forget the hassle of going through with building and maintaining a website when we will do it for you!
+Payment Pages boasts of over 11,000 customers as of October 2019, with the likes of Swiggy, Decathlon, BloombergQuint, Goonj, Brigade Homes Group, and Innov8, among others. 
+
+
+Ready to Start Accepting Payments Online?
+  Sign Up
+
+
+Quick Onboarding
+Saved Card Database
+
+
+Razorpay Checkout
+24×7 Support
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+Payments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Harshitha Rao 
+Harshitha is a marketer at the future-forward RazorpayX. She has an insatiable love for travel and culture, rock music, and the work of Neil Gaiman.
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+The e-rupee and what it means: A brave new era in digital payments?
+
+December 9, 2022
+
+
+
+
+
+
+
+
+
+
+1 Comment			
+
+
+
+
+
+ 
+
+
+
+mascarpone recept efterrätt
+
+
+
+									3 years ago								
+
+
+Reply
+
+ 
+
+Greetings! Very helpful advice within this article! It’s the little changes that
+make the biggest changes. Many thanks for sharing!
+
+
+ 
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

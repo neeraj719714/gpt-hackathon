@@ -1,0 +1,40 @@
+
+
+
+
+
+
+Webhooks | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRecurring PaymentsEmandateCardsPaper NACHUPIDashboardWebhooksGlossaryPaymentsRecurring PaymentsSubscribe To WebhooksWebhooksConfigure Webhooks to receive alerts about the status of tokens and recurring payments as they occur.You can use Razorpay Webhooks to receive notifications of all events related to payment states and the token in the recurring payments workflow.
+Check Payment Status Using Webhooks
+You can set up Webhooks to get notifications about the following:
+
+Authorisation payment states
+Registration link states for recurring payments
+Token states
+
+Authorisation Payment States
+Once the customer has made the Authorization Payment, it moves through the following states as per the payment flow:
+StatusDescriptionWebhookCreatedPayment is created when a customer enters and submits the payment information.NAAuthorizedPayment is authorized when the customerâs payment details are successfully authenticated by the bank.payment.authorizedCapturedIndicates that the payment is verified by you.  Once a payment is captured you can retrieve the token .payment.captured or order.paidFailedIndicates that the payment has failed.  If the payment has failed, you need to create an authorization transaction again.payment.failed
+Registration Link States
+A registration link moves through the following states during its life cycle:
+StatusDescriptionWebhookIssuedA registration Link is created and sent to the customer.NAPaidPayment is made for the issued registration Link.  Once the registration Link is paid, search for Token corresponding to the payment.invoice.paidCancelledThe registration link has been canceled. In such cases, you need to create a registration link again.NAExpiredThe registration link has expired. You can set an expiry timestamp at the time of creation.invoice.expired
+Token States
+token_statusDescriptionNext StepinitiatedIndicates that the bank is processing the mandate registration.Wait for the token.confirmed webhook.confirmedIndicates that the bank has completed the mandate registration.Create recurring paymentrejectedIndicates that the mandate registration has failed.Create the authorization transaction again.cancelledIndicates that the token has been cancelled.Create the authorization transaction again if you want to charge the customer.pausedIndicates that the token has been paused by your customer.The token is inactive. Your customer has paused the token. Ask them to resume the token to charge them.
+Sample Payloads
+Know more about the Webhook payloads.
+Related Information
+
+
+Emandate
+
+
+Cards
+
+
+Paper NACH
+
+
+UPI
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGECheck Payment Status Using WebhooksAuthorisation Payment StatesRegistration Link StatesToken StatesSample PayloadsRelated Information

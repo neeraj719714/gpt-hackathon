@@ -1,0 +1,52 @@
+
+
+
+
+
+
+Transfers and Related Fees - Example | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteOverviewLinked AccountsDashboardTransfers and Related FeesLinked Account DashboardPluginsView ReportsSubscribe to WebhooksRoute APIsFAQsGlossaryThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsRouteTransfer Fees ExampleTransfers and Related Fees - ExampleAn explanation of transfers amount and related fee calculations.Following are examples of transfers to Linked Accounts and how Payment Gateway and transfer fees apply to the transactions.
+
+
+Transfer to single Linked Account
+
+
+Transfer to two Linked Accounts
+
+
+Transfer to Single Linked Account
+In this example, you are making a transfer to a single Linked Account. Following are the details:
+Payment Amount = â¹1,000.00
+Payment Pricing Plan = 2%
+Transfer Fees = 0.25%
+Your Commission = â¹100.00
+Amount Transferred to Linked Account = â¹900.00
+GST Levied = 18%
+Transaction DetailsYour Account Balance (â¹)Payment received from Customer1,000.00Gateway Fee Charged on Capture   Payment Amount * Pricing Plan * GST   1000 * 2/100 * (1+(18/100))-23.60The Account Balance after deduction976.40Transfer Fee Charged   Transfer Amount * Pricing Plan * GST   900 * 0.25/100 * (1+(18/100))-2.66Amount Transferred to Linked Account-900.00Final Account Balance73.74
+Transfer to Two Linked Accounts
+In this example, you are making transfers to two Linked Accounts. Following are the details:
+Payment Amount = â¹1,000.00 
+Payment Pricing Plan = 2% 
+Transfer Fees = 0.25% 
+Your Commission = â¹100.00 
+Amount Transferred to Linked Account 1 = â¹300.00
+Amount Transferred to Linked Account 2 = â¹700.00
+GST Levied = 18%
+
+Transaction DetailsYour Account Balance (â¹)Payment received from Customer1,000.00Gateway Fee Charged on Capture   Payment Amount * Pricing Plan * GST   1000 * 2/100 * (1+(18/100))-23.60The Account Balance after deduction976.40Linked Account 1 Transfer Fee Charged   Transfer Amount * Pricing Plan * GST   300 * 0.25/100 * (1+(18/100))-0.89Amount Transferred to Linked Account 1-300.00Net Account Balance675.51Linked Account 2 Transfer Fee Charged   Transfer Amount * Pricing Plan * GST   700 * 0.25/100 * (1+(18/100))-2.07Amount Transferred to Linked Account 2-700.00Final Account Balance-26.56
+The transfer happens only if you have an account balance equal to or greater than â¹26.56.
+Related Information
+
+
+Transfer Funds to Linked Accounts
+
+
+Schedule Settlements
+
+
+Payment Reversals
+
+
+Refund to Customers
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGETransfer to Single Linked AccountTransfer to Two Linked AccountsRelated Information

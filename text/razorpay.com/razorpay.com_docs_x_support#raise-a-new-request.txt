@@ -1,0 +1,49 @@
+
+
+
+
+
+
+RazorpayX Support | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAbout DashboardKeyboard ShortcutsGlobal SearchSupportAccount SettingsFAQsAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXSupportRazorpayX SupportContact the Support Team for all your queries related to RazorpayX, XPayroll or Capital products and offerings.Customer looking for RefundIf you are a customer looking for a refund, know about customer refunds.
+RazorpayX Users
+If you are a registered RazorpayX user, you can:
+
+Log in to the RazorpayX Dashboard.
+Navigate to Profile and click My Account & Settings.
+
+
+Select Support Tickets Inbox and click + NEW QUERY.
+
+
+You can either Raise a new request or File a grievance and click Next.
+
+
+
+Raise a New Request
+You can raise a request when you wish for help in setting up certain processes, enabling features or report an issue. To do so:
+
+Select the category of the issue from the drop-down menu.
+Write a description of the issue faced for our better understanding and attach images if available.
+Enter the email addresses of other users who you wish to keep informed.
+Click Submit.
+
+
+File a Grievance
+You can file a grievance when you are not satisfied with the support provided for a request you raised in the past. To do so:
+
+Select the reason for you to file a grievance.
+Mention your ticket reference number.
+Click Next.
+
+
+Write a description of the complaint and expectations and click Submit.
+
+
+RazorpayX Payroll
+Write to xpayroll@razorpay.com for any queries, requests or other issues related to XPayroll.
+RazorpayX Capital
+For any issues regarding:
+
+Corporate Cards: Raise a request on the Razorpay Dashboard.
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGERazorpayX UsersRaise a New RequestFile a GrievanceRazorpayX PayrollRazorpayX Capital

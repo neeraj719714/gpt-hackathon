@@ -1,0 +1,67 @@
+
+
+
+
+
+
+Payments - Dashboard Actions | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsAbout PaymentsTest Card and Test UPI IDPayment Capture SettingsInternational PaymentsManage Late Authorised PaymentsDashboardPayments APIsSuccess Rate AnalyticsDowntimes UpdatesFAQsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPaymentsDashboardPayments - Dashboard ActionsView payment details, manually capture payments, issue a refund or view settlement details of a payment from the Razorpay Dashboard.You can view payment details, manually capture payments, issue a refund, view payments success rate or view settlement details of a payment from the Razorpay Dashboard.
+View Payment Details
+Watch this video to see how to view the payment details.
+
+To view the details of a payment made to your account:
+
+Log in to your Razorpay Dashboard.
+Click Transactions â Payments.
+Click a Payment Id to view details of the payment.
+
+View Settlement Details of a Payment
+Watch this video to view the settlement details of a payment.
+
+To view a detailed break-down of a settlement made to your account:
+
+Log in to your Razorpay Dashboard.
+Click Transactions â Payments.
+Click on the specific Payment Id for which you want to view the settlement details.
+In the Payment Details view, you can view the settlement details.
+Click on the settlement_id to view the detailed breakdown.
+
+Manually Capture Payments
+Watch this video to capture payments manually.
+
+To manually capture payments:
+
+Log in to the Razorpay Dashboard.
+Navigate to Transactions.
+Under the Payments tab, identify the authorized payment you want to capture.
+Click the relevant Payment Id.
+In the Payment Details pane, click Capture Payment.
+A dialog box is displayed. Click Yes, Capture.
+
+Issue a Refund
+Know more about Issue Refunds
+Subscribe to Webhook Events
+You can subscribe to webhook events from the Razorpay Dashboard. Know more about  Webhooks.
+To subscribe to webhook events:
+
+Log in to the Razorpay Dashboard.
+Navigate to Accounts & Settings â Webhooks to subscribe to events available for payments.
+
+The table below lists the Webhook events available for payments.
+Webhook EventDescriptionpayment.authorizedTriggered when a payment is authorised.payment.capturedTriggered when a payment is successfully captured.payment.failedTriggered when a payment fails.
+Handy Tips
+The payload for a Webhook is a snapshot of the entity when the event occurred.
+For example, when a customer makes a payment, its status changes to authorized. It can then immediately move to the captured state.
+The payment can be in the captured state when the payment.authorized Webhook is fired. However, the payload for the payment.authorized event contains details of the events when the payment was authorised, not when it was captured.
+In case of network tokenised cards, the last 4 digits will be of the tokenised card and not the actual card.
+
+Know more about webhooks and check the sample payloads.
+Related Information
+
+
+About Payments
+
+
+Payment APIs
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEView Payment DetailsView Settlement Details of a PaymentManually Capture PaymentsIssue a RefundSubscribe to Webhook EventsRelated Information

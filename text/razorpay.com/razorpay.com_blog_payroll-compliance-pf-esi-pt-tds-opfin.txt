@@ -1,0 +1,438 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Payroll Compliance: An All-Inclusive Sourcebook for Businesses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payroll
+
+
+				Payroll Compliance: An All-Inclusive Sourcebook for Businesses			
+
+July 7, 2021
+
+9 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Payroll compliance or statutory compliance is one of the hardest aspects of payroll processing. Several varying attributes contribute to the complication. But, no matter how difficult dealing with compliance is, all businesses have to ensure that they follow the regulation. 
+Today, we at RazorpayX Payroll, are going to help you understand in depth, what payroll is and what you can do to navigate around the complications.
+What is payroll compliance?
+Payroll compliance or statutory compliance in India refers to a legal framework that businesses should follow concerning how salaries are disbursed to their employees. This process can be extremely complex and expensive if not done the right way. 
+Every organisation also requires qualified personnel well-versed with the labour regulations in India, which include payment of minimum wages, tax deductions, maternity benefits, provident fund, and more.
+But the problem is, regulations often change. 
+Why is payroll compliance important?
+In India, we have various statutory laws – both central labour laws, as well as state. And, every business has to follow the law depending on their location. And since compliance regulations often change, is it important that payroll personnel stay updated with the changes.
+Though payroll compliance is difficult, there is no way around it. It requires businesses to follow all regulations, and failure to do so results in legal trouble and penalties.  This is exactly why businesses hire a payroll team, outsource payroll and compliance to an external expert, or use a payroll management tool. 
+Statutory compliance benefits both employees and the business. It ensures that all employees are treated fairly, and that they are paid fairly for the work they do. It also prevents employees from overworking themselves.
+For businesses, payroll compliance gets rid of risks involving legality and penalties. Further, it protects the business’s reputation. 
+Why is payroll compliance complicated?
+Surely, you’ve heard your payroll team or your CA say this. Payroll is complicated. And, it is true.  The ground zero of payroll compliance is to do with TDS, PF, ESI, and PT. The reason it is complex, is that each one of these is computed differently from the other. 
+The computations are derived from the payroll data of each employee of the business.  Also, the business needs to file returns on four different portals periodically to submit such computations to the government. 
+Most businesses work on compliance manually, utilising spreadsheets and other manual methods, which are not the most efficient ways to be compliant. 
+Firstly, the computations are lengthy, time-consuming, and erroneous. Secondly, as we’ve mentioned earlier, regulations change.
+Automate compliance payments
+ 
+Let’s take a look. 
+TDS – Tax Deducted at Source
+  TDS on salary payments is governed by Section 192 of the Income Tax Act. To deduct tax at source on salary payments, you have to obtain Tax deduction and collection Account Number (TAN) from the Income Tax Department and then register as a deductor on the TRACES website. 
+Once the business obtains TAN, they can deduct tax at source from the employees’ salary. TDS on salary is calculated based on the average rate of income tax applicable to the taxpayer in a particular financial year. This rate is computed based on the income tax slab rates in force for that financial year.
+NOTE: The average income tax rate for each employee is different for every financial year.  It keeps changing based on the estimated income of the employee and the slab rates in force for that year. 
+TDS calculations are usually tiresome for employers. They have to consider several factors into considerations like previous employment details of employees, one-time incentives or bonus paid to the employee, changes in the tax-saving declarations, and so on. 
+These factors might hamper the accuracy of monthly TDS calculations, especially when such critical computations are done manually on a spreadsheet.  You also have to consider the income earned by an employee from any previous employer while calculating TDS. 
+This happens when an employee joins a new organisation within a particular financial year. Your employee must furnish details of their salary and the TDS deducted. 
+[ Read more on Payment due for TDS, interest on late deposition, due dates, TRACES registration, and FAQs ]
+PF – Provident Fund
+ Provident fund or the EPF scheme is one of the key schemes that help employees build a sizable retirement corpus. The EPF scheme was introduced in 1952 for the welfare of employees. 
+The scheme is governed by the Employees Provident Fund Act 1952 and managed by the Employees’ Provident Fund Organisation (EPFO).  Under the EPF scheme, both employer and employee contribute equally to the EPF account every month. 
+However, it is the employer’s responsibility to deposit the whole amount to the EPF account.  Generally, the employee’s share is deducted from their monthly salary. For all such EPF transfers, it is mandatory for an employee to have a Universal Account Number (UAN), which is allotted by the EPFO. 
+The UAN acts as an umbrella for multiple Member IDs allotted to an individual by different employers. The intent is to link multiple IDs of an individual under a unique number.  The EPF scheme mandatorily applies to all the establishments that have employed a minimum of 20 people. 
+The business must obtain EPF registration within 1 month of attaining the number.  Even if the employee count of a registered business falls below the requisite number, the rules of the act will continue to apply. Businesses with less than 20 employees can also opt for voluntary registration. 
+All employees of such an establishment will be eligible for EPF right from the beginning of their employment. 
+ESI – Employees’ State Insurance
+ Employees’ State Insurance (ESI) is governed by the Employees State Insurance Act, 1948. It is a self-financed social security scheme designed to protect employees covered under the ESI act. 
+Employees of an eligible organisation are protected against financial distress arising out of sickness, disablement, and death due to employment injury.  According to the ESI Act 1948, the scheme applies to all factories and other establishments where the employee count is 10 or more. The scheme covers both organised and unorganised sectors. 
+The same rules apply to a non-seasonal factory where the employee count is 10 or more. The applicability of this scheme has been extended to shops, hotels, restaurants, educational institutions, newspaper establishments, cinemas, and private medical institutions since 2001. 
+However, the employee strength required for ESI registration for factories is 10 all over the country. For businesses, the threshold is 10 or 20 depending on the state. 
+Employees with monthly wages of Rs 21,000 or less are covered under the ESI Act. 
+The scheme provides medical, cash, maternity, disability, and dependent benefits to the insured employees. The contributions made by employers and employees fund these benefits. 
+A registered employee is entitled to full medical care during the period of their incapacity and their restoration to health and working capacity. 
+The scheme provides financial aid to compensate for the loss of wages during the period of employee’s absenteeism from work due to sickness, injury due to employment, pregnancy and hospitalisation in any ESI hospital.  
+The income limit for availing medical benefits under the ESI scheme by the dependent parents of an insured person was changed to Rs 9,000 per month from Rs 5,000 in February 2019.  
+[ Learn more about ESI benefits, registration process, ESI rates, payments and returns, and penalties ]
+PT – Professional Tax
+ Professional Tax (PT) is one of the statutory compliance requirements for all businesses. Unlike TDS, EPF and ESI, PT is levied by the respective state government. And, not all Indian states impose professional tax. 
+Also, the tax applicable to different income slabs may vary from one state to another, but it has a maximum limit of Rs 2,500 per year. Professional tax is a direct tax that applies to individuals earning an income by way of employment, practising their profession or trading. A practising professional includes a lawyer, teacher, doctor, chartered accountant, etc.  
+The tax is deducted from the employee’s monthly salary by their employer and is deposited to the state government. Professionals apart from salaried employees pay it directly to the government. Such professionals can claim a tax deduction for the PT paid during the financial year as per the Income Tax Act 1961. 
+In case of a salaried employee, the employer must deduct PT from their salary every month and deposit it to the government. The employer needs to get a Registration Certificate from the concerned authorities to deposit the deducted tax. 
+But, a self-employed individual who carries out their profession or trade and falls into eligibility criteria is required to pay PT themselves to the state government. They need to obtain a Certificate of Enrolment from the concerned state’s prescribed authority. 
+Every state/UT has a commercial tax department that collects professional tax based on predetermined income slabs. 
+[ Learn about PT registration process, applicability across states, and exemptions ]
+How you can automate payroll compliance with RazorpayX Payroll
+New challenges in payroll often sprout for many organisations, particularly around compliance and salary disbursals. And, payroll is an increasingly important part of a business expansion strategy. Payroll teams are unable to keep up with the ever-evolving business needs, thereby putting compliance at risk.
+An ideal solution for SMEs, RazorpayX Payroll is built to focus on delivering a one-click, seamless, and end-to-end payroll processing experience. Combining the functionality of payroll software with that of outsourcing services, RazorpayX Payroll not only does payroll calculations but also executes payroll. Executing payroll refers to the disbursal of salaries to the employees and the payment of statutory dues like PF, PT, ESI, and TDS. 
+Most service providers hand over the payroll figures to the finance department of the organisation, which then uploads them onto a bank portal for disbursal. RazorpayX Payroll combats that by automating the entire process, requiring no manual intervention. 
+This eliminates the involvement of the HR team, the payroll team, the finance team, and Chartered Accountants, who would otherwise be handling calculations, processing, disbursal, and compliance.
+Given the complexity of labour laws and the introduction of the Dual Tax Regime, ensuring compliance has become increasingly difficult. RazorpayX Payroll does away with the intervention required on the compliance front as well. 
+It facilitates employee self-service and processes payroll dues based on the tax regime chosen by the employees. Further, RazorpayX Payroll promotes payroll transparency by making payslips and other relevant information instantly accessible to the employees.
+Stop worrying about payroll compliance and let RazorpayX Payroll automate the whole process for you. No more late salaries, no more delayed compliance payments. Just everything on autopilot!
+Get started with RazorpayX Payroll
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Harshitha Rao 
+Harshitha is a marketer at the future-forward RazorpayX. She has an insatiable love for travel and culture, rock music, and the work of Neil Gaiman.
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+What is Payroll – Definition, Processes & Solutions
+
+February 7, 2023
+
+
+
+
+
+ 
+
+Zo World Reduces Its Payroll & Reimbursement Timelines by 75% with RazorpayX Payroll
+
+January 24, 2023
+
+
+
+
+
+ 
+
+Investment Proof Submission for FY 2022-23
+
+January 4, 2023
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

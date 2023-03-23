@@ -1,0 +1,39 @@
+
+
+
+
+
+
+Dashboard | FAQs | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAbout DashboardKeyboard ShortcutsGlobal SearchSupportAccount SettingsFAQsAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXGet StartedDashboardFaqsDashboard | FAQsFind answers to the frequently asked questions about RazorpayX Dashboard.1. Can a new or existing team member be invited on Razorpay to RazorpayX?
+Yes, you can invite a new or existing user from your team on Razorpay. Once the invite is sent, if the invited member is already on your Razorpay team, they can log in to RazorpayX platform with their current login credentials. However, if the invited member is new, they will have to set up new login credentials by clicking on the confirmation link sent via email.
+2. Can different roles be assigned to my team members on RazorpayX?
+Yes, you can assign different set of roles to a team member as per your requirement to manage your team.
+3. Will the existing team members have access to RazorpayX?
+Only the Owner will have access to RazorpayX account. However, you can add members and assign roles just as Razorpay PG.
+4. Why are payouts not going through after getting access to RazorpayX?
+The Onboarding process to RazorpayX has 2 steps. If your business falls in the approved category of businesses, you can start accepting funds in your business account. However, payouts can be made only once your KYC details have been submitted and verified.
+5. Can I use RazorpayX as a freelancer/individual?
+Unfortunately, we do not support freelancers/individuals on RazorpayX at the moment.
+6. What reports are available on RazorpayX platform?
+There are downloadable reports available in every section of the dashboard. Currently only .csv and .xls based reports are available. Following is the list of reports:
+
+Account Statement: Available on the Dashboard Home page
+Contacts: Available in Contacts Page
+Payouts: Available in Payouts Page
+
+7. How to generate Account Statement report?
+
+Navigate to Account Statement on the menu.
+Select All, Credits or Debits based on the requirement of your report.
+Click EXPORT.
+Select a date range of 90 days or lesser.
+Select .CSV or .XLS format, as required.
+Click DOWNLOAD. You can also click EMAIL, select the contact you want to share the report with and click EMAIL REPORT.
+
+8. Is there a monthly invoice provided for the charged?
+Yes, we do provide monthly invoices. You can download the invoice from the Billing section of your Dashboard.
+9. What are Actionable Insights?
+RazorpayX Insights help businesses analyse and manage their expenses better and empower them to take more informed and impactful business decisions.
+10. If an account has access to both Razorpay and RazorpayX platforms, is there a combined transactions report for both platforms?
+No, Razorpay and RazorpayX are different platforms. Transactions created on Razorpay will not show up on RazorpayX platform and vice versa, either on dashboard or in reports.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEDashboard | FAQs

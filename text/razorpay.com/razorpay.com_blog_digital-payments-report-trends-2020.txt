@@ -1,0 +1,484 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Exclusive Report: How Digital Payments Fared in 2020 - Razorpay Payment Gateway
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				Exclusive Report: How Digital Payments Fared in 2020			
+
+February 12, 2021
+
+6 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+If we ask someone to name their best or worst year, the answers might differ. But if we want to arrive at the most-common answer, then 2020 would probably be it. 
+Let’s accept it – 2020 was an unprecedented and challenging year for both businesses and consumers. But it did open up multiple opportunities for small businesses while forcing existing titans to look at different modus operandi.
+As the world came to a screeching halt due to COVID-19 and forced everyone to stay at home, they were pushed to pay all their bills and make purchases online.
+Through this report, we’re taking a look back at the year to capture different trends that online payments saw on the Razorpay platform.
+Digital payments in 2020 – The big numbers
+
+Number of transactions recorded on the Razorpay platform increased by 80% in 2020 against the previous year
+Due to COVID, the number of transactions on Razorpay saw a de-growth from February to April. However, as the economy started opening up, the transactions at the end of December were almost the double of what they were at the beginning of the year
+
+
+
+Razorpay saw a whooping 252% growth in the number of our business partners who transacted on the platform and 176% growth in the end users who used Razorpay for their online purchases or paying bills in 2020 against the previous year
+Though the lockdown forced many businesses to go online and opened up new opportunities for some, it also had a bad impact on many businesses by forcing them to shut their operations. Since April 2020 was a month of no operation, the number of transacting merchants on the Razorpay platform saw a de-growth of 6.7% in that month. But things started to open up slowly in mid-May and people also started moving to digital platforms for payments. Due to this, the number of businesses on the platform increased by almost 155% by the end December
+
+
+
+Overall, in 2020, Razorpay saw 265% year-on-year growth in onboarding new businesses
+
+Tier 2 & 3 cities saw a spike in digital payments
+
+Since many people moved to their hometown, the contribution of Tier 2 & Tier 3 cities increased to 55% in 2020 against 49% in 2019
+Karnataka maintained its top spot with a contribution of 23% in 2020, despite a dip of 5% from 2019. Karnataka was followed by Maharashtra, Andhra Pradesh, Delhi & Tamil Nadu. Together these 5 states contributed to around 80% of the overall transactions recorded on the platform. The number of transactions from Rajasthan and West Bengal grew by more than 100% in 2020 against the previous year
+Bangalore retained the tag of the most digitised city in India with a contribution of 27%. Other cities such as Hyderabad, Delhi, Pune seemed to be slowly catching up with Bangalore, since its contribution reduced by 6 percentage points as compared to 2019
+
+Financial services benefited, travels suffered in 2020
+The year 2020 shook the dynamics within numerous sectors. While some saw a spike in interest, others took a severe hit. 
+
+The financial services industry came out as a winner in 2020. It saw an increase of 118% in the number of digital transactions from the year 2019. Clearly, the pandemic has driven investors’ interest to the capital market. Lending, mutual funds and insurance were the top subcategories under financial services
+
+
+
+The lockdown gave gamers more time to spend playing games online. Gamers indulged in fantasy leagues for the most part of 2020. The gaming industry came out as the runner up with the second highest number of transactions among sectors. The industry saw a 246% hike in transactions from 2019
+With the no-contact rule in place, people moved from cash to digital transactions for their day-to-day bill payments. Digital transactions in the utilities sector peaked in the month of April and has been gradually growing ever since
+
+
+
+The e-commerce industry, after a minor slump in the month of April, recovered to see a dramatic increase in transactions. This can be attributed to the fact that more and more companies have realised the importance of having digital modes of payments, resulting in an increasing number of businesses and transactions
+
+
+
+The social sector also saw a rise of about 89% in 2020. With most people confined to their houses, they seemed to have spent more time online browsing and finding prospective partners 
+
+
+
+Other sectors like edtech, healthcare, IT and software, NGOs and Government bodies proved to be winners in 2020 where the transactions shot up during and are still gradually increasing
+
+While the pandemic resulted in positive growth for some industries, let’s also look at some others that were negatively impacted. 
+
+Tours & travel, and logistics industries were deeply hit because of the restriction on movement of people and goods during the pandemic. On the bright side, these sectors are gradually improving owing to the relaxations
+
+
+
+The food and beverages industry saw a similar trend in transactions. After a dramatic dip in April, this sector has also been gradually recovering
+
+UPI rules the roost once again
+
+
+
+2020 was a year of disruption for the industry since new payment methods took over the traditional ones. UPI overthrew cards and bagged the spot of the most preferred payment method with a contribution of 47% in terms of number of transactions. Though the highest number of transactions were made through UPI, most of these transactions were of a lower ticket size as compared to cards
+
+
+Coming to cards, debit cards is the top contributor with a share of 76%, followed by credit cards at 22% and prepaid cards at 2%. Prepaid card transactions have seen a huge jump of 112% compared to 2019
+
+
+
+Almost all payment methods saw a decline in the April to June quarter but things came back to normal after July
+
+
+
+NACH and PayLater were the other 2 payment modes that grew by more than 100x in 2020
+Wallets also grew significantly in 2020 compared to the previous year due to multiple offers run by wallet players
+
+Razorpay products that won 2020
+
+Smart Collect, Payment Links and Payment Pages were the top products that grew more than 5x in 2020 against 2019.
+Contribution of Payment Gateway in terms of transactions reduced by 5 percentage points in 2020 due to the massive growth of our no-code payment products.
+As a part of the #NoCodeMovement, we launched Payment Button in the 2nd half of 2020. It started fetching attention since its launch and became the fastest-growing product in our stack.
+We also launched UPI Autopay in collaboration with NPCI in 2020.
+
+
+What to expect in 2021
+
+As per NPCI data, UPI crossed 2 billion transactions in October and is expected to hit the 1 billion transactions per day mark in 2-3 years. Uses such as retail investing for IPOs and Autopay have already been added to UPI and with NPCI adding new use cases, digital payments will see a boost in the coming year
+While the pandemic has given a big boost to online payments in Tier 2 & Tier 3 cities, there is still a lot more room for growth as smaller businesses from these cities come online
+Newer payment methods like CRED Pay and Buy Now Pay Later are also expected to gain momentum
+
+Take Your Business Online with Razorpay
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+digital paymentsonline payments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Razorpay Analytics Desk 
+The Razorpay Analytics team comprises data enthusiasts who solve business problems for different functions within the organization. They are always looking for innovative ways to derive data-driven approaches. After work, you'll find them rushing to a badminton court or a turf ground. Also, they are just as competitive at board games.
+
+
+
+Website
+
+
+
+Facebook
+
+
+
+Twitter
+
+
+
+LinkedIn
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+The e-rupee and what it means: A brave new era in digital payments?
+
+December 9, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

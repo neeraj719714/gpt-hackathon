@@ -1,0 +1,126 @@
+
+
+
+
+
+
+Subscriptions | Notifications | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardOffers for SubscriptionsPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsNotificationsNotificationsCheck the types of notifications available for Subscriptions, how they work and the steps to set up webhook events.There are three types of notifications for Subscriptions: Email, SMS and Webhook notifications.
+Email and SMS
+Your customers will receive an email and SMS at various events such as:
+
+The start of the Subscription.
+When a payment is successfully charged.
+When a payment fails.
+Action required by the customer in the event of a payment failure
+When the card linked to a Subscription is changed or updated.
+When a Subscription is moved to the halted state post 3 retry attempts of payment failure.
+When a Subscription is cancelled.
+When the details of a Subscription (such as plan, quantity or billing frequency) are updated.
+
+Types of Emails and SMS
+Razorpay sends emails and SMS to customers at 8 different stages during the life cycle of a Subscription.
+CreatedAn email and SMS is sent when you create and send a new Subscription link to a customer to make the authentication payment. The authenticated amount depends on the upfront_amount for the Subscriptions.InitializedAn email and SMS is sent after the customer successfully makes the authentication payment.Charged SuccessfullyAn email and SMS is sent when we make a successful automated charge on the Subscription as per the billing cycle.CompletedAn email and SMS is sent to the customer when the Subscription moves to the completed state. There is no notification sent if the Subscription moves to the same state. This is because the Subscription is already in the completed state, and a charge was made on an older invoice.Charged FailedAn email and SMS is sent when a charge on a card fails. When an automated charge on a Subscription fails, we retry an auto-charge on the card. If the retries are not exhausted, the Subscription moves to the pending state. We send out a notification (email and SMS) every time the Subscription moves to the pending state. The email and SMS contains an Update Card option for the customer to change the card details associated with the Subscription.Card UpdatedAn email and SMS is sent whenever a customer changes the card details associated with the Subscription. This notification notifies the customer that their new card details are now successfully updated.Invoice ChargeAn email and SMS is sent when a manual charge is made on an old Subscription invoice (either by you or the customer). If the Subscription was in the halted state, we also mention that the Subscription is now active, and we will resume the automated charges from the next cycle onwards in the notification.HaltedWhen an automated charge on a Subscription fails, we retry an auto-charge on the card. When all the retries are exhausted, it moves to the halted state. We send out a notification (email and SMS) every time the Subscription moves to the halted state. These notifications contain the Update Card option to change the card linked to the Subscription.CancelledAn email and SMS is sent when the Subscription moves to the cancelled state. This happens because either you or your customer cancelled the Subscription.Subscription UpdatedAn email and SMS is sent when the Subscription is successfully updated. There is no state change when a Subscription is updated.
+Webhooks
+Webhooks (Web Callback, HTTP Push API or Reverse API) are one way that a web application can send information to another application in real-time when a specific event happens.
+Example
+Suppose you have subscribed to the order.paid webhook event, you will receive a notification every time a user pays you for an order.
+Webhook Vs API
+APIs send you the data when you request it. For Webhooks, you do not need to make a request. You receive the data when it is available.
+Example
+If you need to know whether a Payment Link is paid or not, using APIs, you need to keep polling every few seconds until someone pays. However, if you are using Webhooks, you can configure a webhook event payment_link.paid to receive notifications when a customer makes the payment using the link.
+When to Use Razorpay Webhooks
+You can use Razorpay Webhooks to configure and receive notifications when a specific event occurs.
+When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL.
+
+You can set up Webhooks from your Razorpay Dashboard and configure separate URLs for Live mode and Test mode. Know more about setting up Payments webhooks and RazorpayX webhooks.
+A Test mode webhook receives events for your test transactions. Know more about testing Webhooks.
+In webhook URLs, only port numbers 80 and 443 are currently allowed.
+
+Idempotency
+There could be scenarios where your endpoint might receive the same webhook event multiple times. This is an expected behaviour based on the webhook design.
+To handle duplicate webhook events:
+
+You can identify the duplicate webhooks using the x-razorpay-event-id header. The value for this header is unique per event.
+Check the value of x-razorpay-event-id in the webhook request header.
+Verify if an event with the same header is processed at your end.
+
+Deactivation
+All webhook responses must return a status code in the range 2XX within a window of 5 seconds. If we receive response codes other than this or the request times out, it is considered a failure.
+On failure, a webhook is re-tried at progressive intervals of time, defined in the exponential back-off policy, for 24 hours. If the failures continue for 24 hours, the webhook is disabled. You need to enable the webhook from the Razorpay Dashboard after fixing the errors at your end. Know more about enabling Webhooks.
+Handy TipsWhen a webhook gets disabled, you receive an email notification on the email id you configured while setting up the webhooks.
+Setup Webhooks
+Watch this video to see how to set up a webhook.
+
+To set up webhooks:
+
+
+Log in to the Razorpay Dashboard and navigate to Accounts & Settings.
+
+
+Click Webhooks under Website and app settings.
+
+
+Click the + Add New Webhook button.
+
+
+
+In the Webhook Setup pop-up page:
+
+
+Enter the URL where you want to receive the webhook payload when an event is triggered. We recommend using an HTTPS URL.
+Handy Tips
+You can set up to 30 URLs to receive Webhook notifications. Webhooks can only be delivered to public URLs.
+If your URL contains razorpay as a domain, you will not be able to add the URL and will receive an error.
+If you attempt to save a localhost endpoint as part of a webhook setup, you will notice an error. Know more about testing Webhooks on an application running on localhost.
+
+
+
+Enter a Secret for the webhook endpoint. The secret is used to validate that the webhook is from Razorpay. Do not expose the secret publicly. Know more about how to validate webhooks.
+Handy Tips
+When setting up the webhook, you will be asked to specify a secret. Using this secret, you can validate that the webhook is from Razorpay. Entering the secret is optional but recommended. The secret should never be exposed publicly.
+The webhook secret does not need to be the merchant secret key provided by Razorpay.
+
+
+
+In the Alert Email field, enter the email address to which the notifications should be sent in case of webhook failure. You will receive webhook related notifications like failures, deactivation and so on.
+
+
+Select the required events from the list of Active Events.
+
+
+
+
+
+
+Click Create Webhook. After you set a webhook, it appears on the list of webhooks.
+
+
+
+You can select the webhook and click Edit to make more changes.
+
+
+Available Events
+The table below lists the Webhook events available for Subscriptions.
+Handy TipsThe payload for all these events contain the subscription entity. They also contain a payment entity if a payment attempt was made before the event was triggered.
+Webhook EventDescriptionsubscription.authenticatedSent when the first payment is made on the subscription. This can either be the authorization amount, the upfront amount, the plan amount or a combination of the plan amount and the upfront amount.subscription.activatedSent when the subscription moves to the active state either from the authenticated , pending or halted state. If a Subscription moves to the active state from the pending or halted state, only the subsequent invoices that are generated are charged. Existing invoices that were already generated are not charged.subscription.chargedSent every time a successful charge is made on the subscription.subscription.completedSent when all the invoices are generated for a subscription and the subscription moves to the completed state.subscription.updatedSent when a subscription is successfully updated. There is no state change when a subscription is updated.subscription.pendingSent when the subscription moves to the pending state. This happens when a charge on the card fails. We try to charge the card on a periodic basis while it is in the pending state. If the payment fails again, the Webhook is triggered again.subscription.haltedSent when all retries have been exhausted and the subscription moves from the pending state to the halted state. The customer has to manually retry the charge or change the card linked to the subscription, for the subscription to move back to the active state.subscription.cancelledSent when a subscription is cancelled and moved to the cancelled state.subscription.pausedSent when a subscription is paused and moved to the paused state.subscription.resumedSent when a subscription is resumed and moved to the resumed state.
+Sample Payloads
+For sample payloads, refer to the Sample payload section in the API document.
+Related Information
+
+
+Subscription Workflow
+
+
+Subscription States
+
+
+Create Subscriptions
+
+
+Test Subscriptions
+
+
+Subscriptions APIs
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEEmail and SMSTypes of Emails and SMSWebhooksWebhook Vs APIWhen to Use Razorpay WebhooksIdempotencyDeactivationSetup WebhooksAvailable EventsSample PayloadsRelated Information

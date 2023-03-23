@@ -1,0 +1,461 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Get 10X Faster Payments with UPI Collect - Razorpay Payment Gateway
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				Bring Velocity to Your Business With the Improved 10X Faster Razorpay UPI Collect			
+
+January 8, 2021
+
+8 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+In 2020, UPI payments have become one of the most heard and most used payment flow. With its rising popularity among customers and businesses alike, Razorpay wanted to make UPI even more seamless and quicker for our partners. One way for us to do this was by making some efficient changes in Razorpay UPI Collect.
+Our teams at Razorpay got to work to figure out the roadblocks in UPI payments and how we could correct them. The result was a product that made UPI payments 10 times faster and increased the success rates of UPI payments. Read on to discover how we made the UPI Collect flow faster for our customers. 
+Different flows in UPI
+Before we move forward, let’s understand some basic terms. UPI payment can be completed through the following ways: 
+
+UPI Intent: Customer gets the list of UPI apps pre-installed in their device to select from. Customers need to simply select one UPI app and enter their 4 digit UPI pin to complete the transaction. This is primarily available on Android mobile. Razorpay has now launched this feature on mobile sites and IOS as well. 
+UPI Collect: In this method, customers need to enter their UPI ID/VPA. The ID is first validated and then a collect notification is sent to the customer’s app to complete the payment. This flow works on all devices and platforms. The issue with this method is that customers often enter incorrect VPAs.
+
+UPI Collect flow: VPA/UPI ID is validated before initiating the transaction
+
+UPI QR: Customers scan the QR code displayed using any UPI app. Then they enter their 4 digit UPI pin to complete the transaction. 
+
+The problem statement
+Recently, our teams figured out that the time taken to complete UPI Collect payment is pretty high as compared to that of UPI Intent flow. One of the early observations indicated that the latency of the VPA (Virtual Payment Address) validation API is very high, causing a major delay. 
+Razorpay used to rely on the bank’s API to validate the VPA before initiating UPI Collect payment. In a few cases, the Bank’s API even takes up to 30 seconds to respond. This was primarily because for each and every request, Razorpay has to request the Bank/NPCI system for validation. 
+
+The payment flow for UPI Collect payments is illustrated above
+The case of Validate VPA API
+The Validate VPA feature is very integral for any UPI payment. This is because of the following reasons:
+
+Helps in improving UPI Collect Success Rate and leads to better user experience: Guide users in case of a spelling mistake or incorrect VPA entered. Roughly 25% of users enter incorrect VPA in their first attempt. 
+VPA payouts: Required before VPA payout to make sure the business is making payment to a valid VPA. The API also shares the customer name for further validation. 
+
+However, there are some problems with the Validate VPA API of Banks/NPCI. Because of these below-listed issues, we need to re-evaluate our approach.
+
+Incorrect result: We have identified cases when the bank API often returns incorrect result
+High latency: We currently validate VPA using three different bank gateways. But the latency is high across all bank gateways.
+
+The solution: Hunting down latency with UPI Collect
+Latency is the delay between a user’s action and a web application’s response to that action.
+However, latency is not an option anymore: The less interactive a site becomes, the more likely users are to migrate to a competitor’s site. It is often said that latency is the mother of interactivity. Have a look at the statistics below to know the kind of impact latency can have on a business.
+
+Amazon found that every 100 minutes of latency cost them 1% in sales. 
+Google found an extra 0.5 seconds in search page generation time dropped traffic by 20%. 
+A broker could lose $4 million in revenues per millisecond if their electronic trading platform is 5 milliseconds behind the competition.
+
+Mobile page load industry benchmarks
+In order to fix the latency issue associated with the VPA validation API, we did multiple changes at our end. Few of the important ones are listed below: 
+Save VPA: Allow customers to save their VPA for future transactions
+Our first step was to launch a flow for users to save their UPI details for successive payments. We named this flow as ‘Saved VPA’. This feature allowed customers to save their UPI IDs for successive payments. 
+
+Roughly 8% of customers have already saved their VPAs with us. This means that they don’t have to enter their UPI IDs again and again to complete their payment. The Saved VPA process further leads to better user experience, faster payment, and more revenue for the businesses. 
+Saved VPA feature is enabled by default for all users on Razorpay checkout. If you are a business and are managing your own payment UI, please check out the integration document to start using the Saved VPA feature. 
+Use Validate VPA API of multiple banks (instead of one)
+While Save VPA was a great product upgrade, we realized that we were still dependent on the Bank’s Validate VPA API for more than 90% of our requests. The latency for the same was very high, affecting our customers. 
+To avoid our dependency on a single bank API, we soon started to use the Validate VPA API of three other banks. This helped us to swiftly move our traffic from one bank services to another, whenever there was downtime or increased timeout with the banks. This helped us take care of bank downtimes and route traffic based on latency. 
+But the P95* and P99** was still high for all bank APIs as they were further dependent on the NPCI system for the validation of each and every VPA. We were definitely on the right track here but the number was still above our target. We then looked at other candidates for further optimization and thus, came our next update.
+
+Overall latency data (in seconds) before the changes were made live (data is in seconds)
+*P95: It is the 95th percentile latency. That is, for 95% of the requests, the API used to take 3 seconds or lower.  
+**P99: It is the 99th percentile latency. That is, for 99% of the requests, the API used to take 10 seconds or lower. 
+Cache-ing VPAs for faster validation 
+It was very important for us to solve the VPA validation API latency as more than 50% of the payments on Razorpay are UPI payments now. After carefully analysing the data, we found out that the repeat rate of customers is very high. Nearly 90% of VPAs get validated again and again. 
+In order to solve this latency issue, we have started cache-ing or storing the VPA/UPI ID data of correct VPAs for 30 days. If the same VPA needs to be validated again, we will use our database instead of hitting the Bank/NPCI API. This helped us in reducing our dependence on NPCI/Bank API and improving the latency of our API. 
+This means that the requests that used to take up to 10 seconds in some cases are now taking less than 100 milliseconds. 
+The results for UPI Collect: Promising for preliminary stages
+
+In the first phase of this project, the VPAs were cached for 7 days. This helped us to cater to 45% of all Validate VPA requests using our own database. The P95 for these requests is less than 100 milliseconds. 
+We have now increased the cache-ing period to 30 days so that we can cater to 80%+ validate VPA requests using our own database, instead of relying on bank/NPCI system uptime.
+
+Preliminary results of the VPA cache-ing project
+P99 is the 99th percentile latency, i.e. for 99 per cent of users, the latency is 100 ms or lower.
+What does it mean for our customers? 
+
+Fewer requests to Bank/NPCI for validating VPA API: 80%+ requests will be validated using our VPA cache. This means that we don’t have to request Bank/NPCI for each and every VPA. 
+Reduced latency or timeout: Validating VPA using our VPA database is faster as compared to NPCI/Bank API validation (takes up to 30 seconds in some cases). Latency (P95) will go down from 10 seconds to 100 milliseconds
+Correct result: Bank/NPCI API often give incorrect results for a verified VPA. With this project, only verified VPAs will be stored in our VPA database.
+
+Make your UPI payments 10x faster with Razorpay UPI Collect
+With our customer-focused approach, Razorpay customers can expect an improvement in their metrics with our UPI Collect updates. This feature is already enabled by default if you are using Razorpay standard checkout. For Server to Server integrations, please go through the VPA Validation API document. , then leave us a query here and we will get back to you. 
+Not a Razorpay Customer? 
+Sign Up Today for The Ultimate Payments Experience!
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+upiupi collectupi payments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Shubham Bisht 
+Shubham is an Associate Director, Product Management at Razorpay and manages Cross Border Payments and Checkout Product for Razorpay. Before moving to Product Management, he has worked on Particle Physics at CERN and ETH Zurich.
+
+
+
+Website
+
+
+
+LinkedIn
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+RBI Policy Development: New scope for UPI and BBPS
+
+December 22, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

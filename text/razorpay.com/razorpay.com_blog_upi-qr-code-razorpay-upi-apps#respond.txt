@@ -1,0 +1,493 @@
+
+
+
+
+
+
+
+
+
+
+
+
+These UPI Apps Will Unlock Business Growth - Razorpay Payment Links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				UPI QR Code and other Apps by Razorpay to Unlock Business Growth			
+
+December 17, 2020
+
+11 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+It is hard to believe that up until four years ago, there was no such thing as a UPI transaction. UPI has achieved landmark growth and an insurmountable presence in customers’ lives in a mere span of four years. The next big thing now is UPI Apps.
+At Razorpay, we have seen the power and impact of UPI transactions for our partner brands and customers. Hence, we continue to innovate on this popular payment mode to provide every level of success for your business. 
+
+Razorpay payment apps are simple tools that solve every need of your business. Now combine the popularity of UPI and the simplicity of our apps. Presenting Razorpay’s UPI-Based Apps, our suite of payment tools based on UPI. These apps will make payments easier, smoother, and better for your customers.
+Let’s have a sneak peek at each product and discover how they can improve your company’s customer experience and profitability.
+UPI QR Code
+
+As the world moves towards digital payments, QR codes become a much-awaited and celebrated offering. They are gradually becoming a staple for supermarkets, cabs, and even small Kirana stores. They help in circumventing the hassle of adding the UPI ID details, which is an error-prone process. It also requires a basic familiarity with the English language, which is not suitable for everybody.
+Thus, Razorpay is bringing QR codes on Virtual Accounts. This will be a unique, quick, and contactless way to collect payments from your customers. 
+About the product
+At Razorpay, we observed that QR Codes were proving to be a more error-resistant way of accepting payments, especially in the contactless world. We wanted to give this seamless option to our merchants, even without an API integration. Thus, was born the idea of UPI QR Codes. 
+By providing QR codes on our Dashboard, we aim to offer our merchants the option to create multiple codes and customize them at the time of creation. Depending on the use case, they can decide to accept one payment or multiple payments. This brings the benefits of QR codes and combines them with the easy reconciliation benefit of Virtual Accounts.  Below is a sneak peek of how easily one can generate UPI QR Codes from the Razorpay Dashboard.
+
+Key benefits and features
+Consequently, a much-needed innovation, UPI QR, will allow our merchants with the following benefits.
+
+Single dashboard to track payments across all receivers
+Automated reconciliation 
+Smart reporting to track agent/store level performance 
+Ease of creating QR codes without any integration
+Flexibility to decide between static QR vs. dynamic QR code at the time of the creation
+
+This product is currently in its Early Access stage. However, our team is working hard to make it available at the earliest for all our Dashboard users as well. As of now, we have few businesses live on UPI QR Code and the results are promising and motivating for both parties. If you wish to avail the benefits of Razorpay’s UPI QR Code, then join the waitlist below and we will keep you updated.
+UPI Payment Links
+
+Before we decode the latest innovation in UPI payments, let’s understand something about the consumer behavior linked to it. One of the main reasons UPI took over net banking and card transactions was because people had to regularly refer to their bank and card details.
+With UPI, the hassle of remembering multiple details and numbers went away. However, this did not completely solve the problem. We observed that particular behavior-linked challenges need to be smoothened to make UPI meet cards head-on. 
+The problem at hand
+Being a payment gateway service provider, Razorpay obsesses over success rates. Thus, we decided to analyze the UPI payment failure data. We noticed that the most significant reason, accounting for 39% of failed transactions, is the Incorrect VPA error code. 
+VPA(Virtual Private Addresses) is a unique identifier that helps UPI track a person’s account. It usually is of the format “example@okbank.” With netbanking, customers had to deal with the hassle of remembering long usernames and details. Though UPI gave relief from such hassles, yet even for UPI, a customer had to remember the VPA.
+So what we needed to do to make UPI payments simpler was tackle the issue of incorrect VPAs. One of the things we recently did was provide a Save VPA option, which gave substantially positive results. The next big step in this direction was UPI Payment Links. 
+The solution
+UPI Payment Link is an activated link that enables the user to complete transactions via their UPI app without having to remember or recall VPAs. The biggest advantage of this product is that you can make UPI payments without a VPA. This helps in improving success rates and reducing drop-offs and payment failures.
+UPI Payment Links, like Razorpay Payment Links, come with an expiry date, a paid confirmation page, and a shareable URL. Refer to the GIF below to see the seamless way in which you can now accept UPI payments.
+
+One product, multiple benefits
+UPI Payment Links bring with them numerous advantages and are suited for different scenarios. Let’s have a quick look as to how you can gain an edge with them.
+
+Easy Reminders: Lending businesses often have a tough time chasing their customers to collect repayments for existing loans. With UPI Payment Links, it is easy to remind borrowers and collect payments with a single click.
+One-stop for all UPI apps: With multiple UPI apps available in the market, customers are often confused. They need clarification on whether to send the money on Google Pay or Paytm, or some other UPI App. Lack of immediate access to different modes, comfort in PSP Apps, and getting cashback are some reasons for multiple UPI app usage. With UPI Payment Links, this process becomes convenient for you. It enables you to collect and reconcile payments on the same dashboard.
+Better success rates: UPI Payment Links reduce the step of entering the VPA and sending a collect request. The link also opens the app directly, and payment is processed via the PSP app itself.
+
+Test UPI Payment Links Today 
+UPI AutoPay
+
+Our second offering in UPI Apps comes for recurring payments. In the last seven years or so, subscription revenue has grown by over 350%. The COVID-19 pandemic urged many online businesses – especially streaming services, grocery apps, and online pharmacies – to opt for the subscription-based model.
+However, recurring payments in India were – till some time back – possible only via credit cards. This posed a problem for customers who don’t own any kind of cards, especially in Tier 2 and Tier 3 cities of India. The other mode of recurring payments like e-NACH, Paper NACH, and Physical Mandate are not entirely digital, which makes the process less seamless.
+To combine the comfort of UPI payments with the booming business of subscriptions, Razorpay – as the launch partner of NPCI – brings you UPI Autopay. 
+About the product 
+A landmark innovation in our existing Razorpay Subscriptions product, UPI Autopay, allows auto-deductions of the subscription amount periodically from the customer’s UPI account. With this, customers no longer have to be reminded of periodic payments, and both the parties can continue doing business smoothly.
+Some of the key features of UPI Autopay include:
+
+Inbuilt scheduler: Takes care of subsequent debits, pre-debit notifications, and invoicing
+Complete flexibility: Add a trial period, upfront amounts, or add on an amount during a cycle
+Update subscription: Upgrade or downgrade a plan at any time during the subscription cycle
+Automatic retries: Automatically retry failed debits and give the customer an option to change the authorized account
+
+Suitability and benefits
+UPI Autopay allows the customer to automate their subscriptions in less than 5 minutes from the comfort of their UPI app. The GIF below shows how seamless and easy the process becomes with our latest product.
+
+Thanks to the useful and practical features, UPI Autopay can be used by any company or institution with a recurring payment model. Some of the best use-cases can be seen in industries like Insurance, rentals, digital content, NGOs, edtech, and education in general. 
+We have five reasons why your organization needs this UPI-based product:
+
+Real-time mandate registration: Razorpay Subscriptions on UPI gives you a real-time confirmation
+Opens up a new target segment: Recurring payments on UPI opens up promising segment like non-credit card holders, for businesses of every size in the country
+Improving affordability: Now, all customers will have the option of making periodic recurring payments, rather than a single bulk payment.
+Better success rates: Thanks to no lengthy authentication details and unique pre-debit notifications sent to consumers 24 hours before the debit
+Complete visibility and flexibility: UPI AutoPay allows customers to pause or cancel a mandate independently from their preferred application. Consumers can view, suspend, or revoke a digital mandate via their UPI app or merchant website
+
+For our existing customers of Subscriptions, there is no additional integration needed. UPI AutoPay will be directly enabled on your account. To know more about UPI AutoPay, click on the link below and explore the product inside out.
+Explore Razorpay UPI AutoPay
+Razorpay SmartCollect – Virtual UPI IDs
+
+Virtual UPI ID was launched to solidify our existing bank transfer product, Razorpay Smart Collect. An enhanced and smarter version of the traditional e-collect provided by banks, Smart Collect enables businesses to collect and reconcile payments via NEFT/RTGS/IMPS.
+To make this system more holistic, we have introduced Virtual UPI IDs to collect payments via UPI!
+About the product
+UPI transactions are a part of the day-to-day business cycle for businesses dealing with large clientele or campaigns. However, bulk UPI payments can often become difficult to track and reconcile. To solve this problem, we launched Virtual UPI to simplify payment processing, increase operational efficiency, and get smarter tracking and reporting in place.
+Virtual UPI allows you to create a customized UPI ID for each customer or campaign your business deals with. This UPI ID can then be used to track the payment status and get real-time alerts.  If you are a business dealing with multiple UPI payments, using Virtual UPI is very simple and streamlined. Let’ have a look at how to do this:
+Step 1: Create a unique Virtual UPI ID for each of your customers based on their registered phone number with your company. E.g. rpy.myacmecorp8469472988@icici
+Step 2: AcmeCorp notifies the customer via email, SMS, WhatsApp, or app notification
+Step 3: The customer adds the Virtual UPI ID in their preferred PSP App
+Step 4: The customer enters the preferred payment amount and completes the payment after entering the UPI PIN
+Step 5: AcmeCorp receives a real-time alert regarding the payment via the dashboard and via webhook and credits the respective customer’s account
+
+Notable features and benefits
+Smart Collect Virtual UPI IDs are built to provide a seamless payment experience for your customers. Here are some of the key elements that set this product apart from all other market offerings.
+
+Flexible payment options: Virtual UPI IDs can be created to accept a single, large payment from a customer or for customers who are likely to make repeat payments. Partners can also create a unique Virtual UPI ID to be used for specific campaigns
+Closed wallet loading: Businesses who have a closed wallet can assign a unique Virtual UPI ID when assigning a wallet. The customer can load the wallet by adding money to this VPA without even opening the business app
+Personalized VPA:  Smart Collect Virtual UPI IDs allow you to create a customized UPI ID featuring your company name or signature. This company branding instills trust in your customers
+Zero cost for custom account: Create unlimited custom Virtual UPI IDs at zero cost, within minutes and share it across platforms easily
+Status tracking: Track the status of every transaction and Virtual UPI ID in real-time. You will be notified via the dashboard and via webhook as soon as a payment gets done
+Instant refunds: Send out full or partial refunds to customers via dashboard & API. Your customers will receive it directly in their bank accounts in real-time
+Operational efficiency: Some of the early adopters of this product have seen at least 2x improvement in operational efficiency
+
+Learn More About Virtual UPI IDs
+Look out for Razorpay’s UPI-based Apps
+While some of our UPI products are already live, the new additions will be unveiled soon. Therefore, our effort is to bring the power of UPI under one roof so your business can leverage its benefits. If you are looking to revolutionize your payments and improve your metrics, then Razorpay UPI Apps are built for you!
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+upi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Shubhangi Bhatia 
+Shubhangi is a Content Marketer at Razorpay. A marketing enthusiast, she loves writing about business strategy and technology. You will often find her reading Indian mythology, exploring Delhi streets and taking Buzzfeed quizzes.
+
+
+
+Website
+
+
+
+Facebook
+
+
+
+Instagram
+
+
+
+LinkedIn
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+RBI Policy Development: New scope for UPI and BBPS
+
+December 22, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

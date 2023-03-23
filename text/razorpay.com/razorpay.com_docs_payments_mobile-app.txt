@@ -1,0 +1,50 @@
+
+
+
+
+
+
+Razorpay Payments Mobile App | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppOverviewGet StartedAccept PaymentsTrack and ManageRoles and PermissionsSettingsFAQsGlossaryePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsMobile AppRazorpay Payments Mobile AppUse the Razorpay Payments Mobile App to track payments and settlements, issue refunds and accept payments from customers by sharing Payment Links and Razorpay.me URL.Razorpay Payments Mobile App helps you to keep track customer payments even when you are on-the-move. This app enables you to:
+
+View real-time status on payments made by customers.
+Accept payments from your customers using Razorpay.me URL and Payment Links.
+Issue refunds to customers.
+View and track settlement details.
+Generate API keys.
+
+What's New
+Payment Pages Mobile App: Create Razorpay Payment Pages with ready-to-use templates and collect payments using Razorpay Payments Mobile App. (Oct 2022)
+
+
+Advantages
+
+Payment and settlement data now at your finger tips.
+Razorpay.me URL created instantly after activation.
+Failed payment? No problem! Create and share a Payment Link.
+Issue refunds in a few taps.
+
+How It Works
+Follow these steps:
+
+Install the Razorpay Payments Mobile App on your Android or iOS smartphone.
+Log in to the Razorpay Dashboard with your credentials. If you do not have an account, create a new Razorpay account.
+You can now perform any of the following operations:
+
+Accept payments from your customers using:
+
+
+Razorpay.me URL
+
+
+Payment Links
+
+
+
+View status of payments made by customers.
+Issue partial or full refund to customers. You can issue instant or regular refunds.
+View and track settlements.
+Generate API keys.
+
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEAdvantagesHow It Works

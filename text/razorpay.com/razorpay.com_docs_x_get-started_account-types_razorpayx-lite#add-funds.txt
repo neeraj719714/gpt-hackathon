@@ -1,0 +1,48 @@
+
+
+
+
+
+
+RazorpayX Lite | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedSign UpGenerate API KeysAllowlist IPsTest ModeAccount TypesAbout Account TypesRazorpayX LiteRazorpayX Current AccountSource Account ValidationFAQsDashboardAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXGet StartedAccount TypesRazorpayx LiteRazorpayX LiteCheck RazorpayX Lite and how to add funds to it.RazorpayX Lite is a digital account created in RazorpayX for businesses to start accepting payments or make payouts within a short span of time.
+RazorpayX Lite is available to you as soon as you complete the KYC process and have your account verified. The approval process is simple and fast.
+RazorpayX Lite has a customer identifier and IFSC. You can get these details on your RazorpayX Dashboard. Go to My  Account & Settings on the RazorpayX Dashboard and click on Banking in the left-hand side menu. You will see your account details as shown here:
+
+To create RazorpayX Lite:
+
+
+You can kick start the activation process by completing the KYC form. The KYC form can be accessed using the FILL KYC FORM button from the RazorpayX Dashboard as shown here:
+
+The KYC modal is displayed as shown here:
+
+
+
+Enter the details in each section of the modal and click NEXT. Once the form is submitted, the Razorpay team reviews your details and activates your account within 2-3 business days.
+
+
+Add Funds
+For a safer and secured banking experience, you must add funds to your RazorpayX Lite through validated bank accounts only. You can add upto 5 accounts for fund loading on the RazorpayX Dashboard.
+Direct Bank Transfers: Netbanking
+To add funds to your RazorpayX Lite via a direct bank transfer:
+
+Log in to your netbanking account.
+Copy your RazorpayX Lite details. Account details include your customer identifier and IFSC details.
+Create a beneficiary using your account details.
+Transfer funds via IMPS, NEFT or RTGS.
+
+Related Information
+
+
+About RazorpayX
+
+
+Sign Up for RazorpayX
+
+
+Generate API Keys
+
+
+Test Mode
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEAdd FundsDirect Bank Transfers: NetbankingRelated Information

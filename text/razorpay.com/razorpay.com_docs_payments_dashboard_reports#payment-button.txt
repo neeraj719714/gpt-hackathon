@@ -1,0 +1,37 @@
+
+
+
+
+
+
+Reports | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardDashboard ActionsHome PageTest and Live ModesReportsAccount & SettingsFAQsContact SupportCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsDashboardReportsReportsKnow the types of Reports and how to generate them from the Razorpay Dashboard.Razorpay provides various reports that help you monitor the money flow of your business. You can export all your transaction data, either for a particular day or a month. The data can either be downloaded as a CSV, XLS or XLSX file or sent through email to the required recipients.
+
+Generate Reports
+To generate a report:
+
+Log in to the Razorpay Dashboard and click Reports.
+Select the required report, period and format.
+Select the email address under Email Report To.
+Click Generate Report.
+
+
+List of Reports
+The table below lists the various reports supplied as default and gives a brief description of each report.
+Payment Gateway
+Report NameDescriptionSettlementsThis report provides a list of the settlement(s) in the selected time range.  Settlements report.PaymentsThis report provides details of all payments that were created in the selected time range.  Payments report.Combined ReportThis report provides all transactions (payments, refunds, adjustments, and transfers) and settlements made in the selected time range.  Combined ReportOrdersThis report provides details of all orders that were created in the selected time range.  Orders report.RefundsThis report provides details of all refunds that were initiated in the selected time range.  Refunds report.Instant RefundsThis report provides details of all the instant refunds initiated in the selected time range.  Instant Refunds report.Settlement ReconThis report provides a detailed list of all transactions (payments, refunds, and adjustments) against every settlement in the selected time range.  Settlement Recon report.Monthly InvoiceAn invoice for transactions and the corresponding payments.  Monthly Invoice report.  Handy Tips Monthly invoices can only be downloaded. It is currently not possible to email the invoices to yourself.
+Route
+Report NameDescriptionTransfersThis report provides details of all transfers made to your linked accounts in the selected time range.  Transfers report.ReversalsThis report provides details of all reversals that were made against any linked account transfers.  Reversals report.Custom Transfers with NotesThis report provides details of all transfers (including the custom notes added) that were made to your linked accounts in the selected time range.  Custom Transfers with Notes report.
+Payment Links
+Report NameDescriptionPayment Links ReportThis report provides details of all the standard payment links that were created in the selected time range.  Payment Links report.
+Payment Button
+Report NameDescriptionPayment Button ReportThis report provides details of all the payment buttons that were created in the selected time range.  Payment Button report.
+Payment Pages
+Report NameDescriptionPayment Page ReportThis report provides details of all the payment pages that were created in the selected time range.  Payment Page report.
+Subscriptions
+Report NameDescriptionSubscriptions ReportThis report provides details of all subscriptions that were created in the selected time range.  Subscriptions report.
+QR Codes
+Report NameDescriptionQR Codes ReportThis report provides details of all QR Codes that were created in the selected time range.  QR Codes Report .
+Limit on the Reports
+There is a limit on the number of concurrent reports you can generate from the Dashboard. Once the maximum threshold is reached, new reports will be generated only after at least one of the reports in the processing state is generated.
+You can get in touch with our Support Team for increasing this limit for your account.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEGenerate ReportsList of ReportsPayment GatewayRoutePayment LinksPayment ButtonPayment PagesSubscriptionsQR CodesLimit on the Reports

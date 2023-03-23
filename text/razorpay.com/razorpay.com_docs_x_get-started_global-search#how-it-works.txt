@@ -1,0 +1,31 @@
+
+
+
+
+
+
+Global Search | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAbout DashboardKeyboard ShortcutsGlobal SearchSupportAccount SettingsFAQsAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXGet StartedGlobal SearchGlobal SearchUse global search for easier navigation across the RazorpayX Dashboard.Global search on the RazorpayX Dashboard makes finding the most used actions effortless. You find all the information related to your search query in one place.
+How It Works
+When you search using the search bar in RazorpayX Dashboard, global search shows you every value that matches your search query. Every value, from everywhere in your RazorpayX Dashboard.
+Searching for the value 'kiran' shows every entity matching 'kiran' from all over the Dashboard. 'kiran' from Payouts, from Vendor Payments, a Contact, or any other entity,as shown below.
+
+Similarily, every action search will return actions available across all RazorpayX products.
+With this feature, you can:
+Use CaseExamplesAccess datatransactionscontactsinvoicesNavigate dashboardSettingsDocumentationCards controlsFAQsInitiate actionsPayout creationContact creationFilter resultsnamephoneinvoice no.UTRstatus
+Find the global search bar on the top right corner or use "/" on your keyboard. You can make effective use of custom search suggestions curated for you based on your usage.
+Related Information
+
+
+Sign Up for RazorpayX
+
+
+Keyboard Shortcuts
+
+
+Generate API Keys
+
+
+Test Mode
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEHow It WorksRelated Information

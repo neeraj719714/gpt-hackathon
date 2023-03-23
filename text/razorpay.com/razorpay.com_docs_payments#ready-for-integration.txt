@@ -1,0 +1,55 @@
+
+
+
+
+
+
+Razorpay Payments | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryRazorpay PaymentsCheck out Razorpay Payment Gateway and the entire suite of products available as part of Razorpay Payments!Razorpay Payments provides a number of solutions to help you accept payments.
+Product Suite
+Mix and match products from Razorpay Payments suite to accept payments.
+Payments
+Razorpay Payments provide a range of products to accept payments and make payouts. It also offers solutions to add offers and assess risk associated with a customer order.
+Accept Payments
+Product and UsePayment Gateway : Integrate our Payment Gateway with your website or app to accept payments from customers.Magic Checkout : Integrate Razorpay Magic Checkout to help customers complete prepaid and cash-on-delivery (COD) transactions on your website/app and reduce your COD RTOs.Payment Pages : Easiest way to accept payments with a custom-branded online store. Accept payments with automated payment receipts. Take your store online instantly with zero coding.Payment Links : Share payment link via an email, SMS, messenger or chatbot and get paid immediately.Invoices : Create and send GST-compliant invoices that your customers can pay online instantly. Get paid faster and improve your cash flow.Subscriptions : Offer your customers subscription plans with automated recurring transactions on various payment modes.Payment Buttons : Take your store online instantly with zero coding. Accept one-time and recurring payments with automated payment receipts.Smart Collect : Generate virtual bank accounts and UPI IDs on demand and accept payments using NEFT, RTGS, IMPS and UPI. Get notified for each incoming payment and automate the tedious reconciliation process.Affordability Suite : Attract and retain customers by creating offers and providing popular payment methods, such as EMI, Cardless EMI, No Cost EMI and Paylater.
+Ready for Integration
+
+Integrate your website or e-commerce store with the Razorpay Payment Gateway using any of the available integration types.
+Add a single line of code to your website or blog to get a Payment Button and start accepting payments.
+
+Do Not Have a Website or Mobile App
+You can accept payment even if you do not have a website or a mobile app using any of these Razorpay products:
+
+
+Payment Links
+
+
+Payment Pages
+
+
+Smart Collect
+
+
+Subscriptions
+
+
+Invoices
+
+
+Instant Refund
+Refund amount to your customers almost instantly using Instant Refund. Provide a great customer experience and gain your customers confidence and trust in your business.
+Instant Settlements
+With Instant Settlements, you get access to your funds as and when you want. Normally, you would receive settlements according to your settlement cycle. Razorpay Instant Settlements helps you reduce your settlement period from T+2 days (default settlement cycle) to a few minutes (from the time of the transaction), thus enabling your business to avoid cash-flow challenges and prepare better for working capital requirements.
+Make Payouts
+Use Route to split incoming payments to individual accounts, make payments to vendors, manage marketplace money flow and much more using powerful APIs. RazorpayX is another Razorpay product that you can use to make payouts.
+Get Started
+Sign up with Razorpay to start using the Razorpay Payments solutions.
+Related Information
+
+
+Introduction to Razorpay
+
+
+Payment Gateway
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEProduct SuitePaymentsGet StartedRelated Information

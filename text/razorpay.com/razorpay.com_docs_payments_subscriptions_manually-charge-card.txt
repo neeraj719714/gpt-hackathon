@@ -1,0 +1,35 @@
+
+
+
+
+
+
+Charge a Card Manually | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardCreate and View PlansCreate Subscriptions via LinksCreate Add-onsCharge a Card ManuallyView a SubscriptionUpdate a SubscriptionPause, Resume and Cancel a SubscriptionSubscriptions SettingsOffers for SubscriptionsPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsManually Charge CardCharge a Card ManuallyManually charge a card for Razorpay Subscriptions from the Dashboard.If one or more auto-charge attempts fail, you will receive a webhook notification. Know more about webhooks. In such scenarios, you can manually charge the card linked to the Subscription from the Dashboard. Until a successful charge is made, the invoice will be in an issued state.
+Manually Charge a Card From Dashboard
+Watch this video to see how to manually charge a card.
+
+To manually charge a card:
+
+Log in to the Razorpay Dashboard and click Subscriptions under PAYMENT PRODUCTS in the left menu.
+Click the Subscription Id in the pending state that is to be charged.
+Click the invoice in the issued state and click Attempt Charge. Alternatively, you can click Attempt Charge against the invoice in the issued state on the details panel.
+
+Related Information
+
+
+Create and View Plans
+
+
+Create Subscriptions via Links
+
+
+Create Add-ons
+
+
+Update a Subscription
+
+
+Subscriptions Settings
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEManually Charge a Card From DashboardRelated Information

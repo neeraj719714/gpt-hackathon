@@ -1,0 +1,60 @@
+
+
+
+
+
+
+Supported Banks and Apps | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardOffers for SubscriptionsPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsSupported Banks AppsSupported Banks and AppsList of banks and apps that support subscription via Emandate (Netbanking, Debit Card, Aadhaar), Card and UPI.Check the banks and apps that support Subscriptions via Emandate (Netbanking, Debit Card, Aadhaar), Card and UPI.
+Emandate
+The following table has links to download the list of banks that support Emandate payments using netbanking, Aadhaar and debit card authorization types.
+These lists were last updated on December 1, 2022.
+Authorization TypeBank ListNetbankingDownloadDebit CardDownloadAadhaarDownloadConsolidated ListDownload
+Cards
+Click the below button to download the list of banks that support cards.
+This list was last updated on January 2, 2023.
+Download
+Watch Out!Please contact our support team if you are facing difficulties with card payments from any of the major banks on the above list.
+Handy TipsWe support Visa and Mastercard cards of all major banks.
+UPI AutoPay
+UPI AutoPay supported banks and apps.
+Supported Applications
+Below are the UPI applications and their handles that support UPI AutoPay:
+Frequently used Applications
+Below are some of the frequently used UPI applications and their handles:
+ApplicationsHandles < = â¹ 15,000Handles > â¹ 15,000PhonePe@ybl, @ibl and @axlN/AGooglePay@okhdfcbank and @okaxis@okhdfcbank and @okaxisPaytm@paytm@paytmBHIM@upiN/AAmazon Pay@apl and @yapl@apl and @yaplIndusInd Bank App@indusN/A
+Other Applications
+Below are the other UPI applications and their handles:
+ApplicationsHandlesBHIM Axis Pay@axisbank and @sliceaxisBhim Baroda Pay@barodampayBHIM BOI UPI@boiBHIM DLB UPI@dlbBHIM IndusPay@indusCanara Bank@cnrbiMobile Pay@iciciNSDL Payments Bank@nsdlDakPay@postbankMobiKwik@ikwikDigibank@dbsPayZapp@pz
+Intent Support with PSP Apps
+The below table gives information about the frequently used intent-supported PSP apps on different platforms and checkout integrations.
+Standard Checkout IntegrationCustom Checkout IntegrationS2S Checkout IntegrationPSP AppsmWebAndroid SDKiOS SDKGPayxxxPhonePeââxPaytmxâxAmazon PayxxxBHIMxâx
+Supported Banks
+Click the below button to download the list of banks that support UPI AutoPay.
+Download
+Fetch Supported Methods
+Use the below endpoint to fetch a list of supported card networks and banks available for subscription.
+GET/methods
+[YOUR_KEY_ID] RequiredTo fire this API, you need to provide your [KEY_ID] for authorization. Your [KEY_SECRET] is not required and should not be passed.
+RequestResponsecopycurl -u [YOUR_KEY_ID] \    -X GET https://api.razorpay.com/v1/methods
+Related Information
+
+
+About Subscriptions
+
+
+Subscription Workflow
+
+
+Subscription States
+
+
+Create Subscriptions
+
+
+Test Subscriptions
+
+
+Subscriptions APIs
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEEmandateCardsUPI AutoPaySupported ApplicationsIntent Support with PSP AppsSupported BanksFetch Supported MethodsRelated Information

@@ -1,0 +1,1331 @@
+
+
+
+
+
+
+Secure Your Payments using Razorpay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We're hiring!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+
+
+
+Razorpay Payment Suite
+                  
+
+
+
+Accept Payments
+
+
+
+
+
+
+                                Payment Gateway
+
+Payments on your Website & App
+
+
+
+
+
+
+
+
+                                Payment Links
+
+Create & send links to collect money
+
+
+
+
+
+
+
+
+                                Payment Pages
+
+Get paid with personalized pages
+
+
+
+
+
+
+
+
+                                Payment ButtonsNew
+
+Create, Copy and Collect in 5 mins
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                Instant Settlement
+
+Customer payments settled faster
+
+
+
+
+
+
+
+
+                                Invoices
+
+Create & send GST compliant invoices
+
+
+
+
+
+
+
+
+                                Smart Collect
+
+Automate NEFT, RTGS, IMPS payments
+
+
+
+
+
+
+
+
+                                Subscriptions
+
+Collect recurring subscription payments
+
+
+
+
+
+
+Disburse Payments
+
+
+
+
+
+
+                                Route
+
+Split & manage market payments
+
+
+
+
+Risk and Fraud
+
+
+
+
+
+
+                                Thirdwatch
+
+Fight fraud with Artificial Intelligence
+
+
+
+
+Partner Apps
+
+
+
+
+
+
+                                App StoreNEW
+
+Find right app for your business
+
+
+
+
+
+
+
+
+
+
+More
+
+
+
+
+
+
+                                CRED PayNEW
+
+Make payments using CRED coins
+
+
+
+
+
+
+
+
+
+
+
+
+                                UPI AutoPayNEW
+
+Recurring payments using UPI App
+
+
+
+
+
+
+
+
+
+
+
+
+                                PrePay CODNEW
+
+Convert risky CoD orders to prepaid.
+
+
+
+
+
+
+
+Explore Banking Suite
+
+
+
+
+
+
+Pricing
+                              
+
+
+
+
+
+Resources
+
+
+
+
+
+
+Partners (Refer & Earn)
+                              
+
+
+
+
+
+Support
+
+
+
+
+
+Log In
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payment Gateway
+
+
+
+
+
+
+
+Payment Links
+
+
+
+
+
+
+
+
+                        Payment ButtonsNEW
+
+
+
+
+
+
+                Explore Payment Suite
+
+
+
+
+BankingRazorpay X - Business Banking
+
+
+
+Razorpay Banking Suite
+                  
+
+
+BUSINESS BANKING
+
+
+
+
+
+                                RazorpayX
+
+Business Banking built for disruptors
+
+
+
+
+
+
+
+                                Vendor Payments
+
+Automate vendor invoice and TDS payments
+
+
+
+
+
+
+
+                                Payout Links
+
+
+                                Send money without recipient account details
+                              
+
+
+
+
+
+
+
+                                Payouts
+
+24x7, Instant & Automated Payouts
+
+
+
+
+
+
+
+
+
+
+
+
+                                Current Account
+
+
+                                Current Accounts for fast growing businesses
+                              
+
+
+
+
+
+
+
+                                Tax Payments
+
+Pay your business taxes in under 30 seconds
+
+
+
+
+
+
+
+                                Payroll
+
+Automate and execute payroll
+
+
+
+
+
+
+CREDIT
+
+
+
+
+
+                                Razorpay Capital
+
+Get money for your business needs
+
+
+
+
+
+
+
+                                Cash Advance
+
+Instant additional cash for business use
+
+
+
+
+
+
+
+                                Corporate Cards
+
+Credit Card for growing businesses
+
+
+
+
+
+
+
+                                Working Capital Loans
+
+Avail collateral-free business loans
+
+
+
+
+
+
+
+Explore Payment Suite
+
+
+
+
+
+
+Pricing
+                              
+
+
+
+
+
+Resources
+
+
+
+
+
+
+Partners (Refer & Earn)
+                              
+
+
+
+
+
+Support
+
+
+
+
+
+Log In
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current Account
+
+
+
+
+
+
+
+Vendor Payments
+
+
+
+
+
+                Explore Banking Suite
+
+
+
+
+
+Pricing
+
+
+
+Resources
+
+
+
+Resources
+                  
+
+
+AWARENESS
+
+
+
+
+                              Blog
+
+
+                              Know about the nitty gritty of Payments, Banking &
+                              more!
+                            
+
+
+
+
+
+                              Learn
+
+
+                              Learn about Business Management, Freelance & more!
+                            
+
+
+
+
+
+                              Events
+
+
+                              Learn more about Startups, Products, Sales and
+                              Funding
+                            
+
+
+
+
+
+                              White papers
+
+
+                              From data-driven fintech insights to best
+                              practices around handling payments
+                            
+
+
+
+
+
+                              Customer Stories
+
+
+                              50,00,000+ businesses powering payments with
+                              Razorpay
+                            
+
+
+
+
+
+DEVELOPERS
+
+
+
+
+                              Developer Docs
+
+Get started with SDKs here
+
+
+
+
+
+                              Integrations
+
+
+                              30+ platforms that Razorpay supports
+                            
+
+
+
+
+
+                              API Reference
+
+
+                              Official references for the Razorpay APIs
+                            
+
+
+
+
+
+SOLUTIONS
+
+
+
+
+                              SaaS
+
+
+                              Multi-channel, Multi-mode Payments Experience
+                            
+
+
+
+
+
+                              E-commerce
+
+
+                              Seamlessly accept, manage and disburse money!
+                            
+
+
+
+
+
+                              Education
+
+
+                              Facilitate learning & growth for your students &
+                              customers
+                            
+
+
+
+
+
+                              BFSI
+
+
+                              Solve unique challenges across lending, wealth
+                              management, and insurance sectors
+                            
+
+
+
+
+
+                              Freelance
+
+
+                              Accept both domestic & international payments from
+                              your clients and cutomers!
+                            
+
+
+
+
+
+
+Explore Payment Suite
+
+
+
+
+
+
+Explore Banking Suite
+
+
+
+
+
+
+Pricing
+                              
+
+
+
+
+
+Partners (Refer & Earn)
+                              
+
+
+
+
+
+Support
+
+
+
+
+
+Log In
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  Partners (Refer & Earn)
+                
+
+
+
+
+Support
+
+
+
+Support
+                  
+
+
+GET SUPPORT
+
+
+
+
+                              Raise a request
+
+
+
+
+
+
+                              Knowledgebase
+
+
+
+
+
+
+                              Chargeback Guides
+
+
+
+
+
+
+                              Settlement Guides
+
+
+
+
+
+
+
+Explore Payment Suite
+
+
+
+
+
+
+Explore Banking Suite
+
+
+
+
+
+
+Pricing
+                              
+
+
+
+
+
+Resources
+
+
+
+
+
+
+Partners (Refer & Earn)
+                              
+
+
+
+
+Log In
+
+
+
+
+
+
+
+
+
+
+Partners
+
+Pricing
+
+
+We're hiring!
+
+
+Log In
+
+
+
+
+Sign Up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You’re in safe hands,And so is your money.
+Thousands of businesses trust Razorpay to accept payments. We process millions of transactions in over 100 currencies from across the globe, every day.
+
+            Running a business? 
+          
+
+
+
+            Start Accepting Payments
+            
+
+
+
+
+
+
+
+
+
+
+Security is in Our DNA
+Razorpay does not store any of your sensitive data. We have invested heavily in industry-standard infrastructure to ensure that your private data is not compromised.
+
+
+
+
+
+
+PCI DSS and ISO:27001 compliant
+
+The PCI Council is a global body that sets compliance rules for managing cardholder data for all online payment systems. ISO is an organization with a membership of 164 national standards bodies.
+
+
+
+
+
+
+Secure & encrypted communication
+
+We use the highest assurance SSL/TLS certificate, which makes sure that no unauthorised person can access your sensitive payment data over the internet.
+
+
+
+
+
+
+Tokenization to prevent data exposure
+
+We replace your 16-digit card number with a token, which replaces the original card number. Tokens are assigned randomly, making it extremely difficult to reverse-engineer the actual card number.
+
+
+
+
+Read more: 
+       
+         What a Payment Gateway Does With Your Data
+       
+
+
+
+
+
+
+
+
+
+
+
+
+Compliance is Serious Business for us
+PCI DSS Level 1 compliant along with frequent third-party audits and a dedicated internal security team to make sure your data is always safe.
+
+
+
+
+
+
+
+
+
+We’re There For You
+Our in-house support team is dedicated to help resolve your queries and concerns.  Need to track the status of a refund or file a grievance? 
+Get in touch with us
+
+
+
+
+
+
+
+
+
+
+
+
+Relied on and Trusted by the Biggest Brands
+Businesses from across India use Razorpay to accept payments.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Backed by the Biggest Investors
+Razorpay is supported by some of the most successful investment companies of the world.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Supercharge your business with Razorpay
+Sign up now to experience the future of payments and offer your customers the best checkout experience.
+
+
+            Start Accepting Payments
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Razorpay is the only payments solution in India which allows businesses to accept, process and disburse payments with its product suite. It gives you access to all payment modes including credit card, debit card, netbanking, UPI and popular wallets including JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.
+  Manage Your marketplace, automate NEFT/RTGS/IMPS bank transfers, collect recurring payments, share invoices with customers - all from a single platform. Fast forward your business with Razorpay.
+
+
+Subscribe to our newsletter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products
+
+Payment Gateway
+Route
+Subscriptions
+Smart Collect
+Payment Pages
+Invoices
+Payment Links
+Razorpay Capital
+RazorpayX
+The X Club
+
+
+
+
+
+
+
+
+
+
+
+More
+
+Pricing
+Flash Checkout
+Checkout Demo
+BharatQR
+UPI
+ePOS
+eCOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+Developers
+
+Docs
+Integrations
+API Reference
+
+
+
+
+
+
+
+
+
+
+
+Resources
+
+Blog
+Customer Stories
+Events
+Chargeback Guide
+Settlement Guide
+
+
+
+
+
+
+
+
+
+
+
+Solutions
+
+Education
+E-commerce
+SaaS
+
+
+
+
+
+
+
+
+
+
+
+
+
+Company
+
+About Us
+Careers
+T&C
+Privacy
+Responsible Disclosure
+Partners
+White papers
+
+
+
+
+
+
+
+
+
+
+
+Help & Support
+
+Support
+Raise a request
+Track refund status
+File a grievance
+Knowledge base
+
+
+
+
+
+
+
+
+
+
+Find us online
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+© Razorpay 2019All Rights Reserved
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

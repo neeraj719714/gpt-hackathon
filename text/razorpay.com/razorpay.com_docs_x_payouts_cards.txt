@@ -1,0 +1,82 @@
+
+
+
+
+
+
+X | Payouts to Cards | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAccount StatementContactsFund AccountsPayoutsAbout PayoutsPayout States and Life CycleIntelligent PayoutsQueued PayoutsScheduled PayoutsPayouts to CardsPayout Status DetailsPayouts Best PracticesBulk PayoutsAPIsFAQsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXPayoutsCardsPayouts to CardsMake payouts directly to a debit or a credit card using RazorpayX Lite.With RazorpayX, you can make payouts directly to a credit card, debit card, or prepaid card. The process of making a payout to a card is the same as other payouts.
+Payouts via IMPS, NEFT, and UPI are supported on both RazorpayX Lite and Current account. Payouts via card mode is supported RazorpayX Lite.
+Payouts to Cards
+According to the RBI guidelines, merchants cannot save their customerâs card credentials (card number & other card data) on their own servers.
+To save a card number, you can use a tokenisation service like Razorpay TokenHQ. Payouts to these tokenised cards can be made using the âcardâ mode on RazorpayX.
+After collecting card number from the customer, there are 3 ways to make the payout:
+
+
+Make a payout via RazorpayX payouts to cards APIs. Here, the card numbers will not be saved. You have to collect the card number from the customer each time a payout is made.
+
+
+Tokenise the card with Razorpay TokenHQ and make a payout to the token via RazorpayX.
+Handy Tips
+Cards have to be tokenised with a token service provider via a Razorpay TokenHQ.
+Tokenisation is not available via RazorpayX APIs.
+
+
+
+Tokenise the card with non-Razorpay token services and then make a payout to the token via RazorpayX.
+
+
+Watch Out!
+Bank issuers/networks for payouts to tokenised and non-tokenised is different.
+Payouts to tokenised cards is supported only for limited issuers on Visa and MasterCard.
+Payouts to tokenised cards are not supported via bank rails. It's only supported for the mode card.
+Bank issuers/networks for payouts via bank modes and card mode (Payouts via network rails).
+
+Handy TipsThis feature is not enabled by default. Raise a request using the support form on the RazorpayX Dashboard to enable this feature for your account.
+Actions
+The table below lists the various Payout to Card actions you can perform using the Dashboard, API and Bulk Upload:
+ActionAPIDashboardBulk UploadCreate a payout to a cardâxxView payout detailsââx
+Know more about creating payouts to cards using APIs.
+Supported Networks and Banks
+Handy Tips
+If the payouts are made via cards that are not mentioned in the list, the payout creation request will fail.
+You can use payouts to cards without a compliance certificate in Test mode upon requesting it. Contact our support team to raise a request for the same.
+
+Card Networks
+Card payouts are supported on the below card networks:
+
+Diners Club
+Mastercard
+Visa
+Amex
+
+Payouts via Bank Transfer
+You can make payouts via bank transfers using this traditional bank transfers such as NEFT, IMPS, and UPI. This method of making payouts via bank transfers is possible only for non-tokenised cards. Payment is supported on all card networks, but only for credit cards. Here is a list of banks and the supported payout mode:
+Issuer Bank NameIssuer Bank CodeSupported MethodRBLRATNNEFTState Bank of IndiaSBINNEFTAxis BankUTIBNEFT  IMPSHDFC BankHDFCIMPS  NEFTICICI BankICICINEFT  UPIAndhra BankANDBIMPS  NEFTBank of AmericaBOFANEFTBank of BarodaBARBNEFTBank of IndiaBKIDNEFTCanara BankCNRBNEFTCitibankCITINEFTCorporation BankCORPNEFTHSBC BankHSBCNEFTIDBI BankIBKLNEFTIndian Overseas BankIOBANEFTIndusInd BankINDBIMPS  NEFTKotak Mahindra BankKKBKIMPS  NEFTPunjab National BankPUNBNEFTSyndicate BankSYNBNEFTUnion Bank of IndiaUBINNEFTYes BankYESBNEFTAmerican ExpressAMEXIMPS  NEFT  UPI
+Payout via Card Networks
+The list of banks that support payouts to cards are as follows:
+Issuer Bank NameIssuer Bank CodeNetworkCard TypeAirtel Payments BankAIRPMastercard SendDebitAxis BankUTIBVisa Direct  Mastercard SendDebitBank of IndiaBKIDVisa DirectDebitBank of MaharashtraMAHBVisa DirectDebitCanara BankCNRBVisa Direct  Mastercard SendDebitCentral Bank of IndiaCBINMastercard SendDebitCorporation BankCORPVisa DirectDebitDevelopment Credit Bank LtdDCBLVisa DirectDebitFederal BankFDRLVisa Direct  Mastercard SendDebitICICI BankICICVisa DirectDebitIDBI BankIBKLVisa Direct  Mastercard SendDebitIDFC BankIDFBVisa DirectDebitIndian BankIDIBMastercard SendDebitIndusInd BankINDBVisa Direct  Mastercard SendDebit  CreditJ & K BankJAKAMastercard SendDebitKotak BankKKBKVisa DirectDebitOriental Bank of CommerceORBCVisa DirectDebitRBL BankRATNMastercard SendDebitState Bank of IndiaSBINVisa Direct  Mastercard SendDebit  CreditStandard Chartered BankSCBLVisa Direct  Mastercard SendDebit  CreditSyndicate BankSYNBMastercard SendDebitThe Federal Bank LtdFDRLVisa DirectDebitThe South Indian Bank LtdSIBLVisa DirectDebitYes BankYESBMastercard SendDebit  Credit
+Related Information
+
+
+About Payouts
+
+
+Payout Life Cycle and States
+
+
+Queued Payouts
+
+
+Scheduled Payouts
+
+
+Intelligent Payouts
+
+
+Payout Status Details
+
+
+Payout Best Practices
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEPayouts to CardsActionsSupported Networks and BanksCard NetworksPayouts via Bank TransferPayout via Card NetworksRelated Information

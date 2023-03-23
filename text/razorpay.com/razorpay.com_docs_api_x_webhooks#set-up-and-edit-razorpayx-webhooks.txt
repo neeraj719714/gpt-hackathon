@@ -1,0 +1,48 @@
+
+
+
+
+
+
+API | X - Webhooks | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsOrdersPaymentsSettlementsRefundsDisputesCustomersPayments SuitePartnersRazorpayXGet StartedAccount ValidationContactsFund AccountsPayoutsPayouts to CardsPayout CompositePayout IdempotencyPayout LinksPayout Wallet - AmazonTransactionsWebhooksErrorsWebhooksApiXWebhooksWebhooksSubscribe to various Webhook events related to RazorpayX to receive instant notifications.Webhooks (Web Callback, HTTP Push API or Reverse API) are one of the ways in which one web application can send information to another application in real-time when a specific event happens. Know more about Webhooks.
+Watch Out!In some cases, a webhook can be triggered more than once. We recommend you to apply deduplication while consuming webhooks based on the Payout ID and the payout status.
+Use Cases
+Webhooks are helpful in getting updates about the process states. You can enable webhooks for:
+
+Payouts
+Transactions
+
+Set Up and Edit RazorpayX Webhooks
+Webhooks send information about processes and transactions in the form of events. Watch a video, or read about how you can set up and edit RazorpayX Webhooks.
+Validate and Test Webhooks
+You can ensure the efficacy of a webhook integration by testing and validating it. It is reccommended to do so. Know about how to Validate and Test Webhooks.
+Order of Events
+Take payouts in RazorpayX as an example. For payouts, you should receive webhooks in the following order:
+
+payout.pending (if you have Approval Workflow enabled on your account)
+payout.queued (in case your business account does not have sufficient balance to process the payout)
+payout.initiated
+payout.processed or payout.reversed
+
+The above order may not be followed at all times. Please keep this in mind and configure your webhook URL to handle such scenarios.
+The processed and reversed states are the last states for a payout. Their corresponding webhooks payout.processed or payout.reversed indicate this state change. Any webhook received after these should be ignored.
+Webhook Events and Descriptions
+Take a look at the events and their descriptions, along with the sample payloads appearing for the events.
+Payouts
+The table below lists the webhook events available for RazorpayX Payouts. You can enable webhooks for payout statuses listed in Payout Life Cycle.
+Webhook EventApplicable ForDescriptionpayout.pendingall payoutsTriggered whenever a payout moves to the pending state. The payout remains in this state till you approve or reject it.payout.rejectedall payoutsTriggered whenever a payout moves to the rejected state. The payout was rejected by someone from your team.payout.queuedall payouts Triggered whenever a payout moves to the queued state. Payout goes to queued state when you do not have sufficient funds to process it or when the beneficiary bank/NPCI/partner bank is down. This event is applicable only for RazorpayX Lite.You will receive the reason for the payout to be in the queued state as part of the status_details object.payout.initiatedall payoutsTriggered when the payout moves to the processing state when the payout is created or from the queued state when sufficient funds are available to process the payout.payout.processedall payoutsTriggered when a payout moves to the processed state. This happens when the payout is processed by the contact's bank.payout.updatedall payoutsTriggered whenever there is a change in the payout entity. For example, when we receive the UTR for the payout from the bank. For NEFT transactions, this webhook is fired within 90 seconds.For IMPS and UPI transactions, this webhook is generally fired immediately.payout.reversedall payoutsTriggered whenever a payout fails and the amount is returned to your business account.payout.failedall payoutsTriggered when a payout is failed because the beneficiary bank OR NPCI OR processing partner bank is down. If the beneficiary bank/partner banks/NPCI does not recover within the stipulated SLA, a FAILED event will be sent with the respective reason.  Handy Tips It is mandatory to subscribe to the payout.failed event if you are using RazorpayX APIs. 
+Check the sample payloads.
+Transactions
+The table below lists the webhook events available for RazorpayX transactions.
+Webhook EventsDescriptiontransaction.createdTriggered whenever you:  Make a Payout (RazorpayX Lite or current account).  Add funds to your RazorpayX account (RazorpayX Lite or current account).  Perform any kind of transaction (ATM transaction, cash withdrawal, netbanking transfer, encashed cheque) on your current account.
+Check the sample payloads.
+Related Information
+
+
+RazorpayX
+
+
+Webhooks
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEUse CasesSet Up and Edit RazorpayX WebhooksValidate and Test WebhooksOrder of EventsWebhook Events and DescriptionsPayoutsTransactionsRelated Information

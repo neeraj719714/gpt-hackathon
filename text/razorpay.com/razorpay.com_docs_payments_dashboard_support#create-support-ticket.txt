@@ -1,0 +1,74 @@
+
+
+
+
+
+
+Support | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardDashboard ActionsHome PageTest and Live ModesReportsAccount & SettingsFAQsContact SupportCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsDashboardSupportSupportContact the Razorpay Support Team for all your queries related to Razorpay products and offerings.Customer looking for RefundIf you are a customer looking for a refund, know about
+ customer refunds.
+
+Razorpay Docs for details about each of Razorpay products, integrations, like Payment Gateway and API Reference Guide.
+Razorpay Knowledge base for FAQs.
+If you are a registered Razorpay user and need help, connect with Razorpay Support team.
+
+Registered Razorpay Users
+Who is a Registered Razorpay User?You are a registered Razorpay user if you:
+Run a business or are a freelancer.
+Use Razorpay products to receive payments from your end-users and/or make payouts for business purposes.
+Have a Razorpay ID.
+Not registered yet? Sign up with Razorpay
+To contact the Razorpay Support team:
+
+
+Log into the Razorpay Dashboard.
+
+
+Click Help to open the Help Center pop-up.
+
+
+
+You have the following options in the Get in touch section:
+
+Create support ticket
+You can check existing queries or raise a new support ticket through the Razorpay Dashboard in case of any concern.
+Chat with agent
+Start a live chat with us to get your queries resolved quickly or to understand the features better.
+Request for callback
+You can request a callback if you have already raise a support ticket.
+
+
+
+
+You can also click Documentation to know about the various Razorpay offerings, integrations and APIs.
+Have a query?
+You can check existing queries or raise a new support ticket through the Razorpay Dashboard.
+Raise a New Ticket
+Watch this video to know how to raise a ticket.
+
+To raise a new ticket:
+
+Log in to the Razorpay Dashboard.
+Click the headphone icon to open the Help and Support pop-up.
+Click Have a query?
+Select the nature of the request.
+
+
+Select the sub-category for which you wish to raise a ticket.
+
+
+Check out the existing FAQs before raising the ticket. If your concern is not addressed, then explain your issue and attach relevant documents or screenshots if possible and click Submit.
+
+
+
+To track the status of existing tickets, check Your Support Tickets.
+Handy TipsFor a faster support experience, reply to the relevant existing ticket instead of creating a new ticket.
+Chat with Agent
+This feature is available for selective users only. If it is visible for your account, you can chat with a member of the Support Team using the Chat with agent option (between 10 a.m. and 10 p.m. on all working days) for instant communication.
+To start a live chat with us:
+
+Log in to the Razorpay Dashboard.
+Click the headphone icon to open the Help and Support pop-up.
+Click Chat with us.
+On the pop-up page, select the nature of your query and start chatting with our support team.
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGERegistered Razorpay UsersHave a query?Chat with Agent

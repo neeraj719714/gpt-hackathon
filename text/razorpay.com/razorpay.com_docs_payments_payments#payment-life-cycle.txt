@@ -1,0 +1,47 @@
+
+
+
+
+
+
+About Payments | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsAbout PaymentsTest Card and Test UPI IDPayment Capture SettingsInternational PaymentsManage Late Authorised PaymentsDashboardPayments APIsSuccess Rate AnalyticsDowntimes UpdatesFAQsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPaymentsAbout PaymentsCheck payments, the various payment states and Dashboard actions. Understand late authorisations.You can accept live payments using the Razorpay Payment Gateway once your Razorpay account has been activated.
+Payment Life Cycle
+Following are the various states of a payment:
+StatesDescriptioncreatedThis is the first state.  The customer has provided the payment details, which are sent to Razorpay . The payment has not been processed yet.authorizedThe payment state changes to authorized when the bank successfully authenticates the customer's payment details. The money is deducted from the customerâs account by Razorpay . The amount is settled to your account after the payment is manually or automatically captured.  Payment in this state is auto-refunded to the customer if not captured within 5 days of creation.capturedWhen the payment status is changed to captured , the payment is verified as complete by Razorpay . The amount is settled to your account as per the settlement schedule.refundedYou can refund the payments that have been successfully captured at your end. The amount is reversed to the customer's account.failedAn unsuccessful payment attempt is marked as failed , and the customer will have to retry the payment.
+The following state diagram depicts the flow of money through the various payment states:
+
+Late Authorization
+Late authorization is a situation that arises when a payment is interrupted by external factors such as network issues or technical errors at the customer's or bank's end. In such cases, funds may or may not get debited from the customer's bank account, and Razorpay does not receive a payment status from the bank. Know more about  Late Authorization.
+Dashboard Actions
+You can perform the following actions on payments from the Razorpay Dashboard:
+
+Configure settings to auto-capture payments.
+
+Manually capture payments
+
+
+Issue a refund for a payment
+
+
+View details of a payment
+
+
+View settlement details of a payment
+
+
+Related Information
+
+
+Payment Methods 
+
+
+Test Card Details 
+
+
+Payment Capture Settings
+
+
+International Payment Support
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEPayment Life CycleLate AuthorizationDashboard ActionsRelated Information

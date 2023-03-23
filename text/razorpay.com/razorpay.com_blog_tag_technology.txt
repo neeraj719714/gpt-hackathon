@@ -1,0 +1,543 @@
+
+
+
+
+
+
+
+
+
+
+
+Technology Archives - Razorpay Blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+Tag
+Technology
+Browsing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Business Banking Plus
+
+
+
+
+
+In
+Business Banking Plus
+
+
+Banking as a Service (BaaS) – What It Is, What It Isn’t
+
+
+May 5, 2021
+
+4 Mins Read
+
+
+
+
+
+BaaS is an end-to-end approach that facilitates fintech companies and other third party organisations to connect with a bank’s system employing APIs. 
+
+
+
+
+
+
+
+
+
+
+
+Payroll
+
+
+
+
+
+In
+Payroll
+
+
+Upgrade to a Dual Tax Regime Compliant Payroll Software this Financial Year
+
+
+March 23, 2021
+
+4 Mins Read
+
+
+
+
+
+RazorpayX Payroll is compliant with the dual tax regime. It allows your employee to choose their preferred regime during the time of their investment declaration.
+
+
+
+
+
+
+
+
+
+
+
+Neo Banking
+
+
+
+
+
+In
+Neo Banking
+
+
+2021 – The Year for Neobanking in India
+
+
+March 19, 2021
+
+7 Mins Read
+
+
+
+
+
+We believe that 2021 is the year for neobanking platforms as they have taken business banking to the next level because of their range of offerings. This article talks extensively about why businesses should join the neobanking bandwagon.
+
+
+
+
+
+
+
+
+
+
+
+Payroll
+
+
+
+
+
+In
+Payroll
+
+
+Decoding Payroll – Why Businesses Should Automate Employee Salaries
+
+
+February 24, 2021
+
+4 Mins Read
+
+
+
+
+
+Opfin is a payroll software that completely automates your payroll process so you never have to worry about making timely payments to your employees.
+
+
+
+
+
+
+
+
+
+
+
+Online Commerce
+
+
+
+
+
+In
+Online Commerce
+
+
+Introducing PrePay CoD on Razorpay Thirdwatch
+
+
+August 26, 2020
+
+6 Mins Read
+
+
+
+
+
+Introducing PrePay CoD, India’s first feature for online e-commerce sellers to convert their risky CoD orders to prepaid and offer Cash on Delivery without consequences!
+
+
+
+
+
+
+
+
+
+
+
+Business Banking Plus
+
+
+
+
+
+In
+Business Banking Plus
+
+
+Why a Current Account is Important for Any Business?
+
+
+June 16, 2020
+
+6 Mins Read
+
+
+
+
+
+A current account is a must for every business. RazorpayX Current Accounts comes with a whole package that helps you with end-to-end money movement.
+
+
+
+
+
+
+
+
+
+
+
+Razorpay Stories
+
+
+
+
+
+In
+Razorpay Stories
+
+
+The Day of the RDS Multi-AZ Failover
+
+
+June 8, 2020
+
+9 Mins Read
+
+
+
+
+
+On a fateful Friday night, we at Razorpay set out to understand how the RDS Multi-AZ replication works. 
+
+
+
+
+
+
+
+
+
+
+
+Payroll
+
+
+
+
+
+In
+Payroll
+
+
+Payroll Changes Due to Atmanirbhar Bharat Abhiyaan
+
+
+May 30, 2020
+
+5 Mins Read
+
+
+
+
+
+Payroll changes like reduced EPF and TDS, change in ITR filing deadline, etc were made as a part of Atmanirbhar Bharat Abhiyaan. Read all the details here.
+
+
+
+
+
+
+
+
+
+
+
+Payments
+
+
+
+
+
+In
+Payments
+
+
+Introducing Virtual Payment Address (VPA) for UPI Payments through Razorpay
+
+
+April 20, 2020
+
+5 Mins Read
+
+
+
+
+
+Saved VPA allows your customers to save their UPI VPAs so they don’t have to enter the same again. This feature will help improve user experience and your overall payment success rate. 
+
+
+
+
+
+
+
+
+
+
+
+Razorpay Stories
+
+
+
+
+
+In
+Razorpay Stories
+
+
+Using Machine Learning to Detect Fraud: Introduction
+
+
+April 13, 2020
+
+10 Mins Read
+
+
+
+
+
+ML is a set of algorithms that can actively recognize patterns from large amounts of data and use these patterns to predict a certain parameter–in this case, whether a given order is fraudulent or not. 
+
+
+
+
+
+
+
+			Load More 
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

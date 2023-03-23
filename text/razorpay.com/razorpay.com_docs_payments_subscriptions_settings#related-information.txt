@@ -1,0 +1,46 @@
+
+
+
+
+
+
+Subscriptions Settings | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardCreate and View PlansCreate Subscriptions via LinksCreate Add-onsCharge a Card ManuallyView a SubscriptionUpdate a SubscriptionPause, Resume and Cancel a SubscriptionSubscriptions SettingsOffers for SubscriptionsPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsSettingsSubscriptions SettingsConfigure payment method settings for Razorpay Subscriptions.You can configure the payment methods (Cards, UPI and Emandate) using which you would like to accept subscription payments from your customers.
+Handy TipsCards and UPI currently support recurring payments up to â¹ 5,000. Charges of higher value would automatically fail for domestic cards.
+Enable Payment Methods
+To enable payment methods:
+
+
+Log in to the Razorpay Dashboard and click Subscriptions under PAYMENT PRODUCTS in the left menu.
+
+
+Go to Settings.
+
+
+Enable the payment methods:
+
+Card: Enable this to accept recurring payments via cards for your Subscriptions in any of the supported international currencies.
+UPI: Enable this to accept UPI payments when a recurring charge is less than â¹5,000. Only INR is supported.
+eMandate: Enable this to accept recurring payments via Emandate (NetBanking) for your Subscriptions only in INR. This payment method will be enabled by default. You can disable it whenever required.
+
+
+
+
+Related Information
+
+
+Create and View Plans
+
+
+Create Subscriptions via Links
+
+
+Create Add-ons
+
+
+Charge a Card Manually
+
+
+Update a Subscription
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEEnable Payment MethodsRelated Information

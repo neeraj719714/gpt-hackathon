@@ -1,0 +1,51 @@
+
+
+
+
+
+
+Source Account Validation | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedSign UpGenerate API KeysAllowlist IPsTest ModeAccount TypesAbout Account TypesRazorpayX LiteRazorpayX Current AccountSource Account ValidationFAQsDashboardAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXGet StartedAccount TypesSource Account ValidationSource Account ValidationValidate bank accounts from which you can add funds to your RazorpayX Lite.You can add funds to your RazorpayX Lite through bank transfers. However, you can make these transfers only through validated bank accounts.
+Why Should I Validate Bank Accounts
+For a safer and secure banking experience on RazorpayX, you need to validate the bank account through which you want to add funds to your RazorpayX Lite. This assures that the funds are flowing in from verified sources only.
+Validation Process
+The source account validation process consists of three steps:
+
+You add your bank account details on the RazorpayX Dashboard.
+Razorpay validates these details and notifies you.
+Once successfully validated, you use these accounts to add funds to your RazorpayX Lite.
+
+Step 1: Adding Bank Account Details
+You need to add the bank account details on the Razorpay Dashboard. You can add a maximum of 5 bank accounts. Only Owner and Admin users can add bank account details for validation.
+To add bank account details:
+
+Log in to the RazorpayX Dashboard.
+Click + Add Balance.
+
+
+Click +Add Account.
+
+
+Enter the bank account details:
+
+Account Number: Account from which you want to add funds. Enter the number again in the field given below.
+IFSC: The IFSC for the bank account branch.
+Account holder: Name of the bank account holder.
+Type of account: Add the account type. For example, director account or own account.
+Upload Documents: Upload supporting documents for the account. You can upload either a copy of a cancelled cheque or the account statement.
+
+
+
+Click Submit.
+
+Step 2: Razorpay Validates Account Details
+Once your account details are saved, a ticket is created. The account approval process can take up to 3 days. You will receive a notification once the validation process is complete.
+Or, you can also check the status of the bank account on your Dashboard:
+
+Log in to the RazorpayX Dashboard.
+Navigate to Settings â Banking.
+Here you will find all the bank accounts that you have validated, and or require validation.
+
+Step 3: Add Funds from Validated Accounts
+After the account details are validated, you can start adding funds to your RazorpayX Lite.
+Know more about adding funds to RazorpayX Lite.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEWhy Should I Validate Bank AccountsValidation ProcessStep 1: Adding Bank Account DetailsStep 2: Razorpay Validates Account DetailsStep 3: Add Funds from Validated Accounts

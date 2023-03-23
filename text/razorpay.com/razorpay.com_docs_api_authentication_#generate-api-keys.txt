@@ -1,0 +1,87 @@
+
+
+
+
+
+
+API Authentication & Sandbox Setup | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsIntroductionAPI BasicsAuthentication & Sandbox SetupStructure & PaginationBest PracticesGlossaryOrdersPaymentsSettlementsRefundsDisputesCustomersPayments SuitePartnersRazorpayXErrorsWebhooksApiAuthenticationAPI Authentication & Sandbox SetupAuthentication process for Razorpay APIs and sandbox setup for testing the APIs.Check how to authenticate the APIs.
+API Authentication
+All Razorpay APIs are authenticated using Basic Auth. Basic auth requires the following:
+
+[YOUR_KEY_ID]
+[YOUR_KEY_SECRET]
+
+Basic auth expects an Authorization header for each request in the Basic base64token format. Here, base64token is a base64 encoded string of YOUR_KEY_ID:YOUR_KEY_SECRET.
+Watch Out!The Authorization header value should strictly adhere to the format mentioned above. Invalid formats will result in authentication failures. Few examples of invalid headers are:
+BASIC base64token
+basic base64token
+Basic "base64token"
+Basic $base64token
+
+Generate API Keys
+Follow these steps to generate API keys:
+
+Log in to your Dashboard with appropriate credentials.
+Select the mode (Test or Live) for which you want to generate the API key.
+
+Test Mode: The test mode is a simulation mode that you can use to test your integration flow. Your customers will not be able to make payments in this mode.
+Live Mode: When your integration is complete, switch to live mode and generate live mode API keys. Replace test mode keys with live mode keys in the integration to accept payments from customers.
+
+
+Navigate to Account & Settings â API Keys (under Website and app settings) â Generate Key to generate key for the selected mode.
+
+The Key Id and Key Secret appear on a pop-up page.
+Test Mode API Keys
+Watch this video to see how to generate API keys in the test mode.
+
+
+Live Mode API Keys
+Watch this video to see how to generate API keys in the live mode.
+
+Watch Out!
+After generating the keys from the Dashboard, download and save them securely. If you do not remember your API Keys, you need to re-generate them from the Dashboard and replace it wherever required.
+Do not share your API Key secret with anyone or on any public platforms. This can pose security threats for your Razorpay account.
+Once you generate the API Keys, only the Key Id is visible on the Dashboard and not the Key secret as it can pose security threats for your Razorpay account.
+
+Roll API Keys
+You can roll the Live and Test mode API keys if you have lost them or exposed them. You can choose to regenerate the API keys by deactivating them immediately or after 24 hours.
+Know how to regenerate API keys.
+Sandbox Setup
+The test mode on the Razorpay Dashboard provides a sandbox environment for you to test Razorpay products during the integration process.
+The test mode is a simulation mode. Your customers will not be able to make payments in this mode.
+
+Dashboard: You can test the products on the Razorpay Dashboard by switching to the test mode.
+
+
+API: You can generate the API keys in test mode on the Razorpay Dashboard and use these for authenticating the API requests.
+
+After the integration or product testing is complete:
+
+Switch to the live mode of the Razorpay Dashboard and generate the live API keys.
+Switch the test API keys with the live ones to take the integration live.
+
+Client Libraries
+The client SDK libraries are available on GitHub. You can use the API keys generated above to try out the API sample codes:
+LanguageGit Hub RepoDocumentation Link.NETGithubDocumentationGoGitHubDocumentationJavaGitHubDocumentationNode.jsGitHubDocumentationPHPGitHubDocumentationPythonGitHubDocumentationRubyGitHubDocumentation
+Related Information
+
+
+API Basics
+
+
+Errors
+
+
+Entity Structure and Metadata
+
+
+Pagination and Rate Limiting
+
+
+Best Practices
+
+
+Glossary
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEAPI AuthenticationGenerate API KeysTest Mode API KeysLive Mode API KeysRoll API KeysSandbox SetupClient LibrariesRelated Information

@@ -1,0 +1,46 @@
+
+
+
+
+
+
+Update an Offer Linked to a Subscription | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardOffers for SubscriptionsAbout OffersCreate Subscription OffersLink an Offer to a SubscriptionUpdate an Offer Linked to a SubscriptionDelete an Offer Linked to a SubscriptionPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsOffersUpdateUpdate an Offer Linked to a SubscriptionUpdate an Offer linked to a Subscription from the Razorpay Dashboard.You can link an offer to a Subscription or update the offer linked to a Subscription from the Dashboard.
+
+It is possible to do this only if the Subscription is in the active state and not in any other state.
+The offer is applied to the Subscription only at the end of the current billing cycle. It is not possible to update an offer linked to a Subscription immediately.
+
+Watch this video to see how to update an offer linked to a Subscription from the Razorpay Dashboard.
+
+To update an offer linked to a Subscription:
+
+
+Log in to the Razorpay Dashboard and click Subscriptions under PAYMENT PRODUCTS in the left menu.
+
+
+Click on the Subscription Id for which you want to update the offer.
+
+
+Click Update. The Update Subscription pop-up page appears.
+
+
+Click the Offer drop-down list and select the new offer to be linked with the subscription.
+
+
+Select End of Cycle.
+Watch Out!The new offer will be applied to the Subscription only at the end of the cycle. It is not possible to update an offer linked to a Subscription immediately.
+
+
+Click Next.
+
+
+Review the changes and click Update Subscription.
+
+
+Related Information
+
+About Offers.
+Create Subscription Offers.
+Link an Offer to a Subscription.
+Delete an Offer Linked to a Subscription.
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGERelated Information

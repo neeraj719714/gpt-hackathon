@@ -1,0 +1,397 @@
+
+
+
+
+
+
+
+
+
+
+
+
+The e-rupee and what it means: A brave new era in digital payments? - Razorpay Blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				The e-rupee and what it means: A brave new era in digital payments?			
+
+December 9, 2022
+
+4 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+A fresh chapter in India’s digital payments journey has begun with the Reserve Bank of India commencing a trial of the retail digital rupee (e-rupee) on December 1. The pilot launch will initially cover four cities – Mumbai, New Delhi, Bengaluru, and Bhubaneswar – and four banks before being extended. 
+What is the e-rupee?
+Simply put, the retail e-rupee – or the Central Bank Digital Currency-retail (CBDC-R) – is a digital version of cash. It is legal tender issued by the central bank, but in electronic form. The e-rupee will be issued in the same denominations as currently available banknotes and coins. Users can transact via a digital wallet offered by their banks. 
+How is it different from UPI? 
+One of the motivations behind launching a digital currency is to reduce settlement risk in the system. In the case of UPI transactions, the transfer of money involves a settlement process, where you place a request with your bank and the funds are then deducted from your account and transferred to the beneficiary’s account. 
+But with e-rupee transfers, there is no intermediary. It is literally the electronic equivalent of handing cash over to another person. The money is never ‘in transit’; nor is there any need for inter-bank settlement. 
+The e-rupees are simply transferred from one wallet to another and the funds become the property of the receiving party: this is the concept of ‘settlement finality’. 
+What does it mean for users? 
+We could be looking at a whole new era of reach and convenience in digital payments. Transferring funds will be the literal equivalent of handing cash over. The process will be instantaneous. The RBI has even mentioned an ‘offline’ feature, which means that transactions can occur even without a mobile network. This could have serious implications for remote areas, where the penetration of digital payments has suffered. 
+A digital currency would reduce the dependence on cash and help reduce fraud in digital transactions. Further, the government could use the e-rupee to improve the mechanism of directly transferring funds to beneficiaries of schemes. 
+One feature of physical cash transactions is anonymity: there is no digital trail. While the idea of anonymity while transacting in ‘digital’ rupees may sound infeasible, the RBI has suggested that “reasonable anonymity for small value transactions” could be a “desirable option for CBDC-R.” This means that you could, potentially, transfer funds without leaving any record. However, such anonymous transactions will likely be capped at a certain value. 
+Another point to note is that e-rupees will likely not bear any interest, with the RBI arguing that it would be “logical” to offer CBDCs without interest since physical cash does not carry any interest either. 
+How do we start using the e-rupee?
+For now, the trial will only cover selected consumers and businesses in a closed user group, with only certain cities and banks involved. When the e-rupee is rolled out, users will be able to download an app – for example, Yes Bank has launched its digital rupee app – from their banks and transact in digital rupees.      
+Why was the e-rupee introduced?  
+The RBI, in its concept document, mentioned a few principal motivations: 1. Reducing the cost associated with physical cash management (printing, storage, transportation etc.), 2. Increasing the adoption of digital payments, 3. Supporting financial inclusion (especially via the offline feature in remote parts of the country with poor connectivity) and 4. Providing Indians a safe digital currency without any of the risks associated with cryptocurrency. 
+The future 
+The e-rupee could have a transformative effect, deepening and widening the reach of digital payments in India. It could herald a new era of ease and convenience in digital payments in the country’s farthest corners. It is important, though, to note that the e-rupee is intended by the RBI to “complement, rather than replace, current forms of money”. 
+In three years’ time, will the e-rupee become as much a way of life for businesses and consumers as UPI? Let’s wait and find out!
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+e-rupeeupi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Chidananda 
+
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+RBI Policy Development: New scope for UPI and BBPS
+
+December 22, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

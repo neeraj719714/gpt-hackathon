@@ -1,0 +1,419 @@
+
+
+
+
+
+
+
+
+
+
+
+
+What's tokenisation? | Policies with Dr. Poli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Policies with Dr. Poli
+
+
+				Policies with Dr. Poli: What’s tokenisation?			
+
+November 11, 2022
+
+4 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Straight from the heart of Delhi and Galees of Chandi Chowk, Sunil had grown up with a passion for Sarees and Lehengas. After selling enough outfits to brides young and old, Sunil took the next big step and launched his business online. 
+In just a few weeks he closed tons of sales and in 6 months, he had a flourishing business.
+But in July, he heard about the tokenisation of cards made mandatory by the RBI. With the deadline set for September 30, he started panicking. 
+What is tokenisation? How was this going to impact his business? Why does it even exist?
+It was time to visit Dr. Poli C and learn the A, B, and Cs of tokenisation. 
+
+ 
+Here’s how their conversation went: 
+Dr. Poli C: Sunil, welcome! How can I help? 
+Sunil: I’ve heard some news about “token-something” from RBI. What’s a token? The only token I know about is the one I buy to have Golgappe. Kuch samaj nahi aa raha.
+
+Dr. Poli C: Arre shaant hojao.Yes, the Reserve Bank of India has made tokenisation of cards jaroori. This is good for you and your business. 
+Sabse pehle, how were you receiving online payments till now? 
+Sunil:  On the payment server of my website. I have my own, so via UPI, cards, or net banking only. And of course, many of them are cash payments as well.
+Dr. Poli C: Haan, were customers saving their cards at your payment server? 
+Sunil: Of course
+Dr. Poli C: Hacker-wacker ne data chura liya toh? Scam ho gaya toh? Kabhi socha hai? 
+Sunil:  Aisa bhi ho sakta hai kya? Phir toh customers mujhe trust nahi karenge? 
+Dr. Poli C: Haan, ab yeh nahi chalega, Chai ki Chuski lo aur suno.
+
+Card info is sensitive and to prevent scams and data leaks, RBI has made it mandatory to tokenize cards. Matlab card details will be saved as completely different numbers and values, so no one can steal this data. This is called the tokenisation of cards.  And this ensures the data you saved is SAFE AND SOUND. 
+Sunil: Accha what will card details be saved as? I’m scared, Will I lose my customers to Chandu ke Lehenge now?
+Dr. Poli C: For example, card number 1234567812345678 of sunil1234@gmail.com will be saved as 4543hgjd2456dhsb, with the email ID dfjhk3458@gmail.com, bilkul different. Samjhe?
+
+Sunil: Accha, But what’s the point of doing this? Will this be expensive? 
+Dr. Poli C: Ab customer card details aapke server pe save nahi honge, card ke network par save honge. And they’ll be saved as different numbers and alphabets. So you won’t have to worry about any data leaks because you don’t have the saved cards anymore! 
+Your customers will also feel safe about saving their card details with you. 
+
+And now payments will be faster for you. Kyuki, card safely saved, which means your customers don’t have to enter their long card numbers to buy something from you. Only CVV is required, OTP, and their payment is done! 
+Sunil: Hmmm, What about UPI and net banking, will this also affect those payment options? 
+Dr. Poli: Ji nahi, this is only for cards, UPI and net banking payments will work as usual. 
+Sunil: Arre, yeh toh bhadiya hai, main aiwi tension le raha tha.
+Dr. Poli C: Haanji, now tell your customers to verify your cards and save them for quicker payments. Worry-free, both you and your customers! 
+Now leave everything to your payment aggregator. You just focus on having your next sale for Christmas and new year. Tension free. 
+
+Onam ho ya Lodhi, Sagai ho ya Satsang, Sunil’s customers can shop non-stop by tokenizing their cards! 
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+card paymentsPaymentsrbiRBI guidelinesSME Businesstokenisation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Shruti Gupta 
+
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+Policies with Dr. Poli: Buy now, pay later
+
+December 8, 2022
+
+
+
+
+
+ 
+
+Razorpay becomes India’s first payment gateway to support credit cards on UPI
+
+December 5, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

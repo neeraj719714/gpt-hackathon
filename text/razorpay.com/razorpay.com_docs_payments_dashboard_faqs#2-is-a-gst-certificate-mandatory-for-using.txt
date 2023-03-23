@@ -1,0 +1,100 @@
+
+
+
+
+
+
+Payments Dashboard | FAQs | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardDashboard ActionsHome PageTest and Live ModesReportsAccount & SettingsFAQsContact SupportCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsDashboardFaqsFrequently Asked Questions (FAQs)Find answers to frequently asked questions about Razorpay Dashboard.Edit Login Information
+1. How do I change the login/registered email ID of my account?
+You can change your login/registered email ID from the Account & Settings on the Razorpay Dashboard. Know more about Updating Login Email.
+2. How do I change the password of my Razorpay account?
+To change your password, enter your email ID on the Forgot Password page and complete the password reset process.
+3. How do I change the phone number registered with my Razorpay account?
+Follow these steps to change the phone number:
+a. Log into the Razorpay Dashboard. 
+b. Navigate to Account & Settings. 
+c. Click the edit icon next to the Phone number field. 
+
+d. Enter the OTP sent to your registered email address and click Confirm. 
+
+e. Enter the new phone number and click Update. 
+
+4. How can I change the email ID where I receive the transaction-related mail?
+You can add the email ID from your Razorpay Dashboard by following these steps:
+a. Log into the Razorpay Dashboard. 
+b. Navigate to Account & Settings. 
+c. Click Email under the Notification settings section. 
+
+d. Add the email ID in the Email Notifications. 
+e. Click Save Changes. 
+Edit Business Information
+1. How do I change the account details displayed on the Profile page of Razorpay Dashboard?
+To change your account details, raise a request with our Support Team.
+2. How do I change my business Website URL?
+To change your business website URL, navigate to  Account & Settings â Business website details and click the edit icon in the Business Website/App details field. Know more about how to edit your business website/app URL.
+3. How can I update my bank account information?
+You can request a change in bank account details from the Razorpay Dashboard. Watch the video explaining how to change bank account details.
+a. Log into the Razorpay Dashboard. 
+b. Navigate to Account & Settings. 
+c. Click Bank account details details under the Bank accounts and settlements section. 
+d. Click Change bank account. 
+e. Enter the OTP sent to your registered mobile device on the 2-Step Verification pop-up page.
+f. On the Change Bank Account Details pop-up page, add bank details such as branch IFSC, bank account number, and beneficiary name and upload your business' bank statement or a cancelled cheque.
+g. Click Save. 
+For security reasons, only the Owner or Admin of the account will be able to access this option from the Razorpay Dashboard. After the request is placed, the beneficiary details will be validated and updated within one business day.
+4. How can I update my business name on the payment confirmation mail sent to customers by Razorpay?
+You can change the billing label on the automated emails sent by Razorpay to your customers.
+Handy TipsThe billing label must match your registered business name or the domain name.
+If you are a registered business, you can use the Update Brand Name feature on the Razorpay Dashboard to update the business name.
+If you are an individual, for example, a freelancer, raise a request with our Support Team.
+5. How can I change my GSTIN?
+You can use the Add or Update GST details feature on the Razorpay Dashboard to update the GST details.
+6. How do I change the KYC details provided during account activation?
+To change your KYC details, please raise a request with our support team.
+Razorpay Integration
+1. What is the Razorpay Dashboard?
+Razorpay Dashboard is a user interface for you to configure and operate your Razorpay account. The Dashboard home page provides all information about the activity on your account. It includes a wide range of analytics and real-time charts that provide insight into the business performance and any action you may need to take, such as unanswered disputes or auto-refunds.
+2. Is a GST certificate mandatory for using Razorpay Payment Gateway?
+No, a GST certificate is not mandatory for businesses with an annual turnover below â¹20 lakhs.
+3. I have added my Razorpay account to my website domain. Can I also add it to a sub-domain?
+To add your Razorpay account to your sub-domain, raise a request with our Support Team.
+4. How do I integrate Razorpay?
+You can integrate Razorpay with your website or app using SDKs and plugins. Refer to our list of integrations. You can also accept payments without integrations using our range of products.
+5. How to provide a clarification requested by Razorpay?
+During the verification process, we may contact you for clarifications on email, WhatsApp, SMS, and Razorpay Dashboard. Navigate to Account & Settings and submit the necessary information in the appropriate section. Our team will review the information you provide and help resolve the issue.
+6. How do I close my Razorpay account?
+Log in to the Razorpay Dashboard and raise a support request to close your Razorpay account.
+Reports
+1. How can I generate reports?
+All of your transaction data can be exported as reports in CSV format and can be mailed to yourself. You can also download a monthly or a daily report from the Reports Section of the Dashboard.
+Watch this video to learn how to generate Reports from the Razorpay Dashboard.
+
+2. Can I generate an annual report?
+No. You cannot generate an annual report at the moment. You can only generate reports for the last 90 days.
+Customer Actions
+1. As a customer, how can I track the status of my payment or refund?
+Enter your Payment or Refund ID here to check the payment or refund status.
+Miscellaneous
+1. How can I apply for my TDS reimbursement?
+To apply for your TDS reimbursement, raise a request with our Support Team, sharing your merchant ID and TDS certificate.
+2. I cannot generate Live mode API keys even though my account is activated. How do I generate the API keys?
+You can generate the Live mode API keys by providing your live website details. Follow these steps:
+a. Log into the Razorpay Dashboard. 
+b. Navigate to Account & Settings. 
+c. Click Business website details under the Website and app settings section. 
+
+d. Click the edit icon.
+
+e. Enter your website URL and click Add Details. 
+
+
+f. Our team will review your website/app URL details. Post review, your website details are updated, and you should be able to generate API keys in the Live Mode. 
+3. What is a Chargeback?
+Chargeback is a refund claim initiated by the customers with their issuer banks. In such cases, the bank starts an official inquiry.
+Know more about Chargebacks.
+4. I want to report a fraud/cybercrime that has taken place.
+Please raise a Support Ticket and our team will get back to you at the earliest.
+5. Where can I find my Account ID/Merchant ID on the Razorpay dashboard?
+You can find your Account ID/Merchant ID at the top-right corner of your Razorpay Dashboard in alpha-numeric characters.
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEEdit Login InformationEdit Business InformationRazorpayReportsCustomer ActionsMiscellaneous

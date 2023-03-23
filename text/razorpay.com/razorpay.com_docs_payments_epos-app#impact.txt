@@ -1,0 +1,23 @@
+
+
+
+
+
+
+ePOS App | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsEpos AppePOS AppThe ePOS App is deprecated. Download and install the Razorpay Payments Mobile App for an upgraded experience.The Razorpay ePOS Android App is deprecated. You can download and install the Razorpay Payments Mobile App for an uninterrupted and upgraded mobile payments experience. Apart from the ePOS App's capabilities, the Razorpay Payments Mobile App contains powerful features that help keep track of customer payments even when you are on the move.
+Why Upgrade to Razorpay Payments Mobile App
+The Razorpay Payments Mobile App enables you to:
+
+Accept payments from your customers using Razorpay.me URL and Payment Links.
+View the real-time status of payments made by customers.
+Create Razorpay Payment Pages.
+Issue refunds to customers.
+View and track settlement details.
+Generate API keys.
+
+Know about the Razorpay Payments Mobile App's features and advantages and discover how it can suit your business needs.
+Impact
+The ePOS App is no longer functional.
+Next Steps
+Please upgrade to the Razorpay Payments Mobile App for a superior mobile payment experience.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEWhy Upgrade to Razorpay Payments Mobile AppImpactNext Steps

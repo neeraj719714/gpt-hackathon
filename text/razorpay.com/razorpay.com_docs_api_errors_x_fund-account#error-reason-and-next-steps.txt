@@ -1,0 +1,27 @@
+
+
+
+
+
+
+Fund Account Error Codes | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideErrorsOverviewListPayment MethodsRazorpayXOverviewGenericContactFund AccountPayoutWebhooksApiErrorsXFund AccountFund Account Error CodesRazorpayX Fund Account Error Codes. Understand why they occur and the steps to resolve them.Fund Account error codes are returned when a fund account creation fails for some reason. You can identify when a Fund Account API has failed with the response or webhooks.
+Errors Sample Code and Description
+Here is an example of how an error code appears when a fund account creation fails.
+Sample Code
+Sample Error Responsecopy{  "error":   {      "code": "BAD_REQUEST_ERROR",      "description": "The id provided does not exist",      "source": "business",      "step": null,      "reason": "input_validation_failed",      "metadata": {}  }}
+codestring Not applicable for Error Codes, value displayed to maintain consistency of error object.descriptionstring A description for the error. For example, IMPS is not enabled on beneficiary account, Retry with different mode.sourcestring Possible values:
+business: The error can be fixed from your end.
+stepstring Not applicable for API Error Codes, value displayed to maintain consistency of error object.reasonstring The error reason. For example, input_validation_failed.metadataNull Value Not applicable for API Error Codes, value displayed to maintain consistency of error object.
+Error Reason and Next Steps
+The below table lists the error reasons and the explanation for why they occurred. Find out how you can resolve the errors with the troubleshooting steps mentioned against the respective errors.
+Error DescriptionNext StepsThe contact id provided does not exist.Ensure you are passing correct contact ID. Check if this contact already exists in your RazorpayX account using Fetch Contact id API or use the search option on the Dashboard.The IFSC must be 11 characters.Pass the correct 11 characters IFSC.The account number format is invalid.Correct the format of account number. The account number should be between 5 and 35 characters. Supported characters: a-z, A-Z, and 0-9.001 is not a valid id.Ensure you are passing the correct fund account id.
+Related Information
+
+
+About Error Codes
+
+
+API Error Codes
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEErrors Sample Code and DescriptionError Reason and Next StepsRelated Information

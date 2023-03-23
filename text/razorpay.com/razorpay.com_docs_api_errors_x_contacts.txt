@@ -1,0 +1,24 @@
+
+
+
+
+
+
+Contact Error Codes | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideErrorsOverviewListPayment MethodsRazorpayXOverviewGenericContactFund AccountPayoutWebhooksApiErrorsXContactsContact Error CodesRazorpayX Contacts Error Codes. Understand why they occur and the steps to resolve them.When firing Contact APIs, you might run into errors for various reasons. These error codes are returned in an error body, which you can use to understand the reason for the error and the steps to resolve it.
+Error Sample Code and Description
+Here is an example of how an error code appears when any Contact API fails.
+Sample Error Responsecopy{  "error": {      "code": "BAD_REQUEST_ERROR",      "description": "The name field is required.",      "source": "business",      "step": null,      "reason": "input_validation_failed",      "metadata": {},      "field": "name"  }}
+codestring Not applicable for Error Codes. The value is displayed to maintain consistency of the error object.descriptionstring A description for the error. For example, The name field is required..sourcestring Possible value is business. The error can be fixed from your end.stepstring Not applicable for API Error Codes. The value is displayed to maintain consistency of the error object.reasonstring The error reason. For example, input_validation_failed.metadataNull Value Not applicable for API Error Codes. The value displayed to maintain consistency of the error object.fieldThe Contact details in the Contact entity such as name, email, type and so on.
+Error Reason and Next Steps
+The below table lists the error reasons and the explanation for why they occurred. Check how to resolve them using the troubleshooting steps mentioned against the respective error.
+Error DescriptionNext StepsThe name field is required.Occurs when there is a syntax error in the request body. Enter the details in the recommended format as per the request body .The name field is invalid.Occurs when there are special characters used in the request body. Enter details as per the format recommended for Create a Contact request.Invalid type: contact_typeAContact type is invalid. Occurs when: There are special characters in the type field.Casing does not match as per the type. type is case-sensitive.Contact type sent in the request does not match the types present in the Dashboard. Enter the correct contact type in the request body. You cannot create new contact types via API. You must create them via the RazorpayX Dashboard .K9MbmNoebKU6S is not a valid id.Occurs when contact id entered in the request body is invalid/does not exist. Enter the correct Contact ID. You can find the Contact ID:  In the response body of create a Contact API.On the Contacts Dashboard.
+Related Information
+
+
+About Error Codes
+
+
+API Error Codes
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEError Sample Code and DescriptionError Reason and Next StepsRelated Information

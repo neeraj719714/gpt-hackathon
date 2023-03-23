@@ -1,0 +1,20 @@
+
+
+
+
+
+
+Payments APIs | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsAbout PaymentsTest Card and Test UPI IDPayment Capture SettingsInternational PaymentsManage Late Authorised PaymentsDashboardPayments APIsSuccess Rate AnalyticsDowntimes UpdatesFAQsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPaymentsApisPayments APIsList of available Payments APIs for various actions such as Capture, Fetch and Update.You can use the Payments APIs to perform various actions. You can perform a few of these actions from the Razorpay Dashboard as well.
+List of Payments APIs
+The table below lists the various Payments APIs and gives a brief description of each API:
+APIDescriptionCapture a paymentAPI to capture a paymentFetch a paymentAPI to view details of a paymentFetch multiple paymentsAPI to get details of all paymentsFetch payments based on ordersAPI to get payments based on ordersFetch card details for a paymentAPI to get the card details for a paymentUpdate a paymentAPI to update notes of a paymentPayment Downtime APIAPI for payment downtime and webhooks
+Related Information
+
+
+ About Payments
+
+
+Payments - Dashboard Actions
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEList of Payments APIsRelated Information

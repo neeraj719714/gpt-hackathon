@@ -1,0 +1,114 @@
+
+
+
+
+
+
+Billing - Fees and Taxes | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAbout DashboardKeyboard ShortcutsGlobal SearchSupportAccount SettingsManage TeamsCreate User RoleApproval WorkflowBilling - Fees and TaxesTwo-Factor AuthenticationCredits and Free PayoutsChartered Accountant PortalFAQsFAQsAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXManage TeamsBillingBilling - Fees and TaxesExplore the fees and taxes charged for payouts in RazorpayX and download the related billing reports.When you make a payout from your RazorpayX account, you are charged fees and taxes, which is deducted from your account balance.
+
+
+Fees: The fees that Razorpay charges you to make a payout. This is charged according to your pricing plan.
+
+
+Tax: This is the GST on the fees, as per government regulations. This is collected by the government.
+
+
+Refer to RazorpayX Pricing.
+Billing for Payouts
+Discover how fees and taxes and credits are applicable to payouts made through RazorpayX.
+Payouts from RazorpayX Lite
+When you make a payout using RazorpayX Lite, the fees and taxes are charged as a part of the payout in real-time.
+Example
+For a payout of â¹10,000, the fees applicable is â¹5 and the tax on this is â¹0.90.
+When you make a payout â¹10,000 from RazorpayX Lite:
+
+â¹10,005.90 (â¹10,000+ â¹5 + â¹0.90) is deducted from RazorpayX Lite balance.
+â¹10,000 is credited to your contact.
+â¹5 (fees) is credited to Razorpay.
+â¹0.90 (tax) collected by the government.
+
+In case of a payout reversal, the fees and tax are also reversed.
+Payouts from Current Account
+When you make a payout from your Current Account, the fees and tax is not deducted in real-time as part of the payout.
+Instead, the fees and tax are collected on a regular frequency and appear as a payout in your account statement. This is an automated process and does not require any action from you.
+Example
+The fees and tax on all payouts made in the 1st week of January, that is, between January 01 to January 07, is calculated and collected on January 08. The collection then appears as a payout in your account statement.
+Handy TipsFor reversals, amount = (original payout amount + fees + tax). Fee and tax for reversals appear with a minus symbol. This is to indicate they are returned to you and also help with your reconciliation.
+Free Payouts
+You have a few Free Payouts available when you sign up with RazorpayX. Know more about Free Payouts.
+Billing Reports
+There are 3 reports about your account's billing process you can download from the Dashboard:
+
+Invoice Reconciliation Report.
+Monthly Tax Invoice Report
+Fee Recovery Report.
+
+Invoice Reconciliation Report
+The Invoice Reconciliation report contains details of fees and tax for payouts made using both RazorpayX Lite and Current Accounts.
+Watch this video to see how you can download the Invoice Reconciliation Report.
+
+To download Invoice Reconciliation report:
+
+Log in to your RazorpayX Dashboard.
+Navigate to My Account & Settings â Billing.
+Select to download Report from the Monthly Invoice section.
+
+Monthly Tax Invoice Report
+This is a consolidated statement of all fees and tax deducted from RazorpayX Lite and your current account. Following is a screenshot of a sample invoice.
+To download the Monthly Tax Invoice: 
+
+Log in to your RazorpayX Dashboard.
+Navigate to My Account & Settings â Billing.
+Select Invoice from the Monthly Invoice section.
+
+Fee Recovery Report
+The Fee Recovery report contains details of fees and tax for payouts made using your Current Account only.
+To download Fee Recovery report:
+
+Log in to your RazorpayX Dashboard.
+Navigate to My Account & Settings â Billing.
+In the Billing Plan section, select PAST FEE DEDUCTIONS.
+Click Export and follow the on-screen instructions.
+
+Sample - Fee Recovery Report
+Following is a screenshot of the Fee Recovery report.
+
+Apart from the various fields in the report containing details of each transaction, the following are two important fields:
+
+fee_id
+
+RazorpayX Lite: auto_paid, because the fees and tax is collected as part of the payout.
+Current account: This column contains a unique identifier associated with the fee and tax collected. This is because, for current accounts, fees and tax are collected on a regular frequency and not on a per payout basis. Multiple payouts can have the same fee_id.
+
+
+fee_created_at
+
+RazorpayX Lite: This column will be blank because the fees and tax is collected as part of the payout.
+Current account: The date and time when the fee and tax collection was initiated by RazorpayX.
+
+
+fee_type
+
+free_payout: Indicates a Free Payout was used to process the payout. In such scenarios, you are not charged any fees and tax. Only the payout amount is deducted from your account balance.
+
+
+
+Related Information
+
+
+Manage Teams
+
+
+Approval Workflow
+
+
+Two-Factor Authentication
+
+
+Credits and Free Payouts
+
+
+Chartered Accountant Portal
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEBilling for PayoutsPayouts from RazorpayX LitePayouts from Current AccountFree PayoutsBilling ReportsInvoice Reconciliation ReportMonthly Tax Invoice ReportFee Recovery ReportRelated Information

@@ -1,0 +1,570 @@
+
+
+
+
+
+
+
+
+
+
+
+
+How Social Media Entrepreneurs can Accept Payments Online - Razorpay Payment Pages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Business Management
+Payments
+Payroll
+Business Banking Plus
+Guides & Ebooks
+ 
+
+
+
+Facebook
+Twitter
+Instagram
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				How Social Media Entrepreneurs can Accept Payments Online			
+
+July 30, 2019
+
+3 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Are you a social media seller? Or are you a small business owner who sells merchandise on the Internet? Have you thought about how you’ll accept online payments from your customers? If you have, you definitely know how you can’t accomplish this in a few simple steps. 
+Accepting payments online is one of the most challenging aspects of owning a business. 
+
+
+
+
+To accept payments online, the first thing you need is a website. Next, a payment gateway integration.
+If you don’t have a website already, building one is going to take you some time. This can be very expensive because you have to host your website and develop it continuously. 
+If not a website, an app.
+A payment gateway is necessarily going to be your first thought after your site is set up. 
+But you’ll definitely think some more when you realize the amount of time it takes to get integrated, and the technical efforts it needs. You are a social media influencer, and it doesn’t always make sense to spend that kind of money and time behind these things.
+So, how can you go about accepting payments without having to deal with all of these?
+Three words: Razorpay Payment Pages.
+Razorpay Payment Pages is a payment solution that is not hosted or developed by you, but has your branding, and accepts online payments for you.
+Whether you have a website or you don’t, whether you have an app or you don’t, you can still accept payments online through Payment Pages.
+Take your business online and accept payments with limited technical knowledge and even less set-up time.
+Razorpay Payment Pages helps your business with end-to-end payment collection by allowing you to create your page without you having to host it, still allowing you to have a custom URL, which is an extension of your business. 
+You can also capture customer data the way you want, with particulars you decide. You have access to the Razorpay dashboard that gives you detailed reports and analytics for payments collected via the hosted page. And best of all, it will take you absolutely no tech expertise or effort to build yourself a Payment Page and go live.
+You can just link your Payment Page to your social media profile where you need to accept payments or send the Payment Page link to your customers.
+All of this with complete security since Payment Pages is a part of the Razorpay’s core platform. Your Payment Page is secured by an industry standard 100% PCI DSS compliant and certified solution.
+Here are some benefits of Razorpay Payment Pages:
+
+Automate the generation and collection of payments using Razorpay’s powerful APIs
+Receive webhook notifications for all payments
+Receive data, insights, and reports on the Razorpay dashboard
+Support for international payments in 100 foreign currencies 
+
+Check out Razorpay Payment Pages and get ready to propel your social media business to the next level.
+
+Also read: Razorpay Payment Pages – The SME Payments Enabler
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+online paymentspayment pagessell onlineSocial Media
+
+
+
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Harshitha Rao 
+Harshitha is a marketer at the future-forward RazorpayX. She has an insatiable love for travel and culture, rock music, and the work of Neil Gaiman.
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+ATM: All You Need to Know About Automated teller machine
+
+December 11, 2022
+
+
+
+
+
+ 
+
+Real Time Gross Settlement (RTGS)Timings
+
+December 11, 2022
+
+
+
+
+
+ 
+
+NEFT Timings and Settlements
+
+December 7, 2022
+
+
+
+
+
+ 
+
+How to Become a Meesho Supplier: A Complete Guide
+
+August 28, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+Enter your email address below to subscribe to our newsletter
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Recent Posts
+
+
+Startup Business Loans: 5 Key Factors That Determine Your Eligibility
+
+
+6 Tips to Build a Strong Business Credit Profile: A Guide to Online Business Loan Eligibility
+
+
+Corporate Finance: A Comprehensive Guide
+
+
+What Lenders Look For: Understanding Business Loan Eligibility
+
+
+A Brief History of Business Loans in India
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+In
+Payments
+
+
+ATM: All You Need to Know About Automated teller machine
+
+
+December 11, 2022
+
+4 Mins Read
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+In
+Taxation & Notifications
+
+
+MSME Definition- MSME Full-form and Meaning 2023
+
+
+September 13, 2021
+
+5 Mins Read
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2021. All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Submit
+
+			Type above and press Enter to search. Press Esc to cancel.		
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+
+				Want to increase your revenue by 10x?			
+
+Take the First STEP by Launching your Business Online!
+
+
+
+
+
+
+Access Razorpay Exclusive
+
+
+
+
+			×            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

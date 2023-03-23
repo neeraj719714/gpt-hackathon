@@ -1,0 +1,85 @@
+
+
+
+
+
+
+Payments | FAQs | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedCreate a Razorpay AccountSubmit KYC DetailsBusiness Types and KYC DocumentsAccount Activation SupportFrequently Asked Questions (FAQs)DashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsFaqsFrequently Asked Questions (FAQs)Some frequently asked questions about Razorpay.Find answers to some Frequently Asked Questions (FAQs) about Razorpay.
+Common
+1. How is Razorpay better?
+Razorpay is a developer-oriented payment gateway.
+a. We provide you with timely support.
+b. Our codes are super easy to integrate.
+Also, our checkout experience is highly customer-friendly. For example:
+a. We display preferred payment methods to customers based on past interactions.
+b. Our saved cards feature ensures that customers do not have to re-enter card details.
+c. We support an extensive list of payment methods and instruments.
+Know more about Razorpay.
+2. Can I know more about Razorpay?
+Razorpay is an Indian payments solution provider that allows businesses to accept, process and disburse payments with its product suite. We give you access to all payment modes including credit card, debit card, netbanking, UPI, and popular wallets including JioMoney, Mobikwik, Airtel Money, Freecharge, Ola Money, and PayZapp.
+We provide a secure link between your website, various issuing institutions, acquiring banks, and other payment gateway providers.
+List of Razorpay products.
+
+3. Is it similar to wallet payments?
+Razorpay is not a wallet provider. We enable businesses to accept payments and make payouts using various payment methods. We do not have a login before the payment page.We do not even redirect to any page; we take payments on the business' page. This drastically reduces the customer drop-off ratio, resulting in high profits for the buisness.
+
+4. Where can I view your PCI Certification?
+You can view the PCI Certification here.
+
+5. Who are your clients? Can you give me some examples?
+You can view some of our customer success stories on our website.
+
+6. Can I know more about order cancellation, refunds and returns?
+All queries relating to full or partial cancellationof orders should be routed to the seller since we are a payment gateway and only facilitate online payments for sellers. As we do not handle shipping or order dispatch, you should directly contact the seller for any queries.
+Once a refund is initiated, you should get the credit in your bank account within 5-7 business days. You can check the refund status here.
+Read our blog: why-do-refunds-take-time.
+7. Do you support peer-to-peer transfers?
+We currently do not support this.
+8. What does the transaction section cover?
+This section lets you overview the transactions received against your orders, refunds done(if any) and invoices received and helps you to capture or refund a payments (partially/fully).
+9. I have signed up using my phone number. How do I setup my password?
+To setup a password, follow these steps:
+
+Enter your email address and click Forgot?. You will receive a verification link on your email ID.
+
+
+Click the verification link and setup your password.
+
+Account Activation
+1. Do you support freelancers or individuals?
+Yes, we do support freelancers/individual business entities. You can sign up here and submit your activation form.
+
+2. I had submitted the form long back. How do I get my account activated?
+Please check if you have received an email shortly after submitting the activation form and revert to the email thread. If you do not see any mail, please raise a request over Razorpay Support and our team will get back to you.
+
+3. I have signed up with Razorpay. How do I complete my activation form?
+Follow these steps to complete the activation process:
+a. Log in to your Razorpay Dashboard.
+b. Complete Account Activation and KYC Verification steps.
+c. Submit the activation form.
+Know more about  KYC activation.
+
+4. I have submitted my activation form but my account is not activated. Can I start integrating?
+Yes, you can start integrating without your account getting activated. But you must have an active account for the settlements. Check the various integration options available to you. If you face any issues during the integration, raise a Razorpay Support request.
+5. I have submitted my activation form. When will my account get activated?
+Activation of an account is subject to approval from our banking partners (Working days do not include Saturdays, Sundays, and bank holidays).
+We will update your account status after receiving the bank's response.
+
+6. My account has not been activated; it has been too long since I got any update. What do I do?
+We try our best to have everyone's account activated on time. However, since you have not received an update on this, please raise a request with Razorpay Support. Our team will update you at the earliest on the status of your account.
+
+7. What are the documents needed to sign-up?
+Check the list of documents required for signing up at Razorpay.
+8 . What are the different payment methods supported at Razorpay?
+Razorpay supports a range of payment methods.
+
+9. Why is my settlement on hold and my account under review after getting activated?
+Our compliance team and partner banks perform routine audits of your KYC documents. We might temporarily pause your settlements during this time. Look out for clarifications asked by our team on your registered email. Upon receiving your response, we will process the application within 2 days and re-enable settlements for you.
+You can still accept payments from your customers.
+
+10. Can I change my business type once my account is created?
+No, you cannot change your business type once the account is created. However, if you have not submitted your KYC details, then you can update the business type.
+Account Configuration
+1. Can I disable the customer receipt emails from Razorpay?
+Customer receipt emails are the emails that the customers receive for the transactions on their account (payments or refunds). Unfortunately, this is mandated by our partner banks and hence cannot be disabled.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGECommonAccount ActivationAccount Configuration

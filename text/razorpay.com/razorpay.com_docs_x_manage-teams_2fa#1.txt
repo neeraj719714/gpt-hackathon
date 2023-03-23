@@ -1,0 +1,72 @@
+
+
+
+
+
+
+Two-Factor Authentication | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAbout DashboardKeyboard ShortcutsGlobal SearchSupportAccount SettingsManage TeamsCreate User RoleApproval WorkflowBilling - Fees and TaxesTwo-Factor AuthenticationCredits and Free PayoutsChartered Accountant PortalFAQsFAQsAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXManage Teams2 FaTwo-Factor AuthenticationEnhance account security and ensure only authorised users log in to your account using 2-factor authentication(2FA).RazorpayX provides enhanced security and protection through Two-Factor Authentication (2FA) for all users of the Dashboard.
+Usually, to log in to the RazorpayX Dashboard, users enter their email address and password. When you enable 2FA on an account, users are prompted to enter a one-time password (OTP) when logging in. They receive an OTP on their registered mobile number.
+By setting this additional layer of security, you can ensure that only the intended user has access to your Dashboard, thus preventing malicious attacks or misuse of your sensitive business data.
+Enabling 2FA for Users on Dashboard
+To add this additional layer of security, you must enable 2FA. You can enable it
+
+All team members: As the account owner, you can enforce 2FA for all users (team members) linked to your account.
+Your account only: As a user, you can set up 2FA for your account only.
+
+2FA for All Team Members
+As an owner, you can enforce 2FA for all users (team members) linked to your account. Watch this video or read along to see how you can set 2FA for all users in your team.
+
+To enable 2FA for all your team members:
+
+Log in to your RazorpayX Dashboard.
+Navigate to My Account & Settings â Manage Team.
+In the Team Members tab, enable the Two-Factor Authentication for the team option by toggling it to ENABLED.
+Enter the OTP sent to your registered mobile device.
+Enter your account password and confirm.
+
+You have now set up 2FA as a mandatory step for all team members on your account. If a user did not provide their mobile number during sign up, they are prompted to do so on their next login.
+2FA for Your Account Only
+You can enable 2FA for your account only. Watch this video or read along to see how to enable 2FA for your account only.
+
+To enable 2FA for your account only:
+
+Log in to your RazorpayX Dashboard.
+Navigate to My Account & Settings â User Profile.
+Enable the Two-Factor Authentication option in the section under User Role.
+Enter the OTP sent to your registered mobile device.
+Enter your account password and confirm.
+
+You have now set up 2FA for your account only.
+If your users are locked out of their accounts, the Owner/person with Owner privileges, can reset 2FA for that user.
+FAQs
+1. What to do if a user account is locked?
+If a user enters the wrong OTP 9 times, the account gets locked for security reasons.
+In such scenarios, the user should contact their respective account owner. The account owner can unlock the users' accounts.
+2. What to do if a user loses the mobile device?
+If a user loses the mobile device, the user should reach out to the respective account owner. The account owner can Reset 2FA for the user.
+The next time the user logs into the Dasbhoard, they user will be asked to enter the mobile number. You can watch this video to check how the owner can reset 2FA for a team member.
+
+3. What to do if the account owner is locked?
+If you are the account owner and have entered the wrong OTP 9 times, your account gets locked for security reasons. In such scenarios, contact our Support Team to Reset 2FA for your account.
+4. What to do if the account owner loses the mobile device?
+If you are the account owner and have lost your mobile device, contact our Support Team to Reset 2FA for your account.
+
+Related Information
+
+
+Manage Teams
+
+
+Approval Workflow
+
+
+RazorpayX Fees and Taxes Information
+
+
+Credits and Free Payouts
+
+
+Chartered Accountant Portal
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEEnabling 2FA for Users on Dashboard2FA for All Team Members2FA for Your Account OnlyFAQsRelated Information

@@ -1,0 +1,481 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Supercharge Your UPI Payments Using Razorpay Smart Collect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				Supercharge Your UPI Payments Using Razorpay Smart Collect			
+
+September 25, 2020
+
+7 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Smart Collect Virtual UPI ID is the next big step in UPI payments for all businesses.
+While the advent of UPI was marred with multiple new initiatives like demonetization and GST, the growth that UPI payments have achieved over the last few years has been nothing short of amazing. 
+As of today, we use UPI for almost everything - from purchasing staple goods to paying rent, taxi rides to booking flight tickets, UPI has become a way of life.  Click To Tweet
+Here are some interesting facts reported as of August 2020 on UPI Payments in India: 
+
+UPI based digital payments for August have crossed 1 billion transactions in a month, which is enough to make UPI as the reigning champion of the payments throne
+UPI was responsible for 50% of transactions on Razorpay’s platform–surpassing cards by a 15% margin
+
+Hence, it was only logical for us at Razorpay to double-down on this trend and figure out what additional products we can launch to augment this growth – enter Virtual UPI-ID. 
+Virtual UPI ID – An overview
+In September of 2017, we launched Smart Collect which is a smarter version of the traditional e-collect provided by banks. Smart Collect enables businesses to not only collect payments via NEFT/RTGS/IMPS but also automatically reconcile these payments. 
+[Know more: Scale your Bank transfers with Smart Collect]
+In addition to Customer Identifiers, we now enable businesses to generate Virtual UPI IDs to collect payments via UPI! Let’s take a look at how this actually works using three real-world scenarios.
+Use cases of Virtual UPI ID
+Virtual UPI ID use case #1 – Wealth management
+AcmeCorp is an online stock/share trading platform that enables a customer to seamlessly invest in equity, derivatives, futures, and options. Before enabling the customer to invest in the stock of their choice, the customer first has to transfer funds to AcmeCorp and get them credited against their AcmeCorp account. 
+Until recently, AcmeCorp would provide a single UPI-ID to all their customers to transfer funds and post-that would begin a manual reconciliation process to track payments for each customer and provide the appropriate credit. The process was not only time-consuming but also operationally expensive. 
+Virtual UPI ID has solved both the problems mentioned above: 
+
+Provide instant credit to the appropriate customer’s account
+Fully-automated reconciliation that requires zero-manual intervention
+
+Let’s see how AcmeCorp is using Virtual UPI ID for their customers:
+
+Step 1: Create a unique Virtual UPI ID for each customer based on the registered phone number with AcmeCorp. Eg. rpy.myacmecorp8469472988@icici
+Step 2: AcmeCorp notifies the customer via email, SMS, WhatsApp, or app notification
+Step 3: The customer adds the Virtual UPI ID in their preferred PSP App
+Step 4: The customer enters the preferred payment amount and completes the payment after entering the UPI PIN
+Step 5: AcmeCorp receives a real-time alert regarding the payment via dashboard and via webhook and credits the respective customer’s account
+
+
+Virtual UPI ID use case #2 – Donations
+PromiseHill is an online giving platform that enables donors to contribute to the campaigns of their choice. 
+Until recently, PromiseHill would ask all the donors to come to their website to make a donation. The process leads to a lot of drop-offs and also makes it harder for the donors to identify campaigns in critical need of funds. 
+Let’s see how PromiseHill is using Virtual UPI IDs for their donors:
+
+Step 1: Create a unique Virtual UPI ID for each campaign using the campaign name. 
+Eg. rpy.givetokaajalsinghaal@icici
+Step 2: PromiseHill shares this handle across various WhatsApp groups
+Step 3: The donor clicks on the handle and proceeds to payment
+Step 4: The customer enters the preferred payment amount and completes the payment after entering the UPI PIN
+Step 5: PromiseHill receives a real-time alert regarding the payment via dashboard and via webhook and credits the respective campaign
+
+Virtual UPI ID use case #3: Lending
+MoneyBase is an online platform that provides a personal credit line to retail customers. Let’s see how MoneyBase is using Virtual IDs for their loan repayments: 
+
+Step 1: Create a unique Virtual UPI ID for each customer based on the registered phone number with AcmeCorp. Eg. rpy.moneybase08469472988@icici
+Step 2: MoneyBase sends a due date reminder email, SMS, WhatsApp, and a unique UPI-intent link
+Step 3: The customer clicks on the link and  is shown the list of available PSP Apps on the device. The customer is requested to click on the preferred app. The example shared below is of PhonePe
+Step 4: The link already includes the invoice details and EMI amount. The only step required from the customer is to complete the payment after entering the UPI PIN
+Step 5: MoneyBase receives a real-time alert regarding the payment via dashboard and via webhook and credits the response EMI invoice as paid
+
+
+Features of Virtual UPI ID
+The solution is designed to meet several use cases to provide maximum flexibility to businesses. Along with the scenarios described above, the product can easily fit into any industry if your customers follow any of the patterns mentioned below: 
+One-time payments 
+This is used in cases where a business needs to accept a single, large payment from a customer via UPI. The UPI handle can be closed as soon as the payment is received.
+Repeat payments 
+For instances where customers are likely to make repeat payments, dedicated Virtual UPI IDs can be created for each customer to easily keep track of every incoming payment.
+Campaign-based payments 
+For special events or campaigns, a unique Virtual UPI ID for specific campaigns can be created. Thus segregating the incoming payments for maximum control and visibility.
+Closed wallet loading
+Businesses who have a closed wallet can assign a unique Virtual UPI ID at the time of assigning a wallet. The customer can load the wallet by adding money to this VPA without even opening the business app.
+Smart Collect Virtual UPI IDs are built to provide a seamless payment experience for your customers. Here are some of the key features which set this product apart from all other offerings in the market.
+Personalized VPA 
+Sharing unique Virtual UPI ID links with your company branding instills trust in your customers. Smart Collect Virtual UPI IDs allows you to instantly go live on a brand prefix of your choice. Click To Tweet
+You can easily highlight your brand and create a UPI handle the way you want. You can also update this prefix any time that you want.
+
+Zero cost for custom account
+Create unlimited custom Virtual UPI IDs at zero cost within minutes and share it across platforms without any hassles.
+Status tracking 
+Track the status of every transaction and Virtual UPI ID in real-time. Get notified as soon as payment is completed via dashboard and via webhook.
+[Recommended Read: Razorpay Payments Webhooks Just Got a Major Upgrade]
+Instant refunds 
+Send out full or partial refunds to customers via dashboard & API and your customers will receive it directly in their bank accounts in real-time.
+Smart reporting 
+Get actionable insights from dashboard & reports using our downloadable reports. Check collections, settlements, and much more.
+[Also Read: Razorpay Dashboard: One Destination for All Your Business Needs]
+Along with features, it is pertinent to call out, some of the early success that our first adopters have witnessed in their business.
+Operational efficiency: Some of the early adopters of this product have seen at least 2x improvement in operational efficiency
+
+Refund escalations: With real-time refunds, we have observed a reduction in refund escalations by more than 60%
+Smart Collect Virtual UPI ID is the next step in UPI payments for all businesses. We have built this product keeping in mind the challenges faced by companies across various industries and verticals. Whether you are using the Razorpay dashboard or are integrating with our APIs, it is very easy to go live.
+You can go live on Smart Collect Virtual UPI ID using the Razorpay dashboard with zero integration efforts. Through the Razorpay dashboard you can choose your brand prefix on your own and start sending custom Virtual UPI IDs to your customers instantly. 
+Here is a quick demo on how to choose your brand prefix and create custom Virtual UPI IDs.
+
+For further information about the product, read our technical documentation on Smart Collect.
+Sign up today and go live instantly on Razorpay Smart Collect on activation.
+Get Started With Razorpay Smart Collect
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+smart collectupiupi payments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Pooja Garg 
+Pooja is a Product Manager at Razorpay. She is a traveler and a bibliophile. She loves long talks especially when it involves a great product idea and a cup of coffee.
+
+
+
+Facebook
+
+
+
+Instagram
+
+
+
+LinkedIn
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+RBI Policy Development: New scope for UPI and BBPS
+
+December 22, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

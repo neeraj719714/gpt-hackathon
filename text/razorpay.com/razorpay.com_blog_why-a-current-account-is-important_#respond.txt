@@ -1,0 +1,430 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Current Account: Importance for Businesses - RazorpayX Blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Business Banking Plus
+
+
+				Why a Current Account is Important for Any Business?			
+
+June 16, 2020
+
+6 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Setting up a current account is a task that business founders simply cannot skip while starting their business. It is very crucial to keep business banking operations separate from personal banking. 
+Having a current account for the business helps keep track of all expenditures while simplifying the taxation process.
+Before we get started, let’s understand what a current account is.
+What is a current account?
+A current account is opened by businessmen, and entrepreneurs, who have to make a large number of transactions regularly. 
+Since the volume of transactions, as well as the amount per transaction is generally high, no interest can be availed upon the balance. A current account helps with deposits, withdrawals, and contra transactions.
+You can open a current account in any commercial bank.
+Advantages of having a current account
+The whole purpose of a current account is to help entrepreneurs and businessmen carry out their transactions seamlessly, on a day-to-day basis. 
+Here are some advantages of having a current account for your business. 
+#1 Current account = any number of transactions 
+One of the most important advantages of having a current account for your business is that there is no constraint on the number of transactions. You can transact any number of times at whatever frequency you need to. 
+Plus, the upper limit for transactions is so high that you don’t have to worry about money movement at all! This enables your business to have maximum fluidity in terms of operations. 
+#2 Keep your personal assets from your business
+It is of the utmost importance to keep your personal and business assets disjoined.  It is always recommended you have a current account so you can track your cash inflow easily. This gives you a superior way of planning and managing your budgets. You also get a roundup on your expenditure.
+Having a clean financial record allows you to organise your data, which can come in handy for taxes and deductions. Great bookkeeping is always a bonus!
+#3 Current account makes your operations easy
+Delayed transactions can result in unwanted hiccups. A current account is just what you need to keep your business operations running like a well-oiled machine! 
+Your day-to-day transactions are carried out effortlessly and proficiently. Without any delays or jam-ups with your operations, you also get benefits like online banking. The speed of your transactions is usually high, which helps you maintain a good rapport with your vendors and customers!
+#4 Current account translates to business legitimacy
+Sure, we already talked about the importance of keeping your personal and business assets away from each other. But there is more. As a businessperson, you may write cheques or make online transfers to your vendors, partners, and more. It may seem unprofessional when you make payments from your personal account. 
+This is not entirely a deal-breaker, but having a current account in the name of your business allows your payees to feel affirmed about you having a legitimate business.
+#5 Reap extra benefits from your current account
+Your current account has all sorts of other benefits that you would typically get from your savings account.  Based on your business, your bank will offer you free Demand Drafts, NEFT and RTGS transactions, Pay Orders, and more, other than the unlimited withdrawals and deposits you can make with your current account. 
+Now that we have talked about nearly everything current accounts can help you with, let us break it to you. There is a whole lot more you can get with current accounts.
+Introducing RazorpayX
+What if we told you that you could get all the benefits we mentioned above, and then some more?  Traditional business banking is not the most efficient way to manage finances. And, several Razorpay merchants told us how suboptimal their business banking experience is.
+We conducted a survey among 1500+ CxOs and spoke to 400+ merchants to understand their business banking experience.
+
+64% of companies believe their payment service providers are best equipped to solve their payment challenges as opposed to banks
+10x as many companies polled believe payment service providers innovate better than banks
+36% of businesses believe manual dependency and reconciliation are the biggest challenges in their current money management
+
+During the survey, another significant problem that stood out was automating money movement. Businesses spend lots of time and money to get their financial operations moving without any trouble. And, with RazorpayX, we aim to put a stop to all problems around money movement.
+We built RazorpayX Current Accounts to help you kickstart your journey towards an efficient and seamless business banking experience. The RazorpayX ecosystem provides you with effective end-to-end money movement capabilities, giving you real-time insights on your transactions.
+Payouts via Dashboard and APIs
+If you already have a current account in a bank, you surely know that API integration takes forever. With RazorpayX, you get APIs by default. 
+Integration takes very little time and you can start making payouts to your vendors, customers, partners, employees, and more, almost instantly. You can also make or queue your payouts using the RazorpayX Dashboard. 
+Approval workflow
+Although approval workflows are available with banks, they are quite difficult to set up. And once they are set up, changing them is very difficult since it is long and laborious, involving many documents.
+With RazorpayX, approval workflows are very smooth, right from setting them up and changing them. All you have to do is raise a request and our Ops team will get them done in no time. 
+Smart insights and reports
+RazorpayX converts your financial data into information, and information into insights, so that you have a better overview of your money movement.  
+
+View financial summaries of your transactions with customers, vendors, employees, etc.
+Drill down views of transactions at a contact level and a category level
+Instantly access/download financial reports and summaries of your contacts
+Get data on real-time transactions that help you make better business decisions
+
+Apps and integrations
+This is one among other things that makes RazorpayX truly stand out from banks. The platform comes with its own set of apps that give you value-added benefits. 
+Your business banking operations will be much smoother with apps like Vendor Payments, Payout Links, Tax Payments, and Payroll.  With these integrations in place, your account will be 10x times more efficient than your average current account.
+[ Suggested reading: RazorpayX – How Businesses can Simplify Payouts ]
+The verdict
+The real difference is how RazorpayX comes with its own package of everything you could possibly need for smooth money movement. 
+RazorpayX is your one-stop virtual CFO that you need to maintain everything in one place and keep your money moving efficiently.
+Xperience the future of banking
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+Technology
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Harshitha Rao 
+Harshitha is a marketer at the future-forward RazorpayX. She has an insatiable love for travel and culture, rock music, and the work of Neil Gaiman.
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Cost Accounting: Meaning, Types & Examples
+
+March 20, 2023
+
+
+
+
+
+ 
+
+All About Return on Investment (ROI)
+
+March 20, 2023
+
+
+
+
+
+ 
+
+Startup Current Account: The Best Way to Bank for New Age Businesses
+
+March 20, 2023
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

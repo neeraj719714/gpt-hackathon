@@ -1,0 +1,145 @@
+
+
+
+
+
+
+Capital Partnership | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpay PartnersBecome a Razorpay PartnerEarningsResellersAggregatorsPlatform PartnersCapitalFAQsGlossaryPartnersCapitalCapital PartnershipBecome a Razorpay Capital Partner. Refer Line of Credit to businesses via Dashboard upload or referral links, track application status and earn rewards.Razorpay Capital is a lending platform enabling businesses to meet their cash flow challenges. Using Razorpay Capital, businesses can manage all of their financial challenges using one or more of the following offerings:
+
+Line of Credit (collateral-free working capital loans)
+Corporate Cards
+Instant settlements
+
+With the Partnership program for Capital, you can now refer businesses to Razorpay Line of Credit and earn lucrative rewards when your leads avail the product.
+Available NowAt the moment, you can only refer the Line of Credit product to your customer base.
+How it Works
+Read along or watch the video below to see how you can:
+
+Sign up or log in to your Razorpay Partner Dashboard as a:
+
+New merchant.
+Existing merchant.
+
+
+Enable the Capital Dashboard.
+Refer leads for Line of Credit via:
+
+Referral links.
+Dashboard bulk upload.
+
+
+
+
+Become a Partner for Capital
+The Razorpay Capital Partner program is currently a closed group program with an invite-only access. However, you can apply to become a Partner for Capital by following these steps:
+
+Fill the interest for Capital Partnerships form to communicate your interest in the program. One of our associates will get in touch with you.
+Once picked as a suitable profile, you receive a mail from Razorpay with an exclusive invite link.
+Open the link and sign up for the Partner Program.
+After signing up, share your merchant ID (MID) with the sales associate. Your merchant ID is available at the top-right corner of the screen on your Dashboard, as shown.
+
+
+
+After you share your MID, we will enable the Capital referral Dashboard for you in a day. You have successfully become a Partner for Capital.
+Partner Eligibility
+An ideal profile for the Razorpay Capital business is:
+
+Direct Sales Agent
+
+If you are a direct sales agent having experience in reselling banking products such as corporate cards or business loans, then you are a suitable partner for Capital Partnership.
+
+B2B business
+
+Consider Partnerships for Capital if you are a B2B business owner looking to provide credit access to your customers. This additional credit will improve the purchasing power of your customers and will in turn, increase your revenue.
+
+Professional Services Provider
+
+You are a professional services provider, providing chartered accounting and company incorporation services. Your customer base could be interested in lending products like corporate cards to manage their professional expenses, or is looking for a flexible loan and repayment option.
+Here you have the opportunity to earn additional income by referring Razorpay Capital products to your customers.
+Refer Product to a Business
+You can refer your customer base to avail Line of Credit in two ways:
+
+Via Referral Link
+Via Dashboard Upload
+
+Via Referral Link
+Refer and invite your customers to apply for Razorpay Line of Credit. This option is suitable if you want to broadcast the link on your website or social channels. Businesses can voluntarily signup for the product using your link.
+To copy the referral link:
+
+
+Log in to the Razorpay Dashboard and navigate to your Partner Dashboard, as shown.
+
+
+
+In the left menu, navigate to Affiliates Accounts â Line Of Credit.
+
+
+Click Share Referral Link.
+
+If you do not see the Line of Credit option, reach out to the sales POC.
+
+
+In the Share Referral Link pop-up, copy the referral link.
+
+
+
+Once you have copied the referral link, share it directly on social media or your website. After the referred business (the lead) signs up and avails the product, you will receive the referral bonus.
+Via Dashboard Upload
+You can personally refer and invite your leads to Razorpay Capital in bulk via the Partner Dashboard. Enter their email addresses in the sample file and share the leads with us.
+To upload leads on the Dashboard:
+
+
+Log in to the Razorpay Dashboard and navigate to your Partner Dashboard, as shown.
+
+
+
+In the left menu, navigate to Affiliates Accounts â Line Of Credit.
+
+
+Click + Add New Accounts.
+
+If you do not see the Line of Credit option, reach out to the sales POC.
+
+
+The Add New Merchants - Line of Credit pop-up window appears, as shown.
+
+
+
+Click Download sample file and enter your leads' email addresses and details. The sample file contains the columns of the fields requested along with the recommended formats and values.
+
+You cannot enter more than 500 number of accounts in the file.
+Enter the details in the template format only. Do not modify the template.
+
+
+
+Verify your entries for any discrepancies and upload the file in the same window. You can upload both a .csv or a .xls file.
+
+
+After you successfully upload the file, we process it and display the details of the leads on your Affiliates Dashboard Line of Credit tab.
+
+Some leads may be missing from the Dashboard due to failures. Please check for Razorpay's status email in your inbox. This mail contains the details of the failed leads.
+Fields Requested
+Watch Out!When you add details to fields in the sample template (both mandatory as well as optional), ensure that the details match the allowed values as explained in the table below.
+FieldMandatory/OptionalAllowed Valuesbusiness_nameMandatory0-100 alphanumeric charactersaccount_nameMandatory0-100 alphabet characterscontact_mobileMandatory10 digit mobile number with +91 extensionemailMandatoryStandard valid email addressannual_turnover_minMandatoryInteger in Rupees. For example, â¹1,00,000annual_turnover_maxMandatoryInteger in Rupees. For example, â¹20,00,000business_typeMandatoryTypes allowed: PROPRIETORSHIPINDIVIDUALPARTNERSHIPPRIVATE_LIMITEDPUBLIC_LIMITEDLLPNGOEDUCATIONAL_INSTITUTESTRUSTSOCIETYNOT_YET_REGISTEREDOTHERpromoter_panOptionalStandard PAN formatbusiness_vintageOptionalLESS_THAN_3MONTHSBETWEEN_3MONTHS_6MONTHSBETWEEN_6MONTHS_12MONTHSGREATER_THAN_12MONTHSUNKNOWNgstinOptionalStandard GSTIN formatcompany_address_line_1OptionalStandard address formatcompany_address_line_2OptionalStandard address formatcompany_address_cityOptionalStandard address formatcompany_address_stateOptionalStandard address formatcompany_address_countryOptionalStandard address formatcompany_address_pincodeOptionalStandard address format
+Track Leads Status
+As a Partner, you can track the status of the lead's application status the Line Of Credit tab in your Partner Dashboard. It is displayed under the Activation Status column.
+
+The values of this column change as the lead's application passes each stage. Listed below are the different stages and details of an application and the corresponding action required.
+StatusAction Required by MerchantIn ProcessNo action required.Bureau SubmissionMerchant must complete Bureau submission in their application form. Complete the application on the RazorpayX Dashboard .Income Proof SubmissionMerchant must complete KYC submission in their application form. Complete the application on the RazorpayX Dashboard .Post Offer Docs CollectionOffer is created. Merchant must accept the offer and submit the KYC documents in their application form. Complete the application on the RazorpayX Dashboard .Pre Offer Docs ResubmissionThere are issues with the submitted documents or new documents requested. Merchant must follow the steps in the application form. Complete the application on the RazorpayX Dashboard .Merchant ESign PendingMerchant must e-sign the document shared over email.Merchant Nach PendingNACH requested from the merchant is pending. Complete the application on the RazorpayX Dashboard .CPV Pending'Contact Person Verification' is pending.Offer AcceptanceMerchant yet to accept the offer.Go LiveApplication is approved and the line of credit is now available.RejectionApplication is rejected.Application ClosedApplication is closed. No action is required.
+Referral Bonus Credit
+For the leads converted in the previous month, you earn a referral bonus in the following month. We collect your bank details and credit the amount through a manual payout.
+
+When any of your leads get converted, our associate reaches out to you to collect your bank account details.
+Using those details, the payout is created.
+We share an invoice with you that you can verify and approve.
+After verification, the payout is processed. You receive the amount within 7 business days.
+
+Support
+For queries or assistance in any of the steps mentioned above, reach out to the sales POC.
+Related Information
+
+
+Top 10 Advantages of a Business Line of Credit
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEHow it WorksBecome a Partner for CapitalPartner EligibilityRefer Product to a BusinessVia Referral LinkVia Dashboard UploadTrack Leads StatusReferral Bonus CreditSupportRelated Information

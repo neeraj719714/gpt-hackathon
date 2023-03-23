@@ -1,0 +1,43 @@
+
+
+
+
+
+
+Webhooks | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideErrorsWebhooksWebhooksSet Up and Edit WebhooksBest PracticesValidate and Test WebhooksSample PayloadFAQsWebhooksUse webhooks to get notified about events related to the Razorpay payment flow such as orders, payments, settlements, disputes and workflow steps related to other Razorpay Products.Webhooks (Web Callback, HTTP Push API or Reverse API) are one way that a web application can send information to another application in real-time when a specific event happens.
+Example
+Suppose you have subscribed to the order.paid webhook event, you will receive a notification every time a user pays you for an order.
+Webhook Vs API
+APIs send you the data when you request it. For Webhooks, you do not need to make a request. You receive the data when it is available.
+Example
+If you need to know whether a Payment Link is paid or not, using APIs, you need to keep polling every few seconds until someone pays. However, if you are using Webhooks, you can configure a webhook event payment_link.paid to receive notifications when a customer makes the payment using the link.
+When to Use Razorpay Webhooks
+You can use Razorpay Webhooks to configure and receive notifications when a specific event occurs.
+When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL.
+
+You can set up Webhooks from your Razorpay Dashboard and configure separate URLs for Live mode and Test mode. Know more about setting up Payments webhooks and RazorpayX webhooks.
+A Test mode webhook receives events for your test transactions. Know more about testing Webhooks.
+In webhook URLs, only port numbers 80 and 443 are currently allowed.
+
+Use Cases
+There can be multiple uses for webhook events. Two of these are listed below.
+Capturing Late Authorized Payments
+Capturing payments for which you did not receive a response on the client-side is perhaps the most important use case for the payment.authorized event.
+Sometimes, the communication between the bank and Razorpay or between you and Razorpay may not occur. This could be because of a slow network connection or your customer closing the window while processing the payment. This could lead to a payment being marked as Failed on the Razorpay Dashboard but changed to Authorized at a later time. Know more about late authorisation of payments.
+You can use webhooks to get notified about payments that get authorised and analyse this data to decide whether or not to capture the payment.
+Notifications on Failed Payments
+When a payment attempted by your customer fails, we receive the failed payment status from the bank. This payment gets recorded in our system as Failed.
+Suppose you have enabled the payment.failed webhook, you will receive a notification from us about the failed payment. You can then further analyse this payment and notify your customer about the failure.
+Related Information
+
+
+Set Up and Edit Payments Webhooks
+
+
+Set Up and Edit RazorpayX Webhooks
+
+
+Validate and Test Webhooks
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEWebhook Vs APIWhen to Use Razorpay WebhooksUse CasesRelated Information

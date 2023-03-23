@@ -1,0 +1,26 @@
+
+
+
+
+
+
+RazorpayX Payroll | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXXpayrollRazorpayX PayrollOverview of the payroll automation software, RazorpayX Payroll.RazorpayX Payroll is the most advanced Payroll Software for startups. You can manage payroll, attendance, reimbursements, and compliances - all on a single Dashboard!
+RazorpayX Payroll automatically calculates and disburses salaries after considering leaves and statutory deductions. You can deposit salaries into your employees' accounts directly without manual intervention.
+What's more, it even takes care of onboarding formalities and exit formalities for your employees with tools like the Offer Letter generator, and CTC calculator.
+Here are some more salient features of RazorpayX Payroll:
+
+Maintain employee documents
+Track attendance
+View Employee Payslips
+Manage Employee Insurance
+Calculate and deposit taxes
+Filing returns
+Manage reimbursements
+
+Related Information
+
+
+RazorpayX Payroll
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGERelated Information

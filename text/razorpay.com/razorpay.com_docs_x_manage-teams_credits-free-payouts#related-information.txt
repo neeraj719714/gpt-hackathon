@@ -1,0 +1,88 @@
+
+
+
+
+
+
+Credits and Free Payouts | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAbout DashboardKeyboard ShortcutsGlobal SearchSupportAccount SettingsManage TeamsCreate User RoleApproval WorkflowBilling - Fees and TaxesTwo-Factor AuthenticationCredits and Free PayoutsChartered Accountant PortalFAQsFAQsAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXManage TeamsCredits Free PayoutsCredits and Free PayoutsUse RazorpayX's free credits and payouts and download reports to understand when and how the free credits were used.Usually, when you make a payout from your RazorpayX account, you are charged fees and taxes, which is deducted from your account balance. Know more about RazorpayX Billing - Fees and Taxes.
+RazorpayX offers Free Credits and Free Payouts. When available, you can use them to pay the fees and tax associated with a payout. As these are assigned at an account level, they can be used irrespective of who creates the payout on your team.
+Credits
+Each payout made from your account has fees and tax associated with it. Normally, these are deducted from your account balance. When you have Credits in your account, fees and tax are deducted from your Credits instead.
+
+1 Credit = â¹1.
+Credits do not expire.
+
+Example
+Assume you have an account balance of â¹1,00,000. You make 10 payouts, each of â¹5,000. The fees and tax for each payout amount to â¹10.
+
+Without Credits: Your account balance reduces to â¹49,900.
+With Credits: Your account balance reduces to â¹50,000. The fees and tax amounting to â¹100 is deducted from your Credits.
+
+View Available Credits
+To view the number of Credits in your account from your Dashboard:
+
+Log in to your RazorpayX Dashboard.
+Navigate to My Account and Settings â Credits.
+
+
+Pricing
+Take a look at the pricing plan and choose the one that works best for your banking needs.
+
+RazorpayX Lite:
+
+For transactions between â¹ 0 to â¹ 1,000: â¹ 3/- per transaction.
+For transactions between â¹ 1,000 to â¹ 25,000: â¹ 4/- per transaction.
+For transactions over â¹ 25,000: â¹ 8/- per transaction.
+Applicable to payouts made using your customer identifier only.
+
+
+RazorpayX with Current Account:
+
+250 Free Payouts, charged at â¹ 1.5/- per transaction upto â¹ 1,000 post 250 free payouts.
+For transactions between â¹ 1,000 to â¹ 25,000: â¹ 3/- per transaction.
+For transactions over â¹ 25,000: â¹ 7/- per transaction.
+Cash Withdrawals, Deposits, Cheque Book, and Debit Card facility.
+
+
+
+How Free Payouts Work
+When available, Free Payouts will be used to process payouts. When a Free Payout is used, only the payout amount is deducted from your account balance. You are not charged any fees and tax (neither from your account balance nor from your Credits).
+
+Free Payout are credited to your account at the beginning of the month.
+Free Payouts expire at the end of the calendar month. They are not carried over.
+Free Payouts are allotted on an account level. They are applicable only to the allotted account. They cannot be transferred to another account.
+
+To access free payouts from your RazorpayX Dashboard, navigate to the profile icon â My Account & Settings â Billing.
+
+Example
+Assume you have an account balance of â¹1,00,000 and want to make 10 payouts each of â¹5,000. The fees and tax for each payout is â¹10. You have 10 Free Payouts.
+After you make all 10 payouts:
+
+Free payouts remaining will be 0.
+Your account balance is â¹50,000. No fees and tax has been deducted since these are Free Payouts. Only the payout amount has been deducted from your account balance.
+
+Reports for Credits and Free Payouts
+The fee_type column in the various payout reports and billing reports help you identify when Credits or Free Payouts were used. The fee_type column shows the following values:
+
+free_credits - When Credits were used to pay the fees and tax for a payout.
+free_payout - When a Free Payout was used.
+
+Related Information
+
+
+Manage Teams
+
+
+Approval Workflow
+
+
+RazorpayX Fees and Taxes Information
+
+
+Two-Factor Authentication
+
+
+Chartered Accountant Portal
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGECreditsView Available CreditsPricingHow Free Payouts WorkReports for Credits and Free PayoutsRelated Information

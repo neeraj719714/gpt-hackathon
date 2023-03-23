@@ -1,0 +1,504 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Newton School Saved 70% Time on Banking Operations with RazorpayX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Business Banking Plus
+
+
+				Newton School Saved 70% Time on Banking Operations with RazorpayX			
+
+January 18, 2023
+
+6 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+In 2019, the graduation rate in India was 5.9% and the employment rate was 10%. So with an unemployment rate of 18.5% as per the Centre for Monitoring Indian Economy (CMIE), 1 in every 4 graduates was looking for jobs.
+So, the problem was twofold: the skill gap and the mismatch between the requirements of the companies and the skills of the graduates.
+Siddharth Maheshwari and Nishant Chandra, two young techies from IIT Roorkee, decided to change this. 
+And, that’s why Newton School was born in 2019.
+
+
+Table of Contents
+
+Newton School: Outcome-Oriented Education for allTheir gameplan🚀:What challenges did Newton School face?Deep-dive into challenges faced by Newton School👀Problem 1: Making monthly payments to mentors🧐Problem 2: Payroll and Compliance 💡Problem 3: Vendor and Tax payments💸 Problem 4: Tracking Transactions🔎:
+Newton School: Outcome-Oriented Education for all
+Newton School is a Bangalore-based ed-tech startup on a mission to bridge the gap between millions of college graduates struggling to find great employment opportunities and thousands of companies struggling to find the right talent.
+Their gameplan🚀:
+Through one-on-one mentorship from industry experts, live projects, soft-skills training and placements, Newton School enables aspiring IT professionals to land their dream jobs and is redirecting education towards a skill-oriented paradigm.
+“ We at Newton School are building an outcome-oriented Neo university where we are getting folks jobs in software and data science sectors.- Nishant Chandra, Co-Founder of Newton School”
+What challenges did Newton School face?
+Currently operating with around 500 mentors and nearly 2,000 students, Newton School is on the road to expansion. 
+But like any growing company, with scale came its own set of challenges. 
+For Newton School, this meant every new mentor added more paperwork & logistical challenges to their operations – particularly financial.
+“As very young founders we started to realise how much time is banking taking for us-making sure there’s reliability in payroll, things that are going on time with our vendors, that started taking a lot of time from our plate which could be utilized in making great products for our users- Nishant Chandra, Co-Founder of Newton School”
+Newton School knew they needed a new-age solution for their financial operations – one built for the unique needs of startups like them. They no longer wanted to waste time working with traditional banking solutions that didn’t serve them.
+That’s when they turned to RazorpayX.
+Deep-dive into challenges faced by Newton School👀
+With a growing number of mentors, vendors, and employees, the three-member finance team of Newton School faced three key challenges on the financial operations front.  
+Problem 1: Making monthly payments to mentors🧐
+Making a monthly payment to multiple vendors was taking up the majority of their time since they had to do it manually.
+
+
+
+Challenges
+Solution( RazorpayX)
+
+
+The finance team would have to add each new mentor as a beneficiary on the bank portal and wait out the cooling period. 
+RazorpayX introduced the option of uploading beneficiary details in bulk and they no longer had to wait around for the cooling period to elapse.
+ 
+
+
+And then, they would manually have to make payments to each of the mentors, one by one.
+Instant beneficiary activation which further enabled lightning-fast payouts for Newton School. 
+
+
+Manual operations became harder when the number of mentors grew from a handful to hundreds.
+The satisfaction of the mentors, who were now being paid accurately and on time, also translated into a boost in Newton School’s Net Promoter Score (NPS)
+
+
+
+ 
+
+ Explore instant payouts
+Problem 2: Payroll and Compliance 💡
+Just like any other startup, Newton School ran into payroll troubles as its workforce expanded.
+
+
+
+Challenges
+Solution(RazorpayX)
+
+
+Payroll processing was painfully time-consuming, taking an entire day for execution at the end of each month. 
+End-to-end RazorpayX payroll automation, the finance team was able to cut down the payroll processing time from one day to 10 minutes.
+
+
+Even with just 40 employees, the complex calculations, massive amounts of data, and compliance woes made payroll one tedious, error-prone affair.
+Newton School could compute and make compliance payments like PF, PT, TDS, and ESI, and clear employee dues seamlessly, without voluminous excel sheets or error-prone manual calculations.
+
+
+
+Problem 3: Vendor and Tax payments💸 
+As the platform grew, so did the number of vendors Newton School had to pay – right from rent to SaaS products. 
+
+
+
+Challenges
+Solution(RazorpayX)
+
+
+How much and when to pay each vendor had to be determined by keeping track of invoices. 
+The RazorpayX Vendor Payments app enabled them to scan invoices and fetch details accurately in a matter of seconds.
+
+
+Next, the amount of TDS for each vendor had to be computed. 
+TDS calculations, too, were automated end-to-end
+
+
+Finally, the vendors had to be paid their dues, and tax payments had to be made. 
+The finance team no longer had to manually enter invoice details and process vendor payments.
+
+
+The possibility of errors while entering invoice details and the complexity of TDS calculations made the process even more arduous as the company scaled.
+While calculations were taken care of, all that remained was making the final vendor and tax payments. And that took no more than a few clicks.
+
+
+
+Problem 4: Tracking Transactions🔎:
+Tracking transactions was turning out to be more difficult and manual.
+
+
+
+Challenges
+Solution(RazorpayX)
+
+
+Tracking transactions was no mean feat either. If a payment made to a mentor failed, then the mentor would have to reach out to Newton School to look into the matter.
+With easy tracking of payment status, they no longer had to wait for mentors to reach out to them in case of failed payments.
+
+
+The team would then have to download bank statements and analyse them on excel sheets. As a result, making timely and accurate payments to mentors became a challenge. 
+Reconciliation became simpler and faster, with failed transactions tracked down and rectifications made easily and efficiently.
+ 
+
+
+
+Right from the start, we knew RazorpayX was designed to enable the user – something that has been missing in the banking industry for the longest time- Siddharth Maheshwari, Co-founder of Newton School
+Newton School signed up for a RazorpayX-powered Current Account, which eliminated the need for multiple products from different companies – making it a singular solution. 
+Supercharge your banking operations
+ Additionally, the mobile banking of RazorpayX helped us make payments, make decisions, be on top of things on the go as well- Nishant Chandra, Co-founder of Newton School.”
+
+Now, they are all set to scale, backed by a seamless solution for all their business banking needs. We at RazorpayX are proud to be enablers of disruptors like Newton School.
+
+😮Let’s hear it from Nishant Chandra, Co-Founder of Newton School😮
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Aratrica Chakraborty 
+Content Marketer. Travel&Scuba enthusiast.Makes the best Vegan Coffee.
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Cost Accounting: Meaning, Types & Examples
+
+March 20, 2023
+
+
+
+
+
+ 
+
+All About Return on Investment (ROI)
+
+March 20, 2023
+
+
+
+
+
+ 
+
+Startup Current Account: The Best Way to Bank for New Age Businesses
+
+March 20, 2023
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

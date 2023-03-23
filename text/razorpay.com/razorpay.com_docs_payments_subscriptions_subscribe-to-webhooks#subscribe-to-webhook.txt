@@ -1,0 +1,23 @@
+
+
+
+
+
+
+Subscribe to Webhooks | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardOffers for SubscriptionsPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsSubscribe To WebhooksSubscribe to WebhooksSubscribe to various webhook events related to Subscriptions to receive instant notifications.You can use Razorpay Webhooks to receive notifications of all events related to Subscriptions.
+Subscribe to Webhook
+To subscribe to webhook events:
+
+Log in to the Razorpay Dashboard.
+Navigate to Dashboard > Settings > Webhooks to subscribe to any of the events mentioned in the following section.
+
+Webhook Events and Descriptions
+Webhook EventDescriptionsubscription.authenticatedSent when the first payment is made on the subscription. This can either be the authorization amount, the upfront amount, the plan amount or a combination of the plan amount and the upfront amount.subscription.activatedSent when the subscription moves to the active state either from the authenticated , pending or halted state. If a Subscription moves to the active state from the pending or halted state, only the subsequent invoices that are generated are charged. Existing invoices that were already generated are not charged.subscription.chargedSent every time a successful charge is made on the subscription.subscription.completedSent when all the invoices are generated for a subscription and the subscription moves to the completed state.subscription.updatedSent when a subscription is successfully updated. There is no state change when a subscription is updated.subscription.pendingSent when the subscription moves to the pending state. This happens when a charge on the card fails. We try to charge the card on a periodic basis while it is in the pending state. If the payment fails again, the Webhook is triggered again.subscription.haltedSent when all retries have been exhausted and the subscription moves from the pending state to the halted state. The customer has to manually retry the charge or change the card linked to the subscription, for the subscription to move back to the active state.subscription.cancelledSent when a subscription is cancelled and moved to the cancelled state.subscription.pausedSent when a subscription is paused and moved to the paused state.subscription.resumedSent when a subscription is resumed and moved to the resumed state.
+Know more about  Webhooks  and check the sample payloads.
+Related Information
+
+
+Subscriptions APIs
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGESubscribe to WebhookWebhook Events and DescriptionsRelated Information

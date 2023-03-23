@@ -1,0 +1,70 @@
+
+
+
+
+
+
+About Settlements | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsAbout SettlementsDashboardInstant SettlementsSettlements APIsFAQsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSettlementsAbout SettlementsCheck how Razorpay settles money received from your customers to your bank account.Settlement is the process in which the money received from your customers is settled in your bank account. Settlements for all payments are done in INR (Indian Rupees), irrespective of the currency in which the customer made the payment. After Razorpay receives the amount, it is settled to your bank account, after fees deduction.
+Prerequisites
+Following are few of the prerequisites for settlements of payments from customers to your bank account:
+
+Your KYC must be approved.
+Your account must be fully activated for payments to be settled to your bank account. Know more about KYC Verification.
+The payment must be captured. Know more about capturing payments.
+
+Settlement Cycle
+Captured payments are automatically settled to the bank account submitted to us as part of your KYC verification as per your settlement cycle. The settlement cycle is subject to bank approval and can vary based on your business vertical, risk factors and so on.
+
+Handy TipsWorking days do not include the bank holidays.
+Domestic Settlements
+The standard settlement cycle for domestic payments is T+2 working days (where T is the date of transaction capture).
+Example
+You captured 20 payments on February 02, 2019 at 9:00 a.m., and your settlement schedule is T+2 days.
+The payments you captured on February 02, 2019 will be settled in your bank account on February 04, 2019 at 9:00 a.m.
+If the settlement day is a bank holiday, the settlement will be made on the next working day after the bank holiday.
+International Settlements
+The standard settlement cycle for international payments is T+7 working days (where T is the transaction capture date).
+Settlements for all payments will be done in INR (Indian Rupees), irrespective of the currency in which the payment was made. The payment is converted using the exchange rate at the time of payment creation.
+Razorpay allows you to accept payments in any of the supported international currencies.
+Example
+You captured 7 international payments on February 02, 2019 and your settlement schedule is T+7 days 9:00 a.m.
+The payments you captured on February 02, 2019 will be settled in your account on February 09, 2019 at 9:00 a.m.
+If the settlement day is a bank holiday, the settlement will be made on the next working day after the bank holiday.
+Instant Settlements
+Using Instant Settlements, you can access your funds as and when you want. Normally, you would receive settlements according to your settlement cycle. Razorpay Instant Settlements helps you reduce your settlement period from T+2 days (default settlement cycle) to a few minutes (from the time of the transaction), thus enabling your business to avoid cash-flow challenges and prepare better for working capital requirements. Know more about Instant Settlements.
+Feature RequestThis is an on-demand feature. Please raise a request with our Support team to get this feature activated on your Razorpay account.
+Settlement States
+Following are the various states of a settlement:
+
+Some reasons for settlement failure:
+
+Your bank account is inactive or frozen.
+Incorrect bank account details.
+The settlement was rejected by your bank.
+
+Dashboard Actions
+From the Razorpay Dashboard, you can perform the following actions:
+
+
+View settlement details
+
+
+Check settlements break-up
+
+
+Enable settlements on hold
+
+
+View reports related to settlements
+
+
+Related Information
+
+
+Settlements APIs
+
+
+ Settlement FAQs
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEPrerequisitesSettlement CycleDomestic SettlementsInternational SettlementsInstant SettlementsSettlement StatesDashboard ActionsRelated Information

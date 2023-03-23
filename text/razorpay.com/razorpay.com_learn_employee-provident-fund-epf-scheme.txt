@@ -1,0 +1,746 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Everything a Business Needs to Know about the EPF Scheme - Razorpay Payroll
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Business Management
+Payments
+Payroll
+Business Banking Plus
+Guides & Ebooks
+ 
+
+
+
+Facebook
+Twitter
+Instagram
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payroll Glossary
+
+
+				Everything a Business Needs to Know about the EPF Scheme			
+
+January 12, 2021
+
+14 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+
+
+Table of Contents
+
+What is EPF scheme?How EPF scheme worksApplicability of the EPF ActEPF contribution rate and breakup EPF payment and return filing due datePenalty for late payment How to do EPF registration process for employers?Documents required for EPF registrationEPF rules for employerRegular EPF-related tasks for employersEPF registration for employeesThe verdict
+Importance of EPF All should know
+
+Employee Provident Fund (EPF) registration is mandatory for you as an employer when your organisation’s employee strength exceeds 20
+You have to pay the EPF contribution within 15 days of the next month
+If you fail to make the payment within the due date, you will be added to the defaulter list and will have to pay a penalty for the default period
+
+What is EPF scheme?
+EPF scheme is one of the key schemes that help employees build a sizable retirement corpus. The EPF scheme was introduced in 1952 for the welfare of employees. The scheme is governed by the Employees Provident Fund Act, 1952 and managed by the Employees’ Provident Fund Organisation (EPFO). 
+How EPF scheme works
+Under this scheme, both the employer and employee contribute equally to the EPF account every month. However, it is the employer’s responsibility to deposit the whole amount to the EPF account. Generally, the employee’s share is deducted from their monthly salary. 
+For all such EPF transfers, it is mandatory for an employee to have a Universal Account Number (UAN), which is allotted by the EPFO. The UAN acts as an umbrella for multiple Member IDs allotted to an individual by different employers. The intent is to link multiple IDs of an individual under a unique number. 
+Applicability of the EPF Act
+The EPF scheme mandatorily applies to all the establishments that have employed a minimum of 20 people. The employer must obtain EPF registration within 1 month of attaining the employee strength. 
+Even if the employee strength of a registered establishment falls below the requisite number, the rules or regulations of the act will continue to apply to it. 
+Establishments with less than 20 employees can also opt for voluntary registration. All the employees of such an establishment will be eligible for EPF right from the beginning of their employment. 
+EPF contribution rate and breakup 
+For most employees, the contribution rate is 12% of the fixed wages of an employee, excluding HRA. You, as an employer, need to contribute equally to the EPF account. 
+There are certain situations when a 10% rate is applicable. For instance, if a company meets the following criteria: 
+
+Has employed less than 20 employees
+Has suffered losses more than its entire net worth
+Belongs to beedi, brick, jute or guar gum industry
+Is a sick industrial company and which has been declared as such by the Board for Industrial and Financial Reconstruction (BIFR)
+
+Here’s the breakup of EPF contribution: 
+The whole 12% of an employee’s salary goes to their EPF account while the employer’s contribution is divided among the following:
+
+8.33% to the Pension Fund
+3.67% to the EPF account
+
+An example
+A salary includes Basic Pay, HRA, Dearness Allowance, and other allowances (includes variable components). The EPF component is calculated on the fixed part of a salary excluding HRA. Let’s take a look at an example to understand this further. 
+Scenario 1: An employee draws a monthly salary of Rs 20,000, out of which the Basic Pay is Rs 5,200, HRA is Rs 2,600, the bonus is Rs 6,500 and other allowances is Rs 2,100. 
+Scenario 2:  An employee draws a monthly salary of Rs 1,00,000, out of which Basic Pay is Rs 28,500, HRA is Rs 14,250, the bonus is Rs 13,500 and other allowances is Rs 43,750. 
+Here’s the table depicting the EPF component to be deducted from the employee’s monthly salary.
+
+
+
+Particulars
+Scenario 1
+Scenario 2
+
+
+Monthly fixed part of the salary excluding HRA
+Rs 7,300
+Rs 72,250
+
+
+Monthly employee’s contribution towards PF
+
+Rs 876
+(12% of 7,300)
+
+
+Rs 1,800 
+(12% of Ra 15,000)
+
+
+
+Monthly employer’s contribution towards PF and pension fund
+Rs 876
+Rs 1,800
+
+
+
+ 
+In scenario 1, the fixed component is less than Rs 15,000. This means, the EPF is calculated on the fixed part of the salary, which is Rs 876 (12% of Rs 7,300).
+But, in scenario 2, the fixed component is greater than Rs 15,000. Here, the calculation is 12% of 15,000 because the wage limit for EPF deduction is capped at Rs 15,000.
+
+An employee can contribute more than 12% of Rs 15,000 if they wish to do so. However, there is no obligation that the employer has to match the employee’s contribution. 
+
+EPF payment and return filing due date
+EPF is deducted from every employee’s salary, and the payment due date is by 15th of the following month. For instance, if you want to deposit the EPF contribution for May, then as an employer you should clear all the payments before the 15th of June. 
+The EPF payment and return filing date are apparently the same, and you can process both at the same time. 
+Therefore, the due date of the EPF return is the same as the payment date, which is before 15th of the following month. The EPF annual return due date is 25th April of the following year.
+However, all these statutory payments due dates are subject to change by a government notification. 
+For instance, the due date of March 2020 payment was extended to the 15th of May 2020 from 15th of April 2020. 
+[Also Read – A 7-step checklist to help you wrap up FY 2020-21 error-free]
+We understand that keeping up with all the due dates and their changes can be troubling for you. And, we have built a way to streamline this entire process so that you never have to miss another due date or constantly worry about it. 
+ is a one-click, seamless and end-to-end payroll processing experience to businesses that automates everything from compliance to disbursing salaries.
+Sign up on RazorpayX Payroll
+ 
+Suggested reading: Upgrade to a Dual Tax Regime Compliant Payroll Software this Financial Year
+Penalty for late payment 
+If there is any delay in EPF payment beyond a specified due date, the following two penalties will apply.  
+An interest of 12% p.a. applies to an employer for every single day delay in depositing EPF contribution. 
+In the case of challan payment failure, these penalties will apply.
+
+
+
+5% interest p.a. for a delay of up to 2 months
+10% interest p.a. for a delay of 2-4 months
+15% interest p.a. for a delay of 4-6 months
+25% interest p.a. for a delay of more than 6 months
+
+
+
+How to do EPF registration process for employers?
+To ease compliance for the companies, EPFO provides online facilities starting from the registration of the establishment, monthly return filing along with e-payment of contributions and charges. 
+Here is the list of details required for successful EPF registration: 
+
+Name and address of the establishment
+Details of head office and all branches
+Incorporation date of the establishment
+Fill in the details of your employees-total employee strength
+Legal status of the company – whether private or a public company
+Designation and address of the directors, partners or owners
+Partner bank details
+PAN details
+Total salary component of the employees
+Employees’ basic details such as name, date of joining, salary and so on
+
+Here are the steps that you need to follow for EPF registration: 
+
+Visit the EPFO website and click on ‘Establishment Registration’ on the top-right side of the page
+Once a new window opens, download and read the instruction manual before registering your establishment
+Then, click on the ‘Sign Up’ button 
+Now enter your name, email, mobile number, verification code and click on ‘SIGN UP’ to create your account
+In the next window, select ‘Registration For EPFO-ESIC’ and then click on ‘Apply for New Registration’
+
+Once you click on apply, enter the details of your establishment, contact persons, identifiers, employment details, particulars of workers, branch/division, activities, and attachments in the next page
+Click on ‘Submit’
+Next, register your Digital Signature Certificate (DSC) to authenticate details submitted previously
+You will receive a confirmation email from Shram Suvidha after registering your DSC
+
+
+Documents required for EPF registration
+In the case of a company/firm/society/trust/sole proprietorship,
+
+Incorporation certificate or a registration certificate for firms
+Partnership deed
+ID proof of the directors/partners/members
+List of all the directors/partners/members along with their contact details
+DSC of a director (signing authority)
+Memorandum of Association and Articles of Association, in case of a company
+PAN card, residential address proof and mobile number in case of a sole proprietorship
+
+Along with the above-mentioned documents, all the establishments must also have the following documents. 
+
+GST Certificate, if registered under GST 
+First sale invoice
+Invoice of first inventory and machinery purchase
+Name and address of the partner bank
+Monthly employee strength record
+Salary and wages register, all vouchers, balance sheets from day one to the date of applying for registration
+Date of joining of the employees, along with their date of birth and father’s name
+Salary and EPF statement
+Cross cancelled cheque 
+
+EPF rules for employer
+Here are the following EPF rules for employers. 
+
+Minimum salary limit (fixed component) for EPF contribution is less than Rs 15,000
+Insurance coverage is Rs 3 lakh per member 
+Organisations with 10 or more employees are eligible for EPF contribution
+EPF withdrawals can be made for financing an insurance policy, buying or building a house 
+
+Regular EPF-related tasks for employers
+PF registration
+Employers register a new employee into the EPF scheme using Form 11. However, it is not submitted to the EPFO office. 
+Modification of personal details
+Employers should verify the details provided by the employees. Any error in the personal details should be rectified by the employer before linking UAN with the aadhaar. 
+Generate UAN 
+Employers have to generate UAN for employees who do have existing UAN. To generate a new UAN, the employer has to log in to the EPFO portal. 
+Upload KYC 
+It is the responsibility of an employer to provide KYC details of its employees to the EPFO portal. Employers should verify the details before employees upload their KYC details online.
+PF payment 
+Employers have to pay EPF contribution every month to the EPFO. The due date of PF payment is within 15 days of the following month.
+PF return 
+Employers have to file a monthly return within 15 days of the following month and an annual return by the 25th April of the next year. 
+Provide UAN to employees
+Employers should inform UAN and EPF member ID to their employees. Generally, it is printed on the salary slip. 
+EPF registration for employees
+An employer needs to register all their employees on the EPFO portal. If an individual was previously employed and already has a UAN, the employer needs to register them as their employee using the existing UAN, aadhaar number,  date of birth, and name. 
+If the individual was not employed anywhere before, the employer will have to register the individual as their employee and generate the UAN. 
+The UAN generation process needs the following information.  
+
+Name, date of birth, gender, nationality, and marital status of the employee
+Date of joining 
+Monthly wages as of joining date
+KYC details of the employee like – 
+
+Bank account details
+Aadhaar card details (Mandatory)
+PAN 
+Driving license/ Passport 
+
+
+
+Though collating all these details is not time-consuming, the UAN generation process is!
+With RazorpayX Payroll Software, no payroll process is time-consuming. The product handles employee PF registrations for businesses and saves a lot of your valuable time. All you need to do is log in with your PF credentials and let RazorpayX Payroll take care of employee registration. 
+Also read: Decoding Payroll – Why Businesses Should Automate Employee Salaries
+The verdict
+If you are looking for a non-intrusive payroll processing solution that also takes care of your compliance payments, your search ends here.
+RazorpayX Payroll allows you to carry out your business operations without any interruptions to process payroll. With this software, you can track attendance, manage leaves, make vendor and contract payments all while being compliant with the latest regulations.  
+Simplify your EPF deductions in one click!
+Automate your payroll process now!
+
+Frequently Asked Questions on EPF
+1. Why should an employer register the establishment at the EPFO portal?
+Post 01.042012, employers are allowed to make remittances only after the EPFO employer portal generates challans. The employer is also mandated to register electronically. As the offline registration process has been done away with, all new registrations must be made online.
+2. What are the error messages that can be expected, and how can they be resolved?
+The employers can expect following error messages while trying to register themselves on EPFO portal.
+
+On entering the establishment ID, “No Record Found,” the employer must check the code and extension number and the EPFO office. If all the details are right, the employer must contact the concerned EPFO Regional/Sub Regional Office. 
+While entering the establishment id, if “your establishment is already registered” appears, the employer must check the code number and extension number if any, and the correct EPFO Office.  “If the details are correct, the employer must send an email to ecrhelpdesk@epfindia.gov.in to the EPFO Helpdesk and mention “RESET REGISTRATION. After receiving SMS on successful resetting of the registration, the employer will receive a form that must be sent under the signature of the employer/Authorized signatory to the local EPFO Office concerned; the employer can register again.
+
+How can the employer modify the details post registration?
+An employer can modify the details on the EPFO portal in the following ways. 
+
+Mobile Number – The employer must log in to the Employer Portal. Then, under “PROFILE,” click on the “Edit primary mobile number” link. The new mobile number must be entered by the employer and the employer may receive an SMS with a PIN on the new mobile number. Enter the PIN and then press ‘Change Primary Mobile.’ Confirmation  SMS will be sent to the latest mobile phone number, which is also the primary number.
+Email ID – It is important for the employer to log into the Employer Portal to make modifications. Click on the ‘Confirm primary email’ link under the ‘PROFILE’ menu. To replace the existing id, the employer has to enter a new email id. Then click on the ‘Send Verification Link.’ An email will be sent to the registered email id. . The employer is required to go to the email address and click on the link. The verified email id is registered on the system, and all emails will be sent on the new id in the future. 
+
+If an employer or authorized signatory has multiple establishments, should he obtain registrations for all the establishments?
+Yes, the employer has to obtain registration for all the establishments. 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Komal Chawla 
+Writer-by-chance and overthinker-by-choice, raging a war against the Pineapple-on-pizza brigade
+
+
+
+Facebook
+
+
+
+LinkedIn
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+HRD Full Form–Objectives, Purpose, Types and More
+
+March 5, 2023
+
+
+
+
+
+ 
+
+Types of Leaves in India–Know All about the Leaves at Work
+
+March 3, 2023
+
+
+
+
+
+ 
+
+Sabbatical Leave Meaning (+ Free Policy Template)
+
+February 22, 2023
+
+
+
+
+
+ 
+
+Roles and Responsibilities of HR–8 Things to Keep in Mind
+
+February 21, 2023
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+Enter your email address below to subscribe to our newsletter
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Recent Posts
+
+
+Startup Business Loans: 5 Key Factors That Determine Your Eligibility
+
+
+6 Tips to Build a Strong Business Credit Profile: A Guide to Online Business Loan Eligibility
+
+
+Corporate Finance: A Comprehensive Guide
+
+
+What Lenders Look For: Understanding Business Loan Eligibility
+
+
+A Brief History of Business Loans in India
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+In
+Payments
+
+
+ATM: All You Need to Know About Automated teller machine
+
+
+December 11, 2022
+
+4 Mins Read
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+In
+Taxation & Notifications
+
+
+MSME Definition- MSME Full-form and Meaning 2023
+
+
+September 13, 2021
+
+5 Mins Read
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2021. All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Submit
+
+			Type above and press Enter to search. Press Esc to cancel.		
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

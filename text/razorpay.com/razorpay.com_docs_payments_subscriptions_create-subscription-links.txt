@@ -1,0 +1,111 @@
+
+
+
+
+
+
+Create Subscriptions via Links | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardCreate and View PlansCreate Subscriptions via LinksCreate Add-onsCharge a Card ManuallyView a SubscriptionUpdate a SubscriptionPause, Resume and Cancel a SubscriptionSubscriptions SettingsOffers for SubscriptionsPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsCreate Subscription LinksCreate Subscriptions via LinksCreate a Subscription link from the Razorpay Dashboard.If you do not have a website or app, you can still create and send Subscriptions to customers using a link. When the customer opens the link, they are taken to a checkout page hosted by Razorpay, where they make the authorisation payment. You can also use this feature to create and send custom Subscriptions to customers.
+Subscriptions via Links Flow
+
+To create a Subscriptions link from the Dashboard, you need to:
+
+Create a plan.
+Create and send a Subscription link.
+
+After collecting the authentication transaction, you can create add-ons, if required.
+Create a Subscription Link From Dashboard
+Watch this video to see how to create Subscription Links.
+
+To create a subscription link:
+
+
+Log in to the Razorpay Dashboard and click Subscriptions under PAYMENT PRODUCTS in the left menu.
+
+
+Click + Create New Subscription. The Create Subscription screen displays.
+
+
+Select the required plan from the Select Plan dropdown.
+
+
+Select the Subscription Start Date.
+Trial PeriodTo create a trial period for your customers, all you need to provide is a future start date. The actual billing cycle automatically starts at the specified date, essentially creating a trial period.
+
+
+Enter the Total Count. This defines how many times the customer should be charged (the number of billing cycles).
+Handy Tips
+If a customer is subscribing to a monthly plan on March 1st, 2019 for 2 years, the total count would be 24. The subscription would automatically move to the completed state on March 1st, 2021.
+A subscription can continue for a maximum of 10 years. We do not support lifetime subscription.
+
+
+
+Select the required offer from the Offer dropdown.
+
+
+Click Next.
+
+
+Select I want to add an upfront amount.
+
+
+Click the dropdown and click +Create New Item. The Add Upfront Amount screen appears in a pop-out window.
+
+
+Add the following details and click Save.
+
+Name
+Rate per unit
+Description (optional)
+
+
+
+You can add additional items using the Add New Item option.
+
+
+Click Next once you have added all items tagged as upfront amount.
+Handy Tips
+All the created add-on items display in the Select Item to Add dropdown.
+The upfront amount and add-ons will have the same currency as the plan, which can be in any of the supported currencies.
+
+
+
+Enter the customer's mobile number and/or email address.
+
+
+Select the Notify Customer check box if you want Razorpay to automatically send the Subscription Link to the customer via email to make the authorization payment.
+
+
+Set an expiry date for the link.
+
+
+Add internal notes, if required.
+
+
+Click Next once you have entered all the required details.
+Handy TipsIf the Notify Customer checkbox is not selected, Razorpay does not send the customer the subscription link to make the authorization payment.
+
+
+Review the details and click Create Subscription Link to send the link to the customer.
+
+
+Create a Subscription Link Using API
+You can create a Subscription Links using Create a Subscription Link API.
+Related Information
+
+
+Create and View Plans
+
+
+Create Add-ons
+
+
+Charge a Card Manually
+
+
+Update a Subscription
+
+
+Subscriptions Settings
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGESubscriptions via Links FlowCreate a Subscription Link From DashboardCreate a Subscription Link Using APIRelated Information

@@ -1,0 +1,120 @@
+
+
+
+
+
+
+Resellers - Add Sub-merchants | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpay PartnersBecome a Razorpay PartnerEarningsResellersAbout ResellersResellers - Add Sub-merchantsPerform KYCAggregatorsPlatform PartnersCapitalFAQsGlossaryPartnersResellersAdd SubmerchantsResellers - Add Sub-merchantsResellers can add sub-merchants using their email IDs or by sharing a referral link using the Razorpay Dashboard.As a Reseller Partner, you can invite your affiliates to use Razorpay Payments products and RazorpayX Current Account. You get a partnership commission when the sub-merchants perform any transaction using Razorpay products. Know more about partnership commission.
+Who is a Sub-merchant
+Sub-merchants are the merchants who get onboarded on the Razorpay platform by a Partner. For example, Acme wants to provide an order management solution for its client company "Gekko". In this scenario, "Gekko" is Acme's sub-merchant.
+Once onboarded, sub-merchant accounts (affiliate accounts) must be activated to start collecting or disbursing payments.
+Add Sub-Merchants
+You can add your affiliate partners/sub-merchants directly using the Razorpay Dashboard. You can also encourage businesses to sign up for Razorpay products by sharing referral links on social media and instant messengers. There are 2 ways to refer sub-merchants:
+
+Using email ID.
+Using a referral link.
+
+Add Sub-merchants Using Email id
+You can invite and add sub-merchants using their email id to sign up and register on Razorpay. You can send an invite link to an individual account or multiple accounts.
+Handy TipsYou can send a maximum of 1,00,000 invites/day. This could be individual invites, bulk invites or a combination of both.
+Add One Sub-merchant
+To add a new sub-merchant using email ID:
+
+Log in to the Razorpay Dashboard.
+Click Partner to open the Partner section.
+
+
+In the Partner section, click + Add New Account.
+
+
+Select either of the following options:
+
+If you want to refer merchants for Razorpay Payment Products, select Razorpay Payments from the option and click Next.
+If you want to refer merchants for Current Account, select RazorpayX from the option and click Next as shown here:
+
+
+
+
+Add the following information and click Send Invite:
+
+Account Name: Enter the name of the business you want to add as a sub-merchant.
+Email Address: Enter the email address of the business to which the sign-up link must be sent.
+
+
+Phone Number (optional): Enter the phone number of the business to which the sign-up link must be sent.
+
+
+
+Once you click Send Invite, your affiliate partners will receive a Create a Password link via email/SMS to reset the password. The newly added Payments sub-merchants will appear on your list on the Partner Dashboard with a default Activation Status as Not Submitted.
+A RazorpayX affiliate will be displayed with a default CA status as Application not initiated.
+
+In the case of payment affiliates, you can use the Switch option to access the sub-merchant's account. Once you migrate to the sub merchantâs Razorpay Dashboard, you can perform all the actions that the sub-merchant can perform.
+Sub-merchants referred for Payments can be seen under Payments Affiliate Accounts, and sub-merchants referred for Current Account can be seen under RazorpayX Affiliate Accounts as shown below:
+
+To get started, the sub-merchants referred for Payment products, must proceed to complete the Account Activation and KYC Verification processes by using their Razorpay account credentials.
+And, sub-merchants referred for RazorpayX Current Account, must log in to their RazorpayX Dashboard  and initiate Current Account application via the Dashboard.
+Add Multiple Sub-merchants
+You can send invites to multiple users using the Add Multiple Accounts option. You upload an XLSX or CSV file with the Dashboard's required data.
+You can send a single sign up invitation link to multiple affiliate accounts in bulk. This enables your sub-merchants to sign up and register on Razorpay.
+Multiple Account Creation Template
+The account creation template contains the following headers.
+account_name optionalName of the sub-merchant's account.email mandatoryThe Email address of the sub-merchant.
+Watch Out!
+You should not modify field names/headers in a batch as it might result in an upload failure, which is account_name and email.
+The number of sheets in the file should be only 1.
+The size of the file can be up to 50 MB. You can add up to 5,000 rows in a particular file. The links will be processed in the same sequence as listed in the file.
+
+To add multiple accounts using Multiple Account Creation Template:
+
+Log in to the Razorpay Dashboard with your credentials.
+Click Partner on the sidebar menu.
+Navigate to Affiliate Accounts and click + Add New Accounts.
+For partners accounts on which X referrals have been activated, in the Add New Accounts modal, select Razorpay payments or RazorpayX depending on which types of products you want to refer sub-merchant to.
+Shift to the Add Multiple Accounts tab.
+Click the Click to Upload button. In the pop-up window that appears, drag-drop the file over the highlighted area or select your file from your system. To view and understand the file format requirements, download the sample template.
+
+
+The file is validated for any associated errors and uploaded to the Razorpay server. Click Invite contacts to send invites to affiliate accounts via email.
+
+
+Once the file is successfully processed, you will receive the account creation status via email. The email attachment will include both success and/or failure details for each account, including the error code and exact reason for the failure.
+The newly added Payments sub-merchants will appear on your list on the Partner Dashboard with a default Activation Status as Not Submitted. RazorpayX Affiliates will appear with a default CA status as Application not initiated.
+
+To get started, the sub-merchants referred for Payment products, must proceed to complete the Account Activation and KYC Verification processes by using their Razorpay account credentials.
+And, sub-merchants referred for RazorpayX Current Account, must log in to their RazorpayX Dashboard and initiate Current Account application via the Dashboard.
+Add Sub-merchants Using a Referral Link
+You can share the referral link with potential sub-merchants via social media or instant messengers. You can also copy the referral link and send it via email.
+To add sub-merchants using a referral link:
+
+Log in to the Razorpay Dashboard with your credentials.
+In the Partner section, click Share Referral Link.
+For partner accounts on which X referrals have been activated, in the Add New Accounts modal, select Razorpay Payments or RazorpayX depending on the products you want to refer sub-merchant to.
+A pop-up page appears where you can share the link using:
+
+Copy button: This copies the referral link. You can copy-paste this link and send it via email or instant messaging apps such as WhatsApp.
+Facebook: Click the Facebook icon to share the referral link as a post on your Facebook account.
+Twitter: Click the Twitter icon to send a tweet with the referral link.
+
+
+
+
+Businesses can click on this referral link and sign up as an affiliate account. As a reseller partner, you will get 0.1% commission for every transaction done by the affiliate accounts who sign up using this link.
+Sub-merchant Account Activation States
+The following sections shows the sub-merchant's account activation statuses. You can track the account activation status of the sub-merchant on your Razorpay Dashboard under the Affiliate Accounts tab.
+For Payment Products
+StatusDescriptionNot SubmittedWhen you invite the sub-merchant, and your affiliate account is successfully added, the activation status by default is Not submitted . This is the default status.Instantly ActivatedYour affiliate account sets the Razorpay account password and provides contact details, business details, and account details. Once these details are fully verified, the activation status moves to Instantly Activated . The sub-merchants can start accepting payments once the account is instantly activated. However, the settlements will not be enabled.Under ReviewYour affiliate account submits business documents to Razorpay depending on their business type. Razorpay then starts with the KYC review process. This changes the activation status to Under Review.ActivatedThe account activation status is Activated once the KYC documents are successfully verified. The payments made by the affiliate accounts before they submitted the KYC form and documents will be settled to your account. 
+For Current Account
+Current Account StatusDescriptionApplication not initiatedAffiliate has not initiated a Current Account application yet.Application completion pendingComplete CA application is yet to be submitted.PAN verification in progressWe are verifying the PAN details submitted by your affiliate. Takes about 5-10 minutes to complete.PAN Verification FailedDirect your affiliate to enter a valid PAN number that is registered with their business to submit KYC.Telephonic verificationRazorpayX executive will call the affiliate in a few days for verification.Razorpay processingRazorpayX team is verifying the application internally.Documents pick up pendingOur partner bankâs executive will help the affiliate to fill the forms and collect them. Details will be shared soon.Account opening in progressWe are working with our partner bank to get the account opened and activated.Account openedCurrent Account is opened. Our team is working on activating the account on RazorpayX. This usually takes 3-5 working days.Account activatedCurrent account is now active.Request CancelledCurrent Account request has been cancelled.UnserviceableWe are unable to service the Current Account opening request.Request RejectedCurrent Account opening request has been rejected by RazorpayX/partner bank's team.On holdCurrent Account opening request has been put on hold.Request ReceivedWe have received your request and will contact you to understand your requirements and help you gather the documents required to open a current account.Process StartedWe inform our partner bank RBL to contact you, collect the required documents and take the process further. Documents required to open a Current Account will differ based on your business type.Bank KYC in progressOur partner bank has received the documents required to process your request and complete KYC. A Relationship Manager from RBL will contact you if further clarification is needed.
+Related Information
+
+
+Partners
+
+
+About Resellers
+
+
+Partner Commissions
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEWho is a Sub-merchantAdd Sub-MerchantsAdd Sub-merchants Using Email idAdd Sub-merchants Using a Referral LinkSub-merchant Account Activation StatesFor Payment ProductsFor Current AccountRelated Information

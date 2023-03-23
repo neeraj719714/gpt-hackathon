@@ -1,0 +1,97 @@
+
+
+
+
+
+
+New Merchants | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpay PartnersBecome a Razorpay PartnerNew MerchantsExisting MerchantsEarningsResellersAggregatorsPlatform PartnersCapitalFAQsGlossaryPartnersNew MerchantNew MerchantsSign up and become a Razorpay Partner.You can become a Razorpay Partner, offer your customers a complete suite of payment solutions and get rewarded for it in the form of commissions.
+Become a Razorpay Partner
+You can join the Razorpay Partnership program by signing up on the Razorpay Partners webpage and completing a few simple steps on the Razorpay Dashboard.
+
+Sign up on Razorpay Partners Page
+Log in to Razorpay Dashboard
+
+Sign Up on Razorpay Partners Page
+If you are new to Razorpay, you must first sign up for a Razorpay account.
+To sign up on Razorpay Partners page:
+
+Navigate to the Razorpay Partners webpage, enter your work email and click Become a Partner.
+
+
+On the Sign Up page, set a password and click Create Account to create your Razorpay account.
+
+
+
+Pre-sign Up Form
+
+Before you can complete the signup process, select your business type from the list and add business contact details.
+
+
+Click Finish.
+
+Verify Email Address
+On completing the signup and pre-sign up process, you receive a verification email on the provided email address. Click on the Verify Email button to complete the verification process.
+
+A message will be displayed to confirm the successful verification of your email.
+Log in to Razorpay Dashboard
+Once the email verification is done, log in to the Razorpay Dashboard and complete the following steps:
+
+Click the down arrow next to your business name at the top-right corner of your dashboard and click on Explore Partner Program in the drop-down menu.
+
+
+The Welcome to your Partner Dashboard dialog box appears displaying commission details. Click Next.
+
+
+In the What do you want to do as a Partner dialog box, choose either of the below-mentioned Partner Types or other available options as per your business needs:
+
+Refer Merchants: Razorpay Resellers Partners Type only refers merchants and/or integrates businesses to Razorpay, with no involvement in managing transactions on behalf of their clients.
+Refer and Manage Merchants: Razorpay Aggregators Partners Type refers and manages the payment stack for your referred accounts.
+
+
+
+
+If you are an enterprise-level partner or looking for customized enterprise solutions, please contact the Razorpay Support team.
+If you do not want to be a Partner and be a merchant who uses Razorpay Products to accept or disburse payments, click I just want to use Razorpay products.
+
+
+On the selection of either of the Partner Types - Resellers or Aggregators, click Next
+In the Terms and Conditions modal, click Accept and Get Started.
+
+You have successfully become a Razorpay Partner. You can now enable settlements by completing the KYC process and start adding new sub-merchants.
+Handy TipsFor Aggregators partner type, Partner Auth has to be integrated for commissions to be paid out. Know more about how this integration can be done.
+Enable Settlements by Activating Account and Completing KYC
+As a Razorpay Partner, you are eligible to receive commissions from Razorpay.
+To receive the commission, you must enable your account settlements by completing the account activation and KYC process.
+To activate your account and complete KYC:
+
+On the Razorpay Dashboard in the left panel, click Products and select My Account.
+Under the Profile tab, add or update the website/app details to fill in the Activation Form.
+Complete the KYC Verification process.
+
+Once you submit the details, your KYC form will be reviewed by the Razorpay team. In case we have any questions or need clarifications, we will reach out to you at your registered email address. The review process will take 4-5 days. Upon successful verification, the Settlements Enabled success message displays on your Razorpay Dashboard.
+The settlement amount will be deposited in your bank account as per your settlement schedule.
+Enable Partner Commissions
+To enable commissions on your account, send an email to the Razorpay Partnerships team.
+Add Sub-Merchants
+To add new sub-merchants on your Razorpay Dashboard, follow these steps if you are:
+
+
+Only Referring Businesses (Reseller)
+
+
+Referring and Managing Payments for Referred Businesses (Aggregator)
+
+
+Related Information
+
+
+Know Your Commission
+
+
+Partners
+
+
+Become a Partner - Existing Merchants
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEBecome a Razorpay PartnerSign Up on Razorpay Partners PagePre-sign Up FormVerify Email AddressLog in to Razorpay DashboardEnable Settlements by Activating Account and Completing KYCEnable Partner CommissionsAdd Sub-MerchantsRelated Information

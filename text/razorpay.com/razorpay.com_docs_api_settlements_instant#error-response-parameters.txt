@@ -1,0 +1,91 @@
+
+
+
+
+
+
+API | Instant Settlements | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsOrdersPaymentsSettlementsSettlementsInstant SettlementsRefundsDisputesCustomersPayments SuitePartnersRazorpayXErrorsWebhooksApiSettlementsInstantInstant SettlementsCheck Razorpay Capital Instant Settlement APIs ( On-demand Settlement APIs).Handy TipsThis section has information on APIs used as part of Razorpay Capital.
+With Instant Settlements (earlier known as On-demand Settlement APIs), you get access to your funds as and when you want.
+Normally, you would receive settlements according to your settlement cycle. Razorpay Instant Settlements helps to reduce your settlement period from T+2 days (default settlement cycle) to a few minutes (from the time of the transaction), thus enabling your business to avoid cash-flow challenges and prepare better for working capital requirements.
+Feature RequestThis is an on-demand feature. Please raise a request with our Support team to get this feature activated on your Razorpay account.
+You can try out our APIs on the Razorpay Postman Public Workspace.
+
+Instant Settlement Entity
+The Instant Settlement entity has the following fields:
+idstring The unique identifier of the instant settlement transaction. For example, setlod_FNj7g2YS5J67Rz.entitystring Indicates the type of entity. Here it is settlement.ondemand.amount_requestedinteger The settlement amount, in paise, requested by you. For example, 200000.amount_settledinteger Total amount (minus fees and tax), in paise, settled to the bank account. For example, 199410.amount_pendinginteger Portion of the requested amount, in paise, yet to be settled to you.amount_reversedinteger Portion of the requested amount, in paise, that was not settled to you. This amount is reversed to your PG current balance.feesinteger Total amount (fees+tax), in paise, deducted for the instant settlement. For example, 590.taxinteger Total tax, in paise, charged for the fee component. For example, 90.currencystring The 3-letter ISO currency code for the settlement. Here it is INR.settle_full_balanceboolean Possible values:
+true:  Razorpay will settle the maximum amount possible. Values passed in the amount parameter are ignored.
+false (default): Razorpay will settle the amount requested in the amount parameter.
+statusstring Indicates the state of the instant settlement. Possible values:
+created: The instant settlement request has been created.
+initiated: The instant settlement process has been initiated.
+partially_processed: The instant settlement is being processed.
+processed: The instant settlement has been processed and the amount has been transferred to your bank account.
+reversed: The instant settlement could not be processed for some reason and the amount has been transferred back to your PG balance.
+descriptionstring This is a custom note you can pass for the instant settlement for your reference. For example, Need this to make vendor payments..notesobject Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, "note_key": "Beam me up Scottyâ.created_atinteger Unix timestamp at which the instant settlement was created. For example, 1596771429.ondemand_payoutsobject List of payouts created for the instant settlement.entitystring Indicates the type of ondemand_payouts entity. Here it is collection.countinteger The number of items in the array. For example, 1.itemsarray List of payouts created for the instant settlement.idstring The unique identifier for the payout. For example, setlodp_FNj7g2cbvw8ueO.entitystring Indicates the type of items entity. Here it is settlement.ondemand_payout.initiated_atinteger Unix timestamp at which the payout was initiated. For example, 1596771430.processed_atinteger Unix timestamp at which the payout was processed. For example, 1596778752.reversed_atinteger Unix timestamp at which the payout was reversed. For example, 1596778752.amountinteger The amount, in paise, settled through this payout. For example, 200000.amount_settledinteger Amount (minus fees and tax), in paise, settled through this payout. For example, 199410.feesinteger Amount (fees+tax), in paise, deducted for this payout. For example, 590.taxinteger Tax charged, in paise, for the fee component. For example, 90.utrstring The unique transaction number linked to a payout.statusstring Status of the payout. Possible values:
+created: The payout has been created.
+initiated: The payout has been initiated.
+processed: The payout has been processed. The amount has been transferred to your bank account.
+reversed: The payout has been reversed. The amount has been transferred back to your PG balance.
+created_atinteger Unix timestamp at which the payout was created.
+You can manage Instant Settlements using APIs or from the Razorpay Dashboard.
+Sample Entitycopy{  "id": "setlod_FNj7g2YS5J67Rz",  "entity": "settlement.ondemand",  "amount_requested": 200000,  "amount_settled": 0,  "amount_pending": 199410,  "amount_reversed": 0,  "fees": 590,  "tax": 90,  "currency": "INR",  "settle_full_balance": false,  "status": "initiated",  "description": "Need this to make vendor payments.",  "notes": {    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Greyâ¦ decaf."  },  "created_at": 1596771429,  "ondemand_payouts": {    "entity": "collection",    "count": 1,    "items": [      {        "id": "setlodp_FNj7g2cbvw8ueO",        "entity": "settlement.ondemand_payout",        "initiated_at": null,        "processed_at": null,        "reversed_at": null,        "amount": 200000,        "amount_settled": null,        "fees": 590,        "tax": 90,        "utr": null,        "status": "created",        "created_at": 1596771429      }    ]  }}
+Create an Instant Settlement
+The following endpoint creates an Instant Settlement.
+POST/settlements/ondemand
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/settlements/ondemand \-H "content-type: application/json" \-d '{  "amount": 200000,  "settle_full_balance": false,  "description": "Need this to make vendor payments.",  "notes": {    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Greyâ¦ decaf."  }}'
+Success ResponseFailure Responsecopy{  "id": "setlod_FNj7g2YS5J67Rz",  "entity": "settlement.ondemand",  "amount_requested": 200000,  "amount_settled": 0,  "amount_pending": 199410,  "amount_reversed": 0,  "fees": 590,  "tax": 90,  "currency": "INR",  "settle_full_balance": false,  "status": "initiated",  "description": "Need this to make vendor payments.",  "notes": {    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Greyâ¦ decaf."  },  "created_at": 1596771429,  "ondemand_payouts": {    "entity": "collection",    "count": 1,    "items": [      {        "id": "setlodp_FNj7g2cbvw8ueO",        "entity": "settlement.ondemand_payout",        "initiated_at": null,        "processed_at": null,        "reversed_at": null,        "amount": 200000,        "amount_settled": null,        "fees": 590,        "tax": 90,        "utr": null,        "status": "created",        "created_at": 1596771429      }    ]  }}
+Request Parameters
+amount mandatoryinteger The amount, in paise, you want settled to your account.settle_full_balance optionalboolean Possible values:
+true:  Razorpay will settle the maximum amount possible. Values passed in the amount parameter are ignored.
+false (default value): Razorpay will settle the amount requested in the amount parameter.
+description optionalstring This is a custom note you can pass for the instant settlement for your reference. For example, Need this to make vendor payments..
+Maximum length: 30 characters.
+Allowed characters: a-z, A-Z, 0-9 and space.
+notes optionalobject Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, Beam me up Scotty.
+Response Parameters
+Descriptions for the response parameters are present in the Instant Settlements Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while creating an instant settlement.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.Minimum amount that can be settled is â¹ 1.The amount entered is less than â¹1.Ensure that the amount to be settled is greater than â¹1.Payout amount including fees should be greater than Re 1.The amount entered is â¹1.Ensure that the amount to be settled is greater than â¹1.
+Fetch All Instant Settlements
+The following endpoint retrieves the details of all Instant Settlements.
+GET/settlements/ondemand
+Request: NormalJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]\- X GET \https://api.razorpay.com/v1/settlements/ondemand
+Success Response: NormalFailure Responsecopy{  "entity": "collection",  "count": 2,  "items": [    {      "id": "setlod_FNj7g2YS5J67Rz",      "entity": "settlement.ondemand",      "amount_requested": 200000,      "amount_settled": 199410,      "amount_pending": 0,      "amount_reversed": 0,      "fees": 590,      "tax": 90,      "currency": "INR",      "settle_full_balance": false,      "status": "processed",      "description": "Need this to make vendor payments.",      "notes": {        "notes_key_1": "Tea, Earl Grey, Hot",        "notes_key_2": "Tea, Earl Grey, decaf."      },      "created_at": 1596771429    },    {      "id": "setlod_FJOp0jOWlalIvt",      "entity": "settlement.ondemand",      "amount_requested": 300000,      "amount_settled": 299114,      "amount_pending": 0,      "amount_reversed": 0,      "fees": 886,      "tax": 136,      "currency": "INR",      "settle_full_balance": false,      "status": "processed",      "description": "Need this to buy stock.",      "notes": {        "notes_key_1": "Tea, Earl Grey, Hot",        "notes_key_2": "Tea, Earl Grey, decaf."      },      "created_at": 1595826576    }  ]}
+Fetch All Instant Settlements with Payout Details
+Use the expand[]=ondemand_payouts query parameter to fetch payout details as part of the response.
+Requestcopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]\- X GET \https://api.razorpay.com/v1/settlements/ondemand?expand[]=ondemand_payouts
+Responsecopy{  "entity": "collection",  "count": 2,  "items": [    {      "id": "setlod_FNj7g2YS5J67Rz",      "entity": "settlement.ondemand",      "amount_requested": 200000,      "amount_settled": 199410,      "amount_pending": 0,      "amount_reversed": 0,      "fees": 590,      "tax": 90,      "currency": "INR",      "settle_full_balance": false,      "status": "processed",      "description": "Need this to make vendor payments.",      "notes": {        "notes_key_1": "Tea, Earl Grey, Hot",        "notes_key_2": "Tea, Earl Grey, decaf."      },      "created_at": 1596771429,      "ondemand_payouts": {        "entity": "collection",        "count": 1,        "items": [          {            "id": "setlodp_FNj7g2cbvw8ueO",            "entity": "settlement.ondemand_payout",            "initiated_at": 1596771430,            "processed_at": 1596778752,            "reversed_at": null,            "amount": 200000,            "amount_settled": 199410,            "fees": 590,            "tax": 90,            "utr": "022011173948",            "status": "processed",            "created_at": 1596771429          }        ]      }    },    {      "id": "setlod_FJOp0jOWlalIvt",      "entity": "settlement.ondemand",      "amount_requested": 300000,      "amount_settled": 299114,      "amount_pending": 0,      "amount_reversed": 0,      "fees": 886,      "tax": 136,      "currency": "INR",      "settle_full_balance": false,      "status": "processed",      "description": "Need this to buy stock.",      "notes": {        "notes_key_1": "Tea, Earl Grey, Hot",        "notes_key_2": "Tea, Earl Grey, decaf."      },      "created_at": 1595826576,      "ondemand_payouts": {        "entity": "collection",        "count": 1,        "items": [          {            "id": "setlodp_FJOp0jTqoZdGen",            "entity": "settlement.ondemand_payout",            "initiated_at": 1595826577,            "processed_at": 1595826588,            "reversed_at": null,            "amount": 300000,            "amount_settled": 299114,            "fees": 886,            "tax": 136,            "utr": "020910199316",            "status": "processed",            "created_at": 1595826576          }        ]      }    }  ]}
+Query Parameters
+expand[]=ondemand_payouts optionalstring Pass this if you want to fetch payout details as part of the response.from optionalinteger Unix timestamp (in seconds) from when instant settlements are to be retrieved.to optionalinteger Unix timestamp (in seconds) till when instant settlements are to be retrieved.count optionalinteger Number of instant settlement records to be retrieved.
+Default value: 10.
+Possible values: 1 to 100.
+This can be used for pagination, in combination with skip.
+skip optionalinteger Number of instant settlement records to be skipped.
+Default value: 0.
+This can be used for pagination, in combination with count.
+
+Response Parameters
+Descriptions for the response parameters are present in the Instant Settlements Entity parameters table.
+Error Response Parameters
+Given below is a possible error you may face while fetching all instant settlements.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.
+Fetch Instant Settlement by ID
+The following endpoint retrieves the details of a particular Instant Settlement.
+GET/settlements/ondemand/:setlod_id
+Request: NormalJavaPythonGoPHPRubyNode.jscopycurl -u <YOUR_KEY>:<YOUR_SECRET>\- X GET \https://api.razorpay.com/v1/settlements/ondemand/setlod_FNj7g2YS5J67Rz
+Success Response: NormalFailure Responsecopy{  "id": "setlod_FNj7g2YS5J67Rz",  "entity": "settlement.ondemand",  "amount_requested": 200000,  "amount_settled": 199410,  "amount_pending": 0,  "amount_reversed": 0,  "fees": 590,  "tax": 90,  "currency": "INR",  "settle_full_balance": false,  "status": "processed",  "description": "Need this to make vendor payments.",  "notes": {    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Grey, decaf."  },  "created_at": 1596771429}
+Fetch Instant Settlement by ID with Payout Details
+Use the expand[]=ondemand_payouts query parameter to fetch payout details as part of the response.
+Requestcopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]\- X GET \https://api.razorpay.com/v1/settlements/ondemand/setlod_FNj7g2YS5J67Rz?expand[]=ondemand_payouts
+Responsecopy{  "id": "setlod_FNj7g2YS5J67Rz",  "entity": "settlement.ondemand",  "amount_requested": 200000,  "amount_settled": 199410,  "amount_pending": 0,  "amount_reversed": 0,  "fees": 590,  "tax": 90,  "currency": "INR",  "settle_full_balance": false,  "status": "processed",  "description": "Need this to buy stock.",  "notes": {    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Grey, decaf."  },  "created_at": 1596771429,  "ondemand_payouts": {    "entity": "collection",    "count": 1,    "items": [      {        "id": "setlodp_FNj7g2cbvw8ueO",        "entity": "settlement.ondemand_payout",        "initiated_at": 1596771430,        "processed_at": 1596778752,        "reversed_at": null,        "amount": 200000,        "amount_settled": 199410,        "fees": 590,        "tax": 90,        "utr": "022011173948",        "status": "processed",        "created_at": 1596771429      }    ]  }}
+Path Parameter
+setlod_id mandatorystring The unique identifier for the instant settlement transaction. For example, setlod_FNj7g2YS5J67Rz.
+Query Parameters
+expand[]=ondemand_payouts optionalstring Pass this if you want to fetch payout details as part of the response.
+Response Parameters
+Descriptions for the response parameters are present in the Instant Settlements Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching an instant settlement by id.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.The id provided does not existThe settlement id does not belong to the requestor or does not exist.Use a valid settlement id that belongs to the requestor.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEInstant Settlement EntityCreate an Instant SettlementRequest ParametersResponse ParametersError Response ParametersFetch All Instant SettlementsFetch All Instant Settlements with Payout DetailsQuery ParametersResponse ParametersError Response ParametersFetch Instant Settlement by IDFetch Instant Settlement by ID with Payout DetailsPath ParameterQuery ParametersResponse ParametersError Response Parameters

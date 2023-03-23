@@ -1,0 +1,105 @@
+
+
+
+
+
+
+Linked Accounts | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteOverviewLinked AccountsDashboardTransfers and Related FeesLinked Account DashboardPluginsView ReportsSubscribe to WebhooksRoute APIsFAQsGlossaryThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsRouteLinked AccountLinked AccountsUse Linked Accounts to add, transfer funds, initiate refunds and more.Using Razorpay Route, you can split payments between multiple third parties, bank accounts or vendors by creating Linked Accounts for them. You can manage settlements, refunds and reconciliations by taking actions on these  Linked Accounts.
+You can also user Route to process refunds easily. A Linked Account can process individual and bulk refunds for customers from Razorpay Linked Account Dashboard using the due balance. Also, the Linked Accounts can use Refund Credits, a pool of funds explicitly created to manage refunds. The refund capability needs to be provided from your Route Dashboard.
+The Linked Account users can use the Dashboard to:
+
+
+Initiate refunds
+
+
+View reversals and settlements
+
+
+Manage profile and team
+
+
+The Linked Account users must contact you to obtain access to their Dashboard. You can enable the access for them from your Dashboard. The Linked Account users receive an email with the login credentials, which they can use to log in to their Linked Account Dashboard.
+Create Linked Accounts
+To transfer funds to various third parties, sellers, bank accounts or vendors, you need to add them as Linked Accounts.
+When you add a Linked Account, you gain complete visibility and control of all the fund movements such as transfers, reversals and refunds for each of your Linked Accounts.
+Every Linked Account has a unique account_id which should be stored in your database. This ID should be sent in the various APIs described in other sections to identify the Linked Account.
+Watch Out!
+After being added, the Linked Account gets activated immediately and funds can be transferred right away. However, it takes 2 working days for Linked Account settlements, irrespective of your settlement schedule.
+
+Penny Testing
+To avoid settlement failure, we will penny test Linked Accounts when added. Razorpay will transfer a nominal amount to the bank account details submitted to verify them. Transfers are allowed only on successful validation. This will be performed on the newly created Linked Accounts and the existing accounts when the bank account details are updated via the Dashboard.
+Know more about penny testing.
+Required Details
+We collect the following details while adding the account:
+Primary detailsLinked Account name Contact numberBank detailsAccount number Account type IFSC Beneficiary name
+Add and Manage Linked Accounts
+Watch this video to see how to add Linked Accounts.
+
+Watch Out!For Mutual Funds Distributors (MFDs), Linked Accounts with their Asset Management Company (AMC) details are automatically created after they get access to the Route. MFDs do not need to create any Linked Accounts from the Dashboard. Please get in touch with our support team for any help on creating Linked Accounts.
+To create a Linked Account:
+
+
+Log in to the Razorpay Dashboard and click Route under PAYMENT PRODUCTS.
+
+
+Click Accounts tab, and then click + Add Account.
+
+
+
+Enter the Account Name and Account Email in the Add Account pop-up page.
+
+
+If you want to enable the Dashboard access for the Linked Account, turn on the toggle bar.
+
+
+Click Add.
+
+
+
+On the KYC Form pop-up page, enter Business Details and Bank Account Details, and then click Submit Form.
+
+
+
+The Linked Account is added successfully.
+
+
+Grant Dashboard Access to Linked Accounts
+You can grant Dashboard access to your Linked Accounts. The Linked Account can log in to the Dashboard with the email address provided at the onboarding time.
+The recipient Linked Account is notified via an email along with a password reset option.
+Watch Out!
+While you can create a Linked Account without adding their email, you cannot grant them Dashboard access. The access can be granted or provided only after you add the email address of the Linked Account.
+
+You cannot access the Linked Account Dashboard unless they add you as a team member from their Linked Account Dashboard.
+
+Enable Refunds Capability
+Due to government regulations, in certain cases, the Linked Accounts need to directly process refunds to customers. You can enable refunds capability while adding a new account.
+To enable refunds capability for an existing account:
+
+Navigate to the Accounts tab.
+Turn on the Allow Refunds toggle against the relevant account.
+
+Enable Refund Credits
+Refund Credits help the Linked Account to process customer refunds from a dedicated funds than using the unsettled balance. You can enable Refund Credits for a Linked Account by sending an email to your Razorpay account manager with these details:
+
+Linked account name
+Email ID
+Balance type (Refund Credit).
+
+Export Account Information
+You can export account information in .csv format for your business needs. Click Export All (CSV) to download the details.
+Related Information
+
+
+Route
+
+
+Initiate Refund
+
+
+Reversals and Settlements
+
+
+Manage Profile and Team
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGECreate Linked AccountsPenny TestingRequired DetailsAdd and Manage Linked AccountsGrant Dashboard Access to Linked AccountsEnable Refunds CapabilityEnable Refund CreditsExport Account InformationRelated Information

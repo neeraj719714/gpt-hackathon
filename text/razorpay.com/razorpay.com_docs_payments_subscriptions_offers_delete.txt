@@ -1,0 +1,40 @@
+
+
+
+
+
+
+Delete an Offer Linked to a Subscription | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardOffers for SubscriptionsAbout OffersCreate Subscription OffersLink an Offer to a SubscriptionUpdate an Offer Linked to a SubscriptionDelete an Offer Linked to a SubscriptionPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsOffersDeleteDelete an Offer Linked to a SubscriptionRemove an Offer from a Subscription from the Razorpay Dashboard.You can delete an offer linked to a Subscription from the Dashboard or using APIs. The invoices generated after the offer is deleted will be charged in full.
+Delete an Offer Linked to a Subscription From Dashboard
+Watch this video to see how to delete an offer linked to a Subscription from the Razorpay Dashboard.
+
+To delete an offer linked to a Subscription:
+
+
+Log in to the Razorpay Dashboard and click Subscriptions under PAYMENT PRODUCTS in the left menu.
+
+
+Click on the Subscription Id for which you want to update the offer.
+
+
+Click Remove against Offer.
+Watch Out!The offer will be removed from the Subscription only at the end of the cycle. It is not possible to remove an offer linked to a Subscription immediately.
+
+
+Click Yes, Remove.
+
+
+Delete an Offer Linked to a Subscription Using APIs
+You can delete an offer linked to a Subscription using this API.
+The following endpoint deletes an offer linked to a Subscription.
+DELETE/subscriptions/:sub_id/offer_id
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:YOUR_KEY_SECRET] \-X DELETE https://api.razorpay.com/v1/subscriptions/sub_00000000000001/offer_JHD834hjbxzhd38d \
+Refer to the Subscription API documentation for more information.
+Related Information
+
+About Offers.
+Create Subscription Offers.
+Link an Offer to a Subscription.
+Update an Offer Linked to a Subscription.
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEDelete an Offer Linked to a Subscription From DashboardDelete an Offer Linked to a Subscription Using APIsRelated Information

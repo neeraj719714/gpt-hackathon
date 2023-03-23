@@ -1,0 +1,59 @@
+
+
+
+
+
+
+Google Pay Integration -  Standard Checkout | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsOverviewBank TransferCardsEMIInstant International Bank TransferMOTONetbankingPay LaterUPIUPIGoogle PayGoogle PayStandard CheckoutOmnichannel CheckoutSaved VPAVirtual Payment Address (VPA) ValidationList of Supported UPI AppsTurbo In AppUPI IntentWalletsTransaction LimitsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPayment MethodsUpiGoogle PayStandard IntegrationGoogle Pay Integration -  Standard CheckoutIntegrate Google Pay on Razorpay's Standard Checkout page for web and Android apps.When using Razorpay Standard Checkout Integration, you do not require any extra integration to display the Google Pay option in the list of payment options.Google Pay is shown inside the UPI section on the checkout form.
+Google pay is shown under the UPI section on the checkout form.
+
+Web Integration
+Collect flow
+On your website, all Google Pay requests will be Collect requests. The customer selects the Google Pay option, enters their UPI handle and clicks Pay. A request is sent to the Google Pay app installed on their mobile device. The customer has to manually open the Google Pay app and approve the request.
+Intent flow
+Customers can make intent-based payments using Google Pay on mobile-web applications. Here, the customer is redirected to Google Payâs application, installed on their mobile devices, to complete the payment.
+Watch Out!This feature is only available for web pages running on HTTPS on Google Chrome for Android (v56 and above) and not on Google Chrome web views.
+Feature RequestThis is an on-demand feature. Please raise a request with our Support team to get this feature activated on your Razorpay account.
+Android Integration
+Collect-Based Integration
+This is same as UPI Collect Integration.
+The customers enter their UPI handle in the Enter your UPI ID section on the Checkout form and click Pay. Collect the customer's UPI handle and pass it in the payment request with method as upi.
+Razorpay then triggers a Collect request. The Collection request is sent to the customer's Google Pay application where they can make the payment.
+NPCI Restrictions for UPI Collect Flow
+MCC 6540: UPI Collect flow is not available for this MCC. You can use UPI Intent Flow as an alternative.
+MCC 4812: Maximum amount limited to â¹5,000 per transaction for UPI Collect flow. You can use UPI Intent Flow as an alternative.
+MCC 4814: Maximum amount limited to â¹5,000 per transaction for UPI Collect flow. You can use UPI Intent Flow as an alternative.
+
+Intent-Based Integration
+When using the Standard Checkout, Google Pay is shown inside the payment method UPI. The customer selects Google Pay from the list of apps and click Pay. Customers are then redirected to the Google Pay application, provided it is installed on the mobile device they are using to access checkout, where they can make the payment.
+Intent-Based Integration Using Google Pay SDK
+You also have the option to integrate Google Pay with the Standard Checkout on your Android app using Google's SDK.
+This offers the advantage of letting you open Google Pay within your application for customers to make the payment without any redirection, enhancing the user experience.
+Prerequisites
+
+Sign up for a business account with Google Pay.
+Contact our Support Team and have them whitelist your UPI ID/VPA.
+Verify your UPI ID/VPA details on the Google Merchant Console. Here, Google deposits a small amount into the bank account linked to your VPA (UPI ID).
+You should have already integrated Razorpay Standard Checkout.
+Generate API Keys from the Dashboard.
+
+To integrate Google Pay with the Checkout on your Android app using Google's SDK:
+
+
+Download the following SDKs and add the .aar files to the application library.
+
+Google Pay SDK.
+
+Handy TipsThe Razorpay-Google Pay SDK acts as a wrapper over the native Google-SDK. This SDK connects Razorpay's SDK with the Google SDK. You need all the 3 SDKs (listed below) for the flow to work.
+Razorpay Android SDK
+Google Pay SDK
+Razorpay-Google Pay SDK
+
+
+
+Add the following lines of code to the build.gradle file of your application:
+
+
+build.gradlecopydependencies {      implementation(name: 'razorpay-googlepay-1.3.0', ext: 'aar')      implementation(name:'google-pay-client-api-1.0.0  ', ext:'aar')      implementation 'com.android.support:customtabs:26.1.0'      implementation 'com.google.android.gms:play-services-tasks:15.0.1    }
+This will add the dependencies for the SDK and create a Google Pay UPI payment method on your Checkout form.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEWeb IntegrationCollect flowIntent flowAndroid IntegrationCollect-Based IntegrationIntent-Based Integration

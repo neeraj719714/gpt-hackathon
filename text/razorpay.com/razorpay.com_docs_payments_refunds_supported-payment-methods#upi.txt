@@ -1,0 +1,26 @@
+
+
+
+
+
+
+Supported Payment Methods | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsAbout RefundsNormal RefundsInstant RefundsOverviewSupported Payment MethodsBatch RefundsEMI and Pay Later RefundsDashboardHandle Refund ErrorsRefunds APIsSubscribe to WebhooksRefund CommunicationFAQsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsRefundsSupported Payment MethodsSupported Payment MethodsList of payment methods that support Instant Refunds.We support the following payment methods for instant refunds. The list of banks that support instant refunds differ according to payment methods.
+
+Credit Cards
+Debit Cards
+Netbanking
+UPI
+
+Refunds will be sent back to the original payment method used in making the payment. For example, if a credit card was used to make the payment, the refund will be pushed to the same credit card.
+Credit Cards
+We support instant refunds for credit card payments made from the following banks:
+Bank NameBank CodeAndhra BankANDBAxis BankUTIBBank of AmericaBOFABank of BarodaBARBBank of IndiaBKIDCanara BankCNRBCiti Bank RetailCITICorporation BankCORPHDFCHDFCHSBCHSBCICICIICICIDBIIBKLIndian Overseas BankIOBAIndusind BankINDBKotak BankKKBKPunjab National BankPUNBRBL BankRATNStandard CharteredSCBLState Bank of IndiaSBINSyndicate BankSYNBUnion Bank of IndiaUBINYes BankYESB
+Debit Cards
+We support instant refunds for debit card payments made from the following banks:
+Bank NameBank CodeCard NetworkAxis BankUTIBVisaBank of IndiaBKIDVisaBank Of MaharashtraMAHBVisaCanara BankCNRBVisaCorporation BankCORPVisaDCB BankDCBLVisaFederal BankFDRLVisa  MasterCardICICIICICVisaIDBI Bank LtdIBKLVisa  MasterCardIndian BankIDIBMasterCardIDFC FIRST BankIDFBVisaIndusind BankINDBVisaJammu and Kashmir BankJAKAMasterCardKotak BankKKBKVisaOriental Bank of CommerceORBCVisaStandard CharteredSCBLVisaState Bank of IndiaSBINVisaSouth Indian BankSIBLVisaYes BankYESBMasterCard
+Netbanking
+We support instant refunds for netbanking payments made from the following banks:
+Bank NameBank CodeBank of BarodaBARB_RCanara BankCNRBCentral Bank of IndiaCBINEquitas BankESFBIndusInd BankINDBKarur Vysya BankKVBLRBL BankRBL
+UPI
+We support instant refunds for UPI payments made from all major PSPs.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGECredit CardsDebit CardsNetbankingUPI

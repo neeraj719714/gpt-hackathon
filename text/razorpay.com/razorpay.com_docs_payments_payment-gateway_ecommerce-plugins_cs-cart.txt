@@ -1,0 +1,43 @@
+
+
+
+
+
+
+Integrate with CS-Cart Plugin | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsOverviewArasttaBuild Your OwnEasy Digital DownloadsCS-CartIntegrate with CS-Cart Plugin1. Build Integration2. Test Integration3. Go-live ChecklistTroubleshooting & FAQsGravity FormsMagentoOpenCartPrestashopShopify - Razorpay SecureWHMCSWixWoocommerceWordPressMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPayment GatewayEcommerce PluginsCs CartIntegrate with CS-Cart PluginIntegrate your CS-Cart website with Razorpay Payment Gateway using our plugin and start accepting payments.Integrate your CS-Cart website with the Razorpay Payment Gateway using Razorpay CS-Cart Plugin.
+Download Plugin
+Get Started
+To know how to integrate Razorpay Payment Gateway with your CS-Cart website using our payment extension, watch the video tutorial or follow the integration steps.
+Video Tutorial
+Watch this video to know how to integrate Razorpay Payment Gateway with your CS-Cart based website using our payment extension.
+
+Prerequisites
+
+Create a Razorpay account.
+Understand the payment flow process.
+Generate the API Keys from the Razorpay Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+
+Integration Steps
+
+
+Build Integration
+
+
+Test Integration
+
+
+Go-live Checklist
+
+
+Support
+
+Queries: If you have queries, raise a ticket on the Razorpay Support Portal.
+Feature Request: If you have a feature request, create an issue on GitHub.
+
+Related Information
+
+
+Address Verification System
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEGet StartedVideo TutorialPrerequisitesIntegration StepsSupportRelated Information

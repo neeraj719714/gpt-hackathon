@@ -1,0 +1,24 @@
+
+
+
+
+
+
+Google Pay | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsOverviewBank TransferCardsEMIInstant International Bank TransferMOTONetbankingPay LaterUPIUPIGoogle PayGoogle PayStandard CheckoutOmnichannel CheckoutSaved VPAVirtual Payment Address (VPA) ValidationList of Supported UPI AppsTurbo In AppUPI IntentWalletsTransaction LimitsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPayment MethodsUpiGoogle PayGoogle PayUse Google Pay at the Razorpay Standard or Custom Checkout page.Your customers can make payments using Google Pay at the Razorpay checkout. You can integrate and show Google Pay on any of the following platforms:
+
+Desktop Browser
+Mobile Web (M-Web)
+Android App
+
+Standard Checkout
+If you are using Razorpay's Standard Checkout, you donât need to make any change to integrate Google Pay on your checkout page. Razorpay will display Google Pay as an option under the UPI section on the checkout page.
+
+Know more about Google Pay Standard Checkout Integration.
+Custom Checkout
+To enable Google Pay on your custom checkout:
+
+Show Google Pay as a separate Option.
+Trigger payment when a user clicks Google Pay on your checkout.
+
+Know more about Google Pay Custom Checkout Integration.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEStandard CheckoutCustom Checkout

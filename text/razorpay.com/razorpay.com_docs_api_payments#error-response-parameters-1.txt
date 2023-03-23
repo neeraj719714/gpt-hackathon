@@ -1,0 +1,206 @@
+
+
+
+
+
+
+Payments | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsOrdersPaymentsPaymentsDowntimeSettlementsRefundsDisputesCustomersPayments SuitePartnersRazorpayXErrorsWebhooksApiPaymentsPaymentsCapture and fetch Payments using Razorpay APIs.You can accept payments from your customers by integrating your website or app with Razorpay Payment Gateway. You can also use Razorpay products such as Payment Links, Payment Pages, Subscription Links, Invoices and Smart Collect to accept Payments.
+Handy TipsIf you want to integrate with our APIs directly, reach out to our Support team with your requirements.
+Payments API
+Payments APIs are used to capture and fetch payments. You can also fetch payments based on orders and card details of payment.
+You can try out our APIs on the Razorpay Postman Public Workspace.
+
+Watch Out!You can use Payments API only to retrieve payment details or change the status from authorized to captured and not to collect payments. You can use one of the Razorpay products to accept payments.
+Use Cases
+
+Capture a payment using the unique identifier.
+Retrieve details of a specific payment.
+Retrieve details of multiple payments.
+Retrieve expanded card or EMI details of a payment.
+Retrieve payments linked to an Order.
+Retrieve card details of a payment.
+Edit an existing payment.
+
+Payments Entity
+The Payments entity has the following fields:
+idstring Unique identifier of the payment.entitystring Indicates the type of entity.amountinteger The payment amount in currency subunits. For example, for an amount of â¹1.00 enter 100.
+currencystring The currency in which the payment is made. Refer to the list of international currencies that we support.
+statusstring The status of the payment. Possible values:
+created
+authorized
+captured
+refunded
+failed
+
+methodstring The payment method used for making the payment. Possible values:
+card
+netbanking
+wallet
+emi
+upi
+
+order_idstring Order id, if provided. Know more about Orders.descriptionstring Description of the payment, if any.internationalboolean Indicates whether the payment is done via an international card or a domestic one.refund_statusstring The refund status of the payment. Possible values:
+null
+partial
+full
+amount_refundedinteger The amount refunded in currency subunits. For example, if amount_refunded = 100, it is equal to â¹1.00.capturedboolean Indicates if the payment is captured.emailstring Customer email address used for the payment.contactinteger Customer contact number used for the payment.
+feeinteger Fee (including GST) charged by Razorpay.taxinteger GST charged for the payment.
+error_codestring Error that occurred during payment. For example, BAD_REQUEST_ERROR.error_descriptionstring Description of the error that occurred during payment. For example, Payment processing failed because of incorrect OTP.error_sourcestring The point of failure. For example, customer.error_stepstring The stage where the transaction failure occurred. The stages can vary depending on the payment method used to complete the transaction. For example, payment_authentication.error_reasonstring The exact error reason. For example, incorrect_otp.notesjson object Contains user-defined fields, stored for reference purposes.created_atinteger Timestamp, in UNIX format, on which the payment was created.card_idstring The unique identifier of the card used by the customer to make the payment.
+cardobject Details of the card used to make the payment.idstring The unique identifier of the card used by the customer to make the payment.entitystring The name of the entity. Here, it is card.namestring Name of the cardholder.last4integer The last 4 digits of the card number.networkstring The card network. Possible values:
+American Express
+Diners Club
+Maestro
+MasterCard
+RuPay
+Unknown
+Visa
+typestring The card type. Possible values:
+credit
+debit
+prepaid
+unknown
+issuerstring The card issuer. The 4-character code denotes the issuing bank. Handy TipsThis attribute will not be set for the card issued by a foreign bank.emiboolean This attribute is set to true if the card can be used for EMI payment method.sub_typestring The sub-type of the customer's card. Possible values:
+
+customer
+
+
+business
+Handy TipsKnow how to accept payments made by customers using corporate cards.
+
+bankstring The 4-character bank code which the customer's account is associated with. For example, UTIB for Axis Bank.vpastring The customer's VPA (Virtual Payment Address) or UPI id used to make the payment. For example, gauravkumar@exampleupi.walletstring The name of the wallet used by the customer to make the payment. For example, payzapp.acquirer_dataarray A dynamic array consisting of a unique reference numbers.rrnstring A unique bank reference number provided by the banking partner when a refund is processed. This reference number can be used by the customer to track the status of the refund with the bank.authentication_reference_numberstring A unique reference number generated for RuPay card payments.bank_transaction_idstring A unique reference number provided by the banking partner in case of netbanking payments.
+You can perform the following actions on payments from the Razorpay Dashboard:
+
+Configure settings to auto-capture payments.
+Manually capture payments.
+Issue a refund for a payment.
+View details of a payment.
+View settlement details of a payment.
+
+Payment SuccessPayment Failurecopy{  "id": "pay_L0nSsccovt6zyp",  "entity": "payment",  "amount": 9900,  "currency": "INR",  "status": "captured",  "order_id": "order_L0nS83FfCHaWqV",  "invoice_id": "inv_L0nS7JIyuX6Lyb",  "international": false,  "method": "card",  "amount_refunded": 0,  "refund_status": null,  "captured": true,  "description": "#L0nS7JIyuX6Lyb",  "card_id": "card_L0nSsfPv1LjA20",  "card": {    "id": "card_L0nSsfPv1LjA20",    "entity": "card",    "name": "",    "last4": "1111",    "network": "Visa",    "type": "debit",    "issuer": null,    "international": false,    "emi": false,    "sub_type": "consumer",    "token_iin": null  },  "bank": null,  "wallet": null,  "vpa": null,  "email": "gaurav.kumar@example.com",  "contact": "+9000090000",  "notes": [],  "fee": 198,  "tax": 0,  "error_code": null,  "error_description": null,  "error_source": null,  "error_step": null,  "error_reason": null,  "acquirer_data": {    "auth_code": "299196"  },  "created_at": 1672987417}
+Capture a Payment
+The following endpoint helps you capture a payment.
+POST/payments/:id/capture
+
+After the customer's bank authorises the payment, you must verify if the authorised amount deducted from the customer's account is the same as the amount paid by the customer on your website or app.
+You can configure automatic capture of payments on the Razorpay Dashboard.
+Use the above endpoint to change the payment status from authorized to captured.
+
+CurlJavaPythonGoPHPRuby.NETcopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-H 'content-type: application/json' \-X POST https://api.razorpay.com/v1/payments/pay_29QQoUBi66xm2f/capture \-d '{  "amount": 1000,  "currency": "INR"}'
+Success ResponseFailure Responsecopy{  "id": "pay_G3P9vcIhRs3NV4",  "entity": "payment",  "amount": 100,  "currency": "INR",  "status": "captured",  "order_id": "order_GjCr5oKh4AVC51",  "invoice_id": null,  "international": false,  "method": "card",  "amount_refunded": 0,  "refund_status": null,  "captured": true,  "description": "Payment for Adidas shoes",  "card_id": "card_KOdY30ajbuyOYN",  "bank": null,  "wallet": null,  "vpa": null,  "email": "gaurav.kumar@example.com",  "contact": "9000090000",  "customer_id": "cust_K6fNE0WJZWGqtN",  "token_id": "token_KOdY$DBYQOv08n",  "notes": [],  "fee": 1,  "tax": 0,  "error_code": null,  "error_description": null,  "error_source": null,  "error_step": null,  "error_reason": null,  "acquirer_data": {    "authentication_reference_number": "100222021120200000000742753928"  },  "created_at": 1605871409}
+Watch Out!Attempting to capture a payment whose status is not authorized will produce an error.
+Handy Tips
+While creating a capture request, in the amount field, enter only the amount associated with the order that is stored in your database.
+After the payment capture, the funds are transferred to your account in T+2 days in case of a domestic transaction. For international transactions, the time taken is T+7 business days. The amount sent in the capture request must come from a verified source and be the amount you expect to receive.
+
+Path Parameter
+id mandatorystring Unique identifier of the payment to be captured.
+Request Parameters
+amount mandatoryinteger The amount to be captured (should be equal to the authorised amount, in the smallest unit of the currency).
+currency mandatorystring ISO code of the currency in which the payment was made. Refer to the list of supported currencies.
+Response Parameters
+Descriptions for the response parameters are present in the Payments Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while capturing a payment.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.Capture amount must be equal to the amount authorizedThe capture amount is incorrect.The amount you are trying to capture differs from the authorised amount .Enter the correct capture amount.Ensure that the amount to be captured is equal to the authorised amount.This payment has already been capturedYou are trying to capture an already captured payment.Ensure that the payment is in the authorized state to capture it successfully.The id provided does not existThe payment_id provided is incorrect.Enter the correct payment_id .The requested URL was not found on the server.The URL is incorrect.Use the correct URL.The amount must be an integerThe amount specified is incorrect.Enter the correct amount without any decimal points.
+Fetch a Payment
+The following endpoint retrieves details of a specific payment using its id.
+GET/payments/:id
+CurlJavaPythonGoPHPRuby.NETcopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X GET https://api.razorpay.com/v1/payments/pay_DG4ZdRK8ZnXC3k
+Success ResponseFailure Responsecopy{  "id": "pay_DG4ZdRK8ZnXC3k",  "entity": "payment",  "amount": 100,  "currency": "INR",  "status": "captured",  "order_id": "order_GjCr5oKh4AVC51",  "invoice_id": null,  "international": false,  "method": "card",  "amount_refunded": 0,  "refund_status": null,  "captured": true,  "description": "Payment for Adidas shoes",  "card_id": "card_KOdY30ajbuyOYN",  "bank": null,  "wallet": null,  "vpa": null,  "email": "gaurav.kumar@example.com",  "contact": "9000090000",  "customer_id": "cust_K6fNE0WJZWGqtN",  "token_id": "token_KOdY$DBYQOv08n",  "notes": [],  "fee": 1,  "tax": 0,  "error_code": null,  "error_description": null,  "error_source": null,  "error_step": null,  "error_reason": null,  "acquirer_data": {      "auth_code": "064381",      "arn": "74119663031031075351326",      "rrn": "303107535132"  },  "created_at": 1605871409}
+Path Parameter
+id mandatorystring Unique identifier of the payment to be retrieved.
+Query Parameters
+expand[] optionalarray Used to retrieve additional information about the payment and the method used to make the payment. The response will include a sub-entity if this parameter is used. Supported values:
+card : Expanded card details, applicable for card and EMI payments.
+emi : Expanded EMI plan details, applicable for EMI payments.
+offers : Expanded Offer details, applicable when an offer was applied to the payment.
+
+Response Parameters
+Descriptions for the response parameters are present in the Payments Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching a payment.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.The id provided does not existThe payment_id provided is incorrect.Use the correct payment_id .
+Examples
+The expand[] parameter on the Payments endpoint returns expandable fields in the response.
+Expanded Card
+expand[]=cardUsed to expand the card details when the payment method is card.
+CurlJavaPythonGoRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X GET https://api.razorpay.com/v1/payments/pay_DG4a4vAWvKrh79/?expand[]=card
+Expanded EMI
+expand[]=emiUsed to expand the EMI plan details when the payment method is emi.
+CurlJavaPythonGoRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X GET https://api.razorpay.com/v1/payments/pay_DG4ZdRK8ZnXC3k/?expand[]=emi
+Expanded Offers
+expand[]=offersUsed to expand the offers applied to a payment, wherever applicable.
+CurlJavaPythonGoRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X GET https://api.razorpay.com/v1/payments/pay_Exez1iJzI3hqR5/?expand[]=offers
+Fetch Multiple Payments
+The following endpoint retrieves details of all the payments.
+GET/payments
+Handy TipsBy default, only the last 10 records are displayed. You can use the count and skip parameters to retrieve the specific number of records that you need.
+CurlJavaPythonGoPHPRuby.NETcopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X GET https://api.razorpay.com/v1/payments?from=1593320020&to=1624856020&count=2&skip=1
+Success ResponseFailure Responsecopy{  "entity": "collection",  "count": 2,  "items": [    {      "id": "pay_KbCFyQ0t9Lmi1n",      "entity": "payment",      "amount": 1000,      "currency": "INR",      "status": "authorized",      "order_id": null,      "invoice_id": null,      "international": false,      "method": "netbanking",      "amount_refunded": 0,      "refund_status": null,      "captured": false,      "description": "Test Transaction",      "card_id": null,      "bank": "IBKL",      "wallet": null,      "vpa": null,      "email": "gaurav.kumar@gmail.com",      "contact": "+919000090000",      "notes": {        "address": "Razorpay Corporate Office"      },      "fee": null,      "tax": null,      "error_code": null,      "error_description": null,      "error_source": null,      "error_step": null,      "error_reason": null,      "acquirer_data": {        "bank_transaction_id": "5733649"      },      "created_at": 1667397881    },    {      "id": "pay_KbCEDHh1IrU4RJ",      "entity": "payment",      "amount": 1000,      "currency": "INR",      "status": "authorized",      "order_id": null,      "invoice_id": null,      "international": false,      "method": "upi",      "amount_refunded": 0,      "refund_status": null,      "captured": false,      "description": "Test Transaction",      "card_id": null,      "bank": null,      "wallet": null,      "vpa": "gaurav.kumar@okhdfcbank",      "email": "gaurav.kumar@gmail.com",      "contact": "+919000090000",      "notes": {        "address": "Razorpay Corporate Office"      },      "fee": null,      "tax": null,      "error_code": null,      "error_description": null,      "error_source": null,      "error_step": null,      "error_reason": null,      "acquirer_data": {        "rrn": "230901495295",        "upi_transaction_id": "6935B87A72C2A7BC83FA927AA264AD53"      },      "created_at": 1667397781    }  ]}
+Query Parameters
+from optionalinteger UNIX timestamp, in seconds, from when payments are to be fetched.to optionalinteger UNIX timestamp, in seconds, till when payments are to be fetched.count optionalinteger Number of payments to be fetched.  Default value is 10. Maximum value is 100. This can be used for pagination, in combination with the skip parameter.skip optionalinteger Number of records to be skipped while fetching the payments.
+expand[] optionalarray Used to retrieve additional information about the payment, the method used to make the payment. The response will include a sub-entity if this parameter is used. Possible values:
+card: Expanded card details, usable for card and EMI payments.
+emi: Expanded EMI plan details, usable for EMI payments.
+
+Response Parameters
+Descriptions for the response parameters are present in the Payments Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching multiple payments.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.from must be between 946684800 and 4765046400The time range entered is invalid.Enter a valid time range between 946684800 and 4765046400 .
+Fetch Expanded Card Details for Payments
+The following endpoint retrieves the expanded card details of the payments, in which the payment method is card.
+GET/payments/?expand[]=card
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X GET https://api.razorpay.com/v1/payments/?expand[]=card
+Success ResponseFailure Responsecopy{  "entity": "collection",  "count": 2,  "items": [    {      "id": "pay_KbC8Hxx98GVyYb",      "entity": "payment",      "amount": 1000,      "currency": "INR",      "status": "captured",      "order_id": null,      "invoice_id": null,      "international": false,      "method": "card",      "amount_refunded": 0,      "refund_status": null,      "captured": true,      "description": "Test Transaction",      "card_id": "card_KbC8I0uOUzzcqX",      "card": {        "id": "card_KbC8I0uOUzzcqX",        "entity": "card",        "name": "",        "last4": "3818",        "network": "RuPay",        "type": "debit",        "issuer": null,        "international": false,        "emi": false,        "sub_type": "consumer",        "token_iin": null      },      "bank": null,      "wallet": null,      "vpa": null,      "email": "gaurav.kumar@gmail.com",      "contact": "+919000090000",      "token_id": "token_KbC8IC6N0evwsl",      "notes": {        "address": "Razorpay Corporate Office"      },      "fee": 20,      "tax": 0,      "error_code": null,      "error_description": null,      "error_source": null,      "error_step": null,      "error_reason": null,      "acquirer_data": {        "auth_code": "600165",        "authentication_reference_number": null      },      "created_at": 1667397446    },    {      "id": "pay_KbC4riXCVxRSj9",      "entity": "payment",      "amount": 1000,      "currency": "INR",      "status": "captured",      "order_id": null,      "invoice_id": null,      "international": false,      "method": "card",      "amount_refunded": 0,      "refund_status": null,      "captured": true,      "description": "Test Transaction",      "card_id": "card_KbC4rldTyupyPI",      "card": {        "id": "card_KbC4rldTyupyPI",        "entity": "card",        "name": "",        "last4": "3818",        "network": "RuPay",        "type": "debit",        "issuer": null,        "international": false,        "emi": false,        "sub_type": "consumer",        "token_iin": null      },      "bank": null,      "wallet": null,      "vpa": null,      "email": "gaurav.kumar@example.com",      "contact": "+919000090000",      "notes": {        "address": "Razorpay Corporate Office"      },      "fee": 20,      "tax": 0,      "error_code": null,      "error_description": null,      "error_source": null,      "error_step": null,      "error_reason": null,      "acquirer_data": {        "auth_code": "231868",        "authentication_reference_number": null      },      "created_at": 1667397252    }  ]}
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching expanded card details for payments.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.Value of each expand must be one of following types: card, emi, transaction, transaction.settlement, refunds, offers, tokenThe value for the expand parameter is incorrect.Enter the correct value for the expand parameter. Here it is card .
+Fetch Expanded EMI Details for Payments
+The following endpoint retrieves the expanded EMI plan details of the payments, in which the payment method is emi.
+GET/payments/?expand[]=emi
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X GET https://api.razorpay.com/v1/payments/?expand[]=emi
+Success ResponseFailure Responsecopy{  "entity": "collection",  "count": 2,  "items": [    {      "id": "pay_KbCVlLqUbb3VhA",      "entity": "payment",      "amount": 400000,      "currency": "INR",      "status": "authorized",      "order_id": null,      "invoice_id": null,      "international": false,      "method": "emi",      "amount_refunded": 0,      "refund_status": null,      "captured": false,      "description": "Test Transaction",      "card_id": "card_KbCVlPnxWRlOpH",      "bank": "HDFC",      "wallet": null,      "vpa": null,      "email": "gaurav.kumar@example.com",      "contact": "+919000090000",      "notes": {        "address": "Razorpay Corporate Office"      },      "fee": null,      "tax": null,      "error_code": null,      "error_description": null,      "error_source": null,      "error_step": null,      "error_reason": null,      "acquirer_data": {        "auth_code": "205480"      },      "emi": {        "issuer": "HDFC",        "type": "credit",        "rate": 1500,        "duration": 24      },      "created_at": 1667398779    },    {      "id": "pay_KbCUSPzYZdEVGA",      "entity": "payment",      "amount": 300000,      "currency": "INR",      "status": "authorized",      "order_id": null,      "invoice_id": null,      "international": false,      "method": "emi",      "amount_refunded": 0,      "refund_status": null,      "captured": false,      "description": "Test Transaction",      "card_id": "card_KbCUSTVRUci85O",      "bank": "HDFC",      "wallet": null,      "vpa": null,      "email": "gaurav.kumar@example.com",      "contact": "+919000090000",      "notes": {        "address": "Razorpay Corporate Office"      },      "fee": null,      "tax": null,      "error_code": null,      "error_description": null,      "error_source": null,      "error_step": null,      "error_reason": null,      "acquirer_data": {        "auth_code": "102251"      },      "emi": {        "issuer": "HDFC",        "type": "credit",        "rate": 1500,        "duration": 12      },      "created_at": 1667398705    }  ]}
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching expanded EMI details for payments.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.Value of each expand must be one of following types: card, emi, transaction, transaction.settlement, refunds, offers, tokenThe value for the expand parameter is incorrect.Enter the correct value for the expand parameter. Here it is emi .
+Fetch Payments Based on Orders
+The following endpoint retrieves payments corresponding to an order.
+GET/orders/:id/payments
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X GET https://api.razorpay.com/v1/orders/order_DovFx48wjYEr2I/payments
+Success ResponseFailure Responsecopy{  "entity": "collection",  "count": 1,  "items": [    {      "id": "pay_KbCaQOgY6QclC7",      "entity": "payment",      "amount": 1234,      "currency": "INR",      "status": "captured",      "order_id": "order_KbCZFK4mhbWLoO",      "invoice_id": null,      "international": false,      "method": "card",      "amount_refunded": 0,      "refund_status": null,      "captured": true,      "description": "Test Transaction",      "card_id": "card_KbCaQTTxBsAVLQ",      "card": {        "id": "card_KbCaQTTxBsAVLQ",        "entity": "card",        "name": "",        "last4": "3818",        "network": "RuPay",        "type": "debit",        "issuer": null,        "international": false,        "emi": false,        "sub_type": "consumer",        "token_iin": null      },      "bank": null,      "wallet": null,      "vpa": null,      "email": "gaurav.kumar@example.com",      "contact": "+919000090000",      "notes": {        "address": "Razorpay Corporate Office"      },      "fee": 25,      "tax": 0,      "error_code": null,      "error_description": null,      "error_source": null,      "error_step": null,      "error_reason": null,      "acquirer_data": {        "auth_code": "457282",        "authentication_reference_number": null      },      "created_at": 1667399043    }  ]}
+Path Parameter
+id mandatorystring Unique identifier of the order for which you want to fetch payment details.
+Response Parameters
+Descriptions for the response parameters are present in the Payments Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching payments based on orders.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.The id provided does not existThe order_id is missing.Ensure that you pass the order_id in the URL._id is not a valid idThe order_id provided is incorrect.Enter the correct order_id .
+Fetch Card Details of a Payment
+The following endpoint retrieves the details of the card used to make a payment.
+GET/payments/:id/card
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X GET https://api.razorpay.com/v1/payments/pay_DtFYPi3IfUTgsL/card
+Success ResponseFailure Responsecopy{  "id": "card_JXPULjlKqC5j0i",  "entity": "card",  "name": "Gaurav Kumar",  "last4": "4366",  "network": "Visa",  "type": "credit",  "issuer": "UTIB",  "international": false,  "emi": false,  "sub_type": "consumer",  "token_iin": null}
+Path Parameter
+id mandatorystring Unique identifier of the payment for which you want to retrieve card details.
+Response Parameters
+Descriptions for the response parameters are present in the Payments Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching card details of a payment.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.The id provided does not existThe payment_id provided is incorrect.Enter the correct payment_id .Payment was not done using cardThe payment for the payment_id entered was not completed using a card.Use a payment_id which was completed using a card.
+Update the Payment
+The following endpoint helps you modify the notes field for a particular payment.
+PATCH/payments/:id/
+You can modify an existing payment to update the Notes field only. Notes can be used to record additional information about the payment. You can add up to 15 key-value pairs with each value of the key not exceeding 256 characters.
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X PATCH https://api.razorpay.com/v1/payments/pay_CBYy6tLmJTzn3Q/-d '{	"notes": {		"key1": "value1",		"key2": "value2"	}}'
+Success ResponseFailure Responsecopy{  "id": "pay_KbCVlLqUbb3VhA",  "entity": "payment",  "amount": 400000,  "currency": "INR",  "status": "authorized",  "order_id": null,  "invoice_id": null,  "international": false,  "method": "emi",  "amount_refunded": 0,  "refund_status": null,  "captured": false,  "description": "Test Transaction",  "card_id": "card_KbCVlPnxWRlOpH",  "bank": "HDFC",  "wallet": null,  "vpa": null,  "email": "gaurav.kumar@example.com",  "contact": "+919000090000",  "notes": {		"key1": "value1",		"key2": "value2"	},  "fee": null,  "tax": null,  "error_code": null,  "error_description": null,  "error_source": null,  "error_step": null,  "error_reason": null,  "acquirer_data": {    "auth_code": "205480"  },  "emi_plan": {    "issuer": "HDFC",    "type": "credit",    "rate": 1500,    "duration": 24  },  "created_at": 1667398779}
+Request Parameters
+id mandatorystring Unique identifier of the payment for which the Notes field should be updated.notes mandatoryjson object Contains user-defined fields and is stored for reference purposes. Know more about notes.
+Response Parameters
+Descriptions for the response parameters are present in the Payments Entity parameters table.
+Error Response Parameter
+Given below is a possible error you may face while updating a payment.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.
+Webhooks
+Set up webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEPayments APIUse CasesPayments EntityCapture a PaymentPath ParameterRequest ParametersResponse ParametersError Response ParametersFetch a PaymentPath ParameterQuery ParametersResponse ParametersError Response ParametersExamplesFetch Multiple PaymentsQuery ParametersResponse ParametersError Response ParametersFetch Expanded Card Details for PaymentsError Response ParametersFetch Expanded EMI Details for PaymentsError Response ParametersFetch Payments Based on OrdersPath ParameterResponse ParametersError Response ParametersFetch Card Details of a PaymentPath ParameterResponse ParametersError Response ParametersUpdate the PaymentRequest ParametersResponse ParametersError Response ParameterWebhooks

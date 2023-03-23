@@ -1,0 +1,421 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Policies with Dr. Poli: Buy now, pay later - Razorpay Blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Policies with Dr. Poli
+
+
+				Policies with Dr. Poli: Buy now, pay later			
+
+December 8, 2022
+
+3 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Ever since she was little, Sanya had a say in what a home should look like. Whether it was the color of the sofa, the look of an aesthetic corner, or the choice of flowers, she had an opinion to make it more…Homey. 
+Soon, it was evident she had a knack to hack home decor. 
+Sanya started her own business of premium home decor items. She designed savvy vases, funky furniture, and edgy showpieces. Since these were a bit pricey, customers wouldn’t often place orders when there wasn’t a sale. 
+“What do I do now? How many sales do I keep having?” She wondered, “I guess it’s time to visit Dr. Poli”. 
+Here’s how it went: 
+
+Sanya: Dr. Poli, Customers check out my products, par phir checkout hi nahi karte!
+I can’t keep having sales, Aise toh I’ll go into losses. Should I cut down my prices? 
+Dr. Poli: Ok, pehle batao, apart from the usual, have you included the Buy now, pay later, or EMI option for customers? 
+Sanya: No, I have the card, UPI, COD, and net banking options.
+Dr Poli: Orders increase karne ke liye, payment options bhi increase karne padte hai.  Aapko pata hai, more than 30% customers prefer pay-later options? 
+Sanya:  What is this pay-later payment method? Matlab bina payment order kaise place hoga? 
+Dr. Poli: Payment hogi. Customers can pay a little at checkout, and the rest later in installments, over a period of time. It’s like a loan. 
+Matlab, checkout abhi, payment ki tension baadme.
+
+Sanya: Par meri payment ka kya? Mujhe bhi paise late milenge?  
+Dr. Poli: Wahi toh best part hai, you get paid in full at the time of checkout! 
+Sanya: Wow. But who’s paying me then? 
+Dr. Poli: Between you and the customer, there’s another party involved, ie, the lender. Companies like ZestMoney, Simpl, and Axio, all deal with pay-later payment options. 
+They pay you on behalf of the customer, with a little fee, and the customer pays them over time. 
+Samjhin aap?
+Aapko milegi full payment, customer ko order! Win win!
+
+Sanya: Arre wah! But what if the customer doesn’t pay back the lender? Mujhe paise wapis toh nahi karne padenge? 
+Dr. Poli: Sab BNPL company pe chodh do. They’ll ensure they’ve approved customers who have a decent payments history. 
+And as there are usually low or 0% interest rates and different payment plans, customers can pick and choose whichever they prefer. There are EMI plans for as low as INR50 per month! 
+
+Sanya: Awesome! I guess I don’t have to do anything here. *Phew*
+Dr. Poli: You actually have the most important job of them all. 
+Aapko payment options integrate karne honge. 
+Whichever payment gateway you have, you have to include such vendors for the customer, so they can pay via Cardless EMI, EMI, and Buy now, pay later. 
+Sanya: Got it, thanks Poli Ji. 
+
+FAQs:
+
+What is Buy now, pay later?
+How do I pay via Buy now pay later?
+How do I Include the buy now pay later options at checkout?
+Which companies are best known for Buy now Pay later?
+How often do you have to make payments after opting for Buy now pay later?
+How do I pay via EMI?
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+buy now pay laterdigital paymentsEMI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Shruti Gupta 
+
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Policies with Dr. Poli: What’s tokenisation?
+
+November 11, 2022
+
+
+
+
+
+ 
+
+How Rapido offers the best UPI checkout experience to their customers
+
+November 8, 2022
+
+
+
+
+
+ 
+
+Redefining Contactless Payments With the Future-Forward Razorpay MultiQR Codes
+
+November 18, 2021
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

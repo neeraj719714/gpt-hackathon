@@ -1,0 +1,69 @@
+
+
+
+
+
+
+Create User Roles | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAbout DashboardKeyboard ShortcutsGlobal SearchSupportAccount SettingsManage TeamsCreate User RoleApproval WorkflowBilling - Fees and TaxesTwo-Factor AuthenticationCredits and Free PayoutsChartered Accountant PortalFAQsFAQsAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXManage TeamsCreate User RoleCreate User RolesCreate custom user roles and set access as per your requirement.Besides the preset templates, you can create custom user roles in RazorpayX. You can add users and assign roles to them and limit their access to the Dashboard as per your business requirements.
+For example, you might want to hide the account balance and account statement from the new employees in your team. Or you wish to delegate certain tasks, like team management and Dashboard Settings configuration to certain members of your team only.
+You can use the preset templates to create new custom roles. You can further edit the custom roles as required.
+Create Custom User Roles
+To create custom user roles in RazorpayX, you must:
+
+
+Log in to your RazorpayX Dashboard.
+
+
+Navigate to My Account and Settings â Manage Team â Roles & Permissions.
+
+
+Scroll to CUSTOM ROLES and click + Create New Role. You can click on the templates to view the preset permissions. You can either:
+
+Duplicate a standard role/existing custom role from the templates available.
+
+
+
+Click + CREATE BLANK ROLE, as shown.
+
+
+Watch Out!You cannot duplicate Owner and Admin roles.
+
+
+For the new custom role, name the role and add a description. You can check and uncheck the checkboxes and choose the permissions, as shown below:
+
+
+
+Click Save Role. Once the role is successfully created, you can invite a new team member to the role or update the role of an existing team member to the newly created role.
+
+
+
+On sending the invite, this user will get access to your team via email as per the assigned role.
+Edit Custom User Roles
+Users can click on any existing role and modify the permissions to update the role, if their role allows them to do so. Usually, the Owner can do this. However, the user cannot edit their own role.
+
+
+Log in to your RazorpayX Dashboard.
+
+
+Navigate to My Account and Settings â Manage Team â Roles & Permissions.
+
+
+Click the edit icon and make the changes.
+
+
+
+Click SAVE ROLE.
+
+
+
+On the pop-up, click SAVE CHANGES.
+
+
+Watch Out!The role is edited for all the users who are assigned with that role. For your reference, RazorpayX also displays a list of users associated with the modified role.
+Related Information
+
+
+Manage Teams
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGECreate Custom User RolesEdit Custom User RolesRelated Information

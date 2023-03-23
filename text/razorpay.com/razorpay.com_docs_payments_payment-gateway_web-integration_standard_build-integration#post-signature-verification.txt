@@ -1,0 +1,232 @@
+
+
+
+
+
+
+Steps to integrate the Standard Checkout form on your website. | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayOverviewFeaturesGet StartedHow Payment Gateway WorksWeb IntegrationsOverview1. Build Integration2. Test Integration3. Go-live ChecklistConfigure Payment MethodsBest PracticesTroubleshooting & FAQsWebview for Mobile AppsHosted CheckoutAndroid IntegrationiOS IntegrationReact NativeCordova & IonicFlutter PluginCapacitor IntegrationQuick IntegrationServer IntegrationEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPayment GatewayWeb IntegrationStandardBuild Integration1. Build IntegrationSteps to integrate the Standard Checkout form on your website.Follow these steps to integrate the standard checkout form on your website:
+1.1 Create an order in server. 
+1.2 Integrate with checkout on client-side. 
+1.3 Handle payment success and failure. 
+1.4 Store fields in server. 
+1.5 Verify payment signature. 
+1.6 Verify payment status.
+1.1 Create an Order in Server
+Given below are the order states and the corresponding payment states:
+Payment StagesOrder StatePayment StateDescriptionStage IcreatedcreatedThe customer submits the payment information, which is sent to Razorpay . The payment is not processed at this stage.Stage IIattemptedauthorized/failedAn order moves from created to attempted state when payment is first attempted. It remains in this state until a payment associated with the order is captured.Stage IIIpaidcapturedAfter the payment moves to the captured state, the order moves to the paid state. No more payment requests are allowed after an order moves to the paid state.  The order continues to be in this state even if the payment for this order is refunded.
+Handy TipsYou can capture payments automatically with the one-time Payment Capture setting configuration on the Razorpay Dashboard.
+GitHub & Documentation Links for SDKs
+LanguageGit Hub RepoDocumentation Link.NETGithubDocumentationGoGitHubDocumentationJavaGitHubDocumentationNode.jsGitHubDocumentationPHPGitHubDocumentationPythonGitHubDocumentationRubyGitHubDocumentation
+Order is an important step in the payment process.
+
+An order should be created for every payment.
+You can create an order using the Orders API. It is a server-side API call. Know how to authenticate Orders API.
+The order_id received in the response should be passed to the checkout. This ties the order with the payment and secures the request from being tampered.
+
+You can create an order:
+
+Using the sample code on the Razorpay Postman Public Workspace.
+By manually integrating the API sample codes on your server.
+
+Razorpay Postman Public Workspace
+You can use the Postman workspace below to create an order:
+
+Handy TipsUnder the Authorization section in Postman, select Basic Auth and add the Key Id and secret as the Username and Password, respectively.
+API Sample Code
+The following is a sample API request and response for creating an order using the Orders API.
+POST/orders
+CurlJavaPythonGoPHPRubyNode.js.NETcopycurl -X POST https://api.razorpay.com/v1/orders -U [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-H 'content-type:application/json'-d '{    "amount": 500,    "currency": "INR",    "receipt": "qwsaq1",    "partial_payment": true,    "first_payment_min_amount": 230}'
+Success ResponseFailure Responsecopy{    "id": "order_IluGWxBm9U8zJ8",    "entity": "order",    "amount": 5000,    "amount_paid": 0,    "amount_due": 5000,    "currency": "INR",    "receipt": "rcptid_11",    "offer_id": null,    "status": "created",    "attempts": 0,    "notes": [],    "created_at": 1642662092}
+Request Parameters
+amount mandatoryinteger The transaction amount, expressed in the currency subunit. For example, for an actual amount of â¹299.35 , the value of this field should be 29935.currency mandatorystring The currency in which the transaction should be made. See the list of supported currencies. Length must be of 3 characters.receipt optionalstring Your receipt id for this order should be passed here. Maximum length is 40 characters.notes optionaljson object Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, "note_key": "Beam me up Scottyâ.partial_payment optionalboolean Indicates whether the customer can make a partial payment. Possible values:
+true: The customer can make partial payments.
+false (default): The customer cannot make partial payments.
+first_payment_min_amount optionalinteger Minimum amount that must be paid by the customer as the first partial payment. For example, if an amount of â¹7,000 is to be received from the customer in two installments of #1 - â¹5,000, #2 - â¹2,000, then you can set this value as 500000. This parameter should be passed only if partial_payment is true.
+Response Parameters
+Descriptions for the response parameters are present in the Orders Entity parameters table.
+Error Response Parameters
+The error response parameters are available in the API Reference Guide.
+1.2 Integrate with Checkout on Client-Side
+Add the Pay button on your web page using the checkout code, Handler Function or Callback URL.
+Handler Function or Callback URL
+Handler FunctionCallback URLWhen you use this: On successful payment, the customer is shown your web page.  On failure, the customer is notified of the failure and asked to retry the payment.When you use this: On successful payment, the customer is redirected to the specified URL, for example, a payment success page.  On failure, the customer is asked to retry the payment.
+Code to Add Pay Button
+Copy-paste the parameters as options in your code:
+Callback URL (JS) Checkout CodeHandler Functions (JS) Checkout Codecopy<button id="rzp-button1">Pay</button><script src="https://checkout.razorpay.com/v1/checkout.js"></script><script>var options = {    "key": "YOUR_KEY_ID", // Enter the Key ID generated from the Dashboard    "amount": "50000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise    "currency": "INR",    "name": "Acme Corp", //your business name    "description": "Test Transaction",    "image": "https://example.com/your_logo",    "order_id": "order_9A33XWu170gUtm", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1    "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",    "prefill": {        "name": "Gaurav Kumar", //your customer's name        "email": "gaurav.kumar@example.com",        "contact": "9000090000"    },    "notes": {        "address": "Razorpay Corporate Office"    },    "theme": {        "color": "#3399cc"    }};var rzp1 = new Razorpay(options);document.getElementById('rzp-button1').onclick = function(e){    rzp1.open();    e.preventDefault();}</script>
+Handy TipsTest your integration using these test cards.
+Checkout Options
+key mandatorystring API Key ID generated from the Razorpay Dashboard.amount mandatoryinteger The amount to be paid by the customer in currency subunits. For example, if the amount is â¹500.00, enter 50000.
+currency mandatorystring The currency in which the payment should be made by the customer. See the list of supported currencies.
+name mandatorystring The business name shown on the Checkout form. For example, Acme Corp.description optionalstring Description of the purchase item shown on the Checkout form. It should start with an alphanumeric character.image optionalstring Link to an image (usually your business logo) shown on the Checkout form. Can also be a base64 string if you are not loading the image from a network.order_id mandatorystring Order ID generated via Orders API.
+prefillobject You can prefill the following details at Checkout.name optionalstring Cardholder's name to be pre-filled if customer is to make card payments on Checkout. For example, Gaurav Kumar.email optionalstring Email address of the customer.contact optionalstring Phone number of the customer. The expected format of the phone number is + {country code}{phone number}. If the country code is not specified, 91 will be used as the default value. This is particularly important while prefilling contact of customers with phone numbers issued outside India. Examples:
++14155552671 (a valid non-Indian number)
++919977665544 (a valid Indian number). If 9977665544 is entered, +91 is added to it as +919977665544.
+method optionalstring Pre-selection of the payment method for the customer. Will only work if contact and email are also pre-filled. Possible values
+card
+netbanking
+wallet
+emi
+upi
+
+notes optionalobject Set of key-value pairs that can be used to store additional information about the payment. It can hold a maximum of 15 key-value pairs, each 256 characters long (maximum).themeobject Thematic options to modify the appearance of Checkout.hide_topbar optionalboolean Used to display or hide the top bar on the Checkout form. This bar shows the selected payment method, phone number and gives the customer the option to navigate back to the start of the Checkout form. Possible values are:
+true: Hides the top bar
+false (default): Displays the top bar.
+color optionalstring Enter your brand colour's HEX code to alter the text, payment method icons and CTA (call-to-action) button colour of the Checkout form.backdrop_color optionalstring Enter a HEX code to change the Checkout's backdrop colour.modalobject Options to handle the Checkout modal.backdropclose optionalboolean Indicates whether clicking the translucent blank space outside the Checkout form should close the form. Possible values are:
+true: Closes the form when your customer clicks outside the checkout form.
+false (default): Does not close the form when customer clicks outside the checkout form.
+escape optionalboolean Indicates whether pressing the escape key should close the Checkout form. Possible values are:
+true (default): Closes the form when the customer presses the escape key.
+false: Does not close the form when the customer presses the escape key.
+handleback optionalboolean Determines whether Checkout must behave similar to the browser when back button is pressed. Possible values:
+true (default): Checkout behaves similarly to the browser. That is, when the browser's back button is pressed, the Checkout also simulates a back press. This happens as long as the Checkout modal is open.
+false: Checkout does not simulate a back press when browser's back button is pressed.
+confirm_close optionalboolean Determines whether a confirmation dialog box should be shown when customers attempt to close Checkout. Possible values:
+true: Confirmation dialog box is shown.
+false (default): Confirmation dialog box is not shown.
+ondismiss optionalfunction Used to track the status of Checkout. You can pass a modal object with ondismiss: function(){} as options. This function is called when the modal is closed by the user.animation optionalboolean Show an animation before loading of Checkout.
+true(default): Animation appears.
+false: Animation does not appear.
+
+subscription_id optionalstring If you are accepting recurring payments using Razorpay Checkout, you should pass the relevant subscription_id to the Checkout. Know more about Subscriptions on Checkout.subscription_card_change optionalboolean Permit or restrict customer from changing the card linked to the subscription. You can also do this from the hosted page. Possible values:
+true: Allow the customer to change the card from Checkout.
+false (default): Do not allow the customer to change the card from Checkout.
+recurring optionalboolean Determines if you are accepting recurring (charge-at-will) payments on Checkout via instruments such as emandate, paper NACH and so on. Possible values:
+true: You are accepting recurring payments.
+false (default): You are not accepting recurring payments.
+
+callback_url optionalstring Customers will be redirected to this URL on successful payment. Ensure that the domain of the Callback URL is whitelisted.redirect optionalboolean Determines whether to post a response to the event handler post payment completion or redirect to Callback URL. callback_url must be passed while using this parameter. Possible values:
+true: Customer is redirected to the specified callback URL in case of payment failure.
+false (default): Customer is shown the Checkout popup to retry the payment.
+customer_id optionalstring Unique identifier of customer. Used for:
+Local saved cards feature.
+Static bank account details on Checkout in case of Bank Transfer payment method.
+
+remember_customer optionalboolean Determines whether to allow saving of cards. Can also be configured via the Dashboard. Possible values:
+true: Enables card saving feature.
+false (default): Disables card saving feature.
+timeout optionalinteger Sets a timeout on Checkout, in seconds. After the specified time limit, the customer will not be able to use Checkout.readonlyobject Marks fields as read-only.contact optionalboolean Used to set the contact field as readonly. Possible values:
+true: Customer will not be able to edit this field.
+false (default): Customer will be able to edit this field.
+email optionalboolean Used to set the email field as readonly. Possible values:
+true: Customer will not be able to edit this field.
+false (default): Customer will be able to edit this field.
+name optionalboolean Used to set the name field as readonly. Possible values:
+true: Customer will not be able to edit this field.
+false (default): Customer will be able to edit this field.
+hiddenobject Hides the contact details.contact optionalboolean Used to set the contact field as optional. Possible values:
+true: Customer will not be able to view this field.
+false (default): Customer will be able to view this field.
+email optionalboolean Used to set the email field as optional. Possible values:
+true: Customer will not be able to view this field.
+false (default): Customer will be able to view this field.
+
+send_sms_hash optionalboolean Used to auto-read OTP for cards and net banking pages. Applicable from Android SDK version 1.5.9 and above. Possible values:
+true: OTP is auto-read.
+false (default): OTP is not auto-read.
+
+allow_rotation optionalboolean Used to rotate payment page as per screen orientation. Applicable from Android SDK version 1.6.4 and above. Possible values:
+true: Payment page can be rotated.
+false (default): Payment page cannot be rotated.
+retry optionalobject Parameters that enable retry of payment on the checkout.enabledboolean Determines whether the customers can retry payments on the checkout. Possible values:
+true (default): Enables customers to retry payments.
+false: Disables customers from retrying the payment.
+max_countinteger The number of times the customer can retry the payment. Recommended to set this to 4. Having a larger number here can cause loops to occur.Watch Out!Web Integration does not support the max_count parameter. It is applicable only in Android and iOS SDKs.
+config optionalobject Parameters that enable configuration of checkout display language.displayobject Child parameter that enables configuration of checkout display language.languagestring The language in which checkout should be displayed. Possible values:
+en: English
+ben: Bengali
+hi: Hindi
+mar: Marathi
+guj: Gujarati
+tam: Tamil
+tel: Telugu
+
+Handy TipsThe open method of Razorpay object (rzp1.open()) must be invoked by your site's JavaScript, which may or may not be a user-driven action such as a click.
+Errors
+Given below is a list of errors you may face while integrating with checkout on the client-side.
+ErrorCauseSolutionThe id provided does not exist.Occurs when there is a mismatch between the API keys used while creating the order_id / customer_id and the API key passed in the checkout.Make sure that the API keys passed in the checkout are the same as the API keys used while creating the order_id / customer_id .Blocked by CORS policy.Occurs when the server-to-server request is hit from the front end instead.Make sure that the API calls are made from the server side and not the client side.
+Configure Payment Methods (Optional)
+Multiple payment methods are available on the Razorpay Web Standard Checkout.
+
+The payment methods are fixed and cannot be changed.
+You can configure the order or make certain payment methods prominent. Know more about configuring payment methods.
+
+1.3 Handle Payment Success and Failure
+The way the Payment Success and Failure scenarios are handled depends on the Checkout Sample Code you used in the last step.
+Checkout with Handler Function
+If you used the sample code with the handler function:
+On Payment Success
+The customer sees your website page. The checkout returns the response object of the successful payment (razorpay_payment_id, razorpay_order_id and razorpay_signature). Collect these and send them to your server.
+On Payment Failure
+The customer is notified about payment failure and asked to retry the payment. Know about the error parameters.
+Success/Failure Handling Code (Checkout with Handler Function)
+Success Handling CodeFailure Handling Codecopy"handler": function (response){    alert(response.razorpay_payment_id);    alert(response.razorpay_order_id);    alert(response.razorpay_signature)}
+Checkout with Callback URL
+If you used the sample code with the callback URL:
+On Payment Success
+Razorpay makes a POST call to the callback URL with the razorpay_payment_id, razorpay_order_id and razorpay_signature in the response object of the successful payment. Only successful authorisations are auto-submitted.
+On Payment Failure
+In case of failed payments, the checkout is displayed again to facilitate payment retry.
+1.4 Store Fields in your Server
+A successful payment returns the following fields to the Checkout form.
+
+You need to store these fields in your server.
+You can confirm the authenticity of these details by verifying the signature in the next step.
+
+Success Callbackcopy{  "razorpay_payment_id": "pay_29QQoUBi66xm2f",  "razorpay_order_id": "order_9A33XWu170gUtm",  "razorpay_signature": "9ef4dffbfd84f1318f6739a3ce19f9d85851857ae648f114332d8401e0949a3d"}
+
+razorpay_payment_idstring Unique identifier for the payment returned by Checkout only for successful payments.razorpay_order_idstring Unique identifier for the order returned by Checkout.razorpay_signaturestring Signature returned by the Checkout. This is used to verify the payment.
+1.5 Verify Payment Signature
+This is a mandatory step to confirm the authenticity of the details returned to the Checkout form for successful payments.
+To verify the razorpay_signature returned to you by the Checkout form:
+
+
+Create a signature in your server using the following attributes:
+
+order_id: Retrieve the order_id from your server. Do not use the razorpay_order_id returned by Checkout.
+razorpay_payment_id: Returned by Checkout.
+key_secret: Available in your server. The key_secret that was generated from the Razorpay Dashboard.
+
+
+
+Use the SHA256 algorithm, the razorpay_payment_id and the order_id to construct a HMAC hex digest as shown below:
+HMAC Hex Digestcopygenerated_signature = hmac_sha256(order_id + "|" + razorpay_payment_id, secret);
+  if (generated_signature == razorpay_signature) {    payment is successful  }
+
+
+If the signature you generate on your server matches the razorpay_signature returned to you by the Checkout form, the payment received is from an authentic source.
+
+
+Generate Signature on Your Server
+Given below are the sample codes for payment signature verification.
+JavaPythonGoPHPRubyNode.js.NETcopy/*** This class defines common routines for generating* authentication signatures for Razorpay Webhook requests.*/public class Signature{    private static final String HMAC_SHA256_ALGORITHM = "HmacSHA256";    /**    * Computes RFC 2104-compliant HMAC signature.    * * @param data    * The data to be signed.    * @param key    * The signing key.    * @return    * The Base64-encoded RFC 2104-compliant HMAC signature.    * @throws    * java.security.SignatureException when signature generation fails    */    public static String calculateRFC2104HMAC(String data, String secret)    throws java.security.SignatureException    {        String result;        try {
+            // get an hmac_sha256 key from the raw secret bytes            SecretKeySpec signingKey = new SecretKeySpec(secret.getBytes(), HMAC_SHA256_ALGORITHM);
+            // get an hmac_sha256 Mac instance and initialize with the signing key            Mac mac = Mac.getInstance(HMAC_SHA256_ALGORITHM);            mac.init(signingKey);
+            // compute the hmac on input data bytes            byte[] rawHmac = mac.doFinal(data.getBytes());
+            // base64-encode the hmac            result = DatatypeConverter.printHexBinary(rawHmac).toLowerCase();
+        } catch (Exception e) {            throw new SignatureException("Failed to generate HMAC : " + e.getMessage());        }        return result;    }}
+Post Signature Verification
+After you have completed the integration, you can set up webhooks, make test payments, replace the test key with the live key and integrate with other APIs.
+Here are the links to the Razorpay SDKs for the supported platforms.
+1.6 Verify Payment Status
+You can track the payment status in three ways:
+
+From the Razorpay Dashboard.
+Subscribe to the webhook event.
+Poll our APIs.
+
+Verify Status From Dashboard
+To verify the payment status on the Dashboard:
+
+Log in to the Dashboard and navigate to Transactions â Payments.
+Check if a Payment Id has been generated and note the status. In case of a successful payment, the status is marked as Captured.
+
+
+Subscribe to Webhook Events
+You can use Razorpay webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. Know how to set up webhooks.
+Example
+If you have subscribed to the order.paid webhook event, you will receive a notification every time a customer pays you for an order.
+Poll APIs
+Poll Payment APIs to check the payment status.
+Next Steps
+Step 2: Test Integration
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGE1.1 Create an Order in ServerGitHub & Documentation Links for SDKsAPI Sample CodeResponse ParametersError Response Parameters1.2 Integrate with Checkout on Client-SideHandler Function or Callback URLCode to Add Pay ButtonCheckout OptionsErrorsConfigure Payment Methods (Optional)1.3 Handle Payment Success and FailureCheckout with Handler FunctionCheckout with Callback URL1.4 Store Fields in your Server1.5 Verify Payment SignatureGenerate Signature on Your ServerPost Signature Verification1.6 Verify Payment StatusNext Steps

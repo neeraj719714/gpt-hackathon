@@ -1,0 +1,24 @@
+
+
+
+
+
+
+Account & Settings | FAQs | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAbout DashboardKeyboard ShortcutsGlobal SearchSupportAccount SettingsManage TeamsCreate User RoleApproval WorkflowBilling - Fees and TaxesTwo-Factor AuthenticationCredits and Free PayoutsChartered Accountant PortalFAQsFAQsAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXManage TeamsFaqsAccount & Settings | FAQsFind answers to frequently asked questions about RazorpayX Account and Settings.Credits and Free Payouts
+1. What if I have both Free Payouts and Credits on my account?
+If you have both Free Payouts and Credits in your account, Free Payouts are used first. After they are completely used up, the Credits are used.
+Example
+Let us say that you have an account balance of â¹1,00,000 and want to make 10 payouts each of â¹5,000. The fees and tax for each payout is â¹10. You have 5 Free Payouts and 100 Credits.
+The available Free Payouts are used to make the first 5 payouts, that is, no fees and taxes are deducted for these payouts. Fees and tax for the next 5 payouts is deducted from the available Credits.
+After all 10 payouts are made:
+
+Free payouts remaining will be 0.
+Credits remaining will be 50. Fees and tax for 5 payouts are deducted from your Credits.
+Your account balance will be â¹50,000. Only the payout amount has been deducted from your account balance.
+
+2. What if I have 5 Credits, but the fees and tax for the payout is â¹10?
+If you have only 5 Credits while the fees and taxes for the payout is more than â¹5, fees and taxes will be deducted from your account balance. It is not possible to partially deduct fees and tax from Credits and deduct the remaining from your account balance.
+The Credits do not expire. They can be used for your next payout.
+3. Can I choose when to use Free Payouts and Credits?
+No, you cannot choose when to use Free Payouts and Credits. If available, Free Payouts are used first, followed by Credits. Fees and taxes are deducted from your account balance only after these are exhausted.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGECredits and Free Payouts

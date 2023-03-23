@@ -1,0 +1,37 @@
+
+
+
+
+
+
+Product Activation Status | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpay PartnersBecome a Razorpay PartnerEarningsResellersAggregatorsAbout AggregatorsAdd SubmerchantsUsing DashboardUsing APIsOverviewWorkflowWebhooksProduct ActivationAppendixPartner AuthTesting OperationsPlatform PartnersCapitalFAQsGlossaryPartnersAggregatorsOnboarding ApiProduct ActivationProduct Activation StatusView the product activation status for your sub-merchant (Razorpay Partnership).Product Activation Status is the current status of the product for the account that the account that partners create for their customers. It notifies the partner about what stage of processing the product requested for the account is in.
+Product Activation Flow
+Given below is the complete end-to-end flow explaining the transition among statuses:
+
+Once the partner creates an account and fills in the necessary business, stakeholder and bank details, the partner has to request specific products for the merchant using the Request Product Configuration API.
+As a part of the response to this request, as well as any request containing the Product Configuration entity, the activation status parameter informs the partner about the product's activation status.
+Product Activation States
+The table below lists the various Product Activation states with a brief description of each state:
+StatusDescriptionRequestedThis state represents that the requested details have been submitted, awaiting the next step of processing.Needs ClarificationThe product configuration API will tell the merchant about fields where we need clarification.Under ReviewRazorpay's support team is verifying the details submitted.ActivatedIndicates that the product is fully activated.SuspendedIndicates that the product has been suspended.
+Related Information
+
+
+Partners
+
+
+About Aggregators
+
+
+Sub-Merchant Onboarding APIs
+
+
+Sub-Merchant Onboarding APIs Flow
+
+
+List of Partner APIs
+
+
+Subscribe to Webhooks
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEProduct Activation FlowProduct Activation StatesRelated Information

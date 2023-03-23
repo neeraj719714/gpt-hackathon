@@ -1,0 +1,174 @@
+
+
+
+
+
+
+API | Refunds | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsOrdersPaymentsSettlementsRefundsDisputesCustomersPayments SuitePartnersRazorpayXErrorsWebhooksApiRefundsRefundsInitiate normal and instant refunds to your customers using Razorpay's Refund APIs. View and update refund using APIs.You can make full or partial refunds to customers.
+Know more about Refunds.
+Refunds Can be Made Only on Captured PaymentsYou can initiate refunds only on those payments that are in captured state. A payment in authorized state is auto-refunded if not captured within 5 days of creation.
+You can try out our APIs on the Razorpay Postman Public Workspace.
+
+Use Cases
+
+Create a normal refund to build customer trust by seamlessly managing their expectations.
+Create an instant refund to provide a better user experience for them.
+Retrieve information about all refunds.
+Retrieve details for a specific refund using the unique identifier linked to the refund.
+
+Refund Entity
+The Refund entity has the following fields:
+idstring The unique identifier of the refund. For example, rfnd_FgRAHdNOM4ZVbO.entitystring Indicates the type of entity. Here, it is refund.amountinteger The amount to be refunded (in the smallest unit of currency).  For example, if the refund value is â¹30.00 it will be 3000.
+currencystring The currency of payment amount for which the refund is initiated. Check the list of supported currencies.
+payment_idstring The unique identifier of the payment for which a refund is initiated. For example, pay_FgR9UMzgmKDJRi.
+speedstring Speed at which the refund is to be processed. Possible values:
+normal: Indicates that the refund will be processed via the normal speed. The refund will take 5-7 working days.
+optimum: Indicates that the refund will be processed at an optimal speed based on Razorpay's internal fund transfer logic.
+
+If the refund can be processed instantly, Razorpay will do so, irrespective of the payment method used to make the payment.
+If an instant refund is not possible, Razorpay will initiate a refund that is processed at the normal speed. For example, in case of payments made using debit cards, netbanking or unsupported credit cards.
+
+
+
+created_atinteger Unix timestamp at which the refund was created. For example, 1600856650.batch_idstring This parameter is populated if the refund was created as part of a batch upload. For example, batch_00000000000001notesjson object Key-value store for storing your reference data. A maximum of 15 key-value pairs can be included. For example, "note_key": "Beam me up Scottyâ.receiptstring A unique identifier provided by you for your internal reference.acquirer_dataarray A dynamic array consisting of a unique reference number (either RRN, ARN or UTR) that is provided by the banking partner when a refund is processed. This reference number can be used by the customer to track the status of the refund with the bank.
+statusstring Indicates the state of the refund. Possible values:
+pending: This state indicates that Razorpay is attempting to process the refund.
+processed: This is the final state of the refund.
+failed: A refund can attain the failed state in the following scenarios:
+
+Normal refund is not possible for a payment which is more than 6 months old.
+Instant Refund can sometimes fail because of customer's account or bank-related issues.
+
+
+speed_requestedstring The processing mode of the refund seen in the refund response.  This attribute is seen in the refund response only if the speed parameter is set in the refund request.Possible values:
+normal: Indicates that the refund will be processed via the normal speed. The refund will take 5-7 working days.
+optimum: Indicates that the refund will be processed at an optimal speed based on Razorpay's internal fund transfer logic.
+
+If the refund can be processed instantly, Razorpay will do so, irrespective of the payment method used to make the payment.
+If an instant refund is not possible, Razorpay will initiate a refund that is processed at the normal speed.
+
+
+speed_processedstring This is a parameter in the response which describes the mode used to process a refund.  This attribute is seen in the refund response only if the speed parameter is set in the refund request. Possible values:
+instant: Indicates that the refund has been processed instantly via fund transfer.
+normal: Indicates that the refund has been processed by the payment processing partner. The refund will take 5-7 working days.
+
+You can create and manage refunds using APIs or from the Razorpay Dashboard.
+Sample Entitycopy{  "id": "rfnd_FgRAHdNOM4ZVbO",  "entity": "refund",  "amount": 10000,  "currency": "INR",  "payment_id": "pay_FgR9UMzgmKDJRi",  "notes": {    "notes_key_1": "Beam me up Scotty.",    "notes_key_2": "Engage"  },  "receipt": null,  "acquirer_data": {    "arn": "10000000000000"  },  "created_at": 1600856650,  "batch_id": null,  "status": "processed",  "speed_processed": "normal",  "speed_requested": "normal"}
+Create a Normal Refund
+The following endpoint creates a normal refund for a payment.
+POST/payments/:id/refund
+CurlJavaPythonGoPHPRubyNode.js.NETcopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/payments/pay_29QQoUBi66xm2f/refund \-H 'Content-Type: application/json' \-d '{  "amount": 500100}'
+Success ResponseFailure Responsecopy{  "id": "rfnd_FP8QHiV938haTz",  "entity": "refund",  "amount": 500100,  "receipt": "Receipt No. 31",  "currency": "INR",  "payment_id": "pay_29QQoUBi66xm2f",  "notes": []  "receipt": null,  "acquirer_data": {    "arn": null  },  "created_at": 1597078866,  "batch_id": null,  "status": "processed",  "speed_processed": "normal",  "speed_requested": "normal"}
+Path Parameter
+id mandatorystring The unique identifier of the payment which needs to be refunded.
+Request Parameters
+amount optionalinteger The amount to be refunded. Amount should be in the smallest unit of the currency in which the payment was made.
+For a partial refund, enter a value lesser than the payment amount. For example, if the payment amount is â¹1,500.00 and you want to refund only â¹500.00, you must pass 50000.
+For full refund, enter the entire payment amount. If the amount parameter is not passed, the entire payment amount will be refunded.
+speed optionalstring The speed at which the refund is to be processed. The default value is normal. Refund will be processed via the normal speed, and the customer will receive the refund within 5-7 working days.notes optionaljson object Key-value pairs used to store additional information. A maximum of 15 key-value pairs can be included.receipt optionalstring A unique identifier provided by you for your internal reference.
+Response Parameters
+Descriptions for the response parameters are present in the Refunds Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while creating a normal refund.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.{Payment_id} is not a valid id.The payment_id provided is invalid.Use a valid payment_id .The requested URL was not found on the server.The URL is wrong or is missing something.A POST API is executed by GET method.Ensure that the URL is correct and complete.Use the correct method, that is, POST.{any Extra field} is/are not required and should not be sentAn additional or unrequired parameter is passed.Ensure that you only pass the required parameters in the request body.The refund amount provided is greater than amount captured.The refund amount entered is more than the amount captured.Enter an amount equal to or less than the amount captured.The amount must be atleast INR 1.00The refund amount entered is less than â¹1.Enter an amount of at least â¹1.The payment has been fully refunded alreadyThe payment_id has already been refunded fully.Use a payment_id that has not been fully refunded.
+Create an Instant Refund
+If you want to process refunds instantaneously to your customers, you can do so by passing the speed with value as optimum in the request body.
+POST/payments/:id/refund
+RequestJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/payments/pay_29QQoUBi66xm2f/refund \-H 'Content-Type: application/json' \-d '{  "amount": 500100,  "speed": "optimum",  "receipt": "Receipt No. 31",}'
+Success ResponseFailure Responsecopy{  "id": "rfnd_FP8R8EGjGbPkVb",  "entity": "refund",  "amount": 500100,  "currency": "INR",  "payment_id": "pay_29QQoUBi66xm2f",  "notes": {    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Greyâ¦ decaf."  },  "receipt": "Receipt No. 31",  "acquirer_data": {    "arn": null  },  "created_at": 1597078914,  "batch_id": null,  "status": "processed",  "speed_processed": "normal",  "speed_requested": "optimum"}
+Refunds will be processed at an optimal speed based on Razorpay's internal fund transfer logic. If the refund can be processed instantly, Razorpay will do so irrespective of the payment method used to make the payment. If an Instant Refund is not possible, Razorpay will initiate a refund that is processed at the normal speed.
+Know more about Instant Refunds.
+Path Parameter
+id mandatorystring The unique identifier of the payment which needs to be refunded.
+Request Parameters
+amount optionalinteger The amount to be refunded. Amount should be in the smallest unit of the currency in which the payment was made. Required in case of partial refund.
+For a partial refund, enter a value lesser than the payment amount. For example, if the payment amount is â¹1200 and you want to refund only â¹200, you must pass 20000.
+For full refund, enter the entire payment amount. If amount parameter is not passed, the entire payment amount will be refunded.
+speed mandatorystring Here, it must be optimum. Indicates that the refund will be processed at an optimal speed based on Razorpay's internal fund transfer logic.
+If the refund can be processed instantly, Razorpay will do so, irrespective of the payment method used to make the payment.
+If an instant refund is not possible, Razorpay will initiate a refund that is processed at the normal speed.
+receipt optionalstring A unique identifier provided by you for your internal reference.
+Response Parameters
+Descriptions for the response parameters are present in the Refunds Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while creating an instant refund.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.{Payment_id} is not a valid id.The payment_id provided is invalid.Use a valid payment_id .The requested URL was not found on the server.The URL is wrong or is missing something.A POST API is executed by GET method.Ensure that the URL is correct and complete.Use the correct method, that is, POST.{any Extra field} is/are not required and should not be sentAn additional or unrequired parameter is passed.Ensure that you only pass the required parameters in the request body.The refund amount provided is greater than amount captured.The refund amount entered is more than the amount captured.Enter an amount equal to or less than the amount captured.The amount must be atleast INR 1.00The refund amount entered is less than â¹1.Enter an amount of at least â¹1.The payment has been fully refunded alreadyThe payment_id has already been refunded fully.Use a payment_id that has not been fully refunded.
+Examples
+In this example, the request body is same while the responses differ. The possible combinations of speed in the request and response are listed below.
+speed attribute in Requestspeed_processed attribute in ResponseDescriptionnormalnormalRefund processed via normal speed.optimumnormalA faster speed was not available, so processed via normal speed.optimuminstantA faster speed was available and the refund was processed immediately.
+Handy TipsOnce the Refund moves to the processed state, the refund response displays the speed_processed parameter, the final state of the refund.
+Response #1Response #2copy{  "id": "rfnd_CeZJghSAhhLwrd",  "entity": "refund",  "amount": 100,  "currency": "INR",  "payment_id": "pay_CeYgivxMLqdrKM",  "notes": [],  "receipt": null,  "acquirer_data": {    "arn": null  },  "created_at": 1559837417,  "status": "processed",  "speed_processed": "instant",  "speed_requested": "optimum"}
+Fetch Multiple Refunds for a Payment
+The following endpoint retrieves multiple refunds for a payment. By default, only the last 10 refunds are returned. You can use count and skip parameters to change that behavior.
+GET/payments/:id/refunds
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/payments/pay_29QQoUBi66xm2f/refunds?from=1500826740&to=1500826760
+Success ResponseFailure Responsecopy{  "entity": "collection",  "count": 2,  "items": [    {      "id": "rfnd_FP8DDKxqJif6ca",      "entity": "refund",      "amount": 300100,      "currency": "INR",      "payment_id": "pay_FIKOnlyii5QGNx",      "notes": {        "comment": "Comment for refund"      },      "receipt": null,      "acquirer_data": {        "arn": "10000000000000"      },      "created_at": 1597078124,      "batch_id": null,      "status": "processed",      "speed_processed": "normal",      "speed_requested": "optimum"    },    {      "id": "rfnd_FP8DRfu3ygfOaC",      "entity": "refund",      "amount": 200000,      "currency": "INR",      "payment_id": "pay_FIKOnlyii5QGNx",      "notes": {        "comment": "Comment for refund"      },      "receipt": null,      "acquirer_data": {        "arn": "10000000000000"      },      "created_at": 1597078137,      "batch_id": null,      "status": "processed",      "speed_processed": "normal",      "speed_requested": "optimum"    }  ]}
+Path Parameter
+id mandatorystring Unique identifier of the payment for which refund has been requested.
+Query Parameters
+from optionalinteger Unix timestamp at which the refunds were created.to optionalinteger Unix timestamp till which the refunds were created.count optionalinteger The number of refunds to fetch for the payment.skip optionalinteger The number of refunds to be skipped for the payment.
+Response Parameters
+Descriptions for the response parameters are present in the Refunds Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching multiple refunds for a payment.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.The requested URL was not found on the server.A GET API is executed by POST method.The URL is wrong or is missing something.There is an extra space in the URL.Use the correct method, that is, GET.Ensure that the URL is correct, complete, and without any extra spaces._id is not a valid idThe payment_id entered is invalid or incomplete.Use a valid payment_id .The id provided does not existThe payment_id is not entered.Use a valid payment_id .
+Fetch a Specific Refund for a Payment
+The following endpoint retrieves details of a specific refund made for a payment.
+GET/payments/:payment_id/refunds/:refund_id
+CurlJavaPythonGoPHPRubyNode.js.NETcopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/payments/pay_29QQoUBi66xm2f/refunds/rfnd_AABBdHIieexn5c
+Success ResponseFailure Responsecopy{  "id": "rfnd_FP8DDKxqJif6ca",  "entity": "refund",  "amount": 300100,  "currency": "INR",  "payment_id": "pay_FIKOnlyii5QGNx",  "notes": {    "comment": "Comment for refund"  },  "receipt": null,  "acquirer_data": {    "arn": "10000000000000"  },  "created_at": 1597078124,  "batch_id": null,  "status": "processed",  "speed_processed": "normal",  "speed_requested": "optimum"}
+Path Parameters
+payment_id mandatorystring Unique identifier of the payment for which the refund has been made.refund_id mandatorystring Unique identifier of the refund to be retrieved.
+Response Parameters
+Descriptions for the response parameters are present in the Refunds Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching a specific refund for a payment.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.The requested URL was not found on the server.The URL is wrong or is missing something.A GET API is executed by POST method.Ensure that the URL is correct and complete.Use the correct method, that is, GET._id is not a valid idThe refund or payment id entered is invalid or incomplete.There is an extra space in the URL.Use valid refund and payment ids without any spaces.The id provided does not existThe refund id entered is incomplete or invalid.Use a complete and valid refund id.
+Fetch All Refunds
+The following endpoint retrieves details of all refunds. However, by default, only the last 10 refunds are returned. You can use count and skip query parameters to change that behavior.
+GET/refunds/
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/refunds
+Success ResponseFailure Responsecopy{  "entity": "collection",  "count": 2,  "items": [    {      "id": "rfnd_FFX6AnnIN3puqW",      "entity": "refund",      "amount": 88800,      "currency": "INR",      "payment_id": "pay_FFX5FdEYx8jPwA",      "notes": {        "comment": "Issuing an instant refund"      },      "receipt": null,      "acquirer_data": {},      "created_at": 1594982363,      "batch_id": null,      "status": "processed",      "speed_processed": "optimum",      "speed_requested": "optimum"    },    {      "id": "rfnd_EqWThTE7dd7utf",      "entity": "refund",      "amount": 6000,      "currency": "INR",      "payment_id": "pay_EpkFDYRirena0f",      "notes": {        "comment": "Issuing a normal refund"      },      "receipt": null,      "acquirer_data": {        "arn": "10000000000000"      },      "created_at": 1589521675,      "batch_id": null,      "status": "processed",      "speed_processed": "normal",      "speed_requested": "normal"    }  ]}
+Query Parameters
+from optionalinteger Unix timestamp at which the refunds were created.to optionalinteger Unix timestamp till which the refunds were created.count optionalinteger The number of refunds to fetch. You can fetch a maximum of 100 refunds.skip optionalinteger The number of refunds to be skipped.
+Response Parameters
+Descriptions for the response parameters are present in the Refunds Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching all refunds.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.The requested URL was not found on the server.The URL is wrong or is missing something.Ensure that the URL is correct and complete.The payment id field is required.A GET API is executed by POST method.Use the correct method, that is, GET.
+Fetch Refund by id
+The following endpoint retrieves the refund using the id.
+GET/refunds/:id
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X GET https://api.razorpay.com/v1/refunds/rfnd_DfjjhJC6eDvUAi
+Success ResponseFailure Responsecopy{  "id": "rfnd_DfjjhJC6eDvUAi",  "entity": "refund",  "amount": 6000,  "currency": "INR",  "payment_id": "pay_EpkFDYRirena0f",  "notes": {    "comment": "Issuing an instant refund"  },  "receipt": null,  "acquirer_data": {    "arn": "10000000000000"  },  "created_at": 1589521675,  "batch_id": null,  "status": "processed",  "speed_processed": "optimum",  "speed_requested": "optimum"}
+Path Parameter
+id mandatorystring Unique identifier of the refund which is to be retrieved.
+Response Parameters
+Descriptions for the response parameters are present in the Refunds Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching a refund by id.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.The requested URL was not found on the server.The URL is wrong or is missing something.A GET API is executed by POST method.Ensure that the URL is correct and complete.Use the correct method, that is, GET._id is not a valid idThe refund id entered is invalid.Use a valid refund id.The id provided does not existThe refund id entered is incomplete or invalid.Use a complete and valid refund id.
+Update Refund
+You can modify an existing refund to update the notes field only.
+
+Notes can be used to record additional information about the payment.
+You can add up to 15 key-value pairs with each value of the key not exceeding 256 characters.
+
+Using the PATCH operation, you can replace the entire notes object for the entity.
+The following endpoint updates the notes parameter for a refund.
+PATCH/refunds/:id/
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X PATCH https://api.razorpay.com/v1/refunds/rfnd_DfjjhJC6eDvUAi \-H 'Content-Type: application/json' \-d '{    "notes": {      "notes_key_1":"Beam me up Scotty.",      "notes_key_2":"Engage"    }}'
+Success ResponseFailure Responsecopy{  "id": "`rfnd_DfjjhJC6eDvUAi`",  "entity": "refund",  "amount": 300100,  "currency": "INR",  "payment_id": "pay_FIKOnlyii5QGNx",  "notes": {    "notes_key_1": "Beam me up Scotty.",    "notes_key_2": "Engage"  },  "receipt": null,  "acquirer_data": {    "arn": "10000000000000"  },  "created_at": 1597078124,  "batch_id": null,  "status": "processed",  "speed_processed": "normal",  "speed_requested": "optimum"}
+Path Parameter
+id mandatorystring Unique identifier of the refund for which the Notes field should be updated.
+Request Parameter
+notes mandatoryjson object Additional information to be modified or added as part of Notes field in key-pair format. Know more about notes.
+Response Parameters
+Descriptions for the response parameters are present in the Refunds Entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while updating a refund.
+ErrorCauseSolutionThe API {key/secret} provided is invalid.The API credentials passed in the API call differ from the ones generated on the Dashboard.The API keys must be active and entered correctly with no whitespace before or after.The requested URL was not found on the server.A PATCH API is executed by POST method.The URL is wrong or is missing something.The refund id is not entered.Use the correct method, that is, PATCH.Ensure that the URL is correct and complete.Use a valid refund id.{rfnd_id} is not a valid idThe refund id entered is invalid or incomplete.Use a valid and complete refund id.The notes field is requiredThe request body does not include the notes parameter.Ensure you enter the notes parameter in the request body.
+Webhooks
+Set up Razorpay Webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEUse CasesRefund EntityCreate a Normal RefundPath ParameterRequest ParametersResponse ParametersError Response ParametersCreate an Instant RefundPath ParameterRequest ParametersResponse ParametersError Response ParametersExamplesFetch Multiple Refunds for a PaymentPath ParameterQuery ParametersResponse ParametersError Response ParametersFetch a Specific Refund for a PaymentPath ParametersResponse ParametersError Response ParametersFetch All RefundsQuery ParametersResponse ParametersError Response ParametersFetch Refund by idPath ParameterResponse ParametersError Response ParametersUpdate RefundPath ParameterRequest ParameterResponse ParametersError Response ParametersWebhooks

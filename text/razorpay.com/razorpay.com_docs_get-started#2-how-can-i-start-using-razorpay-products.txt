@@ -1,0 +1,203 @@
+
+
+
+
+
+
+Get Started | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsGet StartedCheck out the Razorpay offerings, choose products, create an account and get started.Get started with Razorpay in 3-simple steps:
+
+Explore the various Razorpay products.
+Choose the products that fit your business needs.
+Create your Razorpay account to get started.
+
+1. Explore Razorpay Product Suite
+Razorpay offers a range of solutions for all your payment and finance needs. The following diagram displays the various Razorpay solutions:
+
+
+Payments
+
+
+Banking Plus
+
+
+
+Why Razorpay
+Razorpay offers a complete set of financial and neobanking solutions. It has the following set of attractive features:
+
+Easy Sign-up Process
+Sign up with Razorpay easily with a few clicks.
+Simple Integration
+With plugins for all major platforms and languages, integrate and go live with Razorpay in less than an hour.
+API Driven 
+Build your business for scale with our complete API-driven automation that requires zero manual intervention.
+100+ Payment Modes
+Offer your customers to choose from various payment modes, including Credit/Debit cards, Netbanking, UPI, Wallets and many more.
+Secured PCI-DSS Level 1 Compliant Solution
+No burden of regulatory compliance.
+Competitive Pricing 
+Competitive and transparent pricing structure.
+Email and Chat Support
+Email and chat-based support to help you in your every step.
+Dashboard Reporting 
+Real-time data and insights on your Razorpay Dashboard to help you make data-driven business decisions.
+
+2. Choose Your Product
+Payments
+Razorpay Payments provide a range of products to accept payments and make payouts. It also offers solutions to add offers and assess risk associated with a customer order.
+Accept Payments
+Product and UsePayment Gateway : Integrate our Payment Gateway with your website or app to accept payments from customers.Magic Checkout : Integrate Razorpay Magic Checkout to help customers complete prepaid and cash-on-delivery (COD) transactions on your website/app and reduce your COD RTOs.Payment Pages : Easiest way to accept payments with a custom-branded online store. Accept payments with automated payment receipts. Take your store online instantly with zero coding.Payment Links : Share payment link via an email, SMS, messenger or chatbot and get paid immediately.Invoices : Create and send GST-compliant invoices that your customers can pay online instantly. Get paid faster and improve your cash flow.Subscriptions : Offer your customers subscription plans with automated recurring transactions on various payment modes.Payment Buttons : Take your store online instantly with zero coding. Accept one-time and recurring payments with automated payment receipts.Smart Collect : Generate virtual bank accounts and UPI IDs on demand and accept payments using NEFT, RTGS, IMPS and UPI. Get notified for each incoming payment and automate the tedious reconciliation process.Affordability Suite : Attract and retain customers by creating offers and providing popular payment methods, such as EMI, Cardless EMI, No Cost EMI and Paylater.
+Ready for Integration
+
+Integrate your website or e-commerce store with the Razorpay Payment Gateway using any of the available integration types.
+Add a single line of code to your website or blog to get a Payment Button and start accepting payments.
+
+Do Not Have a Website or Mobile App
+You can accept payment even if you do not have a website or a mobile app using any of these Razorpay products:
+
+
+Payment Links
+
+
+Payment Pages
+
+
+Smart Collect
+
+
+Subscriptions
+
+
+Invoices
+
+
+Instant Refund
+Refund amount to your customers almost instantly using Instant Refund. Provide a great customer experience and gain your customers confidence and trust in your business.
+Instant Settlements
+With Instant Settlements, you get access to your funds as and when you want. Normally, you would receive settlements according to your settlement cycle. Razorpay Instant Settlements helps you reduce your settlement period from T+2 days (default settlement cycle) to a few minutes (from the time of the transaction), thus enabling your business to avoid cash-flow challenges and prepare better for working capital requirements.
+Make Payouts
+Use Route to split incoming payments to individual accounts, make payments to vendors, manage marketplace money flow and much more using powerful APIs. RazorpayX is another Razorpay product that you can use to make payouts.
+Banking Plus
+RazorpayX is a neo-banking platform that helps business owners with end-to-end management of their finances. It helps you make payouts, receive payments, tax payments, payroll management, raise loans for your business, and even robust analytics to help track and analyse your finance.
+RazorpayX Current Accounts
+With a  RazorpayX Current Account you can do the following with ease: â¢ Manage receivables and payables in one place â¢ Get instant loans without collaterals â¢ Automate your vendor and tax payments â¢ Get in-depth reporting into cash flow trends.
+Make Payouts
+Product and UsePayouts : Send payments instantly and securely to bank accounts. You can also send payout to UPI IDs and wallets via APIs, Dashboards and file uploads.Payout Links : Send payments without bank account details. Enter the customer's name, contact details and amount to be paid. RazorpayX sends them a link where they can enter their account details (bank account or UPI ID). Once we get their account details, we send them the money.Vendor Payments : Upload invoices and auto-pay vendors and TDS payments.Tax Payments : Automate tax payments with pre-filled tax payment forms. You can collaborate with your accountant from the Dashboard for easy and timely tax disbursal and never miss a payment again.Payroll : Calculate payroll and disburse salaries in a few clicks. RazorpayX Payroll automates payments and filings of compliances like TDS, PF, ESI, PT and much more.
+Get Capital and Credit
+Razorpay Capital is a lending platform that helps you to better manage your business financial needs with line of credit, corporate credit cards and collateral-free loans.
+Product and UseRazorpayX Corporate Credit Cards : Get high credit limit for your business expenditure with no security deposit or risk to personal credit score.
+3. Create Your Razorpay Account
+Sign Up for Payments
+Sign up for Razorpay Payments. Know about Razorpay Payments products.
+Sign Up for Magic Checkout
+Sign up for Magic Checkout. Know more about Magic Checkout.
+Sign Up for Banking Plus
+Sign up for RazorpayX. Know more about RazorpayX Banking Plus.
+FAQs
+Find answers to frequently asked questions about Razorpay.
+Common
+1. What is Razorpay?
+Razorpay is an Indian payments solution provider that allows businesses to accept, process and disburse payments with its product suite. We give you access to all payment modes including credit card, debit card, net banking, UPI, and popular wallets including JioMoney, Mobikwik, Airtel Money, Freecharge, Ola Money and PayZapp.
+We provide a secure link between your website, various issuing institutions, acquiring banks and other payment gateway providers.
+List of Razorpay Products.
+2. How can I start using Razorpay products?
+To start using any Razorpay products, you need to sign up with Razorpay. Know more about creating your Razorpay account.
+3. If I have created an account for Razorpay Payment products, do I still need to create an account with RazorpayX?
+If you have an existing Razorpay account for Razorpay Payment products, you can use the same user ID and password for RazorpayX. Know more about getting started with RazorpayX.
+4. There are so many Razorpay products. How do I know which one is best for my business?
+Please read the section about choosing the Razorpay products as per your business needs. You can also raise a support request for an expert opinion.
+5. I have signed up now. What do I do next?
+You can log in to the Dashboard, fill out the activation form and submit the same. Know more about account activation.
+6. How long can I access the features on the test mode? Is there a trial period?
+You can access the Dashboard in test mode for as long as you like. However, you would need to submit your activation form to accept live payments from customers.
+7. Does Razorpay support payments via bank transfers?
+Yes, you can accept payments via bank transfers. Refer to our documentation to know how to enable this payment method for your Razorpay account.
+8. I have not received a verification email from Razorpay. How do I proceed?
+An email with the subject line Razorpay Software Private Ltd | Confirm Your Email is sent to your email address. In case you are not able to locate the same in your inbox, we suggest that you check the spam folder.
+If the email is not available in the spam folder as well, raise a ticket here and we will check this for you.
+9. I do not have a website. Can I still use Razorpay?
+Yes, you can use Razorpay to accept payments even if you do not have a website or mobile app. Check out our range of products.
+10. How do I signup for a test or sandbox account?
+You can signup for a Razorpay account here. Please use the test mode on the Dashboard to try out the products.
+11. Does Razorpay provide Invoices?
+Yes, you can use Razorpay Invoices to create and send invoices to customers and accept payments.
+You can refer to our documentation.
+12. How can I collect subscriptions from my customers?
+You can offer subscription plans to your customers with automated recurring transactions on various payment modes. Know more about Subscriptions.
+13. Can I know more about the split payments solution?
+Razorpay Route allows you to split payments between third parties, sellers or bank accounts. Using Route, you can easily manage settlements, refunds, reconciliations and make vendor payments. It is helpful for businesses that disburse payments in a one-to-many model.
+Refer to our Route documentation.
+14. How can I earn money from Razorpay?
+We are a payment solutions provider and help businesses to accept payments online. If you have a business venture and are looking to accept payments online, you can sign-up with us.
+Also, we offer a referral program wherein you can refer a business to Razorpay. Visit our Partners page to know more.
+15. How do I apply for a job at Razorpay?
+Thank you, for your interest in being a part of the Razorpay team. You can check our current openings here.
+16. I have noticed a bug in your product, how do I report it?
+If you have discovered any security vulnerabilities associated with any of our Razorpay services, we do appreciate your help in disclosing them to us in a responsible manner. Refer to the instructions on the Responsible disclosure page.
+Integrations
+1. What are the ecommerce plugins supported by Razorpay? How do we integrate it on our end?
+We support the following ecommerce platforms:
+a. Arastta.
+b. Easy Digital Downloads.
+c. CS-Cart.
+d. Gravity Forms.
+e. Magento.
+f. OpenCart.
+g. Prestashop.
+h. Shopify-Razorpay Secure.
+i. WHMCS.
+j. Wix.
+k. Woocommerce.
+l. WordPress.
+2. How do I find my Razorpay credentials?
+The email/password is only used to log in to the Dashboard.
+To authenticate against the API, you will need to generate a KeyID, and KeySecret. Know how to generate API Keys.
+3. How do I find the base URL for Razorpay API?
+The current Razorpay API is versioned at v1, so all requests should be made here https://api.razorpay.com/v1/.
+4. How do I find sample code for my server language?
+The sample applications are hosted on GitHub. You can find the links to these under the Sample Application section on our integrations page.
+3. How to create a Razorpay API instance?
+The instance creation method differs based on the platform. Refer to the relevant SDK Integration.
+4. Where can I find the API references?
+Refer to the API Reference guide.
+5. Can I accept customer payments using Paytm wallet?
+Yes, you can provide Paytm as a payment method for your customers. Refer to this documentation.
+6. What are the platforms supported by Razorpay?
+We support a range of web and mobile platforms. Refer to the integration list.
+7. Do you support cryptocurrency business models?
+No. As per RBI regulations, we do not support online payments for crypto businesses.
+8. The platform I am integrating with is not listed on your webpage. Can I still integrate?
+If the required platform/plugin is not listed, you can try integrating it on your own using this method.
+Pricing
+1. How much does Razorpay charge per transaction?
+Know more about pricing.
+2. Can the pricing be negotiated?
+We offer custom pricing under the Enterprise plan. Raise a request with the support team to know more.
+3. What are the charges involved? Do you charge any set-up-fee?
+Refer to our pricing policy.
+International Payments
+1. Can I avail the early settlement feature for international payments and reduce my settlement period from T+7 working days?
+Yes, you can apply for early settlement on international payments at an additional charge. Please reach out to our support team.
+2. Can NGOs accept international payments via Razorpay?
+Due to certain compliance guidelines, we cannot provide the international payment feature by default to NGOs. However, we are open to reviewing and enabling international payments on a case-to-case basis.
+If you are an NGO and want to accept international payments via Razorpay, please reach out to our support team.
+3. Does Razorpay support companies registered outside India?
+No, Razorpay does not provide services to businesses registered outside India.
+4. How I do display different currencies(other than INR) on the Razorpay Checkout to my customers?
+The native currencies like USD, SGD and so on, which are a part of the list of currencies supported by Razorpay, can be updated as a part of the currency parameter on the payment request.
+Please raise a request through this form to display any currencies that are not a part of the above list.
+Related Information
+
+
+Explore Razorpay Payments
+
+
+Payment Gateway
+
+
+Razorpay Dashboard
+
+
+Razorpay X and Banking Plus
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGE1. Explore Razorpay Product SuiteWhy Razorpay2. Choose Your ProductPaymentsBanking Plus3. Create Your Razorpay AccountSign Up for PaymentsSign Up for Banking PlusFAQsCommonIntegrationsPricingInternational PaymentsRelated Information

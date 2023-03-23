@@ -1,0 +1,104 @@
+
+
+
+
+
+
+Frequently Asked Questions (FAQs) | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRecurring PaymentsEmandateCardsIntegrate Recurring PaymentsSupported BanksAPIsFAQsPaper NACHUPIDashboardWebhooksGlossaryPaymentsRecurring PaymentsCardsFaqsFrequently Asked Questions (FAQs)Find answers to frequently asked questions about Recurring Payments using cards.1. Which banks have enabled Recurring Payments through Cards?
+Click the below button to download the list of banks that support cards.
+This list was last updated on January 2, 2023.
+Download
+Watch Out!Please contact our support team if you are facing difficulties with card payments from any of the major banks on the above list.
+Handy TipsWe support Visa and Mastercard cards of all major banks.
+Watch this video to see how a customer registers for Recurring Payments using Cards.
+
+2. What happens when a customer tries to use the card details of banks that are not yet available for Recurring Payments?
+If a customer enters card details of banks that are not available for Recurring Payments, an error message is displayed as Card does not support recurring payments.
+
+3. Will the existing card tokens continue to work post September 30, 2021?
+We will migrate existing credit card tokens of OneCard bank by September 30, 2021. Therefore, you can continue to process recurring payments on such mandates even after September 30, 2021. As and when more banks become available for Recurring Payments using Cards, we will migrate the existing mandates of such banks.
+Watch Out!All of the tokens that will be migrated are credit card based tokens as debit cards were not enabled to process Recurring Payments before.
+4. Can we continue to process recurring payments through card tokens of banks that are not yet available for Recurring Payments on Cards?
+All the card tokens of the banks that are not yet available for Recurring Payments on cards are put in a paused state from October 1, 2021. You cannot debit these mandates. Please contact your customers and register new mandates using other methods such as UPI or Emandate. Know more about other Recurring Payments methods. Alternatively, use Payment Links from the Razorpay Dashboard or Razorpay Mobile App and collect payment from customers on the due date.
+5. How do I know the token status?
+You can go to the Reports section in your Razorpay Dashboard and download the token report on October 1, 2021 to know the status of all your tokens to take appropriate action.
+To download the token report:
+
+Log in to the Razorpay Dashboard and click the Reports from the left menu.
+Select Token Report from the Select Report Type drop-down list.
+Select the relevant Period from the Select Period drop-down list.
+Select the file format from the Select Format drop-down list. You can choose CSV, XLSX or XLS formats.
+Click Generate Report to download or get it emailed to your registered email address by selecting the Email Report To check box.
+
+Watch this video to see how to check the token status.
+
+6. Are there any changes in the APIs for processing card-based mandates?
+There are no changes in the existing integration flow. However, we have added a few optional token parameters to the Create Order API. If these parameters are not passed in the request, the default values are assumed. Know more about Recurring Payments APIs.
+7. Are there any changes in turnaround time (TAT) for registering mandates and for processing debits?
+
+Starting October 1, 2021, you will have to raise the debit request 24 hours in advance for processing debits on registered mandates.
+A pre-debit notification will be sent to the customerâs registered mobile number or email ID.
+If they do not pause or cancel the mandate, the recurring debit will be processed, and you will get the notification through a webhook or in the dashboard.
+
+Following is a sample of pre-debit notification:
+
+8. Is there a maximum monetary limit for processing card-based mandates?
+
+You can register mandates up to a maximum of â¹5,000 without any intervention from customers and process subsequent payments.
+To register and process mandates of amounts greater than â¹5,000, an Additional Factor Authentication (AFA) is required from customers for every subsequent debit.
+
+9. What is the new flow to process subsequent debits using cards under the new RBI guidelines?
+Handy TipsBusinesses should initiate the debit. The banks and Razorpay take action on the rest of the process.
+To process subsequent debits below â¹5,000:
+
+Businesses initiate the debit for an amount less than â¹5,000.
+Bank will send a pre-debit notification SMS to the customer immediately.
+The amount will be debited 24 hours after the notification.
+
+
+To process subsequent debits above â¹5,000:
+
+Businesses initiate the debit for an amount greater than â¹5,000.
+Bank will send a notification with a link for Additional Factor Authentication (AFA) to the customer immediately. The AFA link will be active for 72 hours.
+The amount will be debited as soon as the customer provides AFA.
+
+Watch this video to see how the customers provide their consent through the AFA link.
+
+10. Are there any changes in processing recurring payments on international cards?
+No, there are no changes in processing recurring payments on international cards. The RBI guidelines apply only to domestic cards and not international cards.
+11. For card mandates, how long does it take for the token status to move from the initiated state to the confirmed state?
+For card mandates, the status is updated in real-time.
+MethodBankTAT GuidelinesCardsAll BanksReal-time
+12. For card mandates, how long does it take a subsequent charge to move from the created state to the authorized state?
+In the case of cards, the status is updated in real-time.
+MethodBankTAT GuidelinesCardsAll BanksReal-time
+13. What is the TAT for processing debits of cards mandates?
+
+For processing debits below â¹5,000, the TAT is 24 hours after raising the debit request, subject to the customer not pausing or cancelling the mandate.
+For processing debits above â¹5,000, the amount will be debited as soon as the customer provides consent through AFA, which has a validity of 72 hours.
+
+14. Can cardholders make changes to registered card tokens? How are businesses notified of such changes?
+Yes, cardholders can pause, resume and cancel card tokens from the portal provided by the bank to manage them. You will get notifications through multiple webhooks when a cardholder initiates any such changes to the card tokens. You can also see these changes on the Razorpay Dashboard.
+15. Can I cancel a card mandate?
+Yes. You can use the cancel a card mandate by deleting the token. Tokens can be deleted:
+
+
+From the Dashboard
+
+
+Using APIs
+
+
+16. Is it possible to skip the MandateHQ summary screen that appears before the bank page while making a transaction?
+Yes, you can skip the MandateHQ summary screen by enabling Skip Mandate Summary Page for Cards option from the Razorpay Dashboard.
+To enable the option:
+
+Log into the Razorpay Dashboard and click Account & Settings in the left menu.
+Click Skip mandate summary page under Checkout settings.
+
+
+Enable the Skip Mandate Summary Page for Cards option.
+
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEFrequently Asked Questions (FAQs)

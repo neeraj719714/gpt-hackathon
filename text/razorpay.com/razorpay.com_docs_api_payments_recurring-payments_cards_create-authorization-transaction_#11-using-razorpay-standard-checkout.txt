@@ -1,0 +1,129 @@
+
+
+
+
+
+
+1. Create the Authorization Transaction | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRecurring PaymentsPostman CollectionEmandateCards1. Create the Authorization Transaction2. Fetch and Manage Tokens3. Create Subsequent PaymentsPaper NACHUPIRegistration and Charge First Payment TogetherWebhooksApiPaymentsRecurring PaymentsCardsCreate Authorization Transaction1. Create the Authorization TransactionCreate an authorisation transaction for cards using Razorpay APIs.You can create an authorization transaction using Razorpay APIs and Registration Link.
+Watch Out!Bank downtime can affect success rates when processing recurring payments via debit cards.
+1.1. Using Razorpay APIs
+To create an authorization transaction using Razorpay APIs, you need to:
+
+Create a Customer.
+Create an Order.
+Create Authorization Payment using Razorpay APIs.
+
+Handy TipsFor the Authorization Payment to be successful in a day (Example: 5th June), you should create an Order and the Authorization Transaction on the same day (5th June) before 11:59 pm.
+1.1.1. Create a Customer
+Razorpay links recurring tokens to customers via a unique identifier. You can generate this identifier using the Customer API.
+You can create customers with basic information such as email and contact and use them for various Razorpay offerings. The following endpoint creates a customer.
+POST/customers
+CurlJavaPythonGoPHPRubyNode.js.NETResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/customers \-H "Content-Type: application/json" \-d '{  "name": "Gaurav Kumar",  "email": "gaurav.kumar@example.com",  "contact": "9123456780",  "fail_existing": "0",  "notes":{    "note_key_1": "September",    "note_key_2": "Make it so."  }}'
+Request Parameters
+name mandatorystring The name of the customer. For example, Gaurav Kumar.email mandatorystring The email ID of the customer. For example, gaurav.kumar@example.com.contact mandatorystring The phone number of the customer. For example, 9876543210.fail_existing optionalboolean The request throws an exception by default if a customer with the exact details already exists. You can pass an additional parameter fail_existing to get the existing customer's details in the response. Possible values:
+0: Retrieve details of the existing customer.
+1 (default): Throw an exception error.
+notes optionalobject Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, "note_key": "Beam me up Scottyâ.
+Response Parameters
+idstring The unique identifier of the customer. For example cust_1Aa00000000001.entitystring The name of the entity. Here, it is customer.namestring The name of the customer. For example, Gaurav Kumar.emailstring The email ID of the customer. For example, gaurav.kumar@example.com.contactstring The phone number of the customer. For example, 9876543210.notesobject Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, "note_key": "Beam me up Scottyâ.created_atinteger A Unix timestamp, at which the customer was created.
+You can create an order once you create a customer for the payment authorization.
+1.1.2. Create an Order
+You can use the Orders API to create a unique Razorpay order_id that is associated with the authorization transaction. The following endpoint creates an order.
+POST/orders
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u <YOUR_KEY_ID>:<YOUR_KEY_SECRET> \-X POST https://api.razorpay.com/v1/orders \-H "Content-Type: application/json" \-d '{   "amount":100,   "currency":"INR",   "customer_id":"cust_4xbQrmEoA5WJ01",   "method":"card",   "token": {    "max_amount": 1500000,    "expire_at": 2709971120,    "frequency": "monthly"  },   "receipt":"Receipt No. 1",   "notes":{      "notes_key_1":"Tea, Earl Grey, Hot",      "notes_key_2":"Tea, Earl Grey... decaf."   }}'
+Request Parameters
+amount mandatoryinteger Amount in currency subunits. For cards, the amount should be 100 (â¹1).currency mandatorystring The 3-letter ISO currency code for the payment. Currently, we only support INR.customer_id mandatorystring The unique identifier of the customer. For example, cust_4xbQrmEoA5WJ01.method optionalstring Payment method used to make the authorization transaction. Here, it is card.tokenDetails related to the authorization such as max amount, frequency and expiry information.max_amount mandatoryinteger The maximum amount that can be auto-debited in a single charge. The minimum value is 100 (â¹1 ), and the maximum value is 1500000 (â¹15,000). For an amount higher than this, the cardholder should provide an Additional Factor of Authentication (AFA) as per RBI guidelines.expire_at mandatoryinteger The Unix timestamp that indicates when the authorization transaction must expire. The default value is 10 years.frequency mandatorystring The frequency at which you can charge your customer. Currently supported frequencies are as_presented and monthly. The support for other frequencies is expected to be live soon.receipt optionalstring A user-entered unique identifier for the order. For example, Receipt No. 1. You should map this parameter to the order_id sent by Razorpay.notesoptionalobject Key-value pair you can use to store additional information about the entity. Maximum 15 key-value pairs, 256 characters each. For example, "note_key": "Beam me up Scottyâ.
+Response Parameters
+idstring A unique identifier of the order created. For example order_1Aa00000000002.entitystring The entity that has been created. Here it is order.amountinteger Amount in currency subunits. For cards, the amount should be 100 (â¹1).amount_paidinteger The amount that has been paid.amount_dueinteger The amount that is yet to pay.currencystring The 3-letter ISO currency code for the payment. Currently, we only support INR.receiptstring A user-entered unique identifier of the order. For example, Receipt No. 1. You should map this parameter to the order_id sent by Razorpay.methodstring Payment method used to make the authorization transaction. Here, it is card.customer_idstring The unique identifier of the customer. For example, cust_4xbQrmEoA5WJ01.statusstring The status of the order.notesobject Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, "note_key": "Beam me up Scottyâ.created_atinteger The Unix timestamp at which the order was created.
+You can create a payment against the order_id after you create an order.
+1.1.3. Create an Authorization Payment
+Create a payment checkout form for customers to make Authorization Transaction and register their mandate. You can use the Handler Function or Callback URL.
+Handler FunctionCallback URLWhen you use the handler function, the response object of the successful payment ( razorpay_payment_id , razorpay_order_id and razorpay_signature ) is submitted to the Checkout Form. You need to collect these and send them to your server.When you use a Callback URL, the response object of the successful payment ( razorpay_payment_id , razorpay_order_id and razorpay_signature ) is submitted to the Callback URL.
+Manual checkout with handler functionsManual checkout with Callback URLcopy<button id = "rzp-button1"> Pay </button>  <script src = "https://checkout.razorpay.com/v1/checkout.js"> </script>  <script>    var options = {      "key": "[YOUR_KEY_ID]",      "order_id": "order_1Aa00000000001",      "customer_id": "cust_1Aa00000000001",      "recurring": "1",      "handler": function (response) {        alert(response.razorpay_payment_id);        alert(response.razorpay_order_id);        alert(response.razorpay_signature);      },      "notes": {        "note_key 1": "Beam me up Scotty",        "note_key 2": "Tea. Earl Gray. Hot."      },      "theme": {        "color": "#F37254"      }    };    var rzp1 = new Razorpay(options);    document.getElementById('rzp-button1').onclick = function (e) {      rzp1.open();      e.preventDefault();    }  </script>
+Additional Checkout Fields
+You should send the following additional parameters along with the existing checkout options as a part of the authorization transaction.
+customer_id mandatorystring Unique identifier of the customer created in the first step.order_id mandatorystring Unique identifier of the  order created in the second step.recurring mandatorystring Indicates whether the recurring should be enabled or not. Possible values:
+1: Recurring is enabled.
+0: Recurring is not enabled.
+preferred: Use this when you want to support recurring payments and one-time payment in the same flow.
+
+1.2. Using a Registration Link
+Registration Link is an alternate way of creating an authorization transaction. You can create a registration link using the API or Dashboard
+Handy TipsYou do not have to create a customer if you choose the registration link method for creating an authorization transaction.
+
+When you create a registration link, an invoice is automatically issued to the customer. They can use this invoice to make the authorization payment.
+A registration link should always have an order amount (in paise) the customer will be charged when making the authorization payment. For cards, the amount should be â¹1 in the case of cards.
+
+Handy TipsYou can use Webhooks to get notifications about successful payments against a registration link.
+1.2.1. Create a Registration Link
+The following endpoint creates a registration link.
+POST/subscription_registration/auth_links
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u <YOUR_KEY_ID>:<YOUR_KEY_SECRET>-X POST https://api.razorpay.com/v1/subscription_registration/auth_links-H "Content-Type: application/json" \-d '{  "customer":{    "name":"Gaurav Kumar",    "email":"gaurav.kumar@example.com",    "contact":"9123456780"  },  "type":"link",  "amount":"100",  "currency":"INR",  "description":"Registration Link for Gaurav Kumar",  "subscription_registration":{    "method":"card",    "max_amount":"500",    "expire_at":1609423824  },  "receipt":"Receipt No. 1",  "email_notify":1,  "sms_notify":1,  "expire_by":1580479824,  "notes":{    "note_key 1":"Beam me up Scotty",    "note_key 2":"Tea. Earl Gray. Hot."  }}'
+Request Parameters
+customerDetails of the customer to whom the registration link is sent.name mandatorystring Customer's name.email mandatorystring Customer's email address.contactmandatoryinteger Customer's contact number.type mandatorystring In this case, the value is link.currency mandatorystring The 3-letter ISO currency code for the payment. Currently, only INR is supported.amount mandatoryinteger The payment amount in the smallest currency sub-unit.description mandatorystring A description that appears on the hosted page. For example, 12:30 p.m. Thali meals (Gaurav Kumar).subscription_registrationDetails of the authorization transaction.method mandatorystring The authorization method. Here it is card.max_amount optionalinteger Use to set the maximum amount (in paise) per debit request. The value can range from 500 - 9999900. The default value is â¹99,000.expire_at optionalinteger The Unix timestamp till when you can use the token (authorization on the payment method) to charge the customer subsequent payments.sms_notify optionalboolean Indicates if SMS notifications are to be sent by Razorpay. Possible values:
+0: Notifications are not sent by Razorpay.
+1: Notifications are sent by Razorpay (default value).
+email_notify optionalboolean Indicates if email notifications are to be sent by Razorpay. Possible values:
+0: Notifications are not sent by Razorpay.
+1: Notifications are sent by Razorpay (default value).
+expire_by optionalinteger The Unix timestamp indicates the expiry of the registration link.receipt optionalstring A unique identifier entered by you for the order. For example, Receipt No. 1. You should map this parameter to the order_id sent by Razorpay.notes optionalobject This is a key-value pair that is used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, "note_key": "Beam me up Scottyâ.
+Response Parameters
+idstring The unique identifier of the invoice.entitystring The entity that has been created. Here, it is invoice.receiptstring A user-entered unique identifier of the invoice.invoice_numberstring Unique number you added for internal reference.customer_idstring The unique identifier of the customer. For example, cust_BMB3EwbqnqZ2EI.customer_detailsDetails of the customer.idstring The unique identifier associated with the customer to whom the invoice has been issued.namestring The customer's name.emailstring The customer's email address.contactinteger The customer's phone number.billing_addressstring Details of the customer's billing address.shipping_addressstring Details of the customer's shipping address.order_idstring The unique identifier of the order associated with the invoice.line_itemsstring Details of the line item that is billed in the invoice. Maximum of 50 line items are allowed.payment_idstring Unique identifier of a payment made against the invoice.statusstring The status of the invoice. Possible values:
+draft
+issued
+partially_paid
+paid
+cancelled
+expired
+deleted
+expire_byinteger The Unix timestamp at which the invoice will expire.issued_atinteger The Unix timestamp at which the invoice was issued to the customer.paid_atinteger The Unix timestamp at which the payment was made.cancelled_atinteger The Unix timestamp at which the invoice was cancelled.expired_atinteger The Unix timestamp at which the invoice expired.sms_statusstring The delivery status of the SMS notification for the invoice sent to the customer. Possible values:
+pending
+sent
+email_statusstring The delivery status of the email notification for the invoice sent to the customer. Possible values:
+pending
+sent
+dateinteger Timestamp, in Unix format, that indicates the issue date of the invoice.termsstring Any terms to be included in the invoice. Maximum of 2048 characters.partial_paymentboolean Indicates whether the customer can make a partial payment on the invoice. Possible values:
+true:  The customer can make partial payments.
+false (default): The customer cannot make partial payments.
+amountinteger Amount to be paid using the invoice. Must be in the smallest unit of the currency. For example, if the amount to be received from the customer is â¹299.95, pass the value as 29995.amount_paidinteger Amount paid by the customer against the invoice.amount_dueinteger The remaining amount to be paid by the customer for the issued invoice.currencystring The currency associated with the invoice. You should mandatorily pass this parameter if you are accepting international payments.descriptionstring  A brief description of the invoice.notesobject Any custom notes added to the invoice. Maximum of 2048 characters.short_urlstring The short URL that is generated. This is the link that can be shared with the customer to receive payments.typestring Here, it is invoice.commentstring Any comments to be added in the invoice. Maximum of 2048 characters.
+1.2.2. Send/Resend Notifications
+The following endpoint sends/resends notifications with the short URL to the customer:
+POST/invoices/:id/notify_by/:medium
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X POST https://api.razorpay.com/v1/invoices/inv_1Aa00000000001/notify_by/sms
+Path Parameters
+idmandatorystring The unique identifier of the invoice linked to the registration link for which you want to send the notification. For example, inv_1Aa00000000001.medium mandatorystring Determines through which medium you want to resend the notification. Possible values:
+sms
+email
+
+Response Parameters
+successboolean Indicates whether the notifications were sent successfully. Possible values:
+true: The notifications were successfully sent via SMS, email or both.
+false: The notifications were not sent.
+
+1.2.3. Cancel a Registration Link
+The following endpoint cancels a registration link.
+POST/invoices/:id/cancel
+Handy TipsYou can only cancel registration link in the issued state.
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]-X POST https://api.razorpay.com/v1/invoices/inv_1Aa00000000001/cancel
+Path Parameter
+id mandatorystring The unique identifier for the invoice linked to the registration link that you want to cancel. For example, inv_1Aa00000000001.
+Response Parameters
+idstring The unique identifier of the invoice.entitystring The entity that has been created. Here, it is invoice.receiptstring A user-entered unique identifier of the invoice.invoice_numberstring Unique number you added for internal reference.customer_idstring The unique identifier of the customer. For example, cust_BMB3EwbqnqZ2EI.customer_detailsDetails of the customer.idstring The unique identifier associated with the customer to whom the invoice has been issued.namestring The customer's name.emailstring The customer's email address.contactinteger The customer's phone number.billing_addressstring Details of the customer's billing address.shipping_addressstring Details of the customer's shipping address.order_idstring The unique identifier of the order associated with the invoice.line_itemsstring Details of the line item that is billed in the invoice. Maximum of 50 line items are allowed.payment_idstring Unique identifier of a payment made against the invoice.statusstring The status of the invoice. Possible values:
+draft
+issued
+partially_paid
+paid
+cancelled
+expired
+deleted
+expire_byinteger The Unix timestamp at which the invoice will expire.issued_atinteger The Unix timestamp at which the invoice was issued to the customer.paid_atinteger The Unix timestamp at which the payment was made.cancelled_atinteger The Unix timestamp at which the invoice was cancelled.expired_atinteger The Unix timestamp at which the invoice expired.sms_statusstring The delivery status of the SMS notification for the invoice sent to the customer. Possible values:
+pending
+sent
+email_statusstring The delivery status of the email notification for the invoice sent to the customer. Possible values:
+pending
+sent
+dateinteger Timestamp, in Unix format, that indicates the issue date of the invoice.termsstring Any terms to be included in the invoice. Maximum of 2048 characters.partial_paymentboolean Indicates whether the customer can make a partial payment on the invoice. Possible values:
+true:  The customer can make partial payments.
+false (default): The customer cannot make partial payments.
+amountinteger Amount to be paid using the invoice. Must be in the smallest unit of the currency. For example, if the amount to be received from the customer is â¹299.95, pass the value as 29995.amount_paidinteger Amount paid by the customer against the invoice.amount_dueinteger The remaining amount to be paid by the customer for the issued invoice.currencystring The currency associated with the invoice. You should mandatorily pass this parameter if you are accepting international payments.descriptionstring  A brief description of the invoice.notesobject Any custom notes added to the invoice. Maximum of 2048 characters.short_urlstring The short URL that is generated. This is the link that can be shared with the customer to receive payments.typestring Here, it is invoice.commentstring Any comments to be added in the invoice. Maximum of 2048 characters.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGE1.1. Using Razorpay APIs1.1.1. Create a Customer1.1.2. Create an Order1.1.3. Create an Authorization Payment1.2. Using a Registration Link1.2.1. Create a Registration Link1.2.2. Send/Resend Notifications1.2.3. Cancel a Registration Link

@@ -1,0 +1,512 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Rise, Evolution, and Exponential Growth Journey of UPI AutoPay - Razorpay Blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				Rise, Evolution, and the Exponential Growth Journey of UPI AutoPay in India			
+
+September 28, 2021
+
+8 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Up until last year, who could have imagined that very soon you would be able to sign up for an online subscription and make recurring payments for it directly from your bank account automatically? Well, the invention of UPI AutoPay has truly redefined recurring payments by making them convenient far beyond our imagination. 
+Within one year of its inception, UPI Autopay has already been adopted by 2500 Razorpay businesses, and we are confident that this is just the beginning of a revolution in the digital payments ecosystem. 
+The primary reason behind UPI Autopay’s exponential growth within one year of its launch is the unmatched popularity of UPI as a payment mode among the majority of Indians. In fact, the total number of UPI transactions more than doubled in March 2021 (2.73 billion) as compared to the year before that (1.25 billion). 
+Today, you can sign up for an online subscription product or service with UPI apps and leave the hassle of making monthly, quarterly, or yearly payments to the app and business. With payments automatically getting deducted from your bank account on a pre-authorised date, the manual effort of doing so repeatedly gets completely avoided. 
+Let’s take a step back and understand the rise and evolution of this game-changing payment method in India – what UPI AutoPay’s journey has been like and what lies ahead. 
+What is UPI AutoPay and how does it work?
+Launched by the National Payments Corporation of India (NPCI) in 2020, UPI AutoPay helps businesses receive periodic payments from customers by debiting them directly from their bank accounts via UPI apps. Once set up and consented by customers, payments up to Rs. 5000 can be dedicated automatically without a PIN.  UPI AutoPay comes loaded with benefits for end customers, including: 
+✔ No more need to set up regular reminders for recurring bill payments
+✔ Complete flexibility to upgrade or downgrade subscription plans as per requirements
+✔ Freedom to modify, revoke, and pause subscriptions from the UPI app that they used to create the mandate
+✔ One of the most convenient and easy-to-use options to make recurring payments
+To sign up for UPI AutoPay, customers are required to create a mandate using a UPI ID via the UPI app of their choice. Next, they need to review the mandate in the app and authenticate it using their UPI pin, post which recurring payments will be debited directly from their account and credited to the respective business’ account. 
+
+Sign up for UPI AutoPay
+ 
+When does UPI AutoPay come in handy?
+Thousands of businesses across hundreds of categories have realised the indispensable benefits that UPI AutoPay has to offer and have gone live with it in the past year and a half.  Let’s understand how UPI AutoPay as a payment method could be revolutionary for businesses from the following industries: 
+eCommerce 
+When it comes to online retail, UPI AutoPay allows shoppers to buy now pay later automatically. Buyers can sign up for subscriptions of their favourite products, authorise UPI AutoPay mandates, and receive doorstep delivery of the same at regular intervals without worrying about making the payment each time. For business owners, especially those operating in the D2C category, this is a fantastic opportunity to expand their customer base and target shoppers in Tier 2 and 3 cities of India who prefer UPI over any other mode of payment. 
+Utilities
+UPI AutoPay helps greatly simplify recurring bill payments for users as they no longer have to worry about missing due dates or having to pay late fees. All the heavy lifting is done at the bank’s end, and customers get to enjoy the convenience of stress fee bill payments without having to set any reminders or mark their calendars for the same. 
+Edtech 
+The pandemic has ushered in the era of online education, where students from any part of the world can take up courses of their choice, get educated at home, and receive their desired certifications. Most edtech companies offer complete flexibility to students to customise packages that meet their unique needs. UPI AutoPay allows students to set up monthly or quarterly fee payments for their online courses or classes and focus completely on their studies. They needn’t worry about making timely manual payments anymore. 
+What’s more, UPI AutoPay also accommodates any tweaks in subscription plans due to changes in study requirements. Students can simply request to modify their plans, and the change will be reflected in their next payment cycle.  For recently established edtech businesses, UPI AutoPay can help improve the conversion rate of their customers by making plans significantly more affordable to students, and also ensuring that they stick around for longer durations. 
+Financial services 
+When it comes to making EMI payments for loans, insurance premiums, mutual fund SIPs, UPI AutoPay is simply the most convenient mode of payment out there because of the amount of trust that users have placed in UPI. Since missing due dates isn’t something that people can afford to do, UPI AutoPay ensures that they are always on track with their most important EMIs, while taking away all their worries and effort of doing so manually. UPI AutoPay ensures that all financial payments are made on time in a safe and secure manner, without the need for any paperwork, waiting in long queues, or the risk of penalties. 
+Media and entertainment 
+Subscriptions have always been abundantly in use when it comes to OTT platforms, publishing platforms, weekly newsletters or magazines. However, the greatest difference that UPI AutoPay makes is improving its reach. With UPI being widely accepted and used even in remote parts of India, such platforms have a mammoth opportunity to target these audiences and nudge them towards signing up for their subscriptions. 
+Their target audience pool need not be limited to enthusiasts who are always looking to sign up for OTT subscriptions but can also be expanded to potential users who aren’t exposed to the medium yet but are interested in exploring new forms of entertainment, and most importantly – trust UPI as a mode of payment. 
+Healthcare 
+The pandemic has reminded the whole world that we need to constantly monitor our health, get regular checkups done, and take all precautions to stay fit. With more and more healthtech startups being set up, doing so has become easier than ever. Most of such online healthcare startups offer valuable subscription plans so that people can avail diagnosis, consultation, fitness, or even mental health services at regular intervals as per their needs, thus offering convenience at their fingertips. 
+UPI AutoPay as a payment method is a great way to ensure that such facilities are available to more and more Indians at inexpensive rates and in a hassle-free manner. People who wish to opt for recurring healthcare services without having to worry about payments every so often can opt for UPI AutoPay to pay their monthly subscriptions so they can focus on what matters most – their health. 
+Banks and apps that are live on UPI AutoPay 
+Since its launch, 37 banks and 3 apps are live on UPI AutoPay: 
+
+What does the future look like for UPI AutoPay? 
+UPI AutoPay is going to bring about a radical change in how small businesses operate by empowering them to retain customers with a one-time debit authorisation that allows them to charge users periodically. As more and more small businesses jump the UPI AutoPay bandwagon, they are likely to scale at a pace never seen before by reaching audiences that might not have been targeted previously. 
+100 million monthly active users trust UPI as of 2021, and this number is projected to hit 500 million by 2025. With such promising growth numbers by its side, there is no doubt that UPI is here to transform digital payments for good. 
+Let’s take a look at how the top banks and UPI apps performed in August 2021: 
+
+
+
+Sr. No.
+UPI Banks 
+Total Transaction Volume (In Mn)
+
+
+1
+State Bank Of India
+1,018.15
+
+
+2
+HDFC BANK LTD
+314.36
+
+
+3
+Axis Bank Ltd.
+235.25
+
+
+4
+Bank of Baroda
+219.01
+
+
+5
+ICICI Bank
+217.79
+
+
+
+ 
+
+
+
+Sr.No.
+App
+Customer Initiated Transactions
+
+
+Volume (Mn)
+Value (Cr)
+
+
+1
+PhonePe
+1,622.95
+3,01,644.80
+
+
+2
+Google Pay 
+1,243.75
+2,44,453.05
+
+
+3
+Paytm Payments Bank App
+423.63
+50,021.40
+
+
+4
+Amazon Pay
+60.67
+5,297.16
+
+
+5
+BHIM
+26.33
+8,063.93
+
+
+
+ 
+Source: NPCI 
+UPI AutoPay has made a revolutionary stride towards democratising digital payments by giving customers more control over their recurring payments and at the same time reducing their manual effort. Given the strong, loyal user base of UPI in India, we are more than confident that UPI AutoPay is not just here to stay, but also pivot how customers and businesses view subscription payments. 
+Razorpay UPI AutoPay for subscriptions
+The Razorpay Subscriptions engine powered UPI AutoPay is easy to integrate for businesses and offers multiple features that make it best-in-class. 
+✔ Inbuilt scheduler to track and manage subsequent debits, trigger pre-debit notifications, and send out invoices
+✔ Absolute flexibility to add a trial period, upfront amounts, or additional amounts in the middle of billing cycles 
+✔  Option to modify subscriptions in case of upgrade or downgrades during the cycle 
+✔ Automatic retries in case of failed transactions to allow customers to change the authorised amount
+Here’s what some of the fastest-growing brands in the country who’ve tried and tested Razorpay Subscriptions UPI AutoPay have to say about it:
+ 
+Sign up for UPI AutoPay
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+Paymentsrecurring paymentssubscriptionsupiupi autoay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Shubhi Ahluwalia 
+A wordsmith at heart, Shubhi is a Content Marketer at Razorpay. When not at work, you'll find her planning her next vacation, putting her amateur culinary skills to use, or binging on a sitcom.
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+RBI Policy Development: New scope for UPI and BBPS
+
+December 22, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

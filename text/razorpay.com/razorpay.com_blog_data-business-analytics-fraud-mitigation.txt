@@ -1,0 +1,439 @@
+
+
+
+
+
+
+
+
+
+
+
+
+How Data Empowers Our Risk Team to Mitigate Fraud - Razorpay Culture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Razorpay Stories
+
+
+				How Data Empowers Our Risk Team to Mitigate Fraud			
+
+October 1, 2020
+
+4 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Preventing fraudulent transactions is one of the most integral aspects of digital businesses. Fintech companies, like Razorpay, pay a lot of attention to minimizing the presence of unwanted elements in their environment.
+For payment solutions providers, one important indicator used to quantify safety is the fraud-to-sales (FTS) ratio.
+The fraud-to-sales ratio is defined as:
+(Total volume of the transactions reported as fraudulent in a time interval)/(Total captured volume in that time interval) 
+Online payments are susceptible to frauds. All of us know this. Some might have even experienced this. Maybe, recently, during or after the lockdown as well. 
+While we saw a dip in our volumes during the lockdown period, we also saw an emergence of fraudulent activity that exploited the COVID-19 fear.
+An increase in frauds being reported, along with a decrease in total volumes would mean a surge in the fraud-to-sales ratio. It doesn’t need to be said that an increase in FTS could be highly detrimental to a fintech company. It could lead to the loss of reputation and also invite penalties from external stakeholders.
+Hence, to ensure customer satisfaction in such trying times, a business must approach fraud mitigation in more ways than one. One thing we’ve always ensured is that while building high-tech solutions to secure our payments flow, we do not disregard the role of our Operations team.
+One of the ways by which we effectively restrict fraudulent businesses or customers through our platform is by having our operations team actively monitor payment patterns and behaviours. 
+Whenever frauds are reported on your platform, our operations team reacts by communicating with the responsible businesses. When we aren’t convinced of the business’s response, we might withhold their settlements as well. 
+In such a manner, temporarily withholding funds from the business will help address complaints raised against them, in case we have to issue refunds. If the situation persists, the last course of action would be to deactivate the business from our platform. 
+It could also happen that a business is being preyed upon by fraudsters masquerading as customers. In such cases, we closely monitor them until their FTS ratio falls within permissible limits. 
+To do this, it is imperative to make the team data-driven. We do this by focusing on: 
+
+Data organisation
+Data access
+Fraud warning system 
+
+Let’s dig deeper into all three of them.
+Data organisation
+Different sources report fraudulent transactions in different formats. Data organisation is the first step towards empowering your operations team with actionable data. Here you can choose an elaborate data-engineering solution or a simple Google Sheet to compile standardized data.
+Data access
+Having standardized data will help your team assess a situation in its entirety. Ready access to data can save the time and effort that goes into procuring information required to make data-backed decisions. 
+Timely action is of immense importance when it comes to fraud mitigation. Cautioning businesses that are being targeted by fraudulent customers or reproaching businesses that you suspect of fraudulent activity can curb further damage.
+Provide data visibility to your team by onboarding them onto a business intelligence platform like Looker, Microsoft Power BI or Tableau.
+The following data points will help your team in being well-informed while approaching the business.
+
+Business name and website
+Business’s contact information (mobile, email, address)
+Their business model and category code
+Count and volume of previous transactions that have been reported as fraudulent
+Average ticket size
+Fraud-to-sales ratio over a given time period
+
+Fraud warning system
+It is always advisable to prepare and prevent than to repair and repent. Relying on data from external sources in a reactive manner is not enough. You must extend the value you get from this data by using it for a proactive fraud mitigation strategy.
+You can prevent frauds by setting up a warning system that tracks certain metrics and payment patterns. Analyse frauds that have been reported earlier and frame rules based on different categories. 
+Check for business categories that are more likely to bring fraudulent transactions to your platform. Check for patterns within the transactions reported as fraudulent in terms of frequency, volume, payment source and so on.
+Schedule reports at regular intervals and start an alerting mechanism using your Business Intelligence tool. This will help your team in being vigilant with their investigations. You can also set up standard operating procedures within the team to remain consistent in your fight against fraud. 
+Conclusion
+This is one of the ways in which Razorpay approaches fraud mitigation on our payments platform. All in all, laying emphasis on being guided by data will establish robust structures and protocols for risk mitigation within your organization.
+Accept Payments With Razorpay
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+business analyticsfraud
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Razorpay Analytics Desk 
+The Razorpay Analytics team comprises data enthusiasts who solve business problems for different functions within the organization. They are always looking for innovative ways to derive data-driven approaches. After work, you'll find them rushing to a badminton court or a turf ground. Also, they are just as competitive at board games.
+
+
+
+Website
+
+
+
+Facebook
+
+
+
+Twitter
+
+
+
+LinkedIn
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Extends Unwavering Support to Employees’ Families with its new ‘Family Assurance Benefits Policy’
+
+October 11, 2022
+
+
+
+
+
+ 
+
+Razorpay acquires Ezetap to build a full-stack omnichannel payments solution
+
+August 18, 2022
+
+
+
+
+
+ 
+
+Razorpay Celebrates Pride Month With An Extended Insurance Plan For Team Members
+
+June 1, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

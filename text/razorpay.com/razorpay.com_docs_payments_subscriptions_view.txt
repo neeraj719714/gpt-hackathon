@@ -1,0 +1,41 @@
+
+
+
+
+
+
+View Subscription Details | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardCreate and View PlansCreate Subscriptions via LinksCreate Add-onsCharge a Card ManuallyView a SubscriptionUpdate a SubscriptionPause, Resume and Cancel a SubscriptionSubscriptions SettingsOffers for SubscriptionsPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsViewView Subscription DetailsView Subscription details on the Razorpay Dashboard.You can view details of a Subscription from the Dashboard or using APIs.
+View Subscription Details From Dashboard
+Watch this video to see how to view the details of a Subscription.
+
+To view details of a Subscription:
+
+Log in to the Razorpay Dashboard and click Subscriptions under PAYMENT PRODUCTS in the left menu.
+Click on the required Subscription Id you want to view the details. The details about the Subscription is displayed in the right pane. You can charge or cancel the Subscription here.
+
+Watch Out!Contact information shown here is the information linked to the card or account from which the payment was made. This need not match the details of the person to whom the link was sent.
+
+View Subscription Details Using APIs
+
+View the list of all the Subscriptions using this API.
+View the details of a Subscription by providing the Subscription Id using this API.
+
+Related Information
+
+
+Create and View Plans
+
+
+Create Add-ons
+
+
+Charge a Card Manually
+
+
+Update a Subscription
+
+
+Subscriptions Settings
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEView Subscription Details From DashboardView Subscription Details Using APIsRelated Information

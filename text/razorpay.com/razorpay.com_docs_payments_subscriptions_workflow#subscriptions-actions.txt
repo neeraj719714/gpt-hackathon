@@ -1,0 +1,112 @@
+
+
+
+
+
+
+Subscriptions Workflow | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardOffers for SubscriptionsPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsWorkflowSubscriptions WorkflowCheck the Plans, free trial period, upfront (delivery or set up) amount, Subscriptions, checkout integration for Subscriptions, Subscription links and add-ons.The following diagram depicts the Subscriptions life cycle:
+
+The Subscription workflow involves the following:
+
+Create a Plan.
+After the Plan is created, you can then create a Subscription for your customer.
+Customer makes the Authentication Transaction.
+The Subscription becomes active when the billing cycle starts.
+
+
+No Need to Capture Payments
+You do not need to capture any Subscriptions-related payment. All payments related to Subscriptions (except the authorization payment) are auto-captured. The authorization payment used to validate a customer's card is auto-refunded.
+No Need to Create Customers
+There is no need to create a customer when using Razorpay Subscriptions. Razorpay automatically creates a customer when the authentication payment is made.
+Authentication Transaction
+The authentication transaction amount is the first amount you charge on the customer's card. The authentication transaction can either be a token amount that is refunded to the customer or an upfront amount or the plan amount that is not refunded to the customer. Based on your business needs, you can decide on the authentication transaction amount.
+Immediate Start DatesIn the case of immediate start dates, the authentication transaction amount is not refunded and invoices are generated in all the three scenarios.
+The table below explains what authentication amount is collected from customers for various combinations of start date and upfront amount.
+Start DateUpfront AmountAuthentication AmountImmediatexPlan AmountFuturexâ¹5 (auto refunded)ImmediateâUpfront Amount + Plan AmountFutureâUpfront Amount
+You can collect the authentication transaction in one of the following ways:
+
+Subscriptions via Checkout
+Subscriptions via Links
+
+Subscriptions via Checkout
+Handy TipsYou can integrate Razorpay Subscriptions to your checkout only using APIs.
+You can integrate the Razorpay Subscription service with your Razorpay Checkout Form on your website or application. Customers can select their desired Subscription Plan on your website or application and proceed to make the authentication payment using Razorpay's Checkout.
+Subscriptions Flow via Checkout
+
+Create a Plan.
+The customer selects the Plan from your website or application.
+After the customer selects a Plan, a Subscription is created in Razorpay and the subscription_id received in the response, is passed on to the Razorpay Checkout via the checkout options.
+On the Checkout form, the customer makes the payment using the card details.
+This acts as an authentication transaction. On a successful payment, a customer is created and linked to the Subscription.
+Automated charges on the Subscription are now made as per the schedule that you defined while creating the plan.
+
+Know about integrating Razorpay Subscriptions in your checkout.
+Subscriptions via Links
+You can create a custom Subscription for a customer and send a Subscription link to them. Customers click the link and are taken to a checkout page hosted by Razorpay where they make the authentication payment via Razorpay's checkout page. There is no need to host the link on your website or application.
+Subscriptions Flow via Links
+
+Create a Plan.
+You create a Subscription link by:
+
+Selecting a Plan.
+Adding an upfront amount and add-ons, if any.
+Adding customer details.
+
+
+The Subscription link is sent to the customer via email and/or SMS.
+The customer click the link and is taken to the Razorpay Checkout form.
+The customer enters the card details and clicks Pay to make the payment. This acts as an authentication transaction. On a successful payment, a customer is created and linked to the Subscription.
+Automated charges on the Subscription are now made as per the schedule that you defined while creating the plan.
+
+Know more about
+Subscription Links.
+Subscriptions Actions
+You can perform the following actions on Subscriptions that are active:
+
+
+Update a Subscription
+
+
+Pause and Resume a Subscription
+
+
+Cancel a Subscription
+
+
+Create Add-ons
+
+
+Invoice
+Invoices are automatically created for Subscriptions. Invoice includes details such as plan, amount, date of charge including merchant details. Invoices are created for every charge made on the customer's card for recurring payments, including the authentication transaction.
+
+An invoice is generated at the beginning of each billing cycle for the defined plan and amount.
+A charge is attempted on the invoice. The invoice is in issued state on your Dashboard.
+If the charge is successful
+
+An email is sent to the customer.
+The invoice is moved to paid state on your Dashboard.
+The invoice.paid webhook is fired.
+
+
+
+Start DateUpfront AmountInvoice sentImmediatexYesFuturexNo (Reason: Auth transaction)ImmediateâYesFutureâYes
+Know about the Subscription states.
+Related Information
+
+
+Subscriptions
+
+
+Subscription States
+
+
+Create Subscriptions
+
+
+Test Subscriptions
+
+
+Payment Retries
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEAuthentication TransactionSubscriptions via CheckoutSubscriptions via LinksSubscriptions ActionsInvoiceRelated Information

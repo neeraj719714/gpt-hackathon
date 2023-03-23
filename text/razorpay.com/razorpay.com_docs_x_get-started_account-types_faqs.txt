@@ -1,0 +1,21 @@
+
+
+
+
+
+
+Account types | FAQs | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedSign UpGenerate API KeysAllowlist IPsTest ModeAccount TypesAbout Account TypesRazorpayX LiteRazorpayX Current AccountSource Account ValidationFAQsDashboardAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXGet StartedAccount TypesFaqsAccount types | FAQsFind answers to frequently asked questions about RazorpayX Lite and RazorpayX Current Account.1. What is a Business Account?
+Your RazorpayX Lite is referred to as a business account. This account has an account number and an IFSC. You can transfer funds to and from this account, store them and make payouts from it, as and when you wish.
+2. How do I get my Business account?
+Your business account is created when you sign up for RazorpayX. You can start transacting after account activation.
+3. Can I have more than one Business account?
+No. In the current version of RazorpayX platform, you can only have one business account per Merchant ID. However your RazorpayX Current Account will be added as an additional business account once opened.
+4. Can I share my business account details with my business contacts to receive funds?
+Yes. You can share your business account number and IFSC with your business contacts to receive funds. They will be able to add your business account number to their bank portals and transfer funds to your account.
+5. How can I view all transactions against my business account?
+You can view all transactions made against your business account via your RazorpayX Dashboard or under your Account Statement. You can also fetch these using APIs.
+6. How can I check my current balance against my Business account?
+You can check your current balance against your business account on Dashboard home page or via API. Know more about RazorpayX.
+7. Will I have access to all my merchant accounts on the RazorpayX platform?
+Yes. Just like on your Razorpay Dashboard, you can switch between different accounts on your RazorpayX Dashboard, provided you have been added as a team member on your other RazorpayX accounts.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEAccount types | FAQs

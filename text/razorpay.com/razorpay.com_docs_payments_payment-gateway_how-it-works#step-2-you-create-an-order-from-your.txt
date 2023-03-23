@@ -1,0 +1,52 @@
+
+
+
+
+
+
+How Payment Gateway Works | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayOverviewFeaturesGet StartedHow Payment Gateway WorksWeb IntegrationsHosted CheckoutAndroid IntegrationiOS IntegrationReact NativeCordova & IonicFlutter PluginCapacitor IntegrationQuick IntegrationServer IntegrationEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPayment GatewayHow It WorksHow Payment Gateway WorksUnderstand the Payment Gateway flow.A Payment Gateway focuses on securing the sensitive information given by the user throughout the process. It ensures security by encrypting data like card and bank details provided by the user.
+How it Works
+Given below is a complete end-to-end flow about how you can use Razorpay Payment Gateway.
+
+Watch this video to see how the Razorpay Checkout form works.
+
+
+Step 1: Customers place an order on your website or app
+A customer visits your website or app, selects items they want to purchase and clicks the pay button to place an order. For each order placed by your customer, you create a transaction_id or checkout_id on your server for your reference. For example, #trn-345.
+Step 2: You create an order from your server
+For each order placed by your customer, use the Razorpay Orders API to create an order from your Server.
+Razorpay processes the details sent and returns an order_id to you, for example, order_EKwxwAgItmmXdp. Map this order_id to the transaction_id #trn-345, you had created in the previous step. Know more about order states.
+Step 3: Pass Order ID to checkout and collect payment details
+Pass the order_id returned by Razorpay to your integration. This invokes the Razorpay Checkout, the client-side UI, which displays various payment methods and enables your customer to complete the payment. The payment details entered by the customer are secured and stored by Razorpay as tokens. The generated tokens are exchanged with your servers for further use.
+Step 4: Bank authenticates the payment
+Internally, Razorpay sends an authentication request to the customer's bank. After authentication, Razorpay is authorized to deduct the amount from the customer's bank account.
+For successful payments, the Checkout returns the razorpay_order_id, razorpay_payment_id and razorpay_signature.
+Know more about payment states.
+Step 5: Capture the payment
+Once your customer completes the payment and Razorpay authenticates it, you must capture the payment either automatically or manually. You can also verify the payment signature. This ensures that the payment is received from an authentic source. Know more about payment capture settings.
+Step 6: Razorpay settles the amount
+After the payment is successfully captured, the amount is settled to your account according to your settlement schedule. Know more about settlements.
+Refunds
+Customers may claim  refunds after the transaction. In such cases, you can initiate a refund, post which the funds are sent back to the customer's account.
+Try Our Checkout
+You can test our Checkout by clicking the PAY WITH RAZORPAY button. This initiates a â¹1.00 payment. Provide your phone number, email address, select your preferred payment method and complete the payment.
+Live Transaction with Auto RefundThis is a real transaction and money will be deducted from your account. However, the amount debited will be auto-refunded to your account in 5-7 working days.
+Pay with Razorpay
+Test Card
+You can use the test cards to test domestic payments, international payments and subscriptions.
+Know more about  Test Card details.
+Next Step
+Get started with Razorpay Payment Gateway integration.
+Related Information
+
+
+Payment Gateway
+
+
+Integrate and Accept Payments
+
+
+Payment Methods
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEHow it WorksRefundsTry Our CheckoutTest CardNext StepRelated Information

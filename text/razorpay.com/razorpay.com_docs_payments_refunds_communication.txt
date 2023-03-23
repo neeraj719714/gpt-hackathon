@@ -1,0 +1,32 @@
+
+
+
+
+
+
+Refund Communication | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsAbout RefundsNormal RefundsInstant RefundsBatch RefundsEMI and Pay Later RefundsDashboardHandle Refund ErrorsRefunds APIsSubscribe to WebhooksRefund CommunicationFAQsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsRefundsCommunicationRefund CommunicationCheck the refund-related emails sent to your customers after the refunds are initiated.If a customer is asking for a refund, the banking partner provides a unique reference number (either RRN, ARN or UTR) when a refund is processed. The customer can use this reference number to track the refund status with the bank.
+As a customer, you will be notified of the specific payment to be refunded in 7-10 working days.
+Customer Looking for RefundIf you are a customer looking for a refund, know more about customer refunds.
+Refund Mailers
+Razorpay sends you the following email communications for refunds:
+
+Refund Mailer After you process the refund, Razorpay sends you an email with the refund id and unique reference number (ARN, RRN or UTR) provided by the bank.
+
+
+
+
+RRN/ARN Update Mailer When you refund a credit card payment, the banking partner will share an ARN with Razorpay. Razorpay sends you an email with this ARN number.
+
+
+
+Handy TipsRazorpay sends the Refund and RRN/ARN Update emailers only if the customer email is passed to us.
+Related Information
+
+
+Customer Refunds
+
+
+Refunds APIs
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGERefund MailersRelated Information

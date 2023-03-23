@@ -1,0 +1,26 @@
+
+
+
+
+
+
+Keyboard Shortcuts | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAbout DashboardKeyboard ShortcutsGlobal SearchSupportAccount SettingsFAQsAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXGet StartedKeyboard ShortcutsKeyboard ShortcutsUse keyboard shortcuts for quick access across the RazorpayX Dashboard.RazorpayX offers Keyboard Shortcuts for tasks that are frequently performed by pro users. Basic actions such as viewing payouts or launching the payout modal can be performed directly from any screen without having to navigate multiple times.
+Following is the list of keyboard shortcuts that you can use to quickly perform a few actions on the RazorpayX Dashboard:
+Handy Tipsâ is applicable for MacBook users. Windows users can use the Ctrl key instead of â.
+Keyboard ShortcutAction/  â + K (Mac Users)  Ctrl + K (Windows Users)Trigger Global searchCOpen Create Contact modalPOpen Create Payout modalLOpen Create Payout Link modalâ + / (Mac Users)  Ctrl + K (Windows Users)Keyboard shortcuts list viewShift + HView HomeShift + PView PayoutsShift + AView Account StatementShift + CView ContactsShift + VView Vendor PaymentsShift + TView Tax PaymentsShift + LView Payout Links
+Related Information
+
+
+Sign Up for RazorpayX
+
+
+Global Search
+
+
+Generate API Keys
+
+
+Test Mode
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGERelated Information

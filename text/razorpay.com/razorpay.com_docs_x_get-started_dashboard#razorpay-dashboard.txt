@@ -1,0 +1,50 @@
+
+
+
+
+
+
+RazorpayX Dashboard | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpayXGet StartedDashboardAbout DashboardKeyboard ShortcutsGlobal SearchSupportAccount SettingsFAQsAccount StatementContactsFund AccountsPayoutsPayout LinksPayouts - WalletVendor PaymentsTax PaymentsRazorpay CapitalWebhooksAPIsGlossaryRazorpayX PayrollXGet StartedDashboardRazorpayX DashboardSwitch Merchants, generate Reports, update Account Settings with the RazorpayX Dashboard.RazorpayX Dashboard is an easy to use and interactive page. It offers Global Search and announcements for easy discoverabilty of new and existing features.
+Global Search, announcements and Profile:
+
+Profile
+This is where you find your Merchant ID (MiD) or Business ID and other necessary tabs:
+
+My Account & Settings
+Switch Merchant
+Go to Razorpay Dashboard
+
+Keyboard Shortcuts
+
+
+
+My Account & Settings
+TabActionsUser ProfileTo find and edit details like your username, password, phone number.To disable or enable 2 FA.Business ProfileTo find business details like KYC status, business name and ID, website, tax details etc.To set expiry for Payout Links.Public ProfileTo customise Payout Links display screen with a colour or logo of your choice and support details.BankingTo find all your affiliated bank account details.Manage TeamTo enable 2FA for the team.To add and assign roles to the team members.Developer ControlsTo generate API keys and edit webhooks.Support Tickets InboxTo raise queries in case of trouble and follow up on the existing ones.IntegrationsTo integrate with accounting tools for easier reconciliation.
+Switch Merchant
+To switch you merchant profile:
+
+Go to Profile.
+Click Switch Merchant.
+Select the Merchant you want to switch to and wait for the page to refresh.
+
+Razorpay Dashboard
+You can directly access your Razorpay Dashboard via Profile. Click Go to Razorpay Dashboard and you will be redirected on a new tab.
+Reports
+To generate reports:
+
+Navigate to Reports.
+Select the type of report:
+
+Vendor Payments
+Payouts
+Account Statement
+TDS/Advance Tax Challans
+
+
+Select a period from the drop-down, or select custom dates for which you require the report.
+Choose the format of your report- .xlsx or .csv.
+You can DOWNLOAD as well as EMAIL the report. You can enter any email addresses you wish to share the report with as well as select the team members you want to share it with.
+
+
+Watch Out!Generating reports can take upto 10 minutes.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEProfileMy Account & SettingsSwitch MerchantRazorpay DashboardReports

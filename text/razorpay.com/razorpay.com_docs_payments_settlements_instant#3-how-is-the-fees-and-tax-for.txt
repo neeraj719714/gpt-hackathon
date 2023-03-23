@@ -1,0 +1,67 @@
+
+
+
+
+
+
+Instant Settlements | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsAbout SettlementsDashboardInstant SettlementsSettlements APIsFAQsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSettlementsInstantInstant SettlementsUse the Instant Settlements (previously called On-demand Settlement) feature to settle your current balance to your bank account instantly.You can use the Instant Settlement (previously called On-demand Settlement) feature to settle your current balance to your bank account instantly 24x7 for a small fee. You can either settle your current balance in full or choose to settle a portion of it as per your needs.
+By default, the settlement cycle is T+2 days for domestic payments and T+7 days for international payments, where T is the date the payment was captured.
+Feature RequestThis is an on-demand feature. Please raise a request with our Support team to get this feature activated on your Razorpay account.
+Benefits of Instant Settlements
+
+Easy and early access to your money.
+Reduction in daily cash crunch and increased cash flows.
+Better management of inventory and stock.
+Payments to creditors and vendors without any delays.
+
+Initiate an Instant Settlement
+You can initiate Instant Settlements:
+
+From Dashboard
+Using APIs
+
+From Dashboard
+Once the feature is activated on your account, you can initiate Instant Settlements from the Dashboard.
+Watch this video to see how to create an Instant Settlement.
+
+To create an Instant Settlement:
+
+Log in to the Dashboard.
+Navigate to Settlements.
+Click Settle Now. The Instant Settlement pop-up opens.
+Enter the amount you want to settle to your bank account. This can either be your full Current Balance or a part of it. You can see the fees and tax for the Instant Settlement and the amount that will be settled to you after the fees and tax deduction on the pop-up.
+
+The minimum amount you can enter is â¹2,000.00.
+
+
+Click Confirm.
+
+The Instant Settlement request is created. The requested amount will be settled to your bank account.
+Using APIs
+Once the feature is activated on your account, you can initiate Instant Settlements using the below endpoint:
+POST/settlements/ondemand
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/settlements/ondemand \-H "content-type: application/json" \-d '{  "amount": 200000,  "settle_full_balance": false,  "description": "Need this to make vendor payments.",  "notes": {    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Greyâ¦ decaf."  }}'
+Success ResponseFailure Responsecopy{  "id": "setlod_FNj7g2YS5J67Rz",  "entity": "settlement.ondemand",  "amount_requested": 200000,  "amount_settled": 0,  "amount_pending": 199410,  "amount_reversed": 0,  "fees": 590,  "tax": 90,  "currency": "INR",  "settle_full_balance": false,  "status": "initiated",  "description": "Need this to make vendor payments.",  "notes": {    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Greyâ¦ decaf."  },  "created_at": 1596771429,  "ondemand_payouts": {    "entity": "collection",    "count": 1,    "items": [      {        "id": "setlodp_FNj7g2cbvw8ueO",        "entity": "settlement.ondemand_payout",        "initiated_at": null,        "processed_at": null,        "reversed_at": null,        "amount": 200000,        "amount_settled": null,        "fees": 590,        "tax": 90,        "utr": null,        "status": "created",        "created_at": 1596771429      }    ]  }}
+FAQs
+Here are some frequently asked questions about Instant Settlements.
+1. What are Instant Settlements?
+By default, the settlement cycle is T+2 days for domestic payment and T+7 days for international payments, where T is the date the payment was captured.
+The Instant Settlement feature allows you to settle your current balance to your bank account instantly 24x7 for a small fee. You can either settle your current balance in full or choose to settle a portion of it as per your needs.
+2. Are there any additional charges for Instant Settlements?
+Yes. We charge a small fee to process Instant Settlement Fees.
+3. How is the fees and tax for an Instant Settlement deducted?
+The fees and tax for an Instant Settlement is deducted from the request settlement amount.
+For example, you place a request for â¹2,000.00. Fees of â¹3.00 and tax of â¹1.00 is deducted from the requested amount and the remaining amount, â¹1,995.00 is settled to your bank account.
+4. Once enabled, do I need to make Instant Settlement request for all my settlements?
+No. You can create an Instant Settlement request when you need the money. If you do not create an Instant Settlement, your current balance is settled to your bank account as per your settlement cycle.
+5. What happens to my current balance if I do not make any Instant Settlement requests?
+Your current balance is settled to your bank account as per your settlement cycle.
+6. Once Instant Settlements are enabled, will I be charged for all my settlements?
+No. You will only be charged for the Instant settlements you create. You will not be charged for settlements that happen according to your settlement cycle.
+Related Information
+
+
+Instant Settlement APIs
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEBenefits of Instant SettlementsInitiate an Instant SettlementFrom DashboardUsing APIsFAQsRelated Information

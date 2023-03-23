@@ -1,0 +1,361 @@
+
+
+
+
+
+
+API | Subscriptions | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsOrdersPaymentsSettlementsRefundsDisputesCustomersPayments SuitePayment LinksQR CodesInvoicesItemsSubscriptionsRouteSmart CollectPartnersRazorpayXErrorsWebhooksApiPaymentsSubscriptionsSubscriptionsCreate and fetch Plans and Subscriptions. Create and delete Add-ons using Razorpay Subscriptions APIs.You can use Razorpay Subscriptions to set up and manage recurring payments. You can create, fetch, query or cancel plans, Subscriptions and add-ons using Subscriptions APIs. These operations can also be performed using the Razorpay Dashboard.
+You can try out our APIs on the Razorpay Postman Public Workspace.
+
+Use Cases
+
+Create and retrieve plans.
+Create Subscriptions.
+Retrieve created Subscriptions.
+Update, pause, resume and cancel a Subscription using a unique identifier.
+Create and delete add-ons for Subscriptions.
+
+Plans
+A plan is a foundation on which a Subscription is built. It acts as a reusable template and contains details of the goods or services offered, the amount to be charged and the frequency at which the customer should be charged (billing cycle). Depending upon your business, you can create multiple plans with different billing cycles and pricing.
+You should create a plan using the Checkout or Subscription link before creating a Subscription.
+Plan Entity
+The plan entity has the following fields:
+idstring The unique identifier linked to a plan. This is used when creating a Subscription for customers.entitystring The entity being created. Here, it is plan.intervalinteger This, combined with period, defines the frequency. If the billing cycle is 2 months, the value should be 2.Handy TipsFor daily plans, the minimum value should be 7.periodstring This, combined with interval, defines the frequency. Possible values:
+daily
+weekly
+monthly
+yearly
+If the billing cycle is 2 months, the value should be monthly.itemDetails of the plan.idstring The unique identifier linked to an item. For example, item_00000000000001.namestring Name of the plan. For example, Test Plan.amountinteger Amount for the plan. When you use this plan to create a Subscription, the customer will be charged this amount periodically.currencystring Currency for the payment. Defaults to INR. You can accept payment in any of the  supported currencies.descriptionstring Description of the plan. For example, Description of the test plan.notesobject Notes you can enter for the contact for future reference. This is a key-value pair. You can enter a maximum of 15 key-value pairs. For example, "note_key": "Beam me up Scottyâ.created_atinteger The Unix timestamp at which the plan was created.
+Entitycopy{   "entity":"collection",   "count":2,   "items":[      {         "id":"plan_00000000000008",         "entity":"plan",         "interval":1,         "period":"weekly",         "item":{            "id":"item_00000000000005",            "active":true,            "name":"Test plan - Monthly",            "description":"Description for the test plan - Monthly",            "amount":89900,            "unit_amount":89900,            "currency":"INR",            "type":"plan",            "unit":null,            "tax_inclusive":false,            "hsn_code":null,            "sac_code":null,            "tax_rate":null,            "tax_id":null,            "tax_group_id":null,            "created_at":1580220461,            "updated_at":1580220481         },         "notes":{            "notes_key_1":"Tea, Earl Grey, Hot",            "notes_key_2":"Tea, Earl Greyâ¦ decaf."         },         "created_at":1580220481      },      {         "id":"plan_00000000000009",         "entity":"plan",         "interval":1,         "period":"monthly",         "item":{            "id":"item_00000000000002",            "active":true,            "name":"Test plan - Annual",            "description":null,            "amount":79900,            "unit_amount":79900,            "currency":"INR",            "type":"plan",            "unit":null,            "tax_inclusive":false,            "hsn_code":null,            "sac_code":null,            "tax_rate":null,            "tax_id":null,            "tax_group_id":null,            "created_at":1580220493,            "updated_at":1580220493         },         "notes":[                     ],         "created_at":1580220493      }   ]}
+Create a Plan
+The following endpoint creates a plan.
+POST/plans
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/plans \-H "Content-Type: application/json" \-d '{  "period": "weekly",  "interval": 1,  "item": {    "name": "Test plan - Weekly",    "amount": 69900,    "currency": "INR",    "description": "Description for the test plan"  },  "notes": {    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Greyâ¦ decaf."  }}'Success ResponseFailure Responsecopy{  "id":"plan_00000000000001",  "entity":"plan",  "interval":1,  "period":"weekly",  "item":{    "id":"item_00000000000001",    "active":true,    "name":"Test plan - Weekly",    "description":"Description for the test plan - Weekly",    "amount":69900,    "unit_amount":69900,    "currency":"INR",    "type":"plan",    "unit":null,    "tax_inclusive":false,    "hsn_code":null,    "sac_code":null,    "tax_rate":null,    "tax_id":null,    "tax_group_id":null,    "created_at":1580219935,    "updated_at":1580219935  },  "notes":{    "notes_key_1":"Tea, Earl Grey, Hot",    "notes_key_2":"Tea, Earl Greyâ¦ decaf."  },  "created_at":1580219935}
+Request Parameters
+period mandatorystring This, combined with interval, defines the frequency. Possible values:
+daily
+weekly
+monthly
+yearly
+interval mandatoryinteger This, combined with period, defines the frequency. If the billing cycle is 2 months, the value should be 2.Handy TipsFor daily plans, the minimum value should be 7.itemDetails of the plan.name mandatorystring Name of the plan. For example, Test Plan.amount mandatoryinteger Amount for the plan that is to be charged to the subscription in the next billing cycle. For example, 69900 translates to â¹699.currency mandatorystring Currency for the payment. For example, INR. You can accept payment in any of the supported currencies.description optionalstring Description for the plan. For example, Description for the test plan.notes optionalobject Notes you can enter for the contact for future reference. This is a key-value pair. You can enter a maximum of 15 key-value pairs. For example, "note_key": "Beam me up Scottyâ.
+Response Parameters
+Check the response parameters descriptions in the Plan entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while creating a Subscription.
+ErrorCauseSolutionoffer_id is/are not required and should not be sentThis error occurs when you are passing offer_id parameter in the request body.offer_id should not be passed in the request body.
+Fetch all Plans
+The following endpoint fetches the details of all plans.
+GET/plans
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/plans \
+Query Parameters
+from optionalinteger The Unix timestamp from when plans are to be fetched.to optionalinteger The Unix timestamp till when plans are to be fetched.count optionalinteger The number of plans to be fetched. Default value is 10. Maximum value is 100. This can be used for pagination in combination with skip.skip optionalinteger The number of plans to be skipped. Default value is 0. This can be used for pagination in combination with count.
+Response Parameters
+Check the response parameters descriptions in the Plan entity parameters table.
+Fetch a Plan by ID
+The following endpoint retrieves the details of a plan using its unique identifier.
+GET/plans/:id
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/plans/plan_00000000000001 \Success ResponseFailure Responsecopy{  "id":"plan_00000000000001",  "entity":"plan",  "interval":1,  "period":"weekly",  "item":{    "id":"item_00000000000001",    "active":true,    "name":"Test plan - Weekly",    "description":"Description for the test plan - Weekly",    "amount":69900,    "unit_amount":69900,    "currency":"INR",    "type":"plan",    "unit":null,    "tax_inclusive":false,    "hsn_code":null,    "sac_code":null,    "tax_rate":null,    "tax_id":null,    "tax_group_id":null,    "created_at":1580220492,    "updated_at":1580220492  },  "notes":{    "notes_key_1":"Tea, Earl Grey, Hot",    "notes_key_2":"Tea, Earl Greyâ¦ decaf."  },  "created_at":1580220492}
+Path Parameter
+id mandatorystring The unique identifier of the plan. For example, plan_00000000000001.
+Response Parameters
+Check the response parameters descriptions in the Plan entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching a plan by ID.
+ErrorCauseSolutionan_id%7D is not a valid idThis error occurs when you are not passing the plan_id in the API endpoint to fetch a plan based on the ID.Ensure that you are passing the plan_id in the API endpoint.  For example, https://api.razorpay.com/v1/plans/plan_K8lVuxetc2OGR8 .
+Subscriptions
+You can use Subscriptions to charge a customer periodically. A Subscription ties a customer to a particular plan you have created. It contains details like the plan, the start date, total number of billing cycles, free trial period (if any) and upfront amount to be collected.
+Subscriptions Entity
+The Subscription entity has the following fields:
+idstring The unique identifier linked to a Subscription.entitystring The entity being created. Here, it is subscription.plan_idstring The unique identifier of a plan that should be linked to the Subscription. For example, plan_00000000000001.customer_idstring The unique identifer of the customer who is subscribing to a plan. This is populated automatically after the customer completes the authorisation transaction.total_countinteger The number of billing cycles for which the customer should be charged. For example, if a customer is buying a 1-year subscription billed on a bi-monthly basis, this value should be 6.customer_notifyboolean Indicates whether the communication to the customer would be handled by you or us. Possible values:
+0: communication handled by you.
+1 (default): communication handled by Razorpay.
+start_atinteger The Unix timestamp, indicates from when the Subscription should start. If not passed, the Subscription starts immediately after the authorisation payment. For example, 1581013800.quantityinteger The number of times the customer should be charged the plan amount per invoice. For example, a customer subscribes to use software. The charges are â¹100/month/license. The customer wants 5 licenses. You should pass 5 as the quantity. The customer is charged â¹500 (5 x â¹100) monthly. By default, this value is set to 1.notesobject Object consisting of key value pairs as notes.addonsarray of objects This can be used to charge the customer a one-time fee before the start of the Subscription. This can include something like a one-time delivery charge or a security deposit. Know more about Add-ons.statusstring Status of the Subscription. Possible values:
+created
+authenticated
+active
+pending
+halted
+cancelled
+completed
+expired
+Know more about Subscriptions States.paid_countinteger Indicates the number of billing cycles the customer has already been charged.current_startinteger Indicates the start time of the current billing cycle of a Subscription.current_endinteger Indicates the end time of the current billing cycle of a Subscription.ended_atinteger The Unix timestamp of when the Subscription has completed its period or has been cancelled midway.charge_atinteger The Unix timestamp of when the next charge on the Subscription should be made.auth_attemptsinteger The number of times the charge for the current billing cycle has been attempted on the card.expire_byinteger The Unix timestamp that indicates till when the customer can make the authorisation payment. For example, 1581013800. Do not pass any value if you do not want to set an expiry date.addonsArray that contains details of any upfront amount you want to collect as part of the authorisation transaction.itemDetails of the upfront amount you want to charge your customer.namestring A name for the upfront amount you want to charge the customer. For example, Delivery Fee.amountinteger The upfront amount in the currency subunit you want to charge the customer. For example ,30000.currencystring The currency in which you want to charge the customer. This has to match the plan currency. For example, INR. Defaults to INR.offer_idstring The unique identifier of the offer that is linked to the Subscription. You can obtain this from the Dashboard. For example, offer_JHD834hjbxzhd38d.notesobject Notes you can enter for the contact for future reference. This is a key-value pair. You can enter a maximum of 15 key-value pairs. For example, "note_key": "Beam me up Scottyâ.short_urlstring URL that can be used to make the authorisation payment. For example, https://rzp.io/i/PWtAiEo.has_scheduled_changesboolean Indicates if the Subscription has any scheduled changes. Possible values:
+true
+false
+schedule_change_atstring Represents when the Subscription should be updated. Possible values:
+now (default value): Updates the Subscription immediately.
+cycle_end: Updates the Subscription at the end of the current billing cycle.
+remaining_countinteger Indicates the number of billing cycles remaining on the Subscription. For example, 2.
+Entitycopy{   "entity":"collection",   "count":2,   "items":[      {         "id":"sub_00000000000005",         "entity":"subscription",         "plan_id":"plan_00000000000004",         "customer_id":"cust_D00000000000006",         "status":"active",         "current_start":1577355873,         "current_end":1582655401,         "ended_at":null,         "quantity":1,         "notes":{            "notes_key_1":"Tea, Earl Grey, Hot",            "notes_key_2":"Tea, Earl Greyâ¦ decaf."         },         "charge_at":1577385995,         "offer_id":"offer_JHD834hjbxzhd38d",         "start_at":1577385995,         "end_at":1603737004,         "auth_attempts":0,         "total_count":6,         "paid_count":1,         "customer_notify":true,         "created_at":1577356088,         "expire_by":1577485999,         "short_url":"https://rzp.io/i/z3b1R61A9",         "has_scheduled_changes":false,         "change_scheduled_at":null,         "remaining_count":5      },      {         "id":"sub_00000000000006",         "entity":"subscription",         "plan_id":"plan_00000000000009",         "customer_id":"cust_D00000000000005",         "status":"active",         "current_start":1577355875,         "current_end":1577355875,         "ended_at":null,         "quantity":1,         "notes":{            "notes_key_1":"Tea, Earl Grey, Hot",            "notes_key_2":"Tea, Earl Greyâ¦ decaf."         },         "charge_at":1561852802,         "start_at":1561852802,         "end_at":1590777006,         "auth_attempts":0,         "total_count":12,         "paid_count":1,         "customer_notify":true,         "created_at":1560241237,         "expire_by":1561939197,         "short_url":"https://rzp.io/i/m0y0f",         "has_scheduled_changes":false,         "change_scheduled_at":null,         "source":"api",         "offer_id":"offer_JHD834hjbxzhd38d",         "remaining_count":11      }   ]}
+Create a Subscription
+Use the following endpoint to create a Subscription.
+POST/subscriptions
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/subscriptions \-H "Content-Type: application/json" \-d '{   "plan_id":"plan_00000000000001",   "total_count":6,   "quantity":1,   "customer_notify":1,   "start_at":1580453311,   "expire_by":1580626111,   "addons":[      {         "item":{            "name":"Delivery charges",            "amount":30000,            "currency":"INR"         }      }   ],   "offer_id":"offer_JHD834hjbxzhd38d",   "notes":{      "notes_key_1":"Tea, Earl Grey, Hot",      "notes_key_2":"Tea, Earl Greyâ¦ decaf."   }}'Success ResponseFailure Responsecopy{  "id": "sub_00000000000001",  "entity": "subscription",  "plan_id": "plan_00000000000001",  "status": "created",  "current_start": null,  "current_end": null,  "ended_at": null,  "quantity": 1,  "notes":{    "notes_key_1":"Tea, Earl Grey, Hot",    "notes_key_2":"Tea, Earl Greyâ¦ decaf."  },  "charge_at": 1580453311,  "start_at": 1580626111,  "end_at": 1583433000,  "auth_attempts": 0,  "total_count": 6,  "paid_count": 0,  "customer_notify": true,  "created_at": 1580280581,  "expire_by": 1580626111,  "short_url": "https://rzp.io/i/z3b1R61A9",  "has_scheduled_changes": false,  "change_scheduled_at": null,  "source": "api",  "offer_id":"offer_JHD834hjbxzhd38d",  "remaining_count": 5}
+Request Parameters
+plan_id mandatorystring The unique identifier of a plan that should be linked to the Subscription. For example, plan_00000000000001.total_count mandatoryinteger The number of billing cycles for which the customer should be charged. For example, if a customer is buying a 1-year subscription billed on a bi-monthly basis, this value should be 6.quantity optionalinteger The number of times the customer should be charged the plan amount per invoice. For example, a customer subscribes to use software. The charges are â¹100/month/license. The customer wants 5 licenses. You should pass 5 as the quantity. The customer is charged â¹500 (5 x â¹100) monthly. By default, this value is set to 1.start_at optionalinteger Unix timestamp that indicates from when the Subscription should start. If not passed, the Subscription starts immediately after the authorisation payment. For example, 1581013800.expire_by optionalinteger Unix timestamp that indicates till when the customer can make the authorisation payment. For example, 1581013800. Do not pass any value if you do not want to set an expiry date.customer_notify optionalboolean Indicates whether the communication to the customer would be handled by you or us. Possible values:
+0: communication handled by you.
+1 (default): communication handled by Razorpay.
+addonsArray that contains details of any upfront amount you want to collect as part of the authorisation transaction.itemDetails of the upfront amount you want to charge your customer.name optionalstring A name for the upfront amount you want to charge the customer. For example, Delivery Fee.amount optionalinteger The upfront amount in the currency subunit you want to charge the customer. For example ,30000.currency optionalstring The currency in which you want to charge the customer. This has to match the plan currency. For example, INR. Defaults to INR.offer_id optionalstring The unique identifier of the offer that is linked to the Subscription. You can obtain this from the Dashboard. For example, offer_JHD834hjbxzhd38d.notes optionalobject Notes you can enter for the contact for future reference. This is a key-value pair. You can enter a maximum of 15 key-value pairs. For example, "note_key": "Beam me up Scottyâ.
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while creating a Subscription.
+ErrorCauseSolutionThe requested URL was not found on the server.This error occurs when the Subscriptions feature is not enabled.Ensure that the Subscriptions feature is enabled both in the test and live modes before creating a Subscription.The id provided does not existThis error occurs when passing  an incorrect plan_id .Ensure that you are passing the correct plan_id . The plan should be active and created using the same API key and Secret.Offer Not FoundThis error occurs when you are linking an invalid/expired offer to a Subscription.Ensure that the Subscription offer created on the Dashboard is valid and has not expired.Offer not applicable for this SubscriptionThis error occurs when you are linking/passing an offer_id to a Subscription on which the offer doesn't apply.Ensure that the plan amount is greater than the minimum amount set for the offer.
+Create a Subscription Link
+The following endpoint creates a Subscription link.
+POST/subscriptions
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/subscriptions \-H "Content-Type: application/json" \-d '{  "plan_id": "plan_00000000000001",  "total_count": 12,  "quantity": 1,  "start_at": 1561852800,  "expire_by": 1561939199,  "customer_notify": 1,  "addons": [    {    "item": {      "name": "Delivery charges",      "amount": 30000,      "currency": "INR"      }    }  ],  "offer_id":"offer_JHD834hjbxzhd38d",  "notes": {    "notes_key_1":"Tea, Earl Grey, Hot",    "notes_key_2":"Tea, Earl Greyâ¦ decaf."  },  "notify_info":{    "notify_phone": "9123456789",    "notify_email": "gaurav.kumar@example.com"  }}'Success ResponseFailure Responsecopy{  "id":"sub_00000000000002",  "entity":"subscription",  "plan_id":"plan_00000000000001",  "status":"created",  "current_start":null,  "current_end":null,  "ended_at":null,  "quantity":1,  "notes":{    "notes_key_1":"Tea, Earl Grey, Hot",    "notes_key_2":"Tea, Earl Greyâ¦ decaf."  },  "charge_at":1580453311,  "start_at":1580453311,  "end_at":1587061800,  "auth_attempts":0,  "total_count":12,  "paid_count":0,  "customer_notify":true,  "created_at":1580283117,  "expire_by":1581013800,  "short_url":"https://rzp.io/i/m0y0f",  "has_scheduled_changes":false,  "change_scheduled_at":null,  "source": "api",  "offer_id":"offer_JHD834hjbxzhd38d",  "remaining_count":12}
+Request Parameters
+plan_id mandatorystring The unique identifier of a plan that should be linked to the Subscription. For example, plan_00000000000001.total_count mandatoryinteger The number of billing cycles for which the customer should be charged. For example, if a customer is buying a 1-year subscription billed on a bi-monthly basis, this value should be 6.quantity optionalinteger The number of times the customer should be charged the plan amount per invoice. For example, a customer subscribes to use software. The charges are â¹100/month/license. The customer wants 5 licenses. You should pass 5 as the quantity. The customer is charged â¹500 (5 x â¹100) monthly. By default, this value is set to 1.start_at optionalinteger Unix timestamp that indicates from when the Subscription should start. If not passed, the Subscription starts immediately after the authorisation payment. For example, 1581013800.expire_by optionalinteger Unix timestamp that indicates till when the customer can make the authorisation payment. For example, 1581013800. Do not pass any value if you do not want to set an expiry date.customer_notify optionalboolean Indicates whether the communication to the customer would be handled by you or us. Possible values:
+0: communication handled by you.
+1 (default): communication handled by Razorpay.
+addonsArray that contains details of any upfront amount you want to collect as part of the authorisation transaction.itemDetails of the upfront amount you want to charge your customer.name optionalstring A name for the upfront amount you want to charge the customer. For example, Delivery Fee.amount optionalinteger The upfront amount in the currency subunit you want to charge the customer. For example ,30000.currency optionalstring The currency in which you want to charge the customer. This has to match the plan currency. For example, INR. Defaults to INR.offer_id optionalstring The unique identifier of the offer that is linked to the Subscription. You can obtain this from the Dashboard. For example, offer_JHD834hjbxzhd38d.notes optionalobject Notes you can enter for the contact for future reference. This is a key-value pair. You can enter a maximum of 15 key-value pairs. For example, "note_key": "Beam me up Scottyâ.notify_infoobject The customer's email and phone number to which notifications are to be sent. Use this array only if you have set the customer_notify parameter to 1. That is, Razorpay sends notifications to the customer.Watch Out!The customer details entered in the API request are only to notify the customer about the Subscription. The same will not be prefilled in the checkout as per the government guidelines.notify_phone optionalstring The customer's phone number. For example, 911234567890.notify_email optionalstring The customer's email. For example, abc.xyz@example.com.
+You can perform various actions related to Subscriptions using the Razorpay Dashboard.
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while creating a Subscription link.
+ErrorCauseSolutionLink expire by cannot be lesser than the current time.This error occurs when the time mentioned in the expire_by parameter has already passed. For example, if today's date is 12 December 2022, but the expiry date is mentioned as 10 December 2022.Ensure that the time passed in the expiry_by parameter occurs after the current time at the time of creating the Subscription link.
+Fetch All Subscriptions
+The following endpoint retrieves all the created Subscriptions.
+GET/subscriptions
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/subscriptions \
+Query Parameters
+plan_id optionalstring The unique identifier of the plan for which you want to retrieve all the Subscriptions.from optionalinteger The Unix timestamp from when Subscriptions are to be fetched.to optionalinteger The Unix timestamp till when Subscriptions are to be fetched.count optionalinteger The number of Subscriptions to be fetched. Default value is 10. Maximum value is 100. This can be used for pagination, in combination with skip.skip optionalinteger The number of Subscriptions to be skipped. Default value is 0. This can be used for pagination, in combination with count.
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Fetch a Subscription by ID
+The following endpoint retrieves a Subscription using the sub_id.
+GET/subscriptions/:sub_id
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/subscriptions/sub_00000000000001 \Success ResponseFailure Responsecopy{  "id": "sub_00000000000001",  "entity": "subscription",  "plan_id": "plan_00000000000001",  "customer_id": "cust_D00000000000001",  "status": "active",  "current_start": 1577355871,  "current_end": 1582655400,  "ended_at": null,  "quantity": 1,  "notes":{    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Greyâ¦ decaf."  },  "charge_at": 1577385991,  "start_at": 1577385991,  "end_at": 1603737000,  "auth_attempts": 0,  "total_count": 6,  "paid_count": 1,  "customer_notify": true,  "created_at": 1577356081,  "expire_by": 1577485991,  "short_url": "https://rzp.io/i/z3b1R61A9",  "has_scheduled_changes": false,  "change_scheduled_at": null,  "source": "api",  "offer_id":"offer_JHD834hjbxzhd38d",  "remaining_count": 5}
+Path Parameters
+id mandatorystring The unique identifier linked to a Subscription. For example, sub_00000000000001.
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while fetching a Subscription by ID.
+ErrorCauseSolutionub_id%7D is not a valid idThis error occurs when you are not passing the right subscription_id in the API endpoint to fetch a plan based on the ID.Ensure that you are passing the right subscription_id in the API endpoint.  For example, https://api.razorpay.com/v1/subscriptions/sub_KA8rfWnXwyEw0j .
+Cancel a Subscription
+You can either cancel the Subscription immediately or at the end of the current billing cycle. Once cancelled, you cannot renew or reactivate it.
+Status Change
+When you cancel a Subscription, the status changes to cancelled.
+If you choose to cancel a Subscription at the end of a billing cycle, its status changes to cancelled only at the end of the current billing cycle.
+
+The following endpoint cancels a Subscription.
+POST/subscriptions/:sub_id/cancel
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/subscriptions/sub_00000000000001/cancel \-H "Content-Type: application/json" \-d '{  "cancel_at_cycle_end": 0}'Success ResponseFailure Responsecopy{  "id": "sub_00000000000001",  "entity": "subscription",  "plan_id": "plan_00000000000001",  "customer_id": "cust_D00000000000001",  "status": "cancelled",  "current_start": 1580453311,  "current_end": 1581013800,  "ended_at": 1580288092,  "quantity": 1,  "notes":{    "notes_key_1": "Tea, Earl Grey, Hot",    "notes_key_2": "Tea, Earl Greyâ¦ decaf."  },  "charge_at": 1580453311,  "start_at": 1577385991,  "end_at": 1603737000,  "auth_attempts": 0,  "total_count": 6,  "paid_count": 1,  "customer_notify": true,  "created_at": 1580283117,  "expire_by": 1581013800,  "short_url": "https://rzp.io/i/z3b1R61A9",  "has_scheduled_changes": false,  "change_scheduled_at": null,  "source": "api",  "offer_id":"offer_JHD834hjbxzhd38d",  "remaining_count": 5}
+Path Parameter
+id mandatorystring The unique identifier linked to a Subscription. For example, sub_00000000000001.
+Request Parameter
+cancel_at_cycle_endoptionalboolean Use this parameter to cancel a Subscription at the end of a billing cycle. Possible values:
+0 (default): Cancel the subscription immediately.
+1: Cancel the subscription at the end of the current billing cycle.
+
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Error Response Parameter
+Given below is a list of possible errors you may face while cancelling a Subscription.
+ErrorCauseSolutionSubscription is not cancellable in expired status.This error occurs when you are trying to cancel a Subscription which is in the expired state.You cannot cancel a Subscription in the expired state. Ensure that the Subscription is in the active or authenticated state to cancel.
+Update a Subscription
+The following endpoint updates a Subscription.
+PATCH/subscriptions/:sub_id
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u <YOUR_KEY>:<YOUR_SECRET> \-X PATCH https://api.razorpay.com/v1/subscriptions/sub_00000000000001 \-H "Content-Type: application/json" \-d '{  "plan_id":"plan_00000000000002",  "offer_id":"offer_JHD834hjbxzhd38d",  "quantity":5,  "remaining_count":5,  "start_at":1496000432,  "schedule_change_at":"now",  "customer_notify":1}'Success ResponseFailure Responsecopy{  "id":"sub_00000000000002",  "entity":"subscription",  "plan_id":"plan_00000000000002",  "customer_id":"cust_00000000000002",  "status":"authenticated",  "current_start":null,  "current_end":null,  "ended_at":null,  "quantity":3,  "notes":{    "notes_key_1":"Tea, Earl Grey, Hot",    "notes_key_2":"Tea, Earl Greyâ¦ decaf."  },  "charge_at":1580453311,  "start_at":1580453311,  "end_at":1606588200,  "auth_attempts":0,  "total_count":6,  "paid_count":0,  "customer_notify":true,  "created_at":1580283807,  "expire_by":1580626111,  "short_url":"https://rzp.io/i/yeDkUKy",  "has_scheduled_changes":false,  "change_scheduled_at":null,  "source": "api",  "offer_id":"offer_JHD834hjbxzhd38d",  "remaining_count":6}
+Path Parameter
+id mandatorystring The unique identifier linked to a Subscription. For example, sub_00000000000001.
+Request Parameters
+plan_idoptionalstring The unique identifier of the new plan that should be linked to the Subscription. For example, plan_00000000000001.offer_id optionalstring The unique identifier of the offer that should be linked to the Subscription. You can obtain this from the Dashboard. For example, offer_JHD834hjbxzhd38d.quantityoptionalinteger The number of times the plan should be linked to the Subscription. For example, if the plan is â¹100/user/month and the customer has 5 users, you should pass 5 as the quantity to have the customer charged â¹500 (5 x â¹100) monthly. By default, this value is set to 1.remaining_countoptionalinteger This parameter is used to update the total_count for a Subscription. For example, let us consider a monthly Subscription with 12 billing cycles. The Subscription has been charged successfully 4 times and 3 more invoices have been issued, but have not been charged. The remaining count in such cases is 5. However, you can overwrite this value using this parameter.start_atoptionalinteger Unix timestamp. The new start date for the Subscription.schedule_change_atoptionalstring Represents when the Subscription should be updated.
+now (default): Updates the Subscription immediately.
+cycle_end: Updates the Subscription at the end of the current billing cycle.
+customer_notifyoptionalboolean Represents who sends notifications to the customer. Possible values:
+1 (default): Notifications sent by Razorpay.
+0: Notifications sent by you.
+
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Error Response Parameters
+Given below is a list of possible errors you may face while updating a Subscription.
+ErrorCauseSolutionSubscriptions cannot be updated when payment mode is UPIThis error occurs when you are trying to update a Subscription authorised via UPI.You cannot update a Subscription authorised via UPI mode or Emandate.Can't update Subscription when Subscription is not in Authenticated or Active stateThis error occurs when you are trying to update a Subscription in the created state.Ensure that the Subscription status is either in the authenticated or active state.
+Fetch Details of a Pending Update
+The following endpoint retrieves details of a pending update. This happens when a Subscription is updated using the end of cycle option for the schedule_change_at parameter.
+GET/subscriptions/:sub_id/retrieve_scheduled_changes
+Example
+A Subscription is to be charged on the 1st of every month. It was charged on January 01, 2021. On January 15, 2021, it was updated using the end of cycle option for the schedule_change_at parameter. In this case, the update goes live after the Subscription is charged on February 01, 2021. Such updates are said to be scheduled updates and details of such updates can be fetched using this API.
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u <YOUR_KEY>:<YOUR_SECRET> \-X GET https://api.razorpay.com/v1/subscriptions/sub_00000000000001/retrieve_scheduled_changes \
+Path Parameter
+id mandatorystring The unique identifier linked to a Subscription. For example, sub_00000000000001.
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Cancel an Update
+The following endpoint cancels a pending update. This happens when a Subscription is updated using the end of cycle option for the schedule_change_at parameter.
+POST/subscriptions/:subscription_id/cancel_scheduled_changes
+Example
+A Subscription is to be charged on the 1st of every month. It was charged on January 01, 2021. On January 15, 2021, it was updated using the end of cycle option for the schedule_change_at parameter. In this case, the update goes live after the Subscription is charged on February 01, 2021. Such updates are said to be scheduled updates and can be cancelled using this API.
+Handy TipsYou can only cancel a pending update for a subscription. You cannot cancel an update once it is live.
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u <YOUR_KEY>:<YOUR_SECRET> \-X POST https://api.razorpay.com/v1/subscriptions/sub_00000000000001/cancel_scheduled_changes \
+Path Parameter
+id mandatorystring The unique identifier linked to a Subscription. For example, sub_00000000000001.
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Pause a Subscription
+Use the following endpoint to pause a Subscription.
+POST/subscriptions/:sub_id/pause
+Watch Out!
+You can only pause a Subscriptions in the active state.
+If you pause a Subscription in the authenticated state, it goes to the cancelled state.
+
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/subscriptions/sub_00000000000001/pause \-H "Content-Type: application/json" \-d '{  "pause_at":"now"}'
+Path Parameter
+id mandatorystring The unique identifier linked to a Subscription. For example, sub_00000000000001.
+Request Parameter
+pause_at optionalstring The value should be now to pause a Subscription immediately.
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Resume a Subscription
+Use the following endpoint to resume a Subscription.
+POST/subscriptions/:sub_id/resume
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/subscriptions/sub_00000000000001/resume \-H "Content-Type: application/json" \-d '{  "resume_at":"now"}'
+Path Parameter
+id mandatorystring The unique identifier linked to a Subscription. For example, sub_00000000000001.
+Request Parameter
+resume_at optionalstring The value should be now to resume a Subscription immediately.
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Fetch all Invoices of a Subscription
+The following endpoint retrieves all invoices of a Subscription. The count in the response indicates the number of invoices generated for a Subscription.
+GET/invoices?subscription_id=:sub_id
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/invoices?subscription_id=sub_00000000000001 \
+Query Parameter
+subscription_id mandatorystring The unique identifier linked to the Subscription. For example, sub_00000000000001.
+Response Parameters
+countinteger The number of invoices generated for the Subscription.itemarray List of invoices generated for the Subscription.idstring The unique identifier of the invoice issued for the Subscription.entitystring The entity being created. Here, it is invoice.receiptstring Here, it is null.invoice_numberstring The invoice number. Here, it is null.customer_idstring The unique identifier of the customer linked to the Subscription.customer_detailsDetails of the customer.idstring The unique identifier of the customer linked to the Subscription.namestring The customer's name. For example, Gaurav Kumar. Know more Customers API.emailstring The customer's email address. For example, gaurav.kumar@example.com.contactstring The customer's contact number. For example, +911234567890.billing_addressstring The customer's billing address.shipping_addressstring The customer's shipping address.customer_namestring The customer's name. For example, Gaurav Kumar.customer_emailstring The customer's email address. For example, gaurav.kumar@example.com.customer_contactstring The customer's contact number. For example, +919876543210.order_idstring The unique identifier of the order associated with the invoice.subscription_idstring The unique identifier of the Subscription. For example, sub_00000000000001.line_itemsarray Details of the line item that is billed in the invoice. Number of arrays = number of line items billed in the invoice. For example, if the Subscription starts immediately and has an upfront fee attached to it, the number of line items = 2. One for the Subscription charge and one for the upfront fee.idstring The unique identifier linked to the item billed in the invoice. For example, li_00000000000001.item_idstring Here, it is null.namestring The item's name. For example, Monthly Plan.descriptionstring A brief description of the item. Here, it is null.amountinteger The item's price, in currency subunits. For example, 99900.currencystring The currency for the amount charged for the item.typestring The type of charge. Possible values:
+plan
+addon
+quantityinteger The number of units of the item billed in the invoice. For example, 1.payment_idstring Unique identifier of the payment made by the customer using this invoice. For example, pay_00000000000001.statusstring The status of the invoice. Possible values:
+draft
+issued
+partially_paid
+paid
+expired
+cancelled
+deleted
+expire_byinteger The Unix timestamp, indicates at which the invoice will expire. For example, 1593411509issued_atinteger The Unix timestamp, indicates at which the invoice was issued to the customer. For example, 1593411209paid_atinteger The Unix timestamp, indicates at which the payment was made. For example, 1593411325cancelled_atinteger The Unix timestamp, indicates at which the invoice was canceled by you. For example, 1593411209expired_atinteger The Unix timestamp, indicates at which the invoice has expired. For example, 1593411209sms_statusstring Indicates whether the SMS notification for the invoice was sent to the customer. Possible values:
+pending
+sent
+email_statusboolean Indicates whether the email notification for the invoice was sent to the customer. Possible values:
+pending
+sent
+dateinteger The Unix timestamp, that indicates the date of the invoice.termsstring Any terms to be included in the invoice. Here, it is null.partial_paymentboolean Indicates whether the customer can make a partial payment on the invoice. Here, it is false.amountinteger Amount to be paid using the invoice. This should be in the smallest unit of the currency. For example, 29995.amount_paidinteger Amount paid by the customer using the invoice. For example, 29995.amount_dueinteger The remaining amount to be paid by the customer for the issued invoice.currencystring The currency associated with the item.descriptionstring  A brief description of the invoice. Here, it is null.notesobject Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, "note_key": "Beam me up Scottyâ.commentstring Any comments to be added in the invoice. Here, it is null.short_urlstring The short URL that is generated. This is the link that can be shared with customers to accept payments. Once canceled, no payments can be accepted using the link. For example, https://rzp.io/i/gb5827Hh.view_lessboolean Indicates if the description of the invoice is collapsed. Here, it is true.typestring Here, it is invoice.created_atinteger The Unix timestamp, that indicates when this invoice entity was created. For example, 1593411943.
+Link an Offer to a Subscription
+You can link an existing Offer with a new Subscription using this API. Pass the offer_id: <offer_id> parameter in the request when creating a Subscription.
+The following endpoint creates a Subscription link.
+POST/subscriptions
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/subscriptions \-H "Content-Type: application/json" \-d '{  "plan_id": "plan_00000000000001",  "total_count": 12,  "quantity": 1,  "start_at": 1561852800,  "expire_by": 1561939199,  "customer_notify": 1,  "addons": [    {    "item": {      "name": "Delivery charges",      "amount": 30000,      "currency": "INR"      }    }  ],  "offer_id":"offer_JHD834hjbxzhd38d",  "notes": {    "notes_key_1":"Tea, Earl Grey, Hot",    "notes_key_2":"Tea, Earl Greyâ¦ decaf."  },  "notify_info":{    "notify_phone": "9123456789",    "notify_email": "gaurav.kumar@example.com"  }}'Success ResponseFailure Responsecopy{  "id":"sub_00000000000002",  "entity":"subscription",  "plan_id":"plan_00000000000001",  "status":"created",  "current_start":null,  "current_end":null,  "ended_at":null,  "quantity":1,  "notes":{    "notes_key_1":"Tea, Earl Grey, Hot",    "notes_key_2":"Tea, Earl Greyâ¦ decaf."  },  "charge_at":1580453311,  "start_at":1580453311,  "end_at":1587061800,  "auth_attempts":0,  "total_count":12,  "paid_count":0,  "customer_notify":true,  "created_at":1580283117,  "expire_by":1581013800,  "short_url":"https://rzp.io/i/m0y0f",  "has_scheduled_changes":false,  "change_scheduled_at":null,  "source": "api",  "offer_id":"offer_JHD834hjbxzhd38d",  "remaining_count":12}
+Request Parameters
+plan_id mandatorystring The unique identifier of a plan that should be linked to the Subscription. For example, plan_00000000000001.total_count mandatoryinteger The number of billing cycles for which the customer should be charged. For example, if a customer is buying a 1-year subscription billed on a bi-monthly basis, this value should be 6.quantity optionalinteger The number of times the customer should be charged the plan amount per invoice. For example, a customer subscribes to use software. The charges are â¹100/month/license. The customer wants 5 licenses. You should pass 5 as the quantity. The customer is charged â¹500 (5 x â¹100) monthly. By default, this value is set to 1.start_at optionalinteger Unix timestamp that indicates from when the Subscription should start. If not passed, the Subscription starts immediately after the authorisation payment. For example, 1581013800.expire_by optionalinteger Unix timestamp that indicates till when the customer can make the authorisation payment. For example, 1581013800. Do not pass any value if you do not want to set an expiry date.customer_notify optionalboolean Indicates whether the communication to the customer would be handled by you or us. Possible values:
+0: communication handled by you.
+1 (default): communication handled by Razorpay.
+addonsArray that contains details of any upfront amount you want to collect as part of the authorisation transaction.itemDetails of the upfront amount you want to charge your customer.name optionalstring A name for the upfront amount you want to charge the customer. For example, Delivery Fee.amount optionalinteger The upfront amount in the currency subunit you want to charge the customer. For example ,30000.currency optionalstring The currency in which you want to charge the customer. This has to match the plan currency. For example, INR. Defaults to INR.offer_id optionalstring The unique identifier of the offer that is linked to the Subscription. You can obtain this from the Dashboard. For example, offer_JHD834hjbxzhd38d.notes optionalobject Notes you can enter for the contact for future reference. This is a key-value pair. You can enter a maximum of 15 key-value pairs. For example, "note_key": "Beam me up Scottyâ.
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Delete an Offer Linked to a Subscription
+The following endpoint deletes an offer linked to a Subscription.
+DELETE/subscriptions/:sub_id/offer_id
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:YOUR_KEY_SECRET] \-X DELETE https://api.razorpay.com/v1/subscriptions/sub_00000000000001/offer_JHD834hjbxzhd38d \
+Path Parameters
+sub_id mandatorystring The unique identifier of the Subscription from which you want to remove the offer. For example, sub_00000000000001.offer_id mandatorystring The unique identifier of the offer you want remove from the Subscription. For example, offer_JHD834hjbxzhd38d.
+Response Parameters
+Check the response parameters descriptions in the Subscription entity parameters table.
+Checkout Integration
+After you create a Subscription, you need the customer's permission to charge their card at periodic intervals. For this, the customer has to complete an authentication/authorisation transaction.
+Authentication Transaction
+You can collect the authorisation transaction by passing the subscription_id along with the other options to the Razorpay Standard Manual Checkout.
+Once the authorisation transaction is successful, Razorpay returns the following data in the response:
+
+razorpay_payment_id
+razorpay_subscription_id
+razorpay_signature
+
+Handy Tips
+
+You do not have to pass any order_id to the checkout.
+
+
+As part of the authorisation transaction, we create a customer using the details entered on the checkout and link it to the Subscription.
+
+
+Handler FunctionCallback URLWhen you use the handler function, the response object of the successful payment ( razorpay_payment_id , razorpay_order_id and razorpay_signature ) is submitted to the checkout form. You need to collect these and send them to your server.When you use a callback URL, the response object of the successful payment ( razorpay_payment_id , razorpay_order_id and razorpay_signature ) is submitted to the callback URL.
+Manual checkout with handler functionManual checkout with callback URLcopy<button id = "rzp-button1">Pay</button><script src = "https://checkout.razorpay.com/v1/checkout.js"></script><script>  var options = {    "key": "key_id",    "subscription_id": "sub_00000000000001",    "name": "Acme Corp.",    "description": "Monthly Test Plan",    "image": "/your_logo.jpg",    "handler": function(response) {      alert(response.razorpay_payment_id),      alert(response.razorpay_subscription_id),      alert(response.razorpay_signature);    },    "prefill": {      "name": "Gaurav Kumar",      "email": "gaurav.kumar@example.com",      "contact": "+919876543210"    },    "notes": {      "note_key_1": "Tea. Earl Grey. Hot",      "note_key_2": "Make it so."    },    "theme": {      "color": "#F37254"    }  };var rzp1 = new Razorpay(options);document.getElementById('rzp-button1').onclick = function(e) {  rzp1.open();  e.preventDefault();}</script>
+Error Response Parameters
+Given below is a list of possible checkout errors you may face.
+ErrorCauseSolutionCustomer payment is not allowed for the Subscription at this stage.This error occurs when you are trying to make a payment for the next billing cycle during the current cycle.Users cannot pay for the next billing cycle during the current cycle.end_time must be between 946684800 and 4765046400This error occurs when the end date of the Subscription is beyond the acceptable limits or if the current start and end are null.Currently, you can only charge a Subscription for up to 10 years.Oops! Something went wrong. Please contact the merchant for further assistance.This error occurs when Flash Checkout is not enabled on the Razorpay Dashboard. This error also occurs if the subscription_id is in the cancelled/expired state. Ensure that flash checkout is enabled on the dashboard by navigating to Razorpay Dashboard â Settings â Configuration â Flash Checkout.Ensure that the Subscription is in the authenticated or active state.
+Payment Verification
+This is a mandatory step that allows you to confirm the authenticity of the card details returned to the Checkout form for successful payments.
+Handy TipsYou should consider the payment as successful and Subscription as authorised only after the signature has been successfully verified.
+To verify the razorpay_signature returned to you by the Checkout form:
+
+
+Create a signature in your server using the following attributes:
+
+subscription_id: Retrieve the subscription_id from your server. Do not use the razorpay_subscription_id returned by Checkout.
+razorpay_payment_id: Returned by Checkout.
+key_secret: Available in your server. The key_secret that was generated from the Dashboard.
+
+
+
+Use the SHA256 algorithm, the razorpay_payment_id and the subscription_id to construct a HMAC hex digest as shown below:
+copygenerated_signature = hmac_sha256(razorpay_payment_id + "|" + subscription_id, secret);
+  if (generated_signature == razorpay_signature) {    payment is successful  }
+
+
+If the signature you generate on your server matches the razorpay_signature returned to you by the Checkout form, the payment received is from an authentic source.
+
+
+JavaPythonGoPHPRubyNode.jscopyRazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+String secret = "EnLs21M47BllR3X8PSFtjtbd";
+JSONObject options = new JSONObject();options.put("razorpay_subscription_id", "sub_ID6MOhgkcoHj9I");options.put("razorpay_payment_id", "pay_IDZNwZZFtnjyym");options.put("razorpay_signature", "601f383334975c714c91a7d97dd723eb56520318355863dcf3821c0d07a17693");
+boolean status =  Utils.verifySubscription(options, secret);
+Add-on
+You can create add-ons to charge the customer an extra amount for a particular billing cycle. Once you create an add-on for a Subscription, it is added to the next invoice that is generated. On the next scheduled charge, the customer is charged the add-on amount in addition to their regular Subscription amount.
+Add-on Entity
+The Add-on entity has the following fields:
+idstring The unique identifier of the created add-on. For example, ao_00000000000001.itemDetails of the created add-on.idstring The unique identifier of the created item. For example, item_00000000000001.activeboolean Indicates whether the add-on is active. Here, the value is true.namestring Name of the add-on. For example, Extra appala (papadum).descriptionstring Description for the add-on. For example, 1 extra oil fried appala with meals.amountinteger Amount for the add-on in currency subunit that is to be charged for the Subscription in the next billing cycle. For example, 30000.currencystring The currency in which the customer should be charged for the add-on. For example, INR. Know more about supported currencies.created_atinteger The Unix timestamp indicates when the item was created. For example, 1581597318.quantityinteger This specifies the number of units of the add-on to be charged to the customer. For example, 2. The total amount is calculated as amount * quantity.created_atinteger The  Unix timestamp, indicates when the add-on was created. For example, 1581597318.subscription_idstring The unique identifier of the Subscription to which the add-on is being added. For example, sub_00000000000001.invoice_idstring The add-on is added to the next invoice that is generated after it is created. This field is populated only after the invoice is generated. Until then, it is null. Once the add-on is linked to an invoice, it cannot be deleted.
+Entitycopy{   "entity":"collection",   "count":2,   "items":[      {         "id":"ao_00000000000002",         "entity":"addon",         "item":{            "id":"item_00000000000002",            "active":true,            "name":"Extra sweet",            "description":"1 extra sweet of the day with meals",            "amount":90000,            "unit_amount":90000,            "currency":"INR",            "type":"addon",            "unit":null,            "tax_inclusive":false,            "hsn_code":null,            "sac_code":null,            "tax_rate":null,            "tax_id":null,            "tax_group_id":null,            "created_at":1581597318,            "updated_at":1581597318         },         "quantity":1,         "created_at":1581597318,         "subscription_id":"sub_00000000000001",         "invoice_id":"inv_00000000000001"      },      {         "id":"ao_00000000000001",         "entity":"addon",         "item":{            "id":"item_00000000000001",            "active":true,            "name":"Extra appala (papadum)",            "description":"1 extra oil fried appala with meals",            "amount":30000,            "unit_amount":30000,            "currency":"INR",            "type":"addon",            "unit":null,            "tax_inclusive":false,            "hsn_code":null,            "sac_code":null,            "tax_rate":null,            "tax_id":null,            "tax_group_id":null,            "created_at":1581597318,            "updated_at":1581597318         },         "quantity":2,         "created_at":1581597318,         "subscription_id":"sub_00000000000001",         "invoice_id":null      }   ]}
+Create an Add-on
+The following endpoint creates an add-on.
+POST/subscriptions/:id/addons
+CurlJavaPythonGoPHPRubyNode.jscopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST https://api.razorpay.com/v1/subscriptions/sub_00000000000001/addons \-H "Content-Type: application/json" \-d '{  "item":{    "name":"Extra appala (papadum)",    "amount":30000,    "currency":"INR",    "description":"1 extra oil fried appala with meals"  },  "quantity":2}'Success ResponseFailure Responsecopy{  "id":"ao_00000000000001",  "entity":"addon",  "item":{    "id":"item_00000000000001",    "active":true,    "name":"Extra appala (papadum)",    "description":"1 extra oil fried appala with meals",    "amount":30000,    "unit_amount":30000,    "currency":"INR",    "type":"addon",    "unit":null,    "tax_inclusive":false,    "hsn_code":null,    "sac_code":null,    "tax_rate":null,    "tax_id":null,    "tax_group_id":null,    "created_at":1581597318,    "updated_at":1581597318  },  "quantity":2,  "created_at":1581597318,  "subscription_id":"sub_00000000000001",  "invoice_id":null}
+Path Parameter
+id mandatorystring The Subscription id to which the add-on is being added.
+Request Parameters
+itemDetails of the add-on you want to create.name mandatorystring A name for the add-on. For example, Extra appala (papadum).amount mandatoryinteger The amount you want to charge the customer for the add-on, in the currency subunit. For example, 30000.currency mandatorystring The currency in which the customer should be charged for the add-on. For example, INR. You can charge the customer in any of the supported currencies.description optionalstring Description for the add-on. For example, 1 extra oil fried appala with meals.quantity optionalinteger This specifies the number of units of the add-on to be charged to the customer. For example, 2. Defaults to 1. The total amount is calculated as amount * quantity.
+Response Parameters
+Check the response parameters descriptions in the add-on entity parameters table.
+Error Response Parameters
+ErrorCauseSolutionAdd-ons can't be added for Subscriptions when payment mode is upiThis error occurs when you are trying to create add-ons for a Subscription authorised via UPI.You cannot create add-ons for a Subscription authorized via UPI. Currently, add-ons are only available for Subscription authorised using cards.
+Fetch all Add-ons
+The following endpoint retrieves all add-ons.
+GET/addons/
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/addons \
+Query Parameters
+from optionalinteger The Unix timestamp from when add-ons are to be fetched.to optionalinteger The Unix timestamp till when add-ons are to be fetched.count optionalinteger The number of add-ons to be fetched. Default value is 10. Maximum value is 100. This can be used for pagination, in combination with skip.skip optionalinteger The number of add-ons to be skipped. Default value is 0. This can be used for pagination, in combination with count.
+Response Parameters
+Check the response parameters descriptions in the add-on entity parameters table.
+Fetch an Add-on by ID
+The following endpoint retrieves an add-on by its unique identifier.
+GET/addons/:id
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X GET https://api.razorpay.com/v1/addons/ao_00000000000001 \
+Path Parameter
+id mandatorystring The unique identifier of an add-on. For example, ao_00000000000001.
+Response Parameters
+Check the response parameters descriptions in the add-on entity parameters table.
+Delete an Add-on
+Use the following endpoint to delete an add-on. You receive a blank response if the add-on is successfully deleted.
+DELETE/addons/:id
+Handy TipsYou cannot delete an add-on associated with an invoice.
+CurlJavaPythonGoPHPRubyNode.jsResponsecopycurl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X DELETE https://api.razorpay.com/v1/addons/ao_00000000000001 \
+Path Parameter
+id mandatorystring The unique identifier of an add-on. For example, ao_00000000000001.
+Response Parameters
+Check the response parameters descriptions in the add-on entity parameters table.
+Webhooks
+Set up Razorpay Webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEUse CasesPlansPlan EntityCreate a PlanFetch all PlansFetch a Plan by IDSubscriptionsSubscriptions EntityCreate a SubscriptionCreate a Subscription LinkFetch All SubscriptionsFetch a Subscription by IDCancel a SubscriptionUpdate a SubscriptionFetch Details of a Pending UpdateCancel an UpdatePause a SubscriptionResume a SubscriptionFetch all Invoices of a SubscriptionLink an Offer to a SubscriptionDelete an Offer Linked to a SubscriptionCheckout IntegrationAuthentication TransactionPayment VerificationAdd-onAdd-on EntityCreate an Add-onFetch all Add-onsFetch an Add-on by IDDelete an Add-onWebhooks

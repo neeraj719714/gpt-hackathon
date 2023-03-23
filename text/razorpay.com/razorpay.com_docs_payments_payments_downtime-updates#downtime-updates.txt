@@ -1,0 +1,58 @@
+
+
+
+
+
+
+Downtime Updates | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsAbout PaymentsTest Card and Test UPI IDPayment Capture SettingsInternational PaymentsManage Late Authorised PaymentsDashboardPayments APIsSuccess Rate AnalyticsDowntimes UpdatesFAQsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPaymentsDowntime UpdatesDowntime UpdatesView various downtimes, grouped across different payment methods.Downtime is a period during which one or more payment options under-perform, leading to considerable delays in payment processing. These downtimes are due to technical issues or outages at Razorpay's partner or issuing banks side. Razorpay informs you about the downtime to communicate it to your customers.
+Downtime Updates
+Bank Downtimes Updates provides you with an overview of various downtimes grouped across different payment methods on your Razorpay Dashboard. You can view the latest status of downtimes for netbanking and cards at any point in time. You can also view instrument details for downtimes such as Cards Network, Issuers and Banks in the Downtime Updates section on your Razorpay Dashboard.
+
+View Downtime Details
+To view the downtime details:
+
+Log in to the Razorpay Dashboard.
+Click Bank Downtimes icon in the top menu.
+
+
+Click View Details next to a payment method to view the associated downtimes. This screen displays the following information:
+
+Instruments related to the payment method.
+
+
+Upcoming maintenance activity.
+Past 30 days incidents, with downtime date, duration and severity levels.
+
+
+
+
+
+Handy Tips
+The status is auto-refreshed every 5 minutes.
+You can also do a manual refresh after every 30 seconds.
+
+Downtime Communication on Checkout
+Razorpay identifies and sends you downtime updates via email for various payment instruments like cards and netbanking. Your customers will be able to view the downtime message on checkout, which will help them choose a payment method with a better success rate.
+Handy TipsThis is an on-demand feature. Please raise a request with our Support team to get this feature activated.
+Razorpay shares updates regarding downtimes on various payment methods at the checkout as shown:
+
+
+Card
+
+
+
+UPI
+
+
+
+Netbanking
+
+
+
+Related Information
+
+
+Payment Downtime API
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEDowntime UpdatesView Downtime DetailsDowntime Communication on CheckoutRelated Information

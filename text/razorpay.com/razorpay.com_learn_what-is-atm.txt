@@ -1,0 +1,591 @@
+
+
+
+
+
+
+
+
+
+
+
+
+ATM: All You Need to Know About Automated teller machine - Razorpay Learn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Business Management
+Payments
+Payroll
+Business Banking Plus
+Guides & Ebooks
+ 
+
+
+
+Facebook
+Twitter
+Instagram
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				ATM: All You Need to Know About Automated teller machine			
+
+December 11, 2022
+
+4 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Introduction: What is ATM?
+The automated teller machine (ATM) is an electronic banking machine that allows customers to withdraw or deposit cash and perform basic banking transactions without a representative or teller. One would require a credit or debit card to perform these transactions.
+ATMs are also called automated bank machines (ABMs) or cash machines in different parts of the world. If you have been wondering, “What is ATM” or “How does it work?” read on to find out more!
+
+
+
+
+Types of Automated Teller Machines
+There are two types of ATMs:
+
+Basic units: These ATMs only allow customers to withdraw cash, receive updates on their account balance and change their card PINs.
+Complex or full-service ATMs: These units offer comprehensive functions such as cash deposits and transfers, along with withdrawals and account updates
+
+What are the Design Elements in an ATM Machine?
+Each bank automated teller machine across the world is different, but all machines have a few common basic elements, such as:
+
+Card reader: Every ATM has a card-reading slot that reads the chip embedded in the card or its magnetic stripe.
+Keypad/number pad: To perform most functions on an ATM, customers must type in their PIN (personal identification number), the type of transaction they wish to perform, and the amount on the number pad.
+Cash dispenser: The machine dispenses cash through a slot in the ATM, connected to a money safe lying at the back or bottom of the machine.
+Printer: ATMs have a small printer that allows customers to print receipts of their transactions, the amount withdrawn, and the remaining account balance.
+Screen: All ATMs have a screen to perform all the tasks and transactions. This screen guides customers through the transaction process and displays the required information, such as account information and balance.
+
+Few full-service automated teller machines also have slots for depositing checks and cash.
+How to Use an ATM?
+ATMs are ubiquitous today, and you can find one on every street, either attached to a bank or as a standalone. Despite the digital payment trend, ATMs are just as popular, so it is common to find them in malls, food courts, outside grocery stores, big residential complexes, bus and railway stations, airports, and gas stations.
+People with any debit or credit card can operate an ATM without holding an account in the said bank. However, ATMs require you to have an account or card from the same bank to perform some transactions.
+How to Withdraw Money from ATM?
+Follow below steps to withdraw money from an machine:
+
+Step 1: Insert your ATM card into the card reader on the machine
+Step 2: Once the machine reads your card, select your preferred language on the screen
+Step 3: Enter your PIN securely
+Step 4 : Select the type of transaction you would like to make
+Step 5 : Select the bank account type and the amount you would like to withdraw from it
+Step 6 : Collect your cash
+Step 7 : If you want a printed receipt for your transaction, select the same on the screen and collect it
+
+How to Deposit Money?
+While all ATMs allow cash withdrawals, not all offer a cash deposit facility. To deposit cash in your account:
+
+Access your account by inserting your debit card.
+Enter the PIN to see all the information on the screen.
+Choose an account you would like to access to perform the deposit.
+Insert the cash in the deposit slowly as instructed on the machine.
+Follow instructions on the screen.
+The machine will count the cash you deposited and ask you to confirm.
+Once confirmed, the money will reflect in your account.
+Get a transaction receipt for your record– printed, emailed, or texted to you.
+
+Do ATMs Charge Fees?
+ATMs may or may not charge fees depending on the financial institution or bank. Anyone with a credit or debit card can perform a transaction at an ATM.
+However, some ATMs or transactions may be chargeable if you do not have a card or account in the bank that owns the machine. Automated teller machines may charge fees for cash withdrawals performed internationally.
+The Bottom Line
+When using an ATM in your country or abroad, you must be aware of the types of threats of fraud that you can fall into. Automated Teller Machines have evolved in the several decades since their introduction, making it easy for people to withdraw money anywhere, anytime!
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+ATMpopular
+
+
+
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Razorpay Team 
+
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Real Time Gross Settlement (RTGS)Timings
+
+December 11, 2022
+
+
+
+
+
+ 
+
+NEFT Timings and Settlements
+
+December 7, 2022
+
+
+
+
+
+ 
+
+How to Become a Meesho Supplier: A Complete Guide
+
+August 28, 2022
+
+
+
+
+
+ 
+
+What is UPI ID? How to use and Create a New UPI ID
+
+July 18, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+Enter your email address below to subscribe to our newsletter
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Recent Posts
+
+
+Startup Business Loans: 5 Key Factors That Determine Your Eligibility
+
+
+6 Tips to Build a Strong Business Credit Profile: A Guide to Online Business Loan Eligibility
+
+
+Corporate Finance: A Comprehensive Guide
+
+
+What Lenders Look For: Understanding Business Loan Eligibility
+
+
+A Brief History of Business Loans in India
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+In
+Payments
+
+
+ATM: All You Need to Know About Automated teller machine
+
+
+December 11, 2022
+
+4 Mins Read
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+In
+Taxation & Notifications
+
+
+MSME Definition- MSME Full-form and Meaning 2023
+
+
+September 13, 2021
+
+5 Mins Read
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2021. All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Submit
+
+			Type above and press Enter to search. Press Esc to cancel.		
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+
+				Want to increase your revenue by 10x?			
+
+Take the First STEP by Launching your Business Online!
+
+
+
+
+
+
+Access Razorpay Exclusive
+
+
+
+
+			×            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

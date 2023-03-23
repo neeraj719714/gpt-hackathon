@@ -1,0 +1,478 @@
+
+
+
+
+
+
+
+
+
+
+
+
+The UPI Intent Flow for iOS Users is Now on Razorpay Payment Gateway
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				Razorpay Launches UPI Intent Flow for iOS Users			
+
+July 30, 2020
+
+4 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+As a product-first company, Razorpay intends to deliver unique products that would help our customers forge a relationship with their users. For us, it’s not just a marketing innuendo or a fancy statement, we have chosen to stick with innovation and user experience.  
+Today, we are here to talk about how building solutions for new customer demands is still our priority, and yes, there’s a significant update from our UPI offerings.
+Recently, we’ve observed that 86 percent of Razorpay’s users prefer the UPI intent payment flow over the UPI collect payment flow.
+
+UPI intent is very popular with Android users because it enables them to make payments from any UPI PSP apps installed on their mobile phone. 
+Whereas, an iOS user moves around the selected app, UPI PSP app and SMS for making a payment, which also increases the chances of a payment failure.
+Without twisting the plot much, let’s say that we’ve taken care of the business for you. We are glad to announce that iOS users can also join their android pals and avail the benefits of UPI intent. 
+Yes, Razorpay is the first payment aggregator to release this feature.
+Know More about Razorpay UPI Payment Gateway
+What is UPI intent? 
+The UPI intent flow is a checkout experience that allows users to make payments from any UPI PSP app. 
+By enabling the UPI Intent as the payment method, businesses can simplify the UPI payments process for their customers.
+Understanding The UPI Intent Flow: 
+Step 1: A customer selects UPI as the payment mode in any app or website
+Step 2: The list of UPI apps (that supports intent flow) installed on their phone pops up
+Step 3: Customers select their favourite app
+Step 4: The application opens with filled payment details 
+Step 5: Customer enters the UPI PIN and completes the process
+Step 6: The customer is redirected to the selected app for payment confirmation
+                                 Learn how to accept payments via UPI without glitches.
+How will UPI Intent flow help iOS users? 
+Payments in iOS are supported via ‘Collect flow’. For example, an iOS user has to enter the VPA to make a payment, whereas, an android user can get away by clicking on the installed UPI App. 
+With the introduction of UPI intent flow for iOS, businesses can offer flexibility to their customers.
+UPI Intent Vs UPI Collect 
+
+
+
+UPI Intent
+UPI Collect
+
+
+
+
+Click and pay
+
+
+
+
+User needs to enter UPI ID/VPA to initiate payment. 
+>20% users often end up entering incorrect VPA
+
+
+
+
+
+
+Switching between shopping app, UPI PSP app and SMS is a thing of the past.
+Seamlessly switch between apps
+
+
+
+
+Involves a lengthy flow
+
+
+
+
+
+
+Users can choose any UPI app on their mobile 
+
+
+
+
+Many background API calls and SMS notifications
+
+
+
+
+
+
+Ease of making payment and better user experience results in higher conversion rate
+
+
+
+
+Delay in SMS/ app notification can lead to an unsatisfactory user experience
+
+
+
+
+
+End result: A higher conversion rate, decrease in abandoned carts and time to complete the payment. And finally, the cherry on a sundae–better user experience for your customers. 
+No more push/SMS notifications for customers. No more wandering between apps to complete payment. 
+The overall process will become significantly smoother, which will also increase the adoption/usage of UPI as a payment option. 
+UPI intent flow on IOS will be available for Google Pay, Phonepe, PayTM, and BHIM. Additionally, NPCI is also working with Apple to figure out a solution to support App-to-App scanning, which means in near future UPI intent will be available for all UPI Apps on iOS. 
+Yeah, sounds swell?
+Reach us for any product support , if you want to offer your customers the best checkout experience. 
+Not a Razorpay Customer? Sign up razorpay today
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+iOSupiupi payments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Shubham Bisht 
+Shubham is an Associate Director, Product Management at Razorpay and manages Cross Border Payments and Checkout Product for Razorpay. Before moving to Product Management, he has worked on Particle Physics at CERN and ETH Zurich.
+
+
+
+Website
+
+
+
+LinkedIn
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+The MCA portal migration: A game changer for Indian Startups
+
+February 16, 2023
+
+
+
+
+
+ 
+
+Six Generations, One Vision; The Story of Bangalore’s Oldest Optician – S.R.Gopal Rao Opticians
+
+January 25, 2023
+
+
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

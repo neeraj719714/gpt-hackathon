@@ -1,0 +1,53 @@
+
+
+
+
+
+
+Generic API Errors | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsOrdersPaymentsSettlementsRefundsDisputesCustomersPayments SuitePartnersSub-Merchant OnboardingAccountProduct ConfigurationStakeholderTerms and ConditionsDocumentWebhooksGeneric API ErrorsRazorpayXErrorsWebhooksApiPartnersErrorsGeneric API ErrorsList of errors encountered while using Partners API with next steps.Given below are the error codes and descriptions that are common to all Onboarding APIs.
+
+400 Bad Request Error
+401 Unauthorized
+500 Internal Server Error
+
+400 Bad Request Error
+Given below are sample error objects for bad request errors.
+Data Exceeds Specified Length
+This error occurs when the value sent for a particular field exceeds the specified limit. For example, if you had sent a phone number with more than 10 digits.
+Error DescriptionNext StepThe field_name must be x digits.Check the length mentioned in the documentation and resend.
+Length Exceededcopy{  "error": {    "code": "BAD_REQUEST_ERROR",    "description": "The phone must be 10 digits.",    "source": "business",    "step": "payment_initiation",    "reason": "input_validation_failed",    "metadata": {},    "field": "phone"  }}
+Invalid URL Sent
+This error occurs when you the send an invalid URL.
+Error DescriptionNext StepThe url is not a valid URL.Check the URL and resend.
+Invalid URLcopy{   "error": {       "code": "BAD_REQUEST_ERROR",       "description": "The url is not a valid URL.",       "source": "business",       "step": "payment_initiation",       "reason": "input_validation_failed",       "metadata": {}   }}
+Invalid Data Sent
+This error occurs when the value sent for a particular field is incorrect. For example, if you sent an invalid webhook event name.
+Error DescriptionNext StepInvalid event name/names: payment.authorizedCheck the webhook event name and resend.
+Invalid Datacopy{  "error": {    "code": "BAD_REQUEST_ERROR",    "description": "Invalid event name/names: payment.authorized",    "source": "business",    "step": "payment_initiation",    "reason": "input_validation_failed",    "metadata": {}  }}
+Blank Field
+This error occurs when a field is sent without any values. For example, if the Account entity parameter customer_facing_business_name is sent without any value.
+Error DescriptionNext StepThe business dba field is required.Send the business name.
+Blank Business Name Fieldcopy{  "error": {    "code": "BAD_REQUEST_ERROR",    "description": "The business dba field is required.",    "source": "business",    "step": "payment_initiation",    "reason": "input_validation_failed",    "metadata": {},    "field": "business_dba"  }}
+Extra Fields Submitted at Needs Clarification State
+This error occurs when the Razorpay team has evaluated the details, changed the activation status to needs_clarification and has sought more details. Therefore, only those fields which are present in the requirements array in the Fetch Product Configuration API response should be resent. You cannot send any additional fields.
+Error DescriptionNext StepOnly fields requested for needs clarification are allowed for update.Send only the highlighted fields.
+Extra Fieldscopy{  "error": {    "code": "BAD_REQUEST_ERROR",    "description": "Only fields requested for needs clarification are allowed for update"  }}
+
+Extra Fields Submitted at Under Review State
+This error occurs when the Razorpay team is evaluating the submitted details and changed the activation status to under_review. Therefore, you cannot send any fields.
+Error DescriptionNext StepMerchant activation form has been locked for editing by adminDo not send any requests. Wait for Razorpay team to revert.
+Extra Fieldscopy{  "error": {    "code": "BAD_REQUEST_ERROR",    "description": "Merchant activation form has been locked for editing by admin"  }}
+
+Extra Fields Submitted at Activated State
+This error occurs when the activation is complete. At this point, you cannot send any fields.
+Error DescriptionNext StepMerchant activation form has been locked for editing by adminDo not send any requests.
+Extra Fieldscopy{  "error": {    "code": "BAD_REQUEST_ERROR",    "description": "Merchant activation form has been locked for editing by admin"  }}
+401 Unauthorized
+This error occurs when you use incorrect API keys while making the requests.
+Error DescriptionNext StepThe api secret provided is invalid.Use the correct API keys to resolve this.
+Invalid KeyInvalid Secretcopy{  "error": {    "code": "BAD_REQUEST_ERROR",    "description": "The api key provided is invalid",    "source": "NA",    "step": "NA",    "reason": "NA",    "metadata": {}  }}
+500 Internal Server Error
+This error occurs when emojis are sent in the API request.
+Error DescriptionNext StepWe are facing some trouble completing your request at the moment. Please try again shortly.Check the API request for emojis and resend.
+Server Errorcopy{  "error": {    "code": "SERVER_ERROR",    "description": "We are facing some trouble completing your request at the moment. Please try again shortly.",    "source": "NA",    "step": "NA",    "reason": "NA",    "metadata": {}  }}
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGE400 Bad Request ErrorData Exceeds Specified LengthInvalid URL SentInvalid Data SentBlank FieldExtra Fields Submitted at Needs Clarification StateExtra Fields Submitted at Under Review StateExtra Fields Submitted at Activated State401 Unauthorized500 Internal Server Error

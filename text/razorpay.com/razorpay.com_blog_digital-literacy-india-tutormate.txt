@@ -1,0 +1,455 @@
+
+
+
+
+
+
+
+
+
+
+
+
+World Literacy Day 2020: How Tutormate is Promoting Digital Literacy in India - Razorpay Payment Links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Entrepreneurship
+
+
+				World Literacy Day 2020: How Tutormate is Promoting Digital Literacy in India			
+
+September 7, 2020
+
+9 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+How fortunate are we that every day we get to go on the internet and read our favourite articles and blogs. We get to experience the stories in captivating novels and the rhythm in soulful poems. We can take an online course and experience digital literacy firsthand! Literacy, then, truly becomes a privilege when it should be a right. 
+“If we talk about literacy, we have to talk about how to enhance our children’s mastery over the tools needed to live intelligent, creative and involved lives.”
+Danny Glover
+However, literacy today has more meaning than just being able to read, understand and write. We have realized that it’s important that every student loves what they study and feel excited about the education they get. This is also the aim of one of our partner companies, which is trying to make digital literacy a norm in India.
+This Literacy Day, Razorpay brings you the story of Tutormate, an edtech start-up making digital education accessible for all. 
+Tutormate: Democratizing digital literacy for all
+The groundwork for Tutormate started in 2015 when the team realised that in an average Indian classroom, all students don’t get the same attention. Every student, sitting in any corner of a classroom, has the right to learn at their own pace. In India, 70-80% of classrooms are filled with average or below-average students. These students need revisions, simpler understanding, attention and interactive methods. 
+Post the in-school hours starts the routine affair where students run from one tuition class to another – without any breaks. After talking to multiple stakeholders, the team at Tutormate realised that most of this is emerging from a hollow trend. With the same classroom experience being imparted in tuitions, there was no place for a student who required extra help.
+This was when Tutormate decided to enter the education sector to solve the pressing problem at hand. Launched in 2017, Tutormate is an online learning platform that aims to engage students by way of interactive content. This includes video lessons, animations and personalized tutor sessions. 
+Unlike big players in the edtech sector, the team at Tutormate is trying to cater to every student. This especially includes the ones who are in search of a patient, interactive and simpler way of teaching.
+The objective
+Aditya Chandan, Director at Tutormate, says “No one in the system was trying to simplify learning. Kids were running from one tuition centre to another and slogging in class. Digital literacy was the need of the hour.”
+Tutormate’s mission is to simplify content for students by making it engaging, entertaining and affordable. Their team is a firm believer of the fact that rote learning and studying for marks is the ultimate downfall of a nation’s education scenario. They want to vigorously promote ‘learning by understanding’ which can be affordable to everyone.
+The journey
+The brand started with a proof of concept, which got them a positive response from students and teachers. Gradually, they started scaling up their content creation and video lesson production. In September 2018, they launched an app for students studying in class VIII-X. The aim was to judge and observe the initial traction, feedback and user adoption.
+For more than one and a half years, they were offering their course material on the mobile application for free. This was in stark contrast to competitor brands which were charging thousands of rupees for the same course structure. In Aditya’s words, “Good resources are a waste of effort if all students can’t access them at all times”. 
+Backed by this ideology, they started monetising their material for a meagre amount of ₹500 per month for Classes 6-8. For Class 11-12, availing IIT-JEE and NEET courses, the fee is ₹1000 per month.
+What makes them different?
+Affordable plans
+Driven by the idea of making their simple course materials available to all, Tutormate charges low prices as compared to the industry standard. Aditya explains that their plans are designed in such a way that an auto driver’s child can also afford them. Indeed, education is most valuable when shared.
+Quality and visual-first content
+TutorMate has over 1500 hours of video lessons (with 2D and 3Danimations) on its application. Created in-house, their content provides a 360-degree learning solution which makes learning easy and fun for students. The solution also offers notes, practice questions and tests. Their unique Test Guide teaches students how to solve problems, step-by-step, in an exam environment. The product team focuses on facilitating understanding via visualisation.
+TutorMate has over 1500 hours of video lessons (with 2D and 3Danimations) on its application. Created in-house, their content provides a 360-degree learning solution which makes learning easy and fun for students. Click To Tweet
+Considerate philosophy 
+Tutormate has a philosophy which is unheard in the market till now, but at the same time is much needed. Their focus, unlike many brands, is realistic, empathetic and promotes digital literacy. They want the kids who are struggling with studies to become better but not by pushing them to extreme lengths. 
+Aditya notes, “70-80% kids in a classroom are not star geniuses. We want to focus on these kids and take them to their maximum potential. Even if the improvement is 20-30%, but they end up loving and understanding what they are studying, our work is done”.
+How Razorpay joined Tutormate in their journey
+After one and a half years of putting their content online for free, Tutormate decided to monetise their product for its users finally. Underlining this decision was the principle that they wanted education to be affordable and accessible to the maximum number of people. 
+Charging a fee came with the demanding task of setting up a payment system. From choosing a plan to receiving the payment – while complying with all necessary regulations – was a daunting task.
+The problems at hand
+When Tutormate was looking towards monetisation, they were facing three key challenges. 
+
+Tutormate had launched their product with specific pricing structures, but post-COVID, there was a shift in consumer behaviour. They had to pivot their pricing structure regularly to find a perfect balance between business and consumer expectations.
+Many users were shifting from yearly subscription models to monthly subscription models. Tutormate wanted to make subscription payments easy for their customers, so they don’t drop off of the system.
+With a lot on their plate already, the team was looking for a way to simplify the online payment processing system. This mainly included invoice generation and transaction analysis.
+
+An offering for every challenge
+This is where Razorpay came into the picture. We were delighted to get an opportunity to do our bit towards digital literacy and ensuring affordable education for all. Tutormate had certain problem statements in hand, which we decided to tackle via our different offerings.
+Razorpay Payment Links 
+Razorpay Payment Links are customisable links which can be shared easily over SMS and email to facilitate payments. Tutormate was able to generate different payment links for different pricing structures, within minutes. This helped them determine the most viable pricing plan to follow post-COVID.
+[Suggested Read: Introducing the Payment Link Chrome Extension by Razorpay]
+Subscriptions & E-Mandate
+Razorpay Subscriptions helps in offering all kinds of subscription plans, with automated recurring transactions, to your customers. With various payment options available, Tutormate customers were able to choose their preferred option and be free of the hassle of initiating new payments, every cycle. In addition to this, our E-Mandate offering allowed the customers to schedule all monthly or yearly subscription payments in a secure manner. This saved them the trouble of manually tracking their transactions and making individual payments.
+Razorpay Invoices
+Razorpay offers the option of generating GST-compliant invoices when you transact via Payment Links. These invoices helped Tutormate receive payments quickly and also satisfied customers about the transaction status.
+Digital literacy: Need of the hour
+Tutormate has always been an open advocate of digital literacy, calling it the next wave of efficient education. The team feels that in the post-COVID world, there lies a silver lining among a world that was turned upside down. Parents have started to realise that going to individual tuitions was, in fact, an added burden on kids. The time spent in moving from one tuition to the next, added homework pressure and similar competitive atmosphere did little to help the child.
+The advantages of digital literacy are multifold in this aspect. Yes, there are functional advantages like saving time and energy, but it goes beyond that. For Tutormate, digital technology helps them focus on children who want to learn at their own pace. Their online modules have helped children understand and visualise concepts instead of cramming them up to pass the exams. They have seen students develop an immense interest in subjects like English, Science, Maths and Social Studies. 
+Aditya says, “It’s all about access. If you can give access to digital literacy – in terms of content and price both – then more people will use it. We are trying our bit by pricing our services right and simplifying content for children. But it will require many such ventures to make India accept digital literacy fully”.
+Summing up
+The literacy rate in India stands at 77.7% as per the data released by NSO earlier this week. However, as per the Annual Status of Education Report 2018, 1 out of 4 students studying in Class 8 students cannot read a Class 2 level text. Also, over 1 in 2 Class 8 students were unable to solve a basic division problem. These statistics were worrying then and even more troubling now when the premises of schools remain shut due to COVID.
+The literacy rate in India stands at 77.7% as per the data released by NSO earlier this week. Click To Tweet
+The way forward is two-fold:
+
+First is disseminating education in a way that simplifies and makes content understandable to students. We want our students to grasp what they study; we want them to become literate, not just high-school graduates. 
+Second and more contextual is access to digital literacy. Yes, it requires institutional changes and government intervention to make digital education a norm in India. But, enterprises can do their bit as well. From developing accessible resources to leveraging the edtech ecosystem, there are many ways by which businesses can help literacy in India.
+
+We hope to see our children get an education which they can afford, understand and impart. With this, Razorpay sends everyone best wishes on World Literacy Day.
+If you are an Edtech venture looking for a payments partner, then Razorpay is here for you! Explore our products today and sign up to #OutgrowOrdinary with us. 
+Get Started With Razorpay
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+digital literacy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Shubhangi Bhatia 
+Shubhangi is a Content Marketer at Razorpay. A marketing enthusiast, she loves writing about business strategy and technology. You will often find her reading Indian mythology, exploring Delhi streets and taking Buzzfeed quizzes.
+
+
+
+Website
+
+
+
+Facebook
+
+
+
+Instagram
+
+
+
+LinkedIn
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Namhya Foods Increased its Conversion Rate by 20%  with Razorpay Magic Checkout 🚀
+
+March 9, 2023
+
+
+
+
+
+ 
+
+Isak Fragrances Magic: How to Process Tax & Vendor Payments in 1 Min!
+
+January 30, 2023
+
+
+
+
+
+ 
+
+VS Mani & Co.’s Order Conversion Rate Increased By 27% with Razorpay Magic Checkout
+
+January 26, 2023
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

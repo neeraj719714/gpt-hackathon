@@ -1,0 +1,411 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Redefining Contactless Payments With Razorpay MultiQR Codes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				Redefining Contactless Payments With the Future-Forward Razorpay MultiQR Codes			
+
+November 18, 2021
+
+5 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Meet Alok, Ankit, and Pritisha. They met and became the best of friends in college. After their graduation, each one of them went on to pursue their dreams. Today, Alok owns a successful chain of retail stores in Pune, Ankit is based out of Mumbai and has his own logistics company, and Pritisha runs her eCommerce business from Delhi. 
+All three of them have been relying heavily on digital payments to run their businesses smoothly. Recently, they were invited to a conference about the evolution and future of digital payments in India, where they chatted about work and their experience with online payments. Let’s join them:    Let’s leave Ankit, Alok and Pritisha right there. Aren’t you curious about which QR code Pritisha has been using? Well, it’s the new QR code offering from Razorpay. The future-forward Razorpay Multi QR Codes are built to truly transform how you accept contactless payments. Here’s how: 
+Meet Razorpay Multi QR Codes – the most robust one out there 
+Generate as many static, dynamic, Bharat or UPI QR codes as you need
+With Razorpay, there is no cap on the number of QR codes you can generate. Whether you need to collect a one-time payment or multiple payments, you can generate both static and dynamic QR codes and multiple ones of them. Similarly, you can either opt for a UPI QR code or Bharat QR code, depending on your requirements. Do keep in mind that UPI QR codes can be used for P2P (Person to Person) and P2M (Person to Merchant) transactions both, but Bharat QR codes can be used only for P2M transactions. 
+Offer multiple payment options to your customers
+You needn’t just rely on UPI as a payment method for your customers. With Razorpay multi-payment method QR codes, you can even offer credit and debit cards as a payment mode. 
+Integrate your QR codes with POS, billing system, and delivery app 
+With Razorpay multi-functional QR codes, you can reconcile payments in real-time for all QR based payments using dashboard reports.  So, if you want to check your payments’ status at any time of the day, your Razorpay dashboard will have all the answers you need. 
+Get your own multi-branded QR code with your company name, logo and custom merchant VPA 
+Now your QR codes will really stand out from the rest as we offer multiple branding options such as including your brand name and logo on the QR code. Even once the customer scans the code, your brand name will appear on the app screen while they make their payment. This helps you create better brand recognition and recall, and allows you to generate a QR code that is truly unique and has your brand presence on it.  Here’s what a branded Razorpay QR code looks like: 
+UPI QR code 
+
+Bharat QR code 
+Generate QR codes for multiple stores and multiple customers 
+If you happen to own multiple stores, you can generate unique QR codes for each of them, or if you want to create one for each customer individually, you can do so too, with Razorpay MultiQR codes. 
+Create a QR code in less than 1 min from the Razorpay dashboard
+No raising support tickets or filling in long forms to get access to Razorpay QR Codes. You can simply generate one from your Dashboard, print it, and start collecting payments immediately.  Here’s how easy it is to generate a QR code from your Razorpay dashboard:  
+Real-time notifications so you can track payments 
+Every time you receive a payment via your QR code, you get a notification so you can constantly stay updated with each transaction, without even having to log in to your dashboard. 
+Cleaner, simpler, and easy to understand APIs
+To make your experience with Razorpay QR Codes smoother, we have ensured that our new APIs are straightforward and easy to use. You only need a single API to create, close, and fetch your QR code. 
+So, when do Razorpay QR codes come in handy? 
+To collect payments in physical stores 
+Like Alok, if you run a retail store, there isn’t a better way to collect contactless payments. You can simply print and paste a QR code at multiple places in your store and invite customers to scan it to make their payment. 
+To replace cash on delivery with contactless transactions 
+If you run a logistics business like Ankit or an eCommerce one like Pritisha, your delivery agents can now collect payments with zero contact by simply sharing dynamic QR code with customers. These can also be printed on invoices/bills or product packaging to make it easier for customers to scan and pay. 
+For in-person collection of payments/fees
+Alternatively, if you need to collect payments at an event, or for providing professional services, or at an office, or any other public place, you can simply print out your QR code and get people to scan and pay, without the hassles that come with exchanging cash. 
+Want to experience the future of QR codes just like Pritisha, Alok, and Ankit? Sign up now to get started with Razorpay MultiQR codes. 
+Sign up for MultiQR Codes
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+contactless paymentsdigital paymentsQR Codes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Shubhi Ahluwalia 
+A wordsmith at heart, Shubhi is a Content Marketer at Razorpay. When not at work, you'll find her planning her next vacation, putting her amateur culinary skills to use, or binging on a sitcom.
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+The e-rupee and what it means: A brave new era in digital payments?
+
+December 9, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

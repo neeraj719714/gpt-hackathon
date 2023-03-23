@@ -1,0 +1,50 @@
+
+
+
+
+
+
+Partners | Aggregators | Sub-Merchant Onboarding APIs | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpay PartnersBecome a Razorpay PartnerEarningsResellersAggregatorsAbout AggregatorsAdd SubmerchantsUsing DashboardUsing APIsOverviewWorkflowWebhooksProduct ActivationAppendixPartner AuthTesting OperationsPlatform PartnersCapitalFAQsGlossaryPartnersAggregatorsOnboarding ApiSub-Merchant Onboarding APIsUse various Sub-Merchant Onboarding APIs to seamlessly onboard merchants from your platform.As a Partner, you can use the Sub-Merchant Onboarding APIs to onboard merchants from your platform. The sub-merchants can complete the KYC process in the Partner's platform itself and need not log in to Razorpay's platform.
+
+Razorpay Sub-Merchant Onboarding APIs are RESTful. All our responses are returned in JSON.
+You can use Razorpay APIs in two modes, Test and Live. The API key is different for each mode.
+To complete the onboarding process for the sub-merchant, check the KYC document requirements.
+You can try out our APIs on the Razorpay Postman Public Workspace.
+
+
+List of Sub-Merchant Onboarding APIs
+You can use the Sub-Merchant Onboarding APIs to perform various actions.
+Account APIs
+The table below lists the Account APIs and gives a brief description of each API:
+APIDescriptionCreate an accountAPI to create a sub-merchant accountFetch an accountAPI to view sub-merchant account detailsUpdate an accountAPI to update the sub-merchant account detailsDelete an accountAPI to delete a sub-merchant account
+Stakeholders APIs
+The table below lists the Stakeholders APIs and gives a brief description of each API:
+APIDescriptionCreate a stakeholderAPI to create a stakeholderFetch a stakeholder API to retrieve and view the stakeholder account detailsFetch all stakeholders API to retrieve all stakeholders for a given accountUpdate a StakeholderAPI to update the stakeholder account details
+Documents APIs
+The table below lists the Documents APIs and gives a brief description of each API:
+APIDescriptionUpload account documentsAPI to upload sub-merchant's business documentsUpload stakeholder documentsAPI to upload stakeholder's signatory documentsFetch account documentsAPI to fetch account documentsFetch stakeholder documentsAPI to fetch stakeholder documents
+Product Configuration Request APIs
+The table below lists the Product Configuration APIs and gives a brief description of each API:
+APIDescriptionRequest a Product ConfigurationAPI to request a product configurationUpdate a product configurationAPI to update a configured product.Fetch a ProductAPI to fetch a configured product
+Webhooks APIs
+The table below lists the Webhooks APIs and gives a brief description of each API:
+APIDescriptionCreate a WebhookAPI to create a webhookFetch a WebhookAPI to retrieve and view the webhook detailsFetch all WebhooksAPI to retrieve all webhooksUpdate a WebhookAPI to update the webhook detailsDelete a WebhookAPI to delete a webhook
+Terms and Conditions APIs
+The table below lists the Terms and Conditions APIs and gives a brief description of each API:
+APIDescriptionAccept Terms and ConditionsAPI to accept terms and conditionsFetch Terms and Conditions API to retrieve terms and conditions
+Related Information
+
+
+Sub-Merchant Onboarding APIs
+
+
+Sub-Merchant Onboarding APIs Flow
+
+
+Subscribe to Webhooks
+
+
+Appendix
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEList of Sub-Merchant Onboarding APIsAccount APIsStakeholders APIsDocuments APIsProduct Configuration Request APIsWebhooks APIsTerms and Conditions APIsRelated Information

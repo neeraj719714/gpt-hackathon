@@ -1,0 +1,693 @@
+
+
+
+
+
+
+
+
+
+
+
+
+TDS - An All Inclusive Primer for Businesses - Razorpay Payroll
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Business Management
+Payments
+Payroll
+Business Banking Plus
+Guides & Ebooks
+ 
+
+
+
+Facebook
+Twitter
+Instagram
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payroll Glossary
+
+
+				TDS – An All Inclusive Primer for Businesses			
+
+August 19, 2020
+
+13 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+
+
+Table of Contents
+
+Process of TAN applicationTDS calculation for employeesInaccuracy in TDS calculationsFuss about the dual tax regimeRazorpay’s solution- RazorpayX PayrollTDS on salary from more than one employerPayment due date for TDS on salaryInterest on late or non-TDS depositionDue date for filing TDS returnsProcess of TRACES registrationLate filing or non-filing of TDS returns Late filing fee under section 234EPenalty for non-filing of TDS return under section 271HTDS certificate-Form 16 to employeesFrequently Asked Questions (FAQs)
+Every employer in India is mandatorily required to deduct tax at source at the time of payment of salary to the employee. Tax Deducted at Source (TDS) on salary payments is governed by Section 192 of the Income Tax Act.   
+To deduct tax at source on salary payments, an employer needs to obtain Tax deduction and collection Account Number (TAN) from the Income Tax Department and then register themselves as a deductor on TRACES website. 
+In this article, we will talk about everything that an employer needs to know about TDS on salary payments and how Razorpay is simplifying it further. 
+Process of TAN application
+TAN is a 10-digit alphanumeric number. Every person required to deduct tax at source should obtain a TAN and is required to quote the number in all TDS returns, TDS payments and any other TDS communication with the IT department. 
+Not quoting TAN in all TDS-related communications may attract a penalty of Rs 10,000 for a deductor. 
+You, as an employer, can take the following steps to obtain TAN: 
+
+Visit TIN NSDL website and select ‘Online Application for TAN (Form 49B)
+Read the guidelines before applying for a TAN. Then, select ‘Category of Deductors’ from the dropdown list and click on ‘Select’ 
+Fill all the mandatory fields (marked with *) in the form and then submit 
+If the data submitted fails any validations, a response indicating errors will be displayed on the screen 
+Re-submit the form after rectifying the errors. Once the form is free from all the errors, a confirmation screen will be displayed
+You may choose to amend the data displayed in the confirmation screen. 
+Then, choose the ‘Confirm’ option to proceed 
+An acknowledgement will be generated on successful payment of Rs 65 (plus GST as applicable)
+Then, send the acknowledgement to NSDL along with requisite documents at 
+
+NSDL e-Governance Infrastructure Limited, 5th floor, Mantri Sterling, Plot No. 341, Survey No. 997/8, Model Colony, Near Deep Bungalow Chowk, Pune – 411016
+Also, superscribe the envelope with ‘APPLICATION FOR TAN – Acknowledgement Number’ (e.g. ‘APPLICATION FOR TAN – 88301020000244’)
+TDS calculation for employees
+Once the employer obtains TAN, they can deduct tax at source from the employees’ salary. TDS on salary is calculated based on the average rate of income tax applicable to the taxpayer in a particular financial year. This rate is computed on the basis of income tax slab rates in force for that financial year. 
+Here’s an example for calculating the average income tax rate: 
+Mr Kumar, who is 35 years old, is earning a salary of Rs 70,000 per month. His total income in the financial year 2020-21 is Rs 8,40,000. A standard deduction of Rs 50,000 will be allowed to him. He has also claimed deductions of Rs 1,00,000. Therefore, his salary income chargeable to income tax will be Rs 6,90,000. 
+If he opts for the old tax regime, his total tax payable on salary will be Rs 52,250. Therefore the average income tax rate on salary will be 6.22% (52,250/840,000*100). 
+The employer will deduct tax at source (TDS) @ 6.22% of Rs 70,000, i.e. Rs 4,354 every month from Kumar’s salary. 
+Please note that the average income tax rate for each employee is different for every financial year and keeps changing based on the estimated income of the employee and the income tax slab rates in force for that year. 
+Inaccuracy in TDS calculations
+TDS calculations are usually tiresome for employers. They have to consider several factors into considerations like previous employment details of employees, one-time incentives or bonus paid to the employee, changes in the tax-saving declarations and so on. These factors might hamper the accuracy of monthly TDS calculations, especially when such critical computations are done manually on a spreadsheet. 
+Fuss about the dual tax regime
+The dual income tax regime was introduced in Budget 2020 by the Finance Minister of India. This scheme allowed employees to opt for a new income tax regime and pay tax at lower rates, but without several exemptions and deductions. This compliance change had impacted payroll processes across businesses.
+Since the new financial year was around the corner, businesses needed an upgrade to a fully automated and compliant payroll software. 
+Razorpay’s solution- RazorpayX Payroll
+We, at RazorpayX Payroll, strive to simplify payroll management for small businesses. 
+RazorpayX Payroll, our payroll software, is an automated payroll processing software. It is designed to provide non-intrusive payroll service to businesses. It provides accurate TDS calculations after considering disruptive factors, as mentioned previously. The employees can extensively view their TDS calculations as well as download them for future use.   
+The product is also compliant with the dual tax regime. It allows employees to choose the best-suited regime while declaring their tax-saving investments. The product provides the tax calculation under both regimes to the employees based on their income. Then it helps employees to make an informed decision considering their savings and tax liabilities.
+TDS on salary from more than one employer
+You, as an employer, will have to consider the income earned by an employee from any previous employer while calculating TDS. This happens when an employee joins a new organisation within a particular financial year. 
+However, the employee must furnish details of the salary received and the TDS deducted thereon. 
+Take a look at this example. 
+Ms Riya was employed by A Ltd. till 30th June 2020 (salary being Rs 60,000 per month). She joined D Ltd. on 1st July 2020 where her monthly salary is Rs 90,000 per month. 
+Tax to be deducted at source by her previous employer – 
+
+
+
+Particulars
+Tax Deduction by D Ltd. 
+
+
+Taxable salary (Rs 60,000*3)
+Rs 1,80,000
+
+
+Tax on salary as per old tax regime (Tax is calculated on monthly basis at annual average tax rate)
+Rs 14,688
+
+
+
+ 
+The new employer will deduct TDS as follows.
+
+
+
+Particulars
+Tax Deduction by D Ltd. 
+
+
+Taxable salary (Rs 60,000*3 + Rs 90,000*9)
+Rs 9,90,000
+
+
+Tax on taxable salary as per old tax regime
+Rs 1,14,920
+
+
+Less: Tax deducted by A Ltd. 
+Rs 14,688
+
+
+Tax to be deducted by D Ltd. 
+Rs 1,00,232
+
+
+
+Payment due date for TDS on salary
+The tax deducted at source by the employers must be deposited to the government by 7th of the subsequent month. However, the tax deducted in March will be deposited by the 30th of April. 
+For example, the payment due date for TDS in January 2020 was the 7th of February 2020. And, the TDS payment due date for March 2020 was the 30th of April 2020. 
+RazorpayX Payroll works on a Direct Deposit model through which it processes payroll and statutory payments right on time, as long as the clients maintain a balance.
+The businesses no more have to worry about the TDS payments. All they have to do is deposit money in their RazorpayX Payroll wallet. The products take care of payments on or before the TDS payment due date every month. 
+Interest on late or non-TDS deposition
+Interest @1.5% per month will apply for non-deduction of TDS from the date on which tax was deductible to the date on which tax is deducted. This interest is governed by section 201(1A) of the Income Tax Act. 
+Also, in case of late TDS deposition, the same interest will apply from the date of deduction to the payment date. The interest is calculated on a monthly basis, so part of a month will also be considered as a full month. 
+Let’s say, your TDS liability is Rs 7000, and the date of deduction was the 13th of February 2020. The due date to deposit TDS was the 7th of March 2020. However, TDS was paid on the 17th of May 2020. So, interest under section 201(1A) will be Rs 7,000*1.5% per month*4 months=Rs 420. 
+The interest will be calculated from the date TDS was deducted, not from the due date of TDS payment. 
+Do note that the interest should be paid before filing TDS returns. 
+Due date for filing TDS returns
+After depositing the tax to the government, every deductor has to file TDS returns.
+A TDS return is a quarterly statement to be filed with the income tax department. Various details are required to file TDS returns like TAN, amount of TDS deducted, PAN of deductee, TDS challan information and so on. 
+There are different types of TDS returns, depending on the purpose of deduction. 
+An employer needs to file Form 24Q in every quarter for reporting tax deducted on salaries to the government. Here are the due dates for filing Form 24Q.
+However, the income tax department can extend the due dates for filing TDS return based on unavoidable circumstances. For instance, due to COVID-19 outbreak, the due date for furnishing TDS return for FY 2019-20 (Q4) has been extended to the 31st of July 2020 from the 31st of May. 
+Form 24Q has two annexures, Annexure-I and Annexure-II. Annexure-I only includes details of employer, employees and challans. Whereas, Annexure-II includes details of employees’ salary like basic salary, allowances, incentives, exemptions, and tax deductions. 
+The submission time of both the annexures is different. The employer has to submit Annexure-I in all the quarters of a financial year. In contrast, Annexure-II has to be filed & submitted in the fourth quarter of the financial year with details of the salaries of all the employees for the entire year.
+With RazorpayX Payroll, businesses don’t have to worry about the TDS filings. Our product automatically files TDS statements before the due date, provided the client maintains the wallet balance. Businesses only have to provide TRACES credentials to RazorpayX Payroll, and everything else will be taken care of. 
+Process of TRACES registration
+To file TDS returns, the employer needs to register as a deductor on the TDS Reconciliation Analysis and Correction Enabling System (TRACES) website. 
+The employer can follow these steps to register themselves under TRACES. 
+
+Visit the TRACES website and click on ‘Continue’ to proceed further. 
+Click on ‘Register as New User’ and select the type of user as ‘Deductor’. 
+Then, click on ‘Proceed’.
+Provide ‘TAN’ in the respective tab, followed by captcha code to proceed further. 
+The financial year, form type, and quarter for which KYC is required will be auto-populated on the screen. 
+Enter the token number of the Regular (original) TDS statement, corresponding to the financial year, form type, and quarter displayed. 
+Then, enter CIN/PAN details related to the details displayed on the screen based on the latest correction statement filed. DO NOT COPY/PASTE THE DATA. 
+Fill organisation details such as “Category of the deductor, PAN of the deductor, PAN of the authorised person and date of birth of the authorised person etc. to proceed further. 
+Also, choose communication address as per TAN master or as per the last TDS statement filed. Then, provide a mobile number, alternate mobile number, email ID and alternate email ID. The activation codes and link to activate TRACES account will be sent to the primary mobile number and email ID. 
+Create a User ID (check the availability while creating a User ID) along with the password to proceed further. 
+All the details will appear on the confirmation screen. The fields can be edited if any change is required. Click on ‘Confirm’ for successful registration on TRACES.
+
+Once all the steps are completed, ‘Registration request successfully submitted’ message will appear on the screen. The applicant will receive an activation link on their email ID and mobile number followed by an activation code. 
+After successful activation, the deductor will be able to log in on TRACES using their user id, password, TAN and the captcha code. 
+Late filing or non-filing of TDS returns 
+Late filing fee under section 234E
+If an employer fails to file TDS return on or before the due date, a penalty of Rs 200 per day shall be payable until the default continues. However, the total penalty will not exceed the TDS amount. 
+Penalty for non-filing of TDS return under section 271H
+If the TDS return is not filed within 1 year from the due date, the income tax department may direct the employer to pay a minimum penalty of Rs 10,000 which will not exceed Rs 1,00,000. This penalty is in addition to the late filing fee under section 234E. Also, this section covers the cases of incorrect filing of TDS return. 
+Suggested Read: Why Businesses Should Automate Employee Salaries
+TDS certificate-Form 16 to employees
+TDS certificate is issued by a person deducting tax to another person whose tax has been deducted. 
+Form-16 is a TDS certificate issued by the employers to their employees. Tax deducted by the employer in a financial year as TDS on salary is reflected in Form-16. This form validates the fact that tax has been deducted and deposited to the government on behalf of an employee. Also, it contains all the information an employee needs to prepare and file their income tax return. 
+Usually, employers are bound to issue Form-16 every year on or before the 15th of June of the next year. For instance, Form-16 for FY 2019-20 had to be issued to the employees by the 15th of June 2020. 
+However, the due date for issuing Form-16 for FY 2019-20 has been extended to the 15th of August 2020 due to the COVID-19 pandemic. 
+With RazorpayX Payroll, the Form-16 generation process has been incredibly simplified. The employers are not required to understand the nitty-gritty of downloading TDS certificates from TRACES website. The process is fully automated with RazorpayX Payroll, which also saves a lot of manual effort and time. The employees can access their Form 16s through an intuitive dashboard. 
+So, what are you waiting for? 
+Try RazorpayX Payroll today
+
+Frequently Asked Questions (FAQs)
+
+What does TDS mean? 
+
+TDS stands for ‘Tax Deducted at Source.’ TDS operates on the basis that each person making a specified type of payment to another individual can deduct tax at source at the rates prescribed by the Income Tax Act and deposit the same to the government. You can pay TDS for your business in less than 30 seconds with the free TDS payment tool offered by RazorpayX.
+
+What is TDS and how is it calculated?
+
+TDS is a mechanism set by the income tax department where the person responsible for making specific payments such as salaries, contractual payments, rent, payments made to professionals and so on. 
+TDS rates are predetermined in the Income Tax Act for all payments except salaries. TDS on salary is calculated based on the average rate of income tax applicable to a taxpayer in a particular FY. 
+
+Who is liable to deduct TDS? 
+
+Any business making specified payments is required to deduct TDS at the time of making payments. No TDS will be deducted if any individual or HUF, whose books are not audited under the Income Tax Act, makes any such payments.
+
+
+How is TDS calculated?
+
+TDS on salary is determined based on the taxpayer’s average income tax rate in a given financial year. This limit is determined for the financial year, depending on the income tax slab applicable. 
+
+Who can file TDS returns?
+
+TDS return has to be filed by employers and businesses who has a valid TAN and has deducted tax at source from specified payments. 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+Tax Deducted at Source (TDS)
+
+
+
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Komal Chawla 
+Writer-by-chance and overthinker-by-choice, raging a war against the Pineapple-on-pizza brigade
+
+
+
+Facebook
+
+
+
+LinkedIn
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+HRD Full Form–Objectives, Purpose, Types and More
+
+March 5, 2023
+
+
+
+
+
+ 
+
+Types of Leaves in India–Know All about the Leaves at Work
+
+March 3, 2023
+
+
+
+
+
+ 
+
+Sabbatical Leave Meaning (+ Free Policy Template)
+
+February 22, 2023
+
+
+
+
+
+ 
+
+Roles and Responsibilities of HR–8 Things to Keep in Mind
+
+February 21, 2023
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+Enter your email address below to subscribe to our newsletter
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Recent Posts
+
+
+Startup Business Loans: 5 Key Factors That Determine Your Eligibility
+
+
+6 Tips to Build a Strong Business Credit Profile: A Guide to Online Business Loan Eligibility
+
+
+Corporate Finance: A Comprehensive Guide
+
+
+What Lenders Look For: Understanding Business Loan Eligibility
+
+
+A Brief History of Business Loans in India
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+In
+Payments
+
+
+ATM: All You Need to Know About Automated teller machine
+
+
+December 11, 2022
+
+4 Mins Read
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+In
+Taxation & Notifications
+
+
+MSME Definition- MSME Full-form and Meaning 2023
+
+
+September 13, 2021
+
+5 Mins Read
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2021. All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Submit
+
+			Type above and press Enter to search. Press Esc to cancel.		
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

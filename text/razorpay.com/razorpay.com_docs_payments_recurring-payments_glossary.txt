@@ -1,0 +1,9 @@
+
+
+
+
+
+
+Glossary | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRecurring PaymentsEmandateCardsPaper NACHUPIDashboardWebhooksGlossaryPaymentsRecurring PaymentsGlossaryGlossaryImportant terms related to Razorpay Recurring Payments.The following table lists all the commonly used terms and their definitions used in Recurring Payments:
+TermDefinitionCustomerThe person for whom you are creating the recurring payment or authorization transaction.OrderEvery payment should have an order associated with it. You must create a separate order for the authorization transaction and every subsequent charge.Authorization TransactionThe payment made by the customer to authorise the selected payment method.Authorization PaymentOne of the ways of collecting an authorisation transaction using the Razorpay Standard Checkout.Registration LinkOne of the ways of collecting an authorisation transaction using a link sent to the customer.TokenWhen a customer's selected payment method is authorised, a token is generated. A token represents mandate registration.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEGlossary

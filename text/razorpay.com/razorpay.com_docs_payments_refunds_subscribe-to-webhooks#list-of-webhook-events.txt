@@ -1,0 +1,26 @@
+
+
+
+
+
+
+Refunds | Subscribe to Webhooks | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsAbout RefundsNormal RefundsInstant RefundsBatch RefundsEMI and Pay Later RefundsDashboardHandle Refund ErrorsRefunds APIsSubscribe to WebhooksRefund CommunicationFAQsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsRefundsSubscribe To WebhooksSubscribe to WebhooksSubscribe to various webhook events related to Refunds to receive instant notifications.Subscribe to webhook events available for refunds to get notifications.
+To subscribe to webhook events:
+
+Log in to the Razorpay Dashboard.
+Navigate to Settings â Webhooks to subscribe to any of the events listed below.
+
+List of Webhook Events
+The table below lists the webhook events available for refunds.
+Webhook EventDescriptionrefund.createdTriggered when a refund is created.refund.processedTriggered when the refund is successfully processed.refund.failedTriggered when we are not able to process a refund.refund.speed_changedTriggered when the processing speed changes from instant to normal and the  requested speed was set to optimum .  This is applicable for Instant Refunds only.
+Know more about Webhooks and check the sample payloads.
+Related Information
+
+
+About Refunds
+
+
+Refunds APIs
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEList of Webhook EventsRelated Information

@@ -1,0 +1,53 @@
+
+
+
+
+
+
+Pause, Resume and Cancel a Subscription | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardCreate and View PlansCreate Subscriptions via LinksCreate Add-onsCharge a Card ManuallyView a SubscriptionUpdate a SubscriptionPause, Resume and Cancel a SubscriptionSubscriptions SettingsOffers for SubscriptionsPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsPause Resume CancelPause, Resume and Cancel a SubscriptionPause, resume or cancel a Razorpay Subscription from the Dashboard.You can pause, resume and cancel a subscription from the Dashboard.
+Pause a Subscription via the Dashboard
+You can pause a subscription from your Dashboard:
+
+Log in to the Razorpay Dashboard and click Subscriptions under PAYMENT PRODUCTS in the left menu.
+Click the Subscription Id you want to pause.
+Click Pause Subscription. The subscription is paused immediately.
+Click Yes, Pause.
+
+Resume a Subscription via the Dashboard
+You can resume a subscription from your Dashboard:
+
+Log in to the Razorpay Dashboard and click Subscriptions under PAYMENT PRODUCTS in the left menu.
+Click the Subscription Id you want to resume.
+Click Resume Subscription. The subscription is resumed immediately.
+Click Yes, Resume.
+
+Cancel a Subscription via the Dashboard
+Hand TipsYou can either cancel the subscription immediately or at the end of the current billing cycle.
+To cancel a subscription from your Dashboard:
+
+Log in to the Razorpay Dashboard and click Subscriptions under PAYMENT PRODUCTS in the left menu.
+Click the Subscription Id you want to cancel.
+Click Cancel Subscription. You can choose to either cancel the subscription immediately or at the end of the current billing cycle.
+Click Yes, Cancel.
+
+Watch the below video to know how to pause, resume and cancel a Subscription from the Dashboard.
+Pause, resume and cancel a Subscription
+Related Information
+
+
+Create and View Plans
+
+
+Create Subscriptions via Links
+
+
+Create Add-ons
+
+
+Charge a Card Manually
+
+
+Subscriptions Settings
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEPause a Subscription via the DashboardResume a Subscription via the DashboardCancel a Subscription via the DashboardRelated Information

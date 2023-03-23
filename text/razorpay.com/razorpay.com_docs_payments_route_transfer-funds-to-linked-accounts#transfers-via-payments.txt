@@ -1,0 +1,143 @@
+
+
+
+
+
+
+Transfer Funds to Linked Accounts | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteOverviewLinked AccountsDashboardBatch Upload for Linked Accounts and TransfersTransfer Funds to Linked AccountsSchedule SettlementsPayment ReversalsRefund to CustomersTransfers and Related FeesLinked Account DashboardPluginsView ReportsSubscribe to WebhooksRoute APIsFAQsGlossaryThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsRouteTransfer Funds To Linked AccountsTransfer Funds to Linked AccountsTransfer funds to your Linked Accounts.You can transfer funds to your linked accounts using the following methods:
+
+
+Orders
+
+
+Payments
+
+
+Direct Transfer
+
+
+Prerequisites
+
+
+Ensure the feature flag has been enabled to opt for the Direct Transfers. Contact our support team for more information.
+
+
+Create Linked Accounts, have them ready and accessible.
+Watch Out!Linked Accounts have a cooling period of 24 hours, only after which you can initiate transfers.
+
+
+Provide dashboard access to the Linked Accounts to ensure transparency between the two parties, such as:
+
+Linked Account holders can also download reports for further processing and reconciliation.
+Linked Account holders can view all transactions reflected on one single dashboard.
+
+
+
+Transfer via Orders
+In this method, the transfers can be set up at the time of order creation. After the payment is captured and the order is paid, the transfer is automatically created and settled to the respective Linked Accounts.
+Watch Out!The Transfers set up during order creation can only be done using APIs.
+This eliminates the extra step of triggering the Direct Transfers or Transfers via Payments API.
+To initiate transfers while creating orders:
+
+Create an Order using the Transfer via Orders API.
+Capture the Payment.
+Set up the  webhook event transfer.processed.
+
+Watch Out!
+You cannot create transfer on an order which has partial_payment parameter enabled. Ensure that this parameter is set to 0.
+You cannot create transfers on an order for international currencies. Currently, this feature is available for INR currency only.
+If a Transfer via Order initiated by you fails, we will retry this transfer starting from the next day on consecutive days. There will be a maximum of 3 retries.
+
+Transfers via Payments
+You can initiate a transfer from a payment received from a customer. This can be done from the Dashboard or using the Create Transfers from Payments API.
+Checklist for Dashboard operation
+
+
+Ensure the payment completed is in INR.
+
+
+Ensure the payment through which you want to make a transfer is in the captured state.
+
+
+Ensure the amount does not exceed the initial payment amount.
+
+
+Ensure the amount you want to transfer to a Linked Account is less than the initial amount.
+Watch Out!You must subtract fees & tax to calculate the amount that is to be allowed to transfer.
+
+
+Video Tutorial
+Watch this video to see how to transfer funds to a linked account from the payment received from the customer.
+
+Initiate a Transfer via Payment
+To initiate a transfer via payment from the Dashboard:
+
+Log in to the Razorpay Dashboard and click Route under PAYMENT PRODUCTS.
+Under the Payments tab, click the relevant Payment ID.
+On the Payment details pane,
+
+Select the Linked Account to which you want to transfer payment.
+Enter the billing amount. It can be a full or partial transfer.
+Select either of the following Settlement Schedule option:
+
+Settle Now - Use this to settle the payment in the next settlement slot. If your schedule is T+3, the transfer will happen accordingly.
+Schedule Settlement On - Select this to schedule the transfer to a later date using the calendar.
+Put on Hold - Use this to defer the transfer until specified otherwise.
+
+
+
+
+Add internal notes relevant to the transfer if any. You can choose to share the note with your Linked Account.
+Click Create Transfer.
+
+
+Direct Transfers
+You can transfer funds to your Linked Accounts directly from your account balance using Direct Transfers. You can make direct transfers from the Dashboard or using the Direct Transfer API.
+Feature RequestThis is an on-demand feature. Please raise a request with our Support team to get this feature activated on your Razorpay account.
+Checklist for Dashboard operation
+
+Ensure the nodal account has sufficient balance for the amount to be transferred.
+
+Video Tutorial
+Watch this video to see how to direct transfer funds to a Linked Account.
+
+Initiate a Direct Transfer
+To initiate a direct transfer from the Dashboard:
+
+Log in to the Razorpay Dashboard and click Route under PAYMENT PRODUCTS.
+Under the Transfers tab, click +Create Direct Transfer.
+
+
+On the Create Direct Transfer pop-up page, provide the following details:
+
+Account - Select the Linked Account to whom the amount should be transferred.
+Billing Amount - Enter the amount to be transferred.
+Settlement Schedule - The following options are available:
+
+Settle Now - Settle the transfer in the next settlement cycle.
+Schedule Settlement on - Settle the amount on a scheduled date.
+Put on hold - Put the settlement on hold indefinitely.
+
+
+Notes - You can add any additional information regarding the transfer.
+
+
+Click Create Transfer.
+
+
+Related Information
+
+
+Transfers and Related Fees
+
+
+Schedule Settlements
+
+
+Payment Reversals
+
+
+Refund to Customers
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEPrerequisitesTransfer via OrdersTransfers via PaymentsChecklist for Dashboard operationVideo TutorialInitiate a Transfer via PaymentDirect TransfersChecklist for Dashboard operationVideo TutorialInitiate a Direct TransferRelated Information

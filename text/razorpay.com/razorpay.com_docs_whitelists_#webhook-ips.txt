@@ -1,0 +1,21 @@
+
+
+
+
+
+
+Razorpay IPs and Certificates | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRazorpay IPs and CertificatesList of changes that need to be done at your end for whitelisting Razorpay SSL certificates and IP addresses of Razorpay APIs and Webhooks.Know about the changes you need to make in your environment to whitelist Razorpay-issued SSL certificates and IP addresses used to communicate with Razorpay APIs and Webhooks.
+SSL Certificates
+SSL certificates for api.razorpay.com with valid date ranges are listed below:
+Certificate FileValid FromExpiryX6.pem & ChainMay 19th, 2022May 19th, 2023X4.pem & ChainJuly 7th, 2021June 7th, 2022X3.pem & ChainMarch 13th, 2020July 28th, 2021X2.pem & ChainApril 10th, 2019April 15th, 2020X1.pem & ChainFeb 7th, 2016April 12th, 2019
+As we roll out our infrastructure changes on a gradual basis, we recommend whitelisting our certificate as per Valid From/Expiry timelines. You should whitelist all the certificates in that range if they overlap.
+Handy TipsWe highly discourage pinning our SSL Certificate to your applications. Use the certificates provided in the table above only if you are mandated by internal policies to whitelist Razorpay's SSL Certificates. Instead, you should use the latest CA Bundle provided by your OS.
+API IPs
+Requests to Razorpay APIs should be routed to api.razorpay.com. This will be resolved to various IPs controlled by our load balancers. However, if there is a restriction of IPs to which the requests should be sent, all your API requests can be routed to prod-api-static.razorpay.com. This will be resolved to any of the following IPs:
+API Ingress IPscopy52.66.140.4852.66.140.6113.235.207.5713.232.63.1913.234.135.613.234.83.3	13.235.208.8413.235.96.13215.206.46.184
+Handy TipsAll our SDKs use proper DNS caching and honour the TTLs that we set. However, if you are not using our SDKs, ensure that DNS TTLs set by Razorpay are honoured and are not cached aggressively.
+Webhook IPs
+List of Razorpay IPs from which Webhooks are sent from our servers:
+Egress IPscopy52.66.75.174	52.66.76.63	52.66.151.21835.154.217.4035.154.22.7335.154.143.1513.126.199.24713.126.238.19213.232.194.134
+We highly recommend using Webhook Signature to validate the integrity of the webhooks, even if you have whitelisted our Webhook IPs.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGESSL CertificatesAPI IPsWebhook IPs

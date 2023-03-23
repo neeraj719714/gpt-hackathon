@@ -1,0 +1,27 @@
+
+
+
+
+
+
+API | Route | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsOrdersPaymentsSettlementsRefundsDisputesCustomersPayments SuitePayment LinksQR CodesInvoicesItemsSubscriptionsRouteOverviewLinked Account OnboardingRoute TransfersAppendixSmart CollectPartnersRazorpayXErrorsWebhooksApiPaymentsRouteRouteCreate payments and reverse payments using Razorpay Route APIs. Create direct transfers, transfer reversals, refund payments, settle or hold settlements.Razorpay Route enables you to split payments received using the Razorpay Payment Gateway or other products (such as Payment Links, Payment Pages, Invoices, Subscriptions and Smart Collect) and transfer the funds to third parties, sellers or bank accounts.
+You can try out our APIs on the Razorpay Postman Public Workspace.
+
+Use Cases
+
+Create Linked Accounts.
+Transfer funds to multiple Linked Accounts.
+Refund payments and reversal transfers from a Linked Account.
+Manage settlements and reconciliations.
+Hold settlements for Transfers.
+
+Related Information
+
+
+Linked Account Onboarding
+
+
+Route Transfers
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEUse CasesRelated Information

@@ -1,0 +1,53 @@
+
+
+
+
+
+
+UPI Intent | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsOverviewBank TransferCardsEMIInstant International Bank TransferMOTONetbankingPay LaterUPIUPI IntentOverviewAndroidiOSMobile WebWalletsTransaction LimitsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPayment MethodsUpi IntentUPI IntentAccept Payments using the UPI app installed on your mobile that supports intent flow.You can make UPI payments easier for your customers by enabling UPI Intent on your application Checkout.
+Benefits
+Enjoy the benefits such as higher conversion rates, decrease in abandoned carts and a decrease in time to complete the payment. Your customers  are also benefitted in the following ways:
+
+No need to handle push or SMS notifications
+No need to switch between applications to complete a payment (merchant, SMS and app)
+No need to remember their VPAs
+
+Understand Intent flow
+The payment flow for UPI Intent payments is given below.
+
+
+In the UPI Intent flow, the customer selects UPI as the payment method on your website or app. A list of UPI apps supporting the intent flow is displayed.
+The customers select their preferred app. The UPI app opens with pre-populated payment details.
+The customers enter their UPI PIN to complete their transactions.
+After the payment is successful, the customers are redirected to your app or website.
+
+
+Supported Platforms
+
+
+UPI Intent on Mobile Web
+
+
+Android UPI Intent flow
+
+
+iOS UPI Intent flow
+
+
+Best Practices
+Following are the best practices to be followed to accept online payments using UPI intent flow.
+You should show the list of UPI apps in 2 sections:
+
+Top performing apps (GPAY > PhonePe > PayTm > BHIM)
+Other apps
+
+Related Information
+
+
+UPI Error Codes
+
+
+UPI Transaction Limits
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEBenefitsUnderstand Intent flowSupported PlatformsBest PracticesRelated Information

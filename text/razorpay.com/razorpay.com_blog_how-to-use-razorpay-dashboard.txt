@@ -1,0 +1,497 @@
+
+
+
+
+
+
+
+
+
+
+
+
+All you Need to Know about Razorpay Payment gateway Dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				Razorpay Dashboard: One Destination for All Your Business Needs			
+
+July 16, 2020
+
+12 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Every business is constantly working towards achieving growth by building new solutions for your customers. While you are at it, how do you measure the result and the impact of your efforts? It all comes to more and more reliable data and comprehensive analytics, doesn’t it?
+Data not only eases decision making for businesses but also guides them to divide their effort on the basis of the performance of a particular product, campaign and more. And if you are an online business, your payments data and insights can help you take some of the most crucial decisions in the best manner.
+Razorpay Dashboard is equipped with a wide range of features such as analytics and real-time charts that help you gain valuable insights about your business performance. Read this article to understand the offerings of Razorpay dashboard.
+Razorpay dashboard for a payment gateway: An overview
+Razorpay dashboard enables businesses to configure, operate and manage their payment gateway account as well as the other products from its payment suite. It provides an overview of recent payments, settlements and refunds. We will specifically talk about the dashboard for a payment gateway in this article. Let’s get started! 
+Razorpay dashboard: The homepage
+As soon as you login to your Razorpay account, you can have a look at the quick insights about the performance of your business, a number of payments received and a lot more. Refer to the image below to understand how the homepage can help you take better business decisions.
+
+Transactions report on Razorpay dashboard
+You can have a 360-degree overview of your customers’ payment status, refund and so on by logging into your dashboard. 
+Details of a payment
+
+To view the details of payment, log in to your Razorpay dashboard and click on ‘Transactions’. Under Transactions, click on ‘Payments’
+Click on the payment ID to check the payment method, time, invoice ID, settlement details and more
+
+
+Issuing refunds from the dashboard
+You can initiate a full refund by following the below-mentioned steps:
+
+Log into your Razorpay Dashboard and click on ‘Transactions’. Next, click on ‘Payments’
+Click the payment for which you wish to issue a full refund
+Enter the full amount that needs to be refunded along with any text that can be used for any reference, in the ‘Add Comments’ (optional) section
+Click on ‘Issue Full Refund’ to complete the refund process
+
+You can choose to issue a partial refund or an instant refund at razorpay from the same tab on your dashboard.
+Please note: Refunds work on the current balance and hence it is required that you have enough current balance to process the refund. In case of a refund, we do not charge an additional fee. However, the transaction fee and GST levied by Razorpay at the time of payment capture will not be reversed to your account.
+For example, in a successful transaction of ₹6,000, a transaction fee of ₹120 and GST amount of ₹2.16 is deducted from your current balance. The remaining amount ₹5,858.4(₹6000-₹141.6) is settled to your account as per the settlement cycle. Now, if you want to refund this transaction at any point, ₹141.6 charged earlier will not be refunded.
+Capture order ID
+You can automatically capture payments using the Orders API from Razorpay dashboard. The Orders API allows you to create a Razorpay order_id each time your customer completes the checkout. This unique order_id has a 1:1 mapping with the order created at your end. Listed below are the benefits of using an order ID: 
+
+It saves you time as you won’t need to make a capture request to capture payment. Payments that move from Created to Authorized state are immediately captured and moved to the Captured state. Late authorized payments are not auto-captured. Instead, you can choose to either leave it in an authorized state or capture the same if a second payment against the order hasn’t been made
+It prevents multiple payments against a single order. For example, if the customer attempts another payment against the same order and it was to succeed, the failed payment, which would have moved to the authorized state otherwise, is automatically refunded
+It allows you to retrieve an order using your order/receipt ID or the Razorpay Order ID
+
+
+
+The Orders tab allows you to view the details of all orders. Click on the Order ID to view the details of the order
+
+Overview of disputed payments 
+A ‘dispute’ is a situation that arises when your customer or the issuing bank questions the validity of payment. It could arise due to reasons such as unauthorized charges, failure to deliver promised merchandise, excessive charges and so on.
+
+The Dispute tab in the Razorpay dashboard under the ‘Transactions’ tab allows you to view all disputes raised against a charge and their current status. Click on a dispute ID to view the details of the order.
+Settlement details on Razorpay dashboard 
+‘Settlement’ is the amount you receive for the payments made by your customers for a particular product/service. There are a number of entities involved in the settlement process. Settlements are made to the bank account that you submitted to Razorpay as a part of KYC verification.
+Settlements are not made on a payment by payment basis. Instead, all captured payments are settled to your settlement account in bulk according to your settlement schedule.
+For example, if your settlement schedule is T+5, all payments captured today are settled to your settlement account 5 days from today. Listed below are some of the action items that you can manage right from the Razorpay dashboard.
+Please note: Eligible businesses can also opt for early settlements directly from the ‘Settlements’ tab. You can either choose to schedule same-day settlements or trigger on-demand ‘Instant Settlement’ within a minute.
+View all settlements
+Log into your Razorpay dashboard and click on ‘Settlements’
+
+You will find a list of all settlements linked to your account. You can also view information like the amount transferred to your settlement account, fees and tax, if any, the date and time the settlement was created and the status of the settlement.
+Settlement details 
+
+Log into your Razorpay Dashboard and click on ‘Settlements’
+Click on the settlement ID. Details of the settlement will be displayed on the right side of your screen. Click show or hide beside breakup to view the details for the settlement
+
+
+Settlement Reports
+The settlement report helps you with reconciliations of settlements. These reports contain transactions and the corresponding settlement IDs. You can download this in the monthly or the daily format from the ‘Reports section’ of the dashboard.
+Please note: The data can either be downloaded as a CSV, XLS or XLSX file or sent as email notifications to the required recipients.
+
+Business details on Razorpay dashboard
+This section contains details about your profile and information on the type and quantity of credits in your account. It also allows you to add funds to your account and assists you to manage teams within your organization.
+Profile management 
+This tab contains information such as merchant name, email, GST details and settlement account details. This section gives a 360-degree view about the basic details of the business and the person in whose name the Razorpay account is built and can be visited at any time as a point of reference. 
+
+Change bank account details
+There can be instances when you need to change your registered bank account. You can easily request to change to the bank account linked to your account right from Razorpay dashboard. Once approved, this will be your primary settlement account.
+Please note: You will need an account statement copy of the new account you want to link to your Razorpay account to complete the process. The account statement should include details like account number, IFSC, beneficiary, etc. and should contain transaction details for the last three months or since the account was opened, whichever is later.
+To change your settlement account with Razorpay, follow these simple steps: 
+
+Log into your Dashboard
+Navigate to ‘My Account’ and click on ‘Profile’
+Click on ‘Request Change’
+
+
+
+ Enter the details of the new bank account your want linked to your Razorpay account. 5. Upload a copy of your account statement and click on ‘Save’
+
+Manage Team
+Razorpay allows you the flexibility to provide only relevant accesses for specific departments or users in your organization. And the best part is that you can edit these roles anytime, anywhere right from your dashboard! 
+Consider this example to understand this: You might want someone in your organization to perform day-to-day operations like handling refunds and settlements. In this case, you can give a person access to your Razorpay Dashboard and assign them the role called ‘Operations’. This will limit their access to actions related to refunds and settlements only!
+This can be done by using the ‘Manage Teams’ option. You can invite members in your organization to your Razorpay account or remove existing members from your Razorpay account. Each member must be assigned a role and all you need to go ahead with this is a valid email ID. 
+Please note: Every user has their own login credentials.
+Read more about the types of access and security related steps issued by Razorpay here. 
+Account settings from Razorpay dashboard 
+Apart from allowing you to configure and customize your checkout page, the ‘Settings’ option on the Razorpay dashboard allows you to setup webhooks and generate API keys.
+Configuration
+The ‘Configuration’ tab allows you to customize your checkout theme, enable or disable flash checkout, change the speed at which the refunds should be processed and change your email notification preferences.
+
+Flash Checkout
+Flash Checkout is the easiest way to allow your customers to securely save their credit or debit card details with Razorpay, thereby reducing the overall transaction time.
+Customers need to authenticate themselves only once on their mobile devices. This authentication is done using PCI DSS compliant technology to ensure that all the card information is stored with maximum possible security.
+After the one-time authentication, customer’s saved cards are available for use to accept payments online via Razorpay. This allows for much simpler and faster transactions.
+The best part is. you can enable or disable flash checkout from the ‘Configuration’ tab on your dashboard without any specialists’ help! 
+Please note: Flash checkout is enabled by default. Click on ‘Disable Flash Checkout’ to disable it.
+
+Email Notifications
+You can configure the email addresses to receive email notifications like payments received, settlements received, daily payment reports and webhooks. If you want to enter multiple email addresses, separate them by a comma.
+You can add or remove email addresses anytime!
+Mentioned above are some of the most commonly required and used functionalities by business across different verticals. 
+Please note that if you are using one of the products, for example, Razorpay’s payment gateway, you have access to a number of other products like Payment Link, Payment Pages, GST Invoices, Route, Offers, Subscriptions through the same credentials. Infact, you can get started with any of the mentioned products right from your dashboard. Let’s talk about this in brief here because you never know what can turn out to be the best fit for your business!
+Razorpay Offers
+Razorpay’s dashboard gives you a snapshot of the offers that you can create to promote your business. You can control the offers at a granular level such as configuring the payment methods allowed for the offer, limiting the number of times the offer can be availed and so on.
+To understand Razorpay Offers in detail, read this article Scale Your Business by Creating Offers With Razorpay 
+Razorpay Payment Links
+Payment links by Razorpay is one of the best ways to accept payments for individuals and businesses if they do not have a website or an app ready. These payment links can be used by both offline and online businesses. A link can be shared within minutes and shared with the customer via SMS, email, WhatsApp etc!
+Razorpay Payment Pages 
+Payment Pages helps businesses and individuals to build a proper web page with customized content, ready-to-use template, media support and social media sharing option: everything that you need in the initial stages when you open the door and step into the online world!  They can further share the Payment Page with their customers, add it to their social media channels, share across groups over social media channels like WhatsApp, Facebook etc. and let their customers explore your products. 
+Razorpay Invoices
+Razorpay dashboard helps you create and send invoices to your customers and start accepting payments instantly. You can also search, update, cancel or delete invoices from the dashboard.
+To access Invoices, log into the Razorpay dashboard and select ‘Invoices’ from the left pane. 
+Razorpay Route
+You can access Route to split incoming payments to individual accounts, make vendor payouts, manage marketplace money flow and much more using powerful APIs. 
+Razorpay Subscriptions
+Razorpay Subscriptions provides you with a platform to set up and manage recurring payments. With this, you can automatically charge customers based on a billing cycle that you control. It allows you to easily create and manage subscriptions and get instant alerts on payment activity as well as the status of subscriptions. Razorpay automatically handles the invoicing for all subscriptions, thus, providing you with an end-to-end solution. 
+That’s Razorpay dashboard for you in brief! 
+Which payment methods are used more often to pay your business, which platforms are your users paying from – desktop or mobile? Which time of the day do you receive more business, and is there any lull period over a week or a month? Knowing this information can not only reduce your checkout abandonment but also help you make decisions to optimize your entire funnel and make bold business decisions with reliable facts and figures.
+Make the best of the dashboard while we craft the future of payments for you and your business!
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+razorpay dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Khushali Shah 
+Khushali is a content marketer at Razorpay. A logophile, traveler and inbound marketing enthusiast, she loves questioning the 'why' and 'how' of almost everything.
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+The e-rupee and what it means: A brave new era in digital payments?
+
+December 9, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

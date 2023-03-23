@@ -1,0 +1,31 @@
+
+
+
+
+
+
+Terms and Conditions APIs | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideGet Started with APIsOrdersPaymentsSettlementsRefundsDisputesCustomersPayments SuitePartnersSub-Merchant OnboardingAccountProduct ConfigurationStakeholderTerms and ConditionsDocumentWebhooksGeneric API ErrorsRazorpayXErrorsWebhooksApiPartnersTerms ConditionsTerms and Conditions APIsUse the Terms and Conditions APIs to accept and fetch terms and conditions for a merchant.You can use the Terms and Conditions APIs to fetch terms and conditions for a sub-merchant.
+Use the Product Configuration APIs to accept the terms and conditions.
+You can try out our APIs on the Razorpay Postman Public Workspace.
+
+Workflow
+Given below is the workflow:
+
+As a partner, it is your responsibility to show respective terms and conditions to the sub-merchants before you start onboarding to a product. The APIs used for it will be Fetch Product Terms and Conditions API.
+You should display these web pages to your sub-merchants on your interface.
+Record the acceptance of terms and transmit that to Razorpay using either Request a Product Configuration API or Update a Product Configuration API.
+
+Terms and Conditions Entity
+entitystring The name of the entity. Here it is tnc_map.product_namestring Determines what business unit the terms and conditions belong to.idstring Unique identifier of the terms and conditions belonging to a specific business unit.tncobject The terms and conditions content.termsstring The terms and conditions webpage URL.privacystring The privacy policy webpage URL.agreementstring The agreement webpage URL.last_published_atinteger The timestamp in Unix format, when the terms and conditions were created/last updated.
+Entitycopy{  "entity": "tnc_map",  "product_name": "payments",  "id": "tnc_map_HjOVhIdpVDZ0FB",  "tnc": {    "terms": "https://razorpay.com/terms",    "privacy": "https://razorpay.com/privacy",    "agreement": "https://razorpay.com/agreement"  },  "last_published_at": 1640589653}
+Fetch Terms and Conditions for a Sub-Merchant
+Use the following endpoint to retrieve the terms and conditions of a sub-merchant:
+GET/products/:product_name/tnc
+RequestResponsecopycurl -u <YOUR_KEY_ID>:<YOUR_KEY_SECRET> \-H "Content-Type: application/json" \-X GET https://api.razorpay.com/v2/products/payments/tnc \
+Path Parameter
+product_name mandatorystring The product family for which the relevant product to be requested for the sub-merchant. Possible value is payments.
+Error Response Parameters
+Know about the various error responses for this API.
+Accept Terms and Conditions for a Sub-Merchant
+Use the Product Configuration APIs to accept terms and conditions for a sub-merchant.
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEWorkflowTerms and Conditions EntityFetch Terms and Conditions for a Sub-MerchantPath ParameterError Response ParametersAccept Terms and Conditions for a Sub-Merchant

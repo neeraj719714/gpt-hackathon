@@ -1,0 +1,98 @@
+
+
+
+
+
+
+Create a Recurring Payment | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRecurring PaymentsEmandateCardsPaper NACHUPIDashboardCreate a Recurring PaymentPaper NACH FormBatch OperationsWebhooksGlossaryPaymentsRecurring PaymentsCreateCreate a Recurring PaymentKnow how to create a recurring payments using the Razorpay Dashboard.Feature RequestThis is an on-demand feature. Please raise a request with our Support team to get this feature activated on your Razorpay account.
+To create a recurring payment:
+
+Create a registration link
+View the payment status
+Search for the token
+Charge the token
+
+Handy TipsUnlike integrating recurring payments from APIs, you do not have to create the order or the customer separately while integrating from the dashboard. The customer will be added when creating a registration link, and an order will be created when the customer makes the authentication payment.
+1. Create a Registration Link
+To create a registration link:
+
+Log in to the Razorpay Dashboard.
+Under PAYMENT PRODUCTS, navigate to Subscription â Registration Links.
+Click +Create New Link and follow the on-screen instructions.
+
+The registration link is sent to the customer. Once a customer successfully makes the authorisation payment, you need to wait for the payment to reach the captured state.
+Create Registration Links via APIsYou can create registration links using APIs. Refer to the API section for more details.
+Registration Link Fields
+The below table lists and gives a brief description of the various fields available when creating a registration link from the Razorpay Dashboard.
+Description mandatoryA brief description of the registration link.Customer Name optionalName of the customer. If you have already created a customer via APIs, you must enter the same Customer Name here.Customer Contact mandatoryPhone number and email address of the customer. If you have already created a customer via APIs, you must enter the same email address and phone number here.Notify optionalThere are two ways in which you can send notifications:
+SMS
+Email
+Receipt No. optionalA user-entered unique identifier for the order. For example, Receipt No. 1. This parameter should be mapped to the order_id sent by Razorpay.Expiry optionalThe expiry date of the link. Defaults to No Expire.Payment Method mandatoryThe payment method to make the authentication payment. Available options:
+Emandate
+Card
+Paper NACH
+UPI
+CardDetails to be filled when you select Card as the payment method.Amount mandatoryThe payment amount. For Card, the minimum amount is â¹1.EmandateDetails to be filled when you select Emandate as the payment method.Skip Bank Details optionalSelect this option if you do not want to pre-fill bank details in the registration link.Bank DetailsThe customer's bank details.Select Bank mandatorySelect the customer's bank.IFSC mandatoryEnter the customer's bank IFSC.Account DetailsCustomer's account details.Beneficiary Name mandatoryCustomer's name.Account Number mandatoryCustomer's account number.Token Expire optionalSpecifies the expiry date for the token. That is, how long you can charge the customer using the authorised payment method.Amount mandatoryThe payment amount. For Emandate, the authorisation amount is â¹0. However, you can choose to auto-charge the customer an initial payment immediately after authorisation by entering any amount greater than â¹0. For example, if you enter â¹1,000, the customer is auto-charged â¹1,000 as soon as the token is confirmed.Token Max Amount optionalThe maximum amount you can charge the customer once the authorisation transaction is completed. Defaults to â¹99,999 (maximum value).NACHDetails to be filled when you select Nach as the payment method.NACH FormSelect this option if you have the customer's NACH form, but have not created a registration link for the customer.Bank DetailsmandatoryThe customer's bank IFSC.Account DetailsCustomer's account details.Beneficiary Name mandatoryCustomer's name.Account Number mandatoryCustomer's account number.Bank Account Type mandatoryThe customer's bank account type. Available options:
+savings
+current
+Reference 1 optionalA user-entered reference for the NACH form.Reference 2 optionalA user-entered reference for the NACH form.Token Expire optionalSpecifies the expiry date for the token. That is, how long you can charge the customer using the authorised payment method.Amount mandatoryThe payment amount. For NACH, the authorisation amount is â¹0. However, you can choose to auto-charge the customer an initial payment immediately after authorisation by entering any amount greater than â¹0. For example, if you enter â¹1,000, the customer is auto-charged â¹1,000 as soon as the token is confirmed.Token Max Amount optionalThe maximum amount you can charge the customer once the authorisation transaction is completed.
+Defaults to â¹1 lac.
+Maximum amount is â¹1cr.
+UPIDetails to be filled when you select Card as the payment method.Amount mandatoryThe payment amount. For Card, the minimum amount is â¹1.Token Expire optionalSpecifies the expiry date for the token. That is, how long you can charge the customer using the authorised payment method. Defaults to 10 years.Token Max Amount optionalThe maximum amount you can charge the customer once the authorisation transaction is completed.
+Defaults to â¹2,000.
+Maximum amount is â¹2,000.
+Internal Notes optionalUser-entered notes for internal reference.
+2. View the Payment Status
+When an authorisation payment is created, the corresponding payment_id appears on the list of created payments along with an order_id.
+Watch the below video to know how to check the payment status from the dashboard.
+
+To view the status of a recurring payment:
+
+Log in to the Razorpay Dashboard.
+Under PAYMENT PRODUCTS, navigate to Subscription â Payments. You can view the payment status on the screen. Click a payment_id to view details of the payment.
+
+3. Search for the Token
+Tokens are not returned as part of the checkout response. However, you can view them on the Razorpay Dashboard. You can also view the details of the token using APIs or Webhooks.
+Watch the below video to know how to search for a token from the dashboard.
+
+To search for a token:
+
+Log in to the Razorpay Dashboard.
+Under PAYMENT PRODUCTS, navigate to Subscriptions â Tokens.
+Search for the Token using the token_id.
+
+4. Charge the Token
+After your customer successfully makes an authorization transaction, a payment is created and moved to the authorized state. A token is generated and is in the initiated state. After the payment moves to the captured state, the token next moves to the confirmed state. Once the token is confirmed, you can charge the token.
+Watch the below video to know how to charge a token from the Razorpay Dashboard.
+
+To charge a Token:
+
+Log in to the Razorpay Dashboard.
+Under PAYMENT PRODUCTS, navigate to Subscriptions â Tokens.
+Search for the token using the token_id.
+Click on the token_id to open the details page.
+Click Charge Now to create a recurring payment.
+
+Delete the Token
+You can delete a token from the Razorpay Dashboard.
+Watch Out!Once a token is deleted, no further action can be performed on it. You will need to complete the authorisation process again to create a new token.
+Watch the below video to know how to delete tokens from the Razorpay Dashboard.
+
+To delete a token:
+
+Log in to the Razorpay Dashboard.
+Under PAYMENT PRODUCTS, navigate to Subscriptions â Tokens.
+Search for the token using the token_id.
+Click on the token_id to open the details page.
+Click Delete Token.
+
+Related Information
+
+
+Paper NACH Form
+
+
+Batch Operations
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGE1. Create a Registration LinkRegistration Link Fields2. View the Payment Status3. Search for the Token4. Charge the TokenDelete the TokenRelated Information

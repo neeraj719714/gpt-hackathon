@@ -1,0 +1,23 @@
+
+
+
+
+
+
+Settlements APIs | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsAbout SettlementsDashboardInstant SettlementsSettlements APIsFAQsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSettlementsApisSettlements APIsList of Settlements APIs and Instant Settlements (On-demand Settlement) APIs available to perform actions.You can use the Settlement APIs to perform various actions. You can perform a few of these actions from the Razorpay Dashboard as well.
+Settlements API table
+The table below lists the various Settlement APIs and gives a brief description of each API:
+APIDescriptionView all settlements API to view all settlementsView settlements by idAPI to view settlement details by providing the settlement idSettlement reconAPI to view all transactions such as payments, refunds, transfers and adjustment settled to you for a particular day or monthCreate Instant settlement API to create an Instant SettlementView all Instant Settlements API to view all Instant SettlementsView Instant Settlements by idAPI to view Instant Settlement details by providing the settlement id
+Related Information
+
+
+About Settlements
+
+
+Settlements - Dashboard Actions
+
+
+ Settlement FAQs
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGESettlements API tableRelated Information

@@ -1,0 +1,23 @@
+
+
+
+
+
+
+UPI | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsOverviewBank TransferCardsEMIInstant International Bank TransferMOTONetbankingPay LaterUPIUPIGoogle PayOmnichannel CheckoutSaved VPAVirtual Payment Address (VPA) ValidationList of Supported UPI AppsTurbo In AppUPI IntentWalletsTransaction LimitsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPayment MethodsUpiUPIAccept payments by enabling various UPI apps on the Checkout form available in all supported Razorpay integrations.As compared to other payment modes, UPI checkout flows reduce the friction for your customers, thus providing higher transaction success rates for your business.
+Razorpay supports multiple third-party apps and has direct integration with Google Pay.
+UPI Integrations
+IntegrationDescriptionSupported PlatformsSupported UPI AppsAvailabilityCollect flowCustomers enter their VPAs in the Checkout, open the respective UPI apps and complete the payment after 2-factor authentication (UPI PIN and MPIN are entered) on their mobile devices. Customers are redirected to your website or app after successful payment.Web, Mobile-web, AndroidAllAvailable by defaultIntent flowAs soon as the customer selects the UPI payment app on the Checkout, the app is launched automatically on the mobile device. Customer need not enter VPA or phone number as these details are prefilled and submitted along with the other payment details.Mobile-web, Android, iOSPhonePe and GooglePay for Mobile-web on Google Chrome onlyPaytm, PhonePe and GooglePay for Android and iOSAvailable by defaultOmnichannelThis is an intent flow wherein customers enter their mobile numbers instead of VPAs in the UPI app. The payments are completed after 2-factor authentication (UPIN and MPIN are entered).Android onlyOnly for Google PayRequires  Approval and IntegrationGoogle Pay SDKThis is an intent flow wherein the customer can complete the payment within your app itself without being redirected to the UPI app on the mobile device. This is particularly useful when you want the customer to experience a seamless payment experience while safeguarding your brand identity.Android onlyOnly for Google PayRequires Integration
+Given below is the payment flow for UPI Collect:
+
+Third Party ValidationKnow more about Third-Party Validation if your business model requires that transactions be made by the customers only from the bank account that was submitted to your business at the time of registration. Check the list of banks that support TPV.
+Related Information
+
+
+UPI Error Codes
+
+
+UPI Transaction Limits
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEUPI IntegrationsRelated Information

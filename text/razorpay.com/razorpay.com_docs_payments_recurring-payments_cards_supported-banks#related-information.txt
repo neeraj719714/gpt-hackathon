@@ -1,0 +1,30 @@
+
+
+
+
+
+
+Supported Banks and Apps | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsRecurring PaymentsEmandateCardsIntegrate Recurring PaymentsSupported BanksAPIsFAQsPaper NACHUPIDashboardWebhooksGlossaryPaymentsRecurring PaymentsCardsSupported BanksSupported Banks and AppsList of banks and apps that support recurring payments via Cards.This document provides a list of banks and apps that support recurring payments via Cards.
+Click the below button to download the list of banks that support cards.
+This list was last updated on January 2, 2023.
+Download
+Watch Out!
+Please contact our support team if you are facing difficulties with card payments from any of the major banks on the above list.
+Bank downtime can affect success rates when processing recurring payments via debit cards.
+
+Handy TipsWe support Visa and Mastercard cards of all major banks.
+Fetch Supported Methods
+Use the below endpoint to fetch a list of supported card networks and banks available for recurring payments.
+GET/methods
+[YOUR_KEY_ID] RequiredTo fire this API, you need to provide your [KEY_ID] for authorization. Your [KEY_SECRET] is not required and should not be passed.
+RequestResponsecopycurl -u [YOUR_KEY_ID] \    -X GET https://api.razorpay.com/v1/methods
+Related Information
+
+
+Integrate Recurring Payments Using Cards
+
+
+APIs
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEFetch Supported MethodsRelated Information

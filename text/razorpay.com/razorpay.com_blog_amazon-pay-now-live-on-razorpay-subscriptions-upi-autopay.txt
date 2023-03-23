@@ -1,0 +1,410 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Amazon Pay Now Live On Razorpay Subscriptions - UPI AutoPay ! Here Is All You Need To Know - Razorpay Blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				Amazon Pay Now Live On Razorpay Subscriptions – UPI AutoPay ! Here Is All You Need To Know			
+
+January 24, 2022
+
+3 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+Wouldn’t it just be easier if all bills could pay themselves, especially the recurring ones? That’s exactly what is possible now.
+If you or your customers use Amazon Pay, you would be excited to know that Amazon Pay is now live on UPI Autopay on Razorpay Subscriptions!
+Wondering what’s in it for you? Read on to find out.
+What Is UPI AutoPay?
+The National Payments Corporation of India (NPCI) launched UPI AutoPay on 23 July 2020. It was a key component of UPI 2.0 that leveraged UPI trails to address recurring payments.
+It is the perfect marriage between the convenience of UPI and recurring payments.
+UPI AutoPay allows customers to automate payments by setting up a UPI mandate. As a result, they no longer have to authorize each payment by entering the PIN manually. The UPI mandate allows the payments to get deducted automatically on the date authorized by the customer. 
+Such UPI mandates can be set up for one-time payments or for periodic payments that take place daily, weekly, fortnightly, monthly, quarterly, half-yearly, or yearly. Depending on this periodicity, the amount gets automatically deducted from the source account.
+How can businesses benefit from Amazon Pay-based UPI Subscription Payments?
+For businesses, integrating with Amazon Pay comes as a blessing. This is particularly useful for businesses operating on a subscription-based model. Businesses can acquire Amazon Pay customers through UPI Autopay and automate recurring payment collection for goods and services such as rent, utilities, insurance premiums, mobile bills or recharges, OTT streaming, edutech courses, digital print media, and more. 
+Here are a few key benefits for businesses hoping to harness Amazon Pay on UPI AutoPay:
+
+Businesses get access to Amazon Pay’s users that can help them acquire more customers easily 
+ Quick and easy integration with no effort required from businesses-thanks to Razorpay Subscriptions
+The convenience of UPI AutoPay payments and its ability to make efficient recurring payments compensates for any possible roadblocks during the payments stage and enables quicker checkouts
+The ability to customize how frequently you want to collect recurring payments on the Razorpay Subscriptions platform, allows businesses to leverage flexibility in their subscription services
+The Invoicing and messaging features allow businesses to reach out to their customers with a customized link and serve gentle reminders for any pending payments
+Razorpay Subscriptions is 100% compliant with RBI guidelines: a hallmark of reliability and safety
+
+With the addition of Amazon Pay to our long and ever-expanding list of payment apps available for convenient digital payments on Razorpay Subscriptions, it is becoming progressively easier to facilitate recurring payments with the added convenience of UPI Autopay.
+Given how consumers continue to want flexible payment options,​ ​UPI AutoPay ​is expected​ to deliver an exceptional payment​ ​experience​. ​Razorpay is committed to ensuring all its partner businesses are also enabled to integrate this exciting product.
+Sign Up for Razorpay Subscriptions
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+Amazon Payonline paymentsRazorpay Subscriptionsrecurring paymentssubscriptionsupiupi autopay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Amog Adahallikar 
+
+
+
+
+Tumblr
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+RBI Policy Development: New scope for UPI and BBPS
+
+December 22, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

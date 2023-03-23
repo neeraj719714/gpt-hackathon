@@ -1,0 +1,30 @@
+
+
+
+
+
+
+Payment Gateway | CS-Cart - Test Integration | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsOverviewArasttaBuild Your OwnEasy Digital DownloadsCS-CartIntegrate with CS-Cart Plugin1. Build Integration2. Test Integration3. Go-live ChecklistTroubleshooting & FAQsGravity FormsMagentoOpenCartPrestashopShopify - Razorpay SecureWHMCSWixWoocommerceWordPressMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsSmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsPayment GatewayEcommerce PluginsCs CartTest Integration2. Test IntegrationSteps to test if the CS-Cart integration was successful.After the integration is complete, Razorpay is added as a payment option on your web page/app. You need to click the button and make a test transaction to ensure that the integration is working as expected. You can start accepting actual payments from your customers once the test is successful.
+
+You can make test payments using one of the payment methods configured at the Checkout.
+
+No money is deducted from the customer's account as this is a simulated transaction.
+Ensure you have entered the API keys generated in the test mode in the Checkout code.
+
+Netbanking
+You can select any of the listed banks. After choosing a bank, Razorpay will redirect to a mock page where you can make the payment a success or a failure. Since it is the test mode, we will not redirect you to the bank login portals.
+UPI
+You can enter one of the following UPI IDs:
+
+success@razorpay: To make the payment successful.
+failure@razorpay: To fail the payment.
+
+Handy TipsUPI Payments should be tested in Live Mode.
+Wallet
+You can select any of the listed wallets. After choosing a wallet, Razorpay will redirect to a mock page where you can make the payment a success or a failure. Since it is the test mode, we will not redirect you to the wallet login portals.
+Cards
+You can use one of the test cards to make transactions in the test mode. Use any valid expiration date in the future and any random CVV to create a successful payment.
+Card NetworkDomestic/InternationalCard NumberMastercardDomestic5267 3181 8797 5449VisaDomestic4111 1111 1111 1111MastercardInternational5555 5555 5555 4444  5105 1051 0510 5100VisaInternational4012 8888 8888 1881  5104 0600 0000 0008
+Next Steps
+Step 3: Go-live Checklist
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGENetbankingUPIWalletCardsNext Steps

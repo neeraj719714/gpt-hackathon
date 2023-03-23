@@ -1,0 +1,14 @@
+
+
+
+
+
+
+Partners - Sample Payload | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideErrorsWebhooksWebhooksSet Up and Edit WebhooksBest PracticesValidate and Test WebhooksSample PayloadOrdersPaymentsRefundsDisputesInvoicesSubscriptionsPartnersOverviewActivatedUnder ReviewNeeds ClarificationSuspendedRejectedActivated KYC PendingFunds On HoldFunds UnholdInstantly ActivatedPayment EnabledRouteSmart CollectPayment LinksRazorpayXFAQsWebhooksPayloadsPartnersPartners - Sample PayloadSample payload for PartnersFollowing is the list of currently available sample payloads for Sub-Merchant Onboarding Events:
+Onboarded Using APIs
+List of events if sub-merchant is onboarded using APIs:
+StatusEventActivatedPayment GatewayPayment LinksAccountNeeds ClarificationPayment GatewayPayment LinksAccountUnder ReviewPayment GatewayPayment LinksAccountRejectedPayment GatewayPayment LinksAccountActivated KYC PendingPayment GatewayPayment LinksAccount
+Onboarded Using Dashboard
+List of events if sub-merchant is onboarded using the Razorpay Dashboard:
+StatusEventInstantly ActivatedAccountPayment EnabledAccountFunds On HoldAccountUnder ReviewAccountNeeds ClarificationAccountActivatedAccountSuspendedAccount
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEOnboarded Using APIsOnboarded Using Dashboard

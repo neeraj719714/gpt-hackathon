@@ -1,0 +1,453 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing UPI AutoPay on Razorpay Subscriptions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payments
+Business Banking Plus
+
+Exclusive
+
+
+Online Commerce
+Payroll
+Customer Stories
+
+Inspiration Brew
+
+
+Policies with Dr. Poli
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+In
+Payments
+
+
+				Introducing UPI AutoPay on Razorpay Subscriptions			
+
+July 23, 2020
+
+8 Mins Read
+
+
+
+ 
+
+
+
+
+Share
+
+
+
+Share on Facebook
+
+
+
+Share on Twitter
+
+
+
+LinkedIn
+
+
+
+Email
+
+
+
+
+
+What do you get when the entire payments ecosystem in India comes together to create a single product? You get the next big game-changer for businesses in India.
+Introducing UPI AutoPay – the only seamless and completely digital solution for cardless recurring payments in India. 
+UPI AutoPay is the brainchild of NPCI and was unveiled at the Global Fintech Festival on 22nd July 2020. Razorpay has always been at the forefront of innovation for all digital payment solutions in India. We have been the industry leader in supporting NPCI for all innovations in UPI payments. Continuing this tradition, we were the launch partners of NPCI at the event. We have created this product with the continuous support of multiple banks, our partner businesses and the tireless efforts of our team.
+Popularity of UPI combined with power of recurring payments
+The adoption of UPI has been extraordinary! UPI has seen more than 100x growth from 2016 to 2020. As per NPCI data, payments on UPI in June 2020 hit an all-time high of 1.34 billion transactions with the volume touching nearly ₹2.62 lakh crore. It quickly took over cards and netbanking, becoming the preferred payment mode of Indian consumers, according to transaction data on the Razorpay platform.
+[Read more: UPI Steals the Thunder in 2019]
+With the rise of disposable income, new and personalised online business offerings, along with fintech advancements in payments, consumers are now open to merchants automatically debiting the charges for services. Subscription revenues have registered nearly a 3x increase in FY19, totalling to ₹12 billion, according to the KPMG M&E India 2019 report.
+The recurring payments model creates opportunities for product differentiation, taps new consumer segments, and improves customer loyalty. 
+[Suggested read: The Fingerhold of Recurring Payments in India]
+This growth has resulted in the government taking initiatives to help businesses move towards recurring payments. Currently, cards are the only other seamless digital alternative to setting up a subscription on your bank account. However, this ecosystem is not completely developed yet. While there are other modes of recurring payments such as eNACH, eMandate and Physical NACH, the overall process here is not completely digital. What Indian businesses needed was a real-time, seamless and easy way to allow their consumers to set up recurring payments. UPI AutoPay is the perfect solution for all this.
+UPI AutoPay comes as a relief for both businesses and consumers, as subscriptions will now be streamlined providing enough visibility and control to businesses and consumers. This move is likely to make signing up for financial services, bill payments, digital content platforms (OTTs) and lifestyle subscription services up to a certain limit, much easier for customers. 
+UPI AutoPay powered by Razorpay Subscriptions
+Backed by the powerful Razorpay Subscriptions engine, UPI AutoPay inherits a lot of exciting features that enhance the user experience and streamline operational processes.
+
+Inbuilt scheduler: Takes care of subsequent debits, pre-debit notifications and invoicing
+Complete flexibility: Add a trial period, upfront amounts or add on an amount during a cycle
+Update subscription: Upgrade or downgrade a plan at any time during the subscription cycle
+Automatic retries: Automatically retry failed debits and give the customer an option to change the authorised account
+
+We have made it super simple and seamless to integrate UPI AutoPay so that you can start realising payments faster. If you are looking for an out-of-the-box solution for UPI AutoPay, Razorpay Subscriptions is the way to go. It will be available for all businesses who integrate our Subscriptions product. 
+For our existing customers of Subscriptions, there is no additional integration needed. UPI AutoPay will be directly enabled on your account. We have currently opened up the registration for early access sign up. If you wish to integrate UPI AutoPay on subscriptions or you have a custom use case in mind, sign up for early access here. Our solutions consultants will reach out to you in no time.3 Simple steps for UPI AutoPay Payments
+The convenience of setting up recurring payments using UPI AutoPay is pretty much unbeatable. The payment process is really simple, without the user having to worry about several layers of authorisation, still providing a high level of security. 
+
+Experience the easiest way to set up a recurring payment
+Step 1: Select a plan – Customer selects a subscription plan
+Step 2: Open UPI App – Customer is directed to their preferred UPI App
+Step 3: Confirm details – Customer confirms by entering UPI PIN
+Step 4: Registration successful – Recurring payments is now live
+Why should you be excited about UPI AutoPay? 
+Real-time mandate registration 
+Unlike other modes of recurring payments where businesses have to wait anywhere between 2 days to 2 weeks for a mandate registration confirmation, Razorpay Subscriptions on UPI gives you a real-time confirmation.
+Opens up a new target segment 
+Traditionally, subscription-led businesses that were dependent on credit cards for real-time registration, could not target a sizeable segment of consumers who did not possess a card. Recurring payments on a popular instrument like UPI opens up promising possibilities for businesses of every size in the country.
+Improving affordability 
+Now all customers will have the option of making periodic recurring payments, rather than a single bulk payment. This drives up the affordability of the product or offering and hence, will bump up the paid customer conversion rate.
+Better success rates 
+As customers no longer need to remember lengthy authentication details and pre-debit notifications will be sent to consumers 24 hours prior to the debit, the success rate will definitely increase.
+Complete visibility and flexibility
+UPI AutoPay allows customers to pause or cancel a mandate on their own from their preferred application. It also notifies a merchant in real-time of this action taken by their customers. Consumers can view, suspend, or revoke a digital mandate via their UPI app or merchant website. This will also result in lower chargebacks.
+Catch UPI AutoPay live in action
+Razorpay has started enabling its partner businesses to start accepting recurring payments on UPI. Furlenco, Times Prime, Policy Bazaar and Testbook are among some of the first companies to be integrated with Razorpay for recurring payments.
+Razorpay for insurance
+Insurance providers and aggregators in India have been striving to make insurance more affordable for millions of Indians out there. There is a demand for periodic premium payments as opposed to a bulk payment made yearly.
+Solution
+Razorpay UPI AutoPay has allowed insurance providers and aggregators in India to meet this demand, by giving millions of Indians who rely on their UPI Apps, the option to set up monthly premiums for an insurance cover
+
+
+Razorpay for rentals
+Despite an increase in disposable income, a big demographic that subscription-based online rental look to target do not own a credit card.
+Solution
+With Razorpay UPI AutoPay, rental companies have been able to target a whole new target segment of customers. With better visibility, they have also seen a remarkable decrease in the chargeback requests from their customers.
+
+
+
+Razorpay for digital content
+OTTs, digital content providers, loyalty programs and more rely on the subscription models. Currently, the only option for subscription on their platform is cards, which limits the potential of the platform.
+Solution
+Razorpay UPI AutoPay has enabled digital platforms to reach out to a new segment of customers who do not possess cards but aspire to subscribe to the platform.
+
+
+Razorpay for NGOs
+One of the biggest challenges for non-profit organisations in India is to convert one-time donations to monthly donations, which ensures a continuous and assured contribution.
+Solution
+NGOs can now give their donors a safe and easy way to set up recurring donations. The ability to give complete visibility as well as flexibility to the donor will go a long way in building the trust of donors.
+Razorpay for education
+Educational institutions and ed-tech companies have been struggling to create an ecosystem of virtual knowledge that can be accessed by any student at an affordable price.
+Solution
+Razorpay UPI Autopay allows students to pay for their courses on a periodic cycle as opposed to bulk payment. This makes the courses more affordable and drives up the conversion of paying students on the platform.
+From digital content, health & fitness benefits to essentials and groceries​, individuals have turned to ​all things digital with the current social distancing norm. Given how consumers continue to want flexible payment options,​ ​UPI AutoPay ​is expected​ to deliver an exceptional payment​ ​experience​. ​Razorpay is committed to ensuring all its partner businesses are enabled to integrate this exciting product. 
+
+If you wish to experience UPI AutoPay on Razorpay Subscriptions, sign up today.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Liked this article? Subscribe to our weekly newsletter for more.
+
+
+
+
+
+
+
+
+
+
+
+digital paymentssubscriptionsupiupi autopay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Author
+Shivani Sharan 
+Shivani is a product marketer at Razorpay. She is skilled in project management, executing multi-channel consumer marketing campaigns, Go-To-Market strategy, marketing automation & analytics, in e-commerce/retail space.
+
+
+
+
+
+Related Posts
+
+
+
+ 
+
+Razorpay Launches India’s First Affordability Widget; Aims to Boost Business Revenue by 40%
+
+January 17, 2023
+
+
+
+
+
+ 
+
+Introducing the most effective way to recover failed payments
+
+January 4, 2023
+
+
+
+
+
+ 
+
+RBI Policy Development: New scope for UPI and BBPS
+
+December 22, 2022
+
+
+
+
+
+
+
+
+Write A Comment Cancel Reply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save my name, email, and website in this browser for the next time I comment.
+				
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+Instagram
+
+
+
+
+
+YouTube
+
+
+
+
+
+LinkedIn
+
+
+
+© Razorpay 2020 All Rights Reserved				
+
+ Top
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Disclaimer: Banking Services and Razorpay powered Current Account is provided by Scheduled Banks
+
+
+
+
+
+
+
+				X			
+
+RazorpayX
+
+
+			CLOSE			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

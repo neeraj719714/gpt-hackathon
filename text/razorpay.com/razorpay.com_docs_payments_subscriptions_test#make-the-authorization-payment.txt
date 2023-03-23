@@ -1,0 +1,157 @@
+
+
+
+
+
+
+Test Subscriptions | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsOverviewGet StartedDashboardCustomersOrdersPaymentsPayment MethodsSettlementsRefundsDisputesPayment GatewayEcommerce PluginsMagic CheckoutPayment LinksPayment ButtonPayment PagesInvoicesQR CodesAffordabilitySubscriptionsOverviewSubscriptions WorkflowSubscriptions StatesCreate SubscriptionsTest SubscriptionsDashboardOffers for SubscriptionsPayment RetriesSupported Banks and AppsPluginsSubscribe to WebhooksSubscriptions APIsNotificationsFAQsGlossarySmart CollectOptimizerRouteThird Party ValidationPayments Mobile AppePOS App (Deprecated)Thirdwatch (Deprecated)GlossaryPaymentsSubscriptionsTestTest SubscriptionsTest Razorpay Subscriptions, Plans, authentication transaction and cancellation using Razorpay APIs or from the Dashboard.This section explains how to create a Subscription and test its various flows.
+Prerequisites
+
+Use your test [KEY_ID] and [KEY_SECRET] while testing. This can be generated from the Dashboard by generating API keys in the test mode.
+Ensure you are using your Dashboard in the test mode. Some options mentioned in this document are available only in the test mode.
+
+Configure a Webhook
+Before we get started with creation and management of our test Subscriptions, let us configure a test webhook to receive notifications regarding Subscriptions.
+Know more about Webhooks configuration.
+Create a Plan
+The first step of testing the Subscriptions flow is to create a plan. You can create them from your Dashboard and use them in your code while creating Subscriptions.
+
+You can also create a plan using Razorpay API.
+In our example, let us create a plan with a billing amount of â¹500 and a cycle of 2 months.
+CurlResponsecopycurl -X POST \  -u "<YOUR_KEY>:<YOUR_Secret>" \  --data "period=monthly" \  --data "interval=2" \  --data "item[name]=Test plan" \  --data "item[amount]=50000" \  --data "item[currency]=INR" \  https://api.razorpay.com/v1/plans
+Create a Subscription
+You should create a Subscription for every customer who is using a plan. You can create Subscriptions via the Dashboard or via APIs.
+In our example, let us create a Subscription for the plan created above, to be charged a total of 6 times, and due to be started immediately. Let us refer to this as Subscription A.
+Let us also create a second Subscription, again to be charged a total of 6 times, but this is due to start on 1st January 2020. Let us refer to this as Subscription B.
+If you create a Subscription via the Dashboard, it can only be created as a Subscription Link.
+
+
+You can also create Subscriptions via APIs
+A sample request and response for the creation of a Subscription A is given below.
+CurlResponsecopycurl -X POST \  -u "[YOUR_KEY]:[YOUR_Secret]" \  --data "plan_id=plan_00000000000001" \  --data "total_count=6" \  --data "notes[name]=Subscription A" \  https://api.razorpay.com/v1/subscriptions
+A sample request and response for the creation of a Subscription B is given below. To indicate a future starting date, you should pass the proper timestamp to the start_at parameter in the request.
+CurlResponsecopycurl -X POST \  -u "<YOUR_KEY>:<YOUR_Secret>" \  --data "plan_id=plan_8se9opU8rADx2t" \  --data "total_count=6" \  --data "notes[name]=Subscription B" \  --data "start_at=1577817000" \  https://api.razorpay.com/v1/subscriptions
+Both Subscriptions are now in the created state, and await an authentication transaction wherein the payer authorizes the use of their card.
+Make the Authorization Payment
+To authenticate a Subscription via your checkout, i.e., a Subscription created via APIs, you need to make a regular payment using Razorpay, but pass an extra parameter subscription_id in the options sent to the Razorpay Standard Checkout request. To see this in action, use the following code on a test webpage, and hit the Authenticate button. This triggers a Razorpay payment that in turn authenticates the Subscription.
+Auth Paymentcopy<html>   <body>      <button id="rzp-button">Authenticate</button>      <script src="https://checkout.razorpay.com/v1/checkout.js"></script>      <script>         var options = {           "key": "<YOUR_KEY>",           "subscription_id": "sub_00000000000001",           "name": "My Billing Label",           "description": "Auth txn for sub_00000000000001",           "handler": function (response){             alert(response.razorpay_payment_id);           }         };         var rzp1 = new Razorpay(options);         document.getElementById('rzp-button').onclick = function(e){           rzp1.open();         }      </script>   </body></html>
+The above code only contains the minimum required options that need to be sent to initiate a payment, i.e., only key and subscription_id are mandatory. Refer to the checkout fields for a complete list of options that can be passed.
+To authenticate a Subscription via a link, that is a Subscription Link created via the Dashboard:
+
+Log in to your Dashboard, click Subscriptions under PAYMENT PRODUCTS and then click Subscription Id to be authenticated â Start Subscription.
+
+
+Click PAY BY CARD, enter a CVV and click PAY.
+
+
+Click Success to authenticate the payment.
+
+
+
+Test Card Details
+You can use the below test card details to make the authorization payment.
+TypeCard NetworkCard TypeCard NumberCVVExpiry DateDomesticMastercardDebit Card5104 0600 0000 0008Random CVVAny future dateDomesticVisaCredit Card4718 6091 0820 4366Random CVVAny future dateInternationalMastercardCredit Card5104 0155 5555 5558Random CVVAny future date
+Payment Amount
+Unlike a regular payment, you do not need to pass the amount as an option. This is because the amount to be charged is determined by the Subscription that is being authenticated.
+
+For Subscription A, that is to start immediately upon completion of this payment, the charge amount will be â¹500, that is the amount we used while creating the plan.
+For Subscription B, this payment acts only as an authentication step, as the Subscription is not due to start until January 2020. So for Subscription B, the charge amount is â¹5, a token amount that is immediately refunded.
+
+If you choose to make a successful payment, the payment response contains a few fields carrying information about the Subscription that has been authenticated. Refer to the payment verification section to read more about how this payment response can be authenticated.
+What Happens after Authentication Payment
+Once the payment is completed successfully, Subscription A is marked as active. At this stage you receive the webhook payloads for the 2 events that Subscription A has gone through.
+
+First, you receive the subscription.activated webhook when Subscription A moves from the authenticated to the active state.
+Next, you receive the subscription.charged webhook when a payment is successfully charged on Subscription A.
+
+Watch Out!Performing the same payment request on Subscription B results in being marked as authenticated. It is not charged, as it is not due to start for a few months. For this reason, no webhook events are triggered by performing an authentication payment for Subscription B.
+Subsequent Charges
+After the first payment, i.e., the authentication of the Subscription, all subsequent charges are triggered automatically by Razorpay. When these charges are triggered, the result or the impact upon the Subscriptions entity is communicated via webhooks.
+In test mode, it is possible to simulate these charges from the Razorpay Dashboard, using the Charge this now button. Using this option, you can trigger all the events that would normally take place when a Subscription is due. Thus, there is no need to wait till the start of January 2020 to see how Subscription B behaves in response to different events. Using the test mode, all these events can be triggered before their due date.
+
+Watch Out!Currently, it is not possible to test the update Subscription feature if a test charge has already been made on it. You can test the update feature only if no payment apart from the authentication charge (first payment or upfront payment) has been charged for the Subscription.
+Expected Webhooks
+You can now integrate with our webhooks and ensure that the different webhook events are being consumed correctly.
+With regard to our example, attempting a test charge on Subscription A results in only one webhook event being triggered, that is subscription.charged.
+However, attempting a test charge from Dashboard on Subscription B results in it moving from the authenticated state to the active state. This indicates that the start_at time of Subscription B has passed, and this triggers the subscription.activated webhook. This is immediately followed by the charge itself, which triggers the subscription.charged webhook event.
+Charge Failures
+After the first payment, i.e., the authentication of the Subscription, all subsequent charges are triggered automatically by Razorpay. During the automatic charges initiated by Razorpay, it is possible that a charge attempt on the card saved for a Subscription could fail. In this case, the failure event webhooks are triggered.
+To simulate this in test mode, the test charge option prompts you to choose the result of a manual charge attempt.
+
+
+If you decide to charge a Subscription as a success, a new payment is simply created (and captured), and the subscription.charged webhook is triggered.
+If you decide to charge a Subscription as a failure, the Subscription moves from the active to the pending state, and the subscription.pending webhook event is triggered. With each failure, the number of charge attempts made on a Subscription increase, and the next charge time is updated by a single day, rather than the actual plan period, which in this case is two months.
+If you fail a charge 4 times in a row, you exhaust all available retries. This results in a Subscription being marked as halted and the subscription.halted webhook event is triggered.
+
+Charge Failure Scenarios
+The section below describes some payment failure scenarios and how they can be handled.
+Card failure but payment success on auto-retry
+When a payment fails, an auto-retry is attempted. If the payment succeeds on subsequent auto-retries made by the customer, we:
+
+Trigger the subscription.charged webhook.
+If the customer notifications are handled by Razorpay, the customer receives an email confirmation.
+Move the Subscription from the pending to the activated state.
+Trigger the subscription.activated webhook.
+
+Card failure and payment failure on auto-retry
+When the last auto-charge attempt made by your customers was unsuccessful and the subsequent retries were also exhausted, we:
+
+Send an email requesting manual attempt of a charge or request change of the card if the customer notifications are handled on Razorpay Dashboard.
+Move the Subscription to the halted state.
+Trigger the subscription.halted webhook.
+Continue generating invoices in the halted state, but we do not attempt a charge on them.
+
+If customer's notifications are not handled by Razorpay, you need to either request the customer to change their card or you needs to manually attempt a charge on the same card.
+Customer Changes Card on Payment Failure
+When a customer changes the card due to failure of a recurring payment, we:
+
+Automatically perform a charge on the new card.
+On a successful charge, the following webhooks are triggered:
+
+subscription.charged
+subscription.activated
+
+
+The Subscription is moved from the halted state to the activated state.
+
+If there are any incomplete charges, you have to manually attempt to charge the card again from the Dashboard.
+Halted Subscriptions
+Once a Subscription has reached halted state, Razorpay no longer trigger automatic charge attempts on the saved card. However, invoices continue to be issued in accordance with the original plan.
+
+In test mode, the Charge This Now button available on Dashboard is replaced with an Issue Invoice button for halted subscriptions. Using this option issues a new invoice, but a charge is not attempted on the saved card.
+Manually Charge an Invoice
+The invoices created by a Subscription may remain in the issued state if the charge attempts on the saved card results in a failure. Once the maximum number of retries attempts are exhausted:
+
+The Subscription is moved to the halted state.
+The Subscription moves on to the next recurring payment, i.e., the next invoice.
+
+However, the invoice that was skipped is still chargeable, after the customer has fixed the issue either by correcting the issue with their card or changing the card associated with a Subscription. This can be done via the Attempt Charge option available for each invoice on Dashboard.
+
+Using this option triggers a new charge attempt on that issued invoice, and does not increase the number of retries remaining for a Subscription.
+Handy TipsManually charging an issued invoice is different from performing a test charge on a Subscription.
+A manual charge on an invoice is possible even in live mode. This can be done anytime an invoice is observed to be in the issued state. A manual charge attempt does not count toward the remaining retries for a Subscription.
+
+A test charge on a Subscription can be triggered only in test mode. The result of this charge attempt is up to you. If you choose to fail the attempt it counts toward the remaining retries that a Subscription has before it moves to the halted state.
+
+Completion and Cancellation
+A Subscription can be moved to any of the terminal states in the following ways:
+
+Charging a Subscription repeatedly in test mode, until all the invoices for a Subscription have been issued.
+Cancelling a Subscription via Dashboard or API.
+
+Related Information
+
+
+Subscriptions
+
+
+Subscription Workflow
+
+
+Subscription States
+
+
+Create Subscriptions
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEPrerequisitesConfigure a WebhookCreate a PlanCreate a SubscriptionMake the Authorization PaymentTest Card DetailsPayment AmountWhat Happens after Authentication PaymentSubsequent ChargesExpected WebhooksCharge FailuresCharge Failure ScenariosHalted SubscriptionsManually Charge an InvoiceCompletion and CancellationRelated Information

@@ -1,0 +1,41 @@
+
+
+
+
+
+
+About Error Codes | Razorpay DocsPricingAPI ReferenceSupportLog InSign UpHomeGet StartedPaymentsBanking PlusPartnersDeveloper ToolsAPI Reference GuideErrorsOverviewListPayment MethodsRazorpayXOverviewGenericContactFund AccountPayoutWebhooksApiErrorsXAbout Error CodesExplore the RazorpayX Error Codes and know how to troubleshoot and understand them.Understanding error codes can help in identifying those errors and troubleshooting them. This page describes the error codes returned when you fire Fund Account APIs.
+In RazorpayX, you can identify error codes at the source of the response, along with the reason for such errors.
+
+API Error Codes: These are returned to you when the API does not fire as expected.
+Contact Error Codes: These are returned when an error occurs during contact creation.
+Fund Account Error Codes: These are returned when Fund Account creation fails.
+Payout Error Codes: These are returned when a payout is created and moves to another state, but an error occurs.
+
+Advantages of Error Codes
+Error codes can help you build your own logic and take further remedial action at your end, wherever possible. Deriving these insights can help your business to:
+
+Map and analyse top failure reasons.
+Identify the source of failure.
+Narrow down and understand the cause of the failure (could be due to actions taken by your contact or external factors such as the beneficiary bank or network connectivity).
+Identify the exact reason of the failure.
+Handle actionable error codes.
+Avoid possible integration errors.
+
+Webhooks
+We recommend you to enable webhooks so that you are alerted of the status updates in any process. By enabling alerts for errors, you can reduce the delay in troubleshooting.
+
+You can set up Razorpay Webhooks to configure and receive instant notifications.
+They are sent whenever a specific event occurs.
+When the configured events are triggered, we send an HTTP POST payload in JSON to the webhook's configured URL.
+
+Related Information
+
+
+API Error Codes
+
+
+Payout Error Codes
+
+
+SUBSCRIBE TO DEVELOPER UPDATESSubscribeAPI Reference GuideIntegrationsSupportON THIS PAGEAdvantages of Error CodesWebhooksRelated Information
